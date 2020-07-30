@@ -1,8 +1,10 @@
 # Circuitry-Based Sound
 
-Circuitry-Based sound is an ongoing seminar at University of Arts and Design Karlsruhe
+Circuitry-Based sound is an ongoing seminar at University of Arts and Design Karlsruhe (link)
 
-It focuses on analog sound synthesis and parametric interfacing. It will examine musical characteristics of electronic sound generators and processors and look into different approaches on how to design analog synthesis modules.
+It focuses on analog sound synthesis and parametric interfacing. It's examining musical characteristics of electronic sound generators and processors and comparing different approaches on how to design analog synthesis modules.
+
+The participants ... concert instrument
 
 
 <br />
@@ -27,12 +29,12 @@ Web browser project management programs help us with component sourcing and comp
 
 An end semester presentation completed this seminar with a concert performance carried out with our modules.
 
-### Description
+## Description
 
 detailed description and documentation
 
 
-### build your own System
+## build your own System
 
 CMOS
 
