@@ -1,6 +1,22 @@
 # Circuitry-Based Sound
 
-One Paragraph of project description goes here
+Digital circuit design and remote PCB production for sound modules
+Due to the current measures against the coronavirus spread, the seminar’s workflow will be adapted to the restrictions and therefore be held on-line for now.
+
+Based on last semesters studies of logic chips for sound creation and its musical applications, this course will focus on computer aided circuit design and professional PCB manufacturing processes to build our customized sound modules in a small batch series.
+
+We are going to use the latest technology, production chain and global logistics to develop, design and produce circuit boards for musical use. This allows us to easily create circuit boards with more variable features and adjustable parameters than hand soldered protoboards.
+
+It’s a multi step process involving only a laptop or PC and internet access:
+
+SPICE simulation software allows us to run virtual tests and probe our signals digitally.
+EDA Software offers many tools to simulate circuits and design electronic devices. This software is used to generate Gerber format files which will be send to our manufacturer.
+Web browser project management programs help us with component sourcing and compiling BOMs.
+
+In summer, we will be completing our seminar with a concert performance carried out with our modules.
+
+Someday this pandemic’s gonna end.
+[My image](clswa.github.com/Circuitry-Based-Sound/img/image.jpg)
 
 ## Getting Started
 
