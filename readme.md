@@ -39,7 +39,6 @@ CMOS
 
 ## Authors
 
-* **Lorenz Schwarz** - *lecturer* 
 
 Zhen Bian <br />
 Hangyan Chen <br />
@@ -51,6 +50,7 @@ Ruoyi Qiu <br />
 Christina Vinke <br />
 Yunfei Zhang <br />
 
+**Lorenz Schwarz** - *lecturer* 
 
 ## License
 
