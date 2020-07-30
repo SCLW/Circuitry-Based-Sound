@@ -18,6 +18,7 @@ In summer, we will be completing our seminar with a concert performance carried 
 Someday this pandemic’s gonna end.
 (https://clswa.github.com/img/3d.png)
 (clswa.github.com/img/3d.png)
+![](img/3d.png)
 
 ## Getting Started
 
