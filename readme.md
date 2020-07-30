@@ -19,17 +19,14 @@ Someday this pandemic’s gonna end.
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CBS_uSine.jpg" width=100>
 
 
-## Getting Started
+## Overview
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This is an overview about the project.
 
-### Prerequisites
+### Description
 
-What things you need to install the software and how to install them
+detailed description and documentation
 
-```
-Give examples
-```
 
 ### Installing
 
@@ -89,7 +86,18 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Lorenz Schwarz** - *lecturer* 
+
+Zhen Bian
+Hangyan Chen
+Anna Helsen
+Jihye Jang
+Xingchen Liu
+Su Lu 
+Ruoyi Qiu
+Christina Vinke
+Yunfei Zhang
+
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -99,6 +107,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Thanks to
