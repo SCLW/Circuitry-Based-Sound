@@ -1,6 +1,13 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2511
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-}
+## Case
+image
+## About the files
+Lasercutting files
+
+## Material
+
+A sheet of 3mm thick, laser cuttable material (approx. 500mm x 250mm)
+8 x xxmm M3 screws
+4 x xmm M3 screw nuts
+4 spacers per module
+
+Screwdriver (depending on screw socket)
