@@ -17,7 +17,7 @@ In summer, we will be completing our seminar with a concert performance carried 
 
 Someday this pandemic’s gonna end.
 [My image](https://github.com/clswa/Circuitry-Based-Sound/img/CBS_uSine.jpg)#
-![ScreenShot](https://raw.github.com/clswa/Circuitry-Based-Sound/img/CBS_uSine.jpg)#
+![ScreenShot](https://raw.github.com/clswa/Circuitry-Based-Sound/edit/master/img/CBS_uSine.jpg)#
 
 ## Getting Started
 
