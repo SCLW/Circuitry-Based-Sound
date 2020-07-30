@@ -16,7 +16,8 @@ Web browser project management programs help us with component sourcing and comp
 In summer, we will be completing our seminar with a concert performance carried out with our modules.
 
 Someday this pandemic’s gonna end.
-[My image](https://github.com/clswa/Circuitry-Based-Sound/img/CBS_uSine.jpg)
+[My image](https://github.com/clswa/Circuitry-Based-Sound/img/CBS_uSine.jpg)#
+![ScreenShot](https://raw.github.com/clswa/Circuitry-Based-Sound/img/CBS_uSine.jpg)#
 
 ## Getting Started
 
