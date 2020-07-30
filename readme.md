@@ -1,6 +1,6 @@
 # Circuitry-Based Sound
 
-Digital circuit design and remote PCB production for sound modules
+Digital circuit design and remote PCB production for sound modules <br />
 Due to the current measures against the coronavirus spread, the seminar’s workflow will be adapted to the restrictions and therefore be held on-line for now.
 
 Based on last semesters studies of logic chips for sound creation and its musical applications, this course will focus on computer aided circuit design and professional PCB manufacturing processes to build our customized sound modules in a small batch series.
