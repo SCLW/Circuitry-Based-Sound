@@ -24,10 +24,10 @@ We used the latest technology, production chain and global logistics to develop,
 It’s a multi step process involving only a laptop or PC and internet access:
 
 SPICE simulation software allows us to run virtual tests and probe our signals digitally.
-EDA Software offers many tools to simulate circuits and design electronic devices. This software is used to generate Gerber format files which will be send to our manufacturer.
-Web browser project management programs help us with component sourcing and compiling BOMs.
+EDA Software offers many tools to simulate circuits and design electronic devices. This software is used to generate Gerber format files which were sent to a manufacturer.
+Web browser project management programs helped us with component sourcing and compiling BOMs.
 
-An end semester presentation completed this seminar with a concert performance carried out with our modules.
+An end semester presentation completed this seminar with a concert performance carried out with the developed sound modules.
 
 ## Description
 
