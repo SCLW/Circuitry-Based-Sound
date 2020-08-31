@@ -10,21 +10,21 @@ Based on previous's semesters studies of logic chips for sound creation and its 
 
 An end semester presentation completed this seminar with a concert performance carried out with the developed sound modules.
 
-## Overview/Introduction
+## Classical Audio Synthesis
 
 Besides the established ways of using electronics to synthesize sound, which can be found in analog synthesizers, there are also unconventional applications of electronics to create sound or experimental music, which will be introduced below.
 
-Analog synthesizers apply techniques like subtractive synthesis to generate audio. A common concept of the analog signal flow is filtering the output of an oscillator and shaping the overall volume. Variations of this concept can be found in most synthesizers, both analog and digital. Various parameters can be altered through connecting control signals, known as voltage control, either through patch cords or internally through a routing system with switches, which offer a wide range of musical expression, like tuning oscillators in a 12-tone musical scale or key triggered envelopes for volume, filters or else. To obtain these functionalities, the hardware of analog synthesizers are therefor complex circuits, involving a high part count and require often precision components.
+Analog synthesizers apply techniques like subtractive synthesis to generate audio. A common concept of the analog signal flow is filtering the output of an oscillator and shaping the overall volume. Variations of this concept can be found in most synthesizers, both analog and digital. Various parameters can be altered through connecting control signals, which offer a wide range of musical expression, like tuning oscillators in a 12-tone musical scale or key triggered envelopes for volume, filters or else. To obtain these functionalities, the hardware of analog synthesizers are relatively complex circuits, involving a high part count and require often precision components.
 
-## Description
+## Unconventional Electronic Sound
 
 Another concept of creating sound with electronics derived from techniques like hardware hacking and circuit bending. Especially the use of digital integrated logic circuits outside of their typical field of application, is a remarkable approach to build customized instruments for artistic sound production and interactive music.
 
 [Logic CMOS chips](https://en.wikipedia.org/wiki/4000-series_integrated_circuits/ "4000-series integrated circuits") are designed to execute boolean functions. Voltage levels represent the binary states 0 and 1. Produced as integrated circuits, individual components relate to basic logical functions like NOT, AND, OR, NAND, XOR, XNOR or implement multiplexers and registers.
 
-When logical operations and their relation to voltage and sound is understood, CMOS-logic chips are an inexhaustible, very simple and low cost source for unconventional electronic sound. They produce digital signals - square waves - that can be modified, shaped, gated, sequenced and many more. Combining various logic functions allows to generate a plethora of unique sounds. These circuits yield unexpected behavior, including randomness and produce the richness of analog sound. Adding circuit points for altering the sound through interaction allows to build customized and versatile instruments.
+When logical operations and their relation to voltage and sound is understood, CMOS-logic chips are an inexhaustible, very simple and low cost source for unconventional electronic sound. They produce digital signals - square waves - that can be modified, shaped, gated, sequenced and many more. Combining various logic functions allows to generate a plethora of unique sounds. These circuits yield unexpected behavior, including randomness and they produce the richness of analog sound. Adding circuit points for altering the sound through interaction allows to build customized and versatile instruments.
 
-Compared with classical synthesizers, this DIY approach leads to experimental setups and surprisingly results that cannot only compete with (standard synthesizer systems) but are also more flexible and can be used much more easily in installative environments or live performances - Variability and unpredictability are
+Compared with classical synthesizers, this DIY approach leads to experimental setups and surprising results that cannot only compete with (standard synthesizer systems) but are also more flexible and can be used much more easily in installative environments or live performances - Variability and unpredictability are
 
 Furthermore, due to its simplicity, the unconventional approach of building electronic sound systems can be used for educational reasons, because most of its technical operations can easily be understood and relate to basic electronic knowledge.
 
