@@ -10,8 +10,6 @@ Based on previous's semesters studies of logic chips for sound creation and its 
 
 An end semester presentation completed this seminar with a concert performance carried out with the developed sound modules.
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/SPICE_astabile_multivibrator.jpg" width=100>
-
 ## Overview/Introduction
 
 Besides the established ways of using electronics to synthesize sound, which can be found in analog synthesizers, there are also unconventional applications of electronics to create sound or experimental music, which will be introduced below.
@@ -38,6 +36,7 @@ Furthermore, due to its simplicity, the unconventional approach of building elec
 
 The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the following picture:
 
+<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/SPICE_astabile_multivibrator.jpg" width=400>
 
 It shows a square wave sound generator that can be built with only three components:  
 * an inverting Schmitt trigger IC, e.g. CD40106, 
