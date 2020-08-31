@@ -10,7 +10,7 @@ Based on previous's semesters studies of logic chips for sound creation and its 
 
 An end semester presentation completed this seminar with a concert performance carried out with the developed sound modules.
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CBS_uSine.jpg" width=100>
+<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/SPICE_astabile_multivibrator.png" width=100>
 
 ## Overview/Introduction
 
