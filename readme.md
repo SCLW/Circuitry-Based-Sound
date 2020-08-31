@@ -30,15 +30,19 @@ Compared with classical synthesizers, this DIY approach leads to experimental se
 
 Furthermore, due to its simplicity, the unconventional approach of building electronic sound systems can be used for educational reasons, because most of its technical operations can easily be understood and relate to basic electronic knowledge.
 
+... most notably Nicolas Collins' „N. Collins. Handmade Electronic Music, The Art of Hardware Hacking" (2006).
+
+(Artists Stanley Lunetta, "Lunetta Synthesizers")
+
 ## build your own System
 
 The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the following picture:
 
 
-It shows a square wave sound generator that can be built with only three components: 
-a) an inverting Schmitt trigger IC, e.g. CD40106, 
-b) a capacitor and 
-c) a resistor.
+It shows a square wave sound generator that can be built with only three components:  
+* an inverting Schmitt trigger IC, e.g. CD40106, 
+* a capacitor and 
+* a resistor.
 
 An inverting Schmitt trigger is an active electronic component whose output state can be triggered complementarily through an input signal, whereas the switching points for positive going signals differ from the switching points for negative going signals. Feeding back the output voltage to its input and tying the input via a capacitor to ground creates a relaxation oscillator or astable multivibrator.
 
