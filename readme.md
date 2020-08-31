@@ -1,15 +1,16 @@
 # Circuitry-Based Sound
 
-Circuitry-Based sound is an ongoing seminar at [University of Arts and Design Karlsruhe](https://www.hfg-karlsruhe.de/ "University of Arts and Design Karlsruhe").  
-It focuses on electronic sound synthesis and parametric interfacing. It's examining musical characteristics of electronic sound generators and processors and comparing different approaches on how to design electronic sound modules.  
-Due to the measures against the coronavirus spread in 2020, the seminar’s workflow had been adapted to the restrictions and therefore was hold on-line.  
-Based on previous's semesters studies of logic chips for sound creation and its musical applications, the course focused on computer aided circuit design and professional PCB manufacturing processes to build custom-made instruments.  
-Participants were guided to use the latest technology, production chain and global logistics to develop, design and produce circuit boards for musical use. This allowed the participants to easily create circuit boards with more variable features and adjustable parameters than hand soldered protoboards or breadboards.  
+Circuitry-Based sound is an ongoing seminar at [University of Arts and Design Karlsruhe](https://www.hfg-karlsruhe.de/ "University of Arts and Design Karlsruhe"). 
+
+It focuses on electronic sound synthesis and parametric interfacing. It's examining musical characteristics of electronic sound generators and processors and comparing different approaches on how to design electronic sound modules.
+
+Due to the measures against the coronavirus spread in 2020, the seminar’s workflow had been adapted to the restrictions and therefore was hold on-line.
+
+Based on previous's semesters studies of logic chips for sound creation and its musical applications, the course focused on computer aided circuit design and professional PCB manufacturing processes to build custom-made instruments. Participants were guided to use the latest technology, production chain and global logistics to develop, design and produce circuit boards for musical use. This allowed the participants to easily create circuit boards with more variable features and adjustable parameters than hand soldered protoboards or breadboards.
+
 An end semester presentation completed this seminar with a concert performance carried out with the developed sound modules.
 
-
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CBS_uSine.jpg" width=100>
-
 
 ## Overview/Introduction
 
@@ -21,11 +22,7 @@ Analog synthesizers apply techniques like subtractive synthesis to generate audi
 
 Another concept of creating sound with electronics derived from techniques like hardware hacking and circuit bending. Especially the use of digital integrated logic circuits outside of their typical field of application, is a remarkable approach to build customized instruments for artistic sound production and interactive music.
 
-Logic CMOS chips are designed to execute boolean functions. Voltage levels represent the binary states 0 and 1.
-Produced as integrated circuits, individual components relate to basic logical functions like NOT, AND, OR, NAND, XOR, XNOR or implement multiplexers and registers.
-
-4000-series integrated circuits
-https://en.wikipedia.org/wiki/4000-series_integrated_circuits
+[Logic CMOS chips](https://en.wikipedia.org/wiki/4000-series_integrated_circuits/ "4000-series integrated circuits") are designed to execute boolean functions. Voltage levels represent the binary states 0 and 1. Produced as integrated circuits, individual components relate to basic logical functions like NOT, AND, OR, NAND, XOR, XNOR or implement multiplexers and registers.
 
 When logical operations and their relation to voltage and sound is understood, CMOS-logic chips are an inexhaustible, very simple and low cost source for unconventional electronic sound. They produce digital signals - square waves - that can be modified, shaped, gated, sequenced and many more. Combining various logic functions allows to generate a plethora of unique sounds. These circuits yield unexpected behavior, including randomness and produce the richness of analog sound. Adding circuit points for altering the sound through interaction allows to build customized and versatile instruments.
 
@@ -48,14 +45,13 @@ An inverting Schmitt trigger is an active electronic component whose output stat
 Negative trigger threshold voltage
 Positive trigger threshold voltage
 
-Since the frequency is determined through the capacitor and/or the resistor, a potentiometer instead of the latter enables pitch control.
+Since the frequency is determined through the capacitor C and/or the resistor R, a potentiometer instead of the latter enables pitch control.
+The frequency can be roughly calculated with this formula:
 
-Frequency calculation:
 f = 0.72/RC
 
 However, manufacturing tolerances of all involved parts make it difficult to achieve exact results based on the formula.
 
-The example above ... hex Schmitt trigger (six)
 
 To control: photoresistor, force-sensitive resistor (FSR), flex sensor, or resistive fabric.
 microcontroller, sensors.
