@@ -40,8 +40,8 @@ The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to p
 
 It shows a square wave sound generator that can be built with only three components:  
 1. an inverting Schmitt trigger IC, e.g. CD40106
-2. a capacitor 
-3. a resistor
+2. a capacitor C
+3. a resistor R
 
 An inverting Schmitt trigger is an active electronic component whose output state can be triggered complementarily through an input signal, whereas the switching points for positive going signals differ from the switching points for negative going signals. Feeding back the output voltage to its input and tying the input via a capacitor to ground creates a relaxation oscillator or astable multivibrator.
 
@@ -64,15 +64,15 @@ Other examples to control the frequency can be a photoresistor, force-sensitive 
 ## Authors
 
 
-Zhen Bian <br />
-Hangyan Chen <br />
-Anna Helsen <br />
-Jihye Jang <br />
-Xingchen Liu <br />
-Su Lu <br />
-Ruoyi Qiu <br />
-Christina Vinke <br />
-Yunfei Zhang <br />
+Zhen Bian  
+Hangyan Chen  
+Anna Helsen  
+Jihye Jang  
+Xingchen Liu  
+Su Lu  
+Ruoyi Qiu  
+Christina Vinke  
+Yunfei Zhang  
 
 **Lorenz Schwarz** - *lecturer* 
 
