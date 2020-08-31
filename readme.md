@@ -32,16 +32,16 @@ Furthermore, due to its simplicity, the unconventional approach of building elec
 
 (Artists Stanley Lunetta, "Lunetta Synthesizers")
 
-## build your own System
+## Basics
 
 The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the following picture:
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/SPICE_astabile_multivibrator.jpg" width=400>
 
 It shows a square wave sound generator that can be built with only three components:  
-* an inverting Schmitt trigger IC, e.g. CD40106, 
-* a capacitor and 
-* a resistor.
+1. an inverting Schmitt trigger IC, e.g. CD40106
+2. a capacitor 
+3. a resistor
 
 An inverting Schmitt trigger is an active electronic component whose output state can be triggered complementarily through an input signal, whereas the switching points for positive going signals differ from the switching points for negative going signals. Feeding back the output voltage to its input and tying the input via a capacitor to ground creates a relaxation oscillator or astable multivibrator.
 
@@ -55,10 +55,11 @@ f = 0.72/RC
 
 However, manufacturing tolerances of all involved parts make it difficult to achieve exact results based on the formula.
 
+## Build Your Own System
 
-To control: photoresistor, force-sensitive resistor (FSR), flex sensor, or resistive fabric.
-microcontroller, sensors.
-
+The above example is documented in the IC's data sheet. It's recommendable to use data sheets for all components used in projects.
+Experiment!
+Other examples to control the frequency can be a photoresistor, force-sensitive resistor (FSR) or flex sensor.
 
 ## Authors
 
