@@ -11,7 +11,6 @@ Based on previous's semesters studies of logic chips for sound creation and its 
 An end semester presentation completed this seminar with a concert performance carried out with the developed sound modules.
 
 # Unconventional Electronic Sound
-## Classical Audio Synthesis
 
 Besides the established ways of using electronics to synthesize sound, which can be found in analog synthesizers, there are also unconventional applications of electronics to create sound or experimental music, which will be introduced below.
 
