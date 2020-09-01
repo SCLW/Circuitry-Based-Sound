@@ -49,7 +49,7 @@ An inverting Schmitt trigger is an active electronic component whose output stat
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/hexinvanim.gif">
 
-Since the frequency is determined through the capacitor C and/or the resistor R, a potentiometer instead of the latter enables pitch control.
+Since the frequency is determined through the capacitor C and the resistor R, a potentiometer instead of the latter enables pitch control.
 The frequency can be roughly calculated with this formula:
 
 f = 0.72/RC
