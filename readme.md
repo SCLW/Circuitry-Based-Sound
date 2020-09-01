@@ -1,4 +1,4 @@
-# Circuitry-Based Sound
+## Circuitry-Based Sound
 
 Circuitry-Based sound is an ongoing seminar at [University of Arts and Design Karlsruhe](https://www.hfg-karlsruhe.de/ "University of Arts and Design Karlsruhe"). 
 
@@ -10,13 +10,14 @@ Based on previous's semesters studies of logic chips for sound creation and its 
 
 An end semester presentation completed this seminar with a concert performance carried out with the developed sound modules.
 
+# Unconventional Electronic Sound
 ## Classical Audio Synthesis
 
 Besides the established ways of using electronics to synthesize sound, which can be found in analog synthesizers, there are also unconventional applications of electronics to create sound or experimental music, which will be introduced below.
 
 Analog synthesizers apply techniques like subtractive synthesis to generate audio. A common concept of the analog signal flow is filtering the output of an oscillator and shaping the overall volume. Variations of this concept can be found in most synthesizers, both analog and digital. Various parameters can be altered through connecting control signals, which offer a wide range of musical expression, like tuning oscillators in a 12-tone musical scale or key triggered envelopes for volume, filters or else. To obtain these functionalities, the hardware of analog synthesizers are relatively complex circuits, involving a high part count and require often precision components.
 
-## Unconventional Electronic Sound
+## Logic CMOS Chips for Sound Creation
 
 Another concept of creating sound with electronics derived from techniques like hardware hacking and circuit bending. Especially the use of digital integrated logic circuits outside of their typical field of application, is a remarkable approach to build customized instruments for artistic sound production and interactive music.
 
@@ -32,7 +33,7 @@ Furthermore, due to its simplicity, the unconventional approach of building elec
 
 (Artists Stanley Lunetta, "Lunetta Synthesizers")
 
-## Basics
+## Basic Example of Unconventional Synthesis
 
 The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the following picture:
 
@@ -55,14 +56,13 @@ f = 0.72/RC
 
 However, manufacturing tolerances of all involved parts make it difficult to achieve exact results based on the formula.
 
-## Build Your Own System
+## CMOS Experimenter Board
 
 The above example is documented in the IC's data sheet. It's recommendable to use data sheets for all components used in projects.
 Experiment!
 Other examples to control the frequency can be a photoresistor, force-sensitive resistor (FSR) or flex sensor.
 
 ## Authors
-
 
 Zhen Bian  
 Hangyan Chen  
