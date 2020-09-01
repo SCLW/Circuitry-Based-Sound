@@ -37,7 +37,7 @@ Furthermore, due to its simplicity, the unconventional approach of building elec
 
 The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the following picture:
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/SPICE_astabile_multivibrator.jpg" width=400>
+<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Multivibrator40106.jpg" width=400>
 
 It shows a square wave sound generator that can be built with only three components:  
 1. an inverting Schmitt trigger IC, e.g. CD40106
