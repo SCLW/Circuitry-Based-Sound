@@ -54,13 +54,14 @@ The frequency can be roughly calculated with this formula:
 
 f = 0.72/RC
 
-However, manufacturing tolerances of all involved parts make it difficult to achieve exact results based on the formula.
+However, manufacturing tolerances of all involved parts make it difficult to achieve exact results based on the formula. Since the field of application is artistic sound production, circuits should be evaluated by ear.
 
 ## CMOS Experimenter Board
 
-The above example is documented in the IC's data sheet. It's recommendable to use data sheets for all components used in projects.
+The above example is documented in the IC's data sheet. It's recommendable to use data sheets for all active components used in projects.
 Experiment!
 Other examples to control the frequency can be a photoresistor, force-sensitive resistor (FSR) or flex sensor.
+
 
 ## Authors
 
