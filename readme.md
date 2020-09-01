@@ -8,7 +8,7 @@ Based on previous's semesters studies of logic chips for sound creation and its 
 
 # Unconventional Electronic Sound
 
-Besides the established ways of using electronics to synthesize sound, which can be found in analog synthesizers, there are also unconventional applications of electronics to create sound or experimental music, which will be introduced below. Analog synthesizers apply techniques like subtractive synthesis to generate audio. A common concept of the analog signal flow is filtering the output of an oscillator and shaping the overall volume. Variations of this concept can be found in most synthesizers, both analog and digital. Various parameters can be altered through connecting control signals, which offer a wide range of musical expression, like tuning oscillators in a 12-tone musical scale or key triggered envelopes for volume, filters or else. To obtain these functionalities, the hardware of analog synthesizers are relatively complex circuits, involving a high part count and require often precision components.
+Besides the established ways of using electronics to synthesize sound, which can be found in analog synthesizers, there are also unconventional applications of electronics to create sound or experimental music, which will be introduced below. Analog synthesizers apply techniques like subtractive synthesis to generate audio. A common concept of the analog signal flow is filtering the output of an oscillator and shaping the overall volume. Variations of this concept can be found in most synthesizers, both analog and digital. Various parameters can be altered through connecting control signals, which offer a wide range of musical expression, like tuning oscillators in a 12-tone musical scale or key triggered envelopes for volume, filters or else. To obtain these functionalities, the hardware of analog synthesizers are relatively complex circuits that involve a high part count and require often precision components.
 
 ## Logic CMOS Chips for Sound Creation
 
@@ -28,9 +28,9 @@ The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to p
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Multivibrator40106.jpg">
 
 It shows a square wave sound generator that can be built with only three components:  
-1. an inverting Schmitt trigger IC, e.g. CD40106
-2. a capacitor C
-3. a resistor R
+* inverting Schmitt trigger IC, e.g. CD40106
+* a capacitor C
+* a resistor R
 
 An inverting Schmitt trigger is an active electronic component whose output state can be triggered complementarily through an input signal, whereas the positive trigger threshold differs from the negative trigger threshold. Feeding back the output voltage to its input and tying the input via a capacitor to ground creates a relaxation oscillator or astable multivibrator.
 
