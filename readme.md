@@ -1,4 +1,4 @@
-## Circuitry-Based Sound
+# Circuitry-Based Sound
 
 Circuitry-Based sound is an ongoing seminar at [University of Arts and Design Karlsruhe](https://www.hfg-karlsruhe.de/ "University of Arts and Design Karlsruhe"). 
 
