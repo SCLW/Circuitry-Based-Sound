@@ -6,6 +6,7 @@ It focuses on electronic sound synthesis and parametric interfacing. It's examin
 
 Based on previous's semesters studies of logic chips for sound creation and its musical applications, the course focused on computer aided circuit design and professional PCB manufacturing processes to build custom-made instruments. Participants were guided to use the latest technology, production chain and global logistics to develop, design and produce circuit boards for musical use. This allowed the participants to easily create circuit boards with more variable features and adjustable parameters than hand soldered protoboards or breadboards. During the seminar, several experimenter boards for CMOS logic chips were designed and documented.
 
+[CMOS Experimeter Board](https://github.com/clswa/Circuitry-Based-Sound/tree/master/CMOS-Experimenter_Board "CMOS Experimenter Board")
 
 
 ## Authors
