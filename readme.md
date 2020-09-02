@@ -44,7 +44,7 @@ Since the frequency is determined through the capacitor C and the resistor R, a 
 ## CMOS Experimenter Board
 
 The goal of this project is to offer versatile experimenter boards for testing and examining standard CMOS chips for musical applications. Its a building block aproach. Each layout is desigend for different circuits and functionalities. It is possible to modifiy and change circuits through sockets that are used for component placement.
-The boards are provided with mounting holes that match the according [case] (https://github.com/clswa/Circuitry-Based-Sound/tree/master/Case "Case"). Jumper cables can be used to connect boards.
+The boards are provided with mounting holes that match the according [case](https://github.com/clswa/Circuitry-Based-Sound/tree/master/Case "Case"). Jumper cables can be used as patch cords.
 
 ### CD40106
 
