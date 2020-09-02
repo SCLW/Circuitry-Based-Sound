@@ -65,6 +65,11 @@ waveshaper
 Reset function
 [CD4022](https://www.ti.com/lit/ds/schs027c/schs027c.pdf?ts=1599062824246&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4022")
 
+### CD4046
+
+Phase locked loop
+
+[CD4046](https://www.ti.com/lit/ds/symlink/cd4046b.pdf?ts=1599062962750&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4046")
 ### Mixer
 
 Summing operational amplifier.mixing signals together
