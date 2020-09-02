@@ -46,18 +46,50 @@ Since the frequency is determined through the capacitor C and the resistor R, a 
 Experiment!
 
 ### CD40106
+
+The CD40106 hex Schmitt trigger inverter offers six inverters that can be wired externaly to generate square waves. The board allows to setup an offset resistor for use with potentiometers in order to prevent zero resistance between output and input and can be populated alternatively with photoresistors.
+
+Data Sheet
+[CD40106 Data Sheet](https://www.ti.com/lit/ds/symlink/cd40106b.pdf?ts=1599062729936&ref_url=https%253A%252F%252Fwww.google.com%252F "CD40106")
+
 ### CD4093
+
+The CD4093 is a NAND Schmitt trigger and provides 2 inputs. The IC generated square waves when the first input is set high and the second input is wired as the CD40106. Bringing the 1 input to low inhibits oscillations. Therfore, interconnecting outputs and the first inputs creates gating effects. Bringing the first input to high via a push button works like a keyboard.
+Data Sheet
+[CD4093 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4093b.pdf?ts=1599062791398&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4093")
+
 ### CD4022
+
+counter
+waveshaper
+Reset function
+[CD4022](https://www.ti.com/lit/ds/schs027c/schs027c.pdf?ts=1599062824246&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4022")
+
 ### Mixer
+
+Summing operational amplifier.mixing signals together
+Data Sheet
+
 ### Trigger Board
+
+A PCB with push buttons for setting inputs to high or low
 
 ## Case
 
+The case offers a surface with mounting holes for the experimenter boards
+
+
+
 ## Power Supply
+
+works with 9V guitar effect units PSUs
 
 ## Bill of Material
 
 A [list](https://github.com/clswa/Circuitry-Based-Sound/tree/master/PCB_Hardware/BOM "Bill of Material") of required components.
+
+Potentiometers
+Switches
 
 ## Authors
 
