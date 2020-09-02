@@ -90,6 +90,23 @@ Phase locked loop
 
 [CD4046](https://www.ti.com/lit/ds/symlink/cd4046b.pdf?ts=1599062962750&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4046")
 
+### CD4051
+
+
+|C|B|B|ON CHANNEL(S)|
+|----|----|----|:----:|
+|0|0|0|0|
+|0|0|1|1|
+|0|1|0|2|
+|0|1|1|3|
+|1|0|0|4|
+|1|0|1|5|
+|1|1|0|6|
+|1|1|1|7|
+
+[CD4051](https://www.ti.com/lit/ds/symlink/cd4051b.pdf?ts=1599079621658&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4051")
+
+
 ### Mixer
 
 Image circuit
