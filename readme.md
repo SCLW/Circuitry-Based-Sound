@@ -43,7 +43,8 @@ Since the frequency is determined through the capacitor C and the resistor R, a 
 
 ## CMOS Experimenter Board
 
-Experiment!  
+The goal of this project is to offer versatile experimenter boards for testing and examining standard CMOS chips for musical applications. Each layout is desigend for different circuits and functionalities. It is possible to modifiy and change circuits through sockets that are used for component placement.
+The boards are provided with mounting holes that match the according case.
 Form factor  
 Case  
 
