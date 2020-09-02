@@ -51,13 +51,15 @@ The boards are provided with mounting holes that match the according [case](http
 
 The CD40106 hex Schmitt trigger inverter offers six inverters that can be wired externaly to generate square waves. The board allows to setup an offset resistor for use with potentiometers in order to prevent zero resistance between output and input and can be populated alternatively with photoresistors. Furthermore, LEDs and photoresistor can be used and the LED can control the frequency via a light sensitive resistor.
 
-Image
+Image circuit
 
 [CD40106 Data Sheet](https://www.ti.com/lit/ds/symlink/cd40106b.pdf?ts=1599062729936&ref_url=https%253A%252F%252Fwww.google.com%252F "CD40106")
 
 ### CD4093
 
 The CD4093 is a NAND Schmitt trigger and provides 2 inputs. The IC generated square waves when the first input is set high and the second input is wired as the CD40106. Bringing the 1 input to low inhibits oscillations. Therfore, interconnecting outputs and the first inputs creates gating effects. Bringing the first input to high via a push button works like a keyboard.
+
+Image circuit
 
 Truth table for NAND
 
@@ -68,11 +70,13 @@ Truth table for NAND
 |1|0|1|
 |1|1|0|
 
-The last two rows of this truth table indicate that the first inputs needs to be set to high to make the CD4093 work as an astable mutlivibrator. It's basicilly the same operation as the inverter configuration.
+The last two rows of this truth table indicate that the first inputs needs to be set to high to make the CD4093 work as an astable mutlivibrator when the output is fed back to its second input which is additionaly connected to ground via a capacitor. It's basicilly the same operation as the inverter configuration.
 
 [CD4093 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4093b.pdf?ts=1599062791398&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4093")
 
 ### CD4022
+
+Image circuit
 
 counter, waveshaper, Reset function
 
@@ -80,11 +84,15 @@ counter, waveshaper, Reset function
 
 ### CD4046
 
+Image circuit
+
 Phase locked loop
 
 [CD4046](https://www.ti.com/lit/ds/symlink/cd4046b.pdf?ts=1599062962750&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4046")
 
 ### Mixer
+
+Image circuit
 
 Summing operational amplifier.mixing signals together
 
