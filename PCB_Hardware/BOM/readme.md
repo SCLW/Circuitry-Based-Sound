@@ -30,4 +30,4 @@ No|Description|Qty|Package|Value|Manufacturer Part Number|Mouser-Nr.|Note
 25|Assorted Values Leaded Resistors (Metal or Carbon Film)||||||
 26|Assorted Values Leaded Capacitors||||||
 27|Stranded Wire||||||
-28|Push Button|xxxx|1|xxxx|7,4 x 7,3 x 5,37 mm|Push Button|xxxx|KSJ0V41180SHLFTR|[611-KSJ0V41180SHLFT](https://www.mouser.de/ProductDetail/CK/KSJ0V41180SHLFTR?qs=wpKP3X6Fz6rOTpKOA5n8pw%3D%3D "Sensorschalter SWITCH TACTILE")|
+28|Push Button|1|7,4 x 7,3 x 5,37 mm|Push Button|xxxx|KSJ0V41180SHLFTR|[611-KSJ0V41180SHLFT](https://www.mouser.de/ProductDetail/CK/KSJ0V41180SHLFTR?qs=wpKP3X6Fz6rOTpKOA5n8pw%3D%3D "Sensorschalter SWITCH TACTILE")|
