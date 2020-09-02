@@ -68,6 +68,8 @@ Truth table for NAND
 |1|0|1|
 |1|1|0|
 
+The last two rows of this truth table indicate that the first inputs needs to be set to high to make the CD4093 work as an astable mutlivibrator. It's basicilly the same operation as the inverter configuration.
+
 [CD4093 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4093b.pdf?ts=1599062791398&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4093")
 
 ### CD4022
