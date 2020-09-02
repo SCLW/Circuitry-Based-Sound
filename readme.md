@@ -45,6 +45,9 @@ Since the frequency is determined through the capacitor C and the resistor R, a 
 
 Experiment!
 
+## BOM
+
+A [List](https://github.com/clswa/Circuitry-Based-Sound/tree/master/PCB_Hardware/BOM "Bill of Material") of required components.
 
 ## Authors
 
