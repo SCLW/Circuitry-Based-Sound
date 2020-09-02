@@ -62,7 +62,7 @@ The CD4093 is a NAND Schmitt trigger and provides 2 inputs. The IC generated squ
 Truth table for NAND
 
 |A|B|J=A NAND B|
-|----|----|----|
+|----|----|:----:|
 |0|0|1|
 |0|1|1|
 |1|0|1|
