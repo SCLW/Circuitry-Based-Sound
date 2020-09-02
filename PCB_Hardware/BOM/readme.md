@@ -26,7 +26,7 @@ No|Description|Qty|Package|Value|Manufacturer Part Number|Mouser-Nr.|Note
 21|Pin Socket||1 x 36 2,54mm RM||801-87-036-10-001101|[437-8018703610001101](https://www.mouser.de/ProductDetail/437-8018703610001101 "Sockel & Kabelgehäuse")|
 22|Switch||||||
 23|3mm LED||||||
-24|5mm LED, ultra bright||||||
-25|assorted values Leaded Resistors (Metal or Carbon Film)||||||
-26|assorted values Leaded Capacitors||||||
-27|stranded wire||||||
+24|5mm LED, Ultra Bright||||||
+25|Assorted Values Leaded Resistors (Metal or Carbon Film)||||||
+26|Assorted Values Leaded Capacitors||||||
+27|Stranded Wire||||||
