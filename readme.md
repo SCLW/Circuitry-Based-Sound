@@ -92,8 +92,8 @@ Phase locked loop
 
 ### CD4051
 
-
-|C|B|B|ON CHANNEL(S)|
+Truth table
+|C|B|A|ON CHANNEL(S)|
 |----|----|----|:----:|
 |0|0|0|0|
 |0|0|1|1|
@@ -104,7 +104,7 @@ Phase locked loop
 |1|1|0|6|
 |1|1|1|7|
 
-[CD4051](https://www.ti.com/lit/ds/symlink/cd4051b.pdf?ts=1599079621658&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4051")
+[CD4051](https://www.ti.com/lit/ds/symlink/cd4051b.pdf?ts=1599079621658&ref_url=https%253A%252F%252Fwww.google.com%252F "CD405xB")
 
 
 ### Mixer
