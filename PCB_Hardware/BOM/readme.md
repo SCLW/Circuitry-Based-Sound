@@ -30,5 +30,3 @@ No|Description|Qty|Package|Value|Manufacturer Part Number|Mouser-Nr.|Note
 25|assorted values Leaded Resistors (Metal or Carbon Film)||||||
 26|assorted values Leaded Capacitors||||||
 27|stranded wire||||||
-|||||||
-|||||||
