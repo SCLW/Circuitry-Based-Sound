@@ -36,7 +36,7 @@ The frequency can be roughly calculated with this formula:
 
 f=0,72/RC
 
-However, manufacturing tolerances of all involved parts make it difficult to achieve exact results based on the formula. Since the field of application is artistic sound production, circuits should be evaluated by ear. But the formula shows that bigger RC values produce lower frequencies.
+However, manufacturing tolerances of all involved parts make it difficult to achieve exact results based on the formula. Since the field of application is artistic sound production, circuits should be evaluated by ear. But the formula shows that bigger RC values produce lower frequencies and vice versa.
 
 
 Since the frequency is determined through the capacitor C and the resistor R, a potentiometer instead of the latter enables pitch control. Other ways of controling the frequency may be a photoresistor, force-sensitive resistor (FSR) or flex sensor. Adding circuit points to alter the sound through interaction allows building customized and versatile instruments. The above example is documented in the IC's data sheet. It's recommendable to use data sheets for all active components used in projects.
@@ -44,7 +44,7 @@ Since the frequency is determined through the capacitor C and the resistor R, a 
 
 ## CMOS Experimenter Board
 
-The goal of this project is to offer versatile experimenter boards for testing and examining standard CMOS chips for musical applications. Its a building block aproach. Each layout is desigend for different circuits and functionalities. It is possible to modifiy and change circuits through sockets that are used for component placement.
+The goal of this project is to offer versatile experimenter boards for testing and examining standard CMOS chips for musical applications. Its a building block aproach. Each layout is desigend to vary the circuit and its functionalities. It is possible to modifiy and change circuits through sockets that are used for component placement.
 The boards are provided with mounting holes that match the according [case](https://github.com/clswa/Circuitry-Based-Sound/tree/master/Case "Case"). Jumper cables can be used as patch cords.
 
 table of content
