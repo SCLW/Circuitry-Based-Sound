@@ -63,7 +63,7 @@ Image circuit
 
 The CD4093 is a NAND Schmitt trigger and provides 2 inputs. The IC is outputting square waves when the first input is set to high and the second input is wired as the CD40106. Bringing the 1 input to low inhibits oscillations. Therfore, gating the ouput can be achieved by controlling the first input with another signa, square wave or a simple switch. Bringing the first input to high via a push button works like a keyboard.
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/cd4093_example.jpg>
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093_Basic.jpg>
 
 Truth table for NAND
 
