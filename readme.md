@@ -55,7 +55,7 @@ table of content
 
 The CD40106 hex Schmitt trigger inverter offers six inverters that can be wired externaly to generate square waves. The board allows to setup an offset resistor for use with potentiometers in order to prevent zero resistance between output and input and can be populated alternatively with photoresistors. Furthermore, LEDs and photoresistor can be used and the LED can control the frequency via a light sensitive resistor.
 
-Image circuit
+
 
 [CD40106 Data Sheet](https://www.ti.com/lit/ds/symlink/cd40106b.pdf?ts=1599062729936&ref_url=https%253A%252F%252Fwww.google.com%252F "CD40106")
 
@@ -80,7 +80,7 @@ The last two rows of this truth table indicate that the first inputs needs to be
 
 ### CD4022
 
-Image circuit
+
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4022.jpg>
 
@@ -90,7 +90,6 @@ counter, waveshaper, Reset function
 
 ### CD4046
 
-Image circuit
 
 Phase locked loop
 
@@ -98,6 +97,7 @@ Phase locked loop
 
 ### CD4051
 
+Multiplexer/Demultiplexer
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4051.jpg>
 
@@ -118,7 +118,6 @@ Truth table
 
 ### Mixer
 
-Image circuit
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
 
 Summing operational amplifier.mixing signals together
