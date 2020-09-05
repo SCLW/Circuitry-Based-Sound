@@ -177,7 +177,7 @@ No|Description|Package|Value|Manufacturer Part Number|Mouser-Nr.|Note
 25|Leaded Resistors (Metal or Carbon Film)|| Assorted Values |||
 26|Leaded Capacitors|| Assorted Values |||
 27|Stranded Wire|||||
-28|Push Button|7.4 x 7.3 x 5.37 mm|Push Button|KSJ0V41180SHLFTR|[611-KSJ0V41180SHLFT](https://www.mouser.de/ProductDetail/CK/KSJ0V41180SHLFTR?qs=wpKP3X6Fz6rOTpKOA5n8pw%3D%3D "Sensorschalter SWITCH TACTILE")|
+28|Push Button|7.4 x 7.3 x 5.37 mm||KSJ0V41180SHLFTR|[611-KSJ0V41180SHLFT](https://www.mouser.de/ProductDetail/CK/KSJ0V41180SHLFTR?qs=wpKP3X6Fz6rOTpKOA5n8pw%3D%3D "Sensorschalter SWITCH TACTILE")|
 29|Push Button|SKHHDAA010|||[688-SKHHDAA010](https://www.mouser.de/ProductDetail/Alps-Alpine/SKHHDAA010?qs=6EGMNY9ZYDTDig1hGWofxQ%3D%3D "Sensorschalter 50 mAmps at 12 Volts")|
 30|Push Button|7.4 x 7.4 x 9.9 mm||KSL0M412 LFT|[611-KSL0M412-LFT](https://www.mouser.de/ProductDetail/CK/KSL0M412-LFT?qs=nrpkpS80q8GfGWfXZwdZgg%3D%3D "Sensorschalter Switch Tact Long Man ual Markii")|
 
