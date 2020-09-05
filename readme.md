@@ -116,6 +116,7 @@ Truth table
 ### Mixer
 
 Image circuit
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
 
 Summing operational amplifier.mixing signals together
 
