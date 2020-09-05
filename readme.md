@@ -82,6 +82,8 @@ The last two rows of this truth table indicate that the first inputs needs to be
 
 Image circuit
 
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4022.jpg>
+
 counter, waveshaper, Reset function
 
 [CD4022](https://www.ti.com/lit/ds/schs027c/schs027c.pdf?ts=1599062824246&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4022")
