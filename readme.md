@@ -137,9 +137,12 @@ The case offers a surface with mounting holes for the experimenter boards
 
 works with 9V guitar effect units PSUs
 
+## Logic Control
+Pull down
+Pull up
+
 ## Bill of Material
 
-# Bill of Material
 
 No|Description|Package|Value|Manufacturer Part Number|Mouser-Nr.|Note
  --- | --- | --- | --- |--- | --- |--- 
