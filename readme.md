@@ -139,8 +139,11 @@ The case offers a surface with mounting holes for the experimenter boards
 works with 9V guitar effect units PSUs
 
 ## Logic Control
-Pull down
-Pull up
+
+Voltage controlled inputs
+signal state
+pull-up resistor or pull-down resistor
+
 
 ## Bill of Material
 
