@@ -98,6 +98,9 @@ Phase locked loop
 
 ### CD4051
 
+
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4051.jpg>
+
 Truth table
 |C|B|A|ON CHANNEL(S)|
 |----|----|----|:----:|
