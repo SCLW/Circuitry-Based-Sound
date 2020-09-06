@@ -91,7 +91,7 @@ counter, waveshaper, Reset function
 
 ### CD4046
 
-
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4046.jpg>
 Phase locked loop
 
 [CD4046](https://www.ti.com/lit/ds/symlink/cd4046b.pdf?ts=1599062962750&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4046")
