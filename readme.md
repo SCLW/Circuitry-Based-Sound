@@ -18,6 +18,9 @@ Another concept of creating sound with electronics derived from techniques like 
 [Logic CMOS chips](https://en.wikipedia.org/wiki/4000-series_integrated_circuits/ "4000-series integrated circuits") are designed to execute boolean functions. Voltage levels represent the binary states 0 and 1. Produced as integrated circuits, individual components relate to basic logical functions like NOT, AND, OR, NAND, XOR, XNOR or implement multiplexers and registers. When logical operations and their relation to voltage and sound are understood, CMOS-logic chips are an inexhaustible, very simple and low cost source for unconventional electronic sound. They produce digital signals - square waves - that can be modified, shaped, gated, sequenced and many more. Combining different logic functions allows generating a multitude of unique sounds. These circuits yield a high variability but also unpredictable behavior, including randomness, while they produce the richness of analog sound. Due to its simplicity, the unconventional approach of building electronic sound systems can be used for educational reasons, since most of its technical operations can easily be understood and relate to basic electronic knowledge. This subject is also a matter of various publications, most notably Nicolas Collins' „Handmade Electronic Music, The Art of Hardware Hacking" (2006).
 David Tudor
 
+-> sonically rewarding.
+Rhythmic glitches, slow clicking sounds, digital noise, rich overtones,
+
 
 ## Basic Example of Unconventional Synthesis
 
@@ -55,8 +58,6 @@ The boards are provided with mounting holes that match the according case. Jump
 
 The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions.
 
--> sonically rewarding.
-Rhythmic glitches, slow clicking sounds, digital noise, rich overtones,
 
 -> all files, EGALE .brd .sch, Gerber files are available online 
 
