@@ -16,6 +16,8 @@ Besides the established ways of using electronics to synthesize sound, which can
 Another concept of creating sound with electronics derived from techniques like hardware hacking and circuit bending. Especially the use of digital integrated logic circuits outside of their typical field of application is a remarkable approach to build customized instruments for artistic sound production and interactive music.
 
 [Logic CMOS chips](https://en.wikipedia.org/wiki/4000-series_integrated_circuits/ "4000-series integrated circuits") are designed to execute boolean functions. Voltage levels represent the binary states 0 and 1. Produced as integrated circuits, individual components relate to basic logical functions like NOT, AND, OR, NAND, XOR, XNOR or implement multiplexers and registers. When logical operations and their relation to voltage and sound are understood, CMOS-logic chips are an inexhaustible, very simple and low cost source for unconventional electronic sound. They produce digital signals - square waves - that can be modified, shaped, gated, sequenced and many more. Combining different logic functions allows generating a multitude of unique sounds. These circuits yield a high variability but also unpredictable behavior, including randomness, while they produce the richness of analog sound. Due to its simplicity, the unconventional approach of building electronic sound systems can be used for educational reasons, since most of its technical operations can easily be understood and relate to basic electronic knowledge. This subject is also a matter of various publications, most notably Nicolas Collins' „Handmade Electronic Music, The Art of Hardware Hacking" (2006).
+David Tudor
+
 
 ## Basic Example of Unconventional Synthesis
 
@@ -44,9 +46,22 @@ Since the frequency is determined through the capacitor C and the resistor R, a 
 
 ## CMOS Experimenter Board
 
-The goal of this project is to offer versatile experimenter boards for testing and examining standard CMOS chips for musical applications. Its a building block aproach. Each layout is desigend to vary the circuit and its functionalities. It is possible to modifiy and change circuits through sockets that are used for component placement. The internet is a good source for circuits...
+The motivation behind this project is to offer a set of building blocks to evaluate logic ICs for sound creation and composition in artistic and educational fields. Each building block is designed around individual standard CMOS chips and their particular functions under the (for sound) . The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at (geeigneter stelle). It simplifies prototyping and makes customized configurations highly flexible.
+Additionally, as a part of this project, a mounting system...
+for mounting the PCBs is available... files
+Jumper cables can be used as patch cords
+interface and control
+The boards are provided with mounting holes that match the according case. Jumper cables can be used as patch cords.
 
-The boards are provided with mounting holes that match the according [case](https://github.com/clswa/Circuitry-Based-Sound/tree/master/Case "Case"). Jumper cables can be used as patch cords.
+The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions.
+
+-> sonically rewarding.
+Rhythmic glitches, slow clicking sounds, digital noise, rich overtones,
+
+-> all files, EGALE .brd .sch, Gerber files are available online 
+
+unconventional circuits for sound with CMOS chips can be found in internet forums or DIY pages. These circuits can be the basis
+
 
 table of content
 
@@ -143,7 +158,26 @@ works with 9V guitar effect units PSUs
 Voltage controlled inputs
 signal state
 pull-up resistor or pull-down resistor
+## Tool Requirements
 
+For more details on
+
+
+
+## Technical specifications
+
+### Power consumption:
+
+### PCB Sizes
+
+76mm (length) x 76mm (wide)
+Mounting holes: 66mm x 66mm
+
+
+## Bill of Material
+
+examples of parts, but not limited to.
+as long as the packages fit or the pitch is..
 
 ## Bill of Material
 
