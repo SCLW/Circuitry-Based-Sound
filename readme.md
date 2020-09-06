@@ -64,6 +64,37 @@ unconventional circuits for sound with CMOS chips can be found in internet forum
 
 
 table of content
+## Logic Control
+
+Voltage controlled inputs
+signal state
+pull-up resistor or pull-down resistor
+
+## Case
+
+The case offers a surface with mounting holes for the experimenter boards
+
+
+
+## Power Supply
+
+works with 9V guitar effect units PSUs
+
+
+## Tool Requirements
+
+For more details on
+
+
+
+## Technical specifications
+
+### Power consumption:
+
+### PCB Sizes
+
+76mm (length) x 76mm (wide)
+Mounting holes: 66mm x 66mm
 
 ### CD40106
 
@@ -142,36 +173,6 @@ Summing operational amplifier.mixing signals together
 ### Trigger Board
 
 A PCB with push buttons for setting inputs to high or low
-
-## Case
-
-The case offers a surface with mounting holes for the experimenter boards
-
-
-
-## Power Supply
-
-works with 9V guitar effect units PSUs
-
-## Logic Control
-
-Voltage controlled inputs
-signal state
-pull-up resistor or pull-down resistor
-## Tool Requirements
-
-For more details on
-
-
-
-## Technical specifications
-
-### Power consumption:
-
-### PCB Sizes
-
-76mm (length) x 76mm (wide)
-Mounting holes: 66mm x 66mm
 
 
 ## Bill of Material
