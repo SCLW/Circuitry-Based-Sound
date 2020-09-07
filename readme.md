@@ -28,7 +28,7 @@ Rhythmic glitches, slow clicking sounds, digital noise, rich overtones,
 
 The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the following picture:
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Multivibrator40106.jpg">
+<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Basic_Oscillator_CD40106.jpg">
 
 It shows a square wave sound generator that can be built with only three components:  
 * inverting Schmitt trigger IC, e.g. CD40106
