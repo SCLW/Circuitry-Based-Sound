@@ -73,6 +73,8 @@ Voltage controlled inputs
 signal state
 pull-up resistor or pull-down resistor
 
+### unused inputs
+
 ## Case
 
 The case offers a surface with mounting holes for the experimenter boards
@@ -88,7 +90,8 @@ works with 9V guitar effect units PSUs
 
 For more details on
 
-
+### Ptentiometer
+#### Voltage Divider
 
 ## Technical specifications
 
@@ -165,6 +168,17 @@ Truth table
 
 [CD4051](https://www.ti.com/lit/ds/symlink/cd4051b.pdf?ts=1599079621658&ref_url=https%253A%252F%252Fwww.google.com%252F "CD405xB")
 
+### CD4049
+
+note: power supply pins
+
+Hex Inverting Buffer and Converter
+
+Truth table
+|Inputs|Outputs|
+|----|----|
+|0|1|
+|1|0|
 
 ### Mixer
 
