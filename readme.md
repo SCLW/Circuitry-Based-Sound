@@ -70,6 +70,7 @@ unconventional circuits for sound with CMOS chips can be found in internet forum
 table of content
 ## Logic Control
 
+0, 1 true, false, high, low
 Voltage controlled inputs
 signal state
 pull-up resistor or pull-down resistor
@@ -109,7 +110,11 @@ Mounting holes: 66mm x 66mm
 
 The CD40106 hex Schmitt trigger inverter offers six inverters that can be wired externaly to generate square waves. The board allows to setup an offset resistor for use with potentiometers in order to prevent zero resistance between output and input and can be populated alternatively with photoresistors. Furthermore, LEDs and photoresistor can be used and the LED can control the frequency via a light sensitive resistor.
 
-
+Truth table
+|Inputs|Outputs|
+|----|----|
+|0|1|
+|1|0|
 
 [CD40106 Data Sheet](https://www.ti.com/lit/ds/symlink/cd40106b.pdf?ts=1599062729936&ref_url=https%253A%252F%252Fwww.google.com%252F "CD40106")
 
