@@ -70,8 +70,8 @@ unconventional circuits for sound with CMOS chips can be found in internet forum
 table of content
 ## Logic Control
 
-In electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit.
-The two signal states "0" "1" have various names like , "ON" "OFF", "(logical) high" "(logical) low", "true" "false".
+In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit.
+The two signal states "0" and "1" may have various names like , "ON" "OFF", "(logical) high" "(logical) low", "true" "false".
 
 active low - active high
 
@@ -90,6 +90,7 @@ The case offers a surface with mounting holes for the experimenter boards
 
 
 ## Power Supply
+### Power consumption:
 
 works with 9V guitar effect units PSUs
 
@@ -98,12 +99,12 @@ works with 9V guitar effect units PSUs
 
 For more details on
 
-### Ptentiometer
+### Potentiometer
 #### Voltage Divider
 
-## Technical specifications
 
-### Power consumption:
+
+
 
 ### PCB Sizes
 
