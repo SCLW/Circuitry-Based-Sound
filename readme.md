@@ -70,9 +70,15 @@ unconventional circuits for sound with CMOS chips can be found in internet forum
 table of content
 ## Logic Control
 
-0, 1 true, false, high, low
+In electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit.
+The two signal states "0" "1" have various names like , "ON" "OFF", "(logical) high" "(logical) low", "true" "false".
+
+active low - active high
+
+The logic states  are therfore 
+
 Voltage controlled inputs
-signal state
+
 pull-up resistor or pull-down resistor
 
 ### unused inputs
