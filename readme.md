@@ -68,7 +68,7 @@ unconventional circuits for sound with CMOS chips can be found in internet forum
 
 
 table of content
-## Logic Control
+### Logic Control
 
 In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit.
 The two signal states "0" and "1" may have various names like , "ON" "OFF", "(logical) high" "(logical) low", "true" "false".
@@ -83,27 +83,21 @@ pull-up resistor or pull-down resistor
 
 ### unused inputs
 
-## Case
+### Case
 
 The case offers a surface with mounting holes for the experimenter boards
 
 
 
-## Power Supply
+### Power Supply
 ### Power consumption:
 
 works with 9V guitar effect units PSUs
 
 
-## Tool Requirements
+### Tool Requirements
 
 For more details on
-
-### Potentiometer
-#### Voltage Divider
-
-
-
 
 
 ### PCB Sizes
@@ -111,7 +105,7 @@ For more details on
 76mm (length) x 76mm (wide)
 Mounting holes: 66mm x 66mm
 
-### CD40106
+## CD40106
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
 
@@ -125,7 +119,7 @@ Truth table
 
 [CD40106 Data Sheet](https://www.ti.com/lit/ds/symlink/cd40106b.pdf?ts=1599062729936&ref_url=https%253A%252F%252Fwww.google.com%252F "CD40106")
 
-### CD4093
+## CD4093
 
 The CD4093 is a NAND Schmitt trigger and provides 2 inputs. The IC is outputting square waves when the first input is set to high and the second input is wired as the CD40106. Bringing the 1 input to low inhibits oscillations. Therfore, gating the ouput can be achieved by controlling the first input with another signa, square wave or a simple switch. Bringing the first input to high via a push button works like a keyboard.
 
@@ -144,7 +138,7 @@ The last two rows of this truth table indicate that the first inputs needs to be
 
 [CD4093 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4093b.pdf?ts=1599062791398&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4093")
 
-### CD4022
+## CD4022
 
 
 
@@ -154,14 +148,14 @@ counter, waveshaper, Reset function
 
 [CD4022](https://www.ti.com/lit/ds/schs027c/schs027c.pdf?ts=1599062824246&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4022")
 
-### CD4046
+## CD4046
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4046.jpg>
 Phase locked loop
 
 [CD4046](https://www.ti.com/lit/ds/symlink/cd4046b.pdf?ts=1599062962750&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4046")
 
-### CD4051
+## CD4051
 
 Multiplexer/Demultiplexer
 
@@ -181,7 +175,7 @@ Truth table
 
 [CD4051](https://www.ti.com/lit/ds/symlink/cd4051b.pdf?ts=1599079621658&ref_url=https%253A%252F%252Fwww.google.com%252F "CD405xB")
 
-### CD4049
+## CD4049
 
 note: power supply pins
 
@@ -193,14 +187,14 @@ Truth table
 |0|1|
 |1|0|
 
-### Mixer
+## Mixer
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
 
 Summing operational amplifier.mixing signals together
 
 
-### Trigger Board
+## Trigger Board
 
 A PCB with push buttons for setting inputs to high or low
 
