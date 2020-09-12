@@ -63,6 +63,7 @@ The boards are provided with mounting holes that match the according case. Jump
 
 The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions.
 
+<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
 
 -> all files, EGALE .brd .sch, Gerber files are available online 
 
