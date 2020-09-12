@@ -211,8 +211,7 @@ Truth table
 Summing operational amplifier.mixing signals together
 
 
-In this contxt, when the signal level is close to the operating voltage level, distortion might quite likely occure when adding several signals produced by CMOS chips. Voltage divider (potentiometers) before the Rin might solve that problem. Otherwise, lowering the value of Rf in relation to Rin would also reduce the level.
-
+In this contxt, when the signal level is close to the operating voltage level, distortion might quite likely occure when adding several signals produced by CMOS chips. When the signal level excesses the supply voltage of the op amp. Voltage divider (potentiometers) before the Rin might solve that problem. Otherwise, lowering the value of Rf in relation to Rin would also reduce the level.
 
 
 ## Trigger Board
