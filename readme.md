@@ -71,26 +71,40 @@ table of content
 ### Logic Control
 
 In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit.
-The two signal states "0" and "1" may have various names like , "ON" "OFF", "(logical) high" "(logical) low", "true" "false".
+The two signal states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF". Therefore, electronic switching processes allowed for logical calculations.
+
+IMAGE Oscilloscope SQUAREWAVE with EXPLANATION
+
+In this context, a logic gate is a single input - output device, designed to carry out a specific boolean operation. .. Mapped to a voltage level as a function of time, a rectengular waveform is the result. Logic gates can than be used to control their output states and hence the performance of the waveform over time.
+
+Example: NOR
+Voltage controlled inputs
+
 
 active low - active high
 
-The logic states  are therfore 
 
-Voltage controlled inputs
+external wiring
 
-pull-up resistor or pull-down resistor
+
 
 ### unused inputs
+
+pull-up resistor or pull-down resistor
 
 ### Case
 
 The case offers a surface with mounting holes for the experimenter boards
 
+Zhens Design
+
+Image: CASE with PCBs
 
 
 ### Power Supply
 ### Power consumption:
+
+Measure Power Consumption
 
 works with 9V guitar effect units PSUs
 
