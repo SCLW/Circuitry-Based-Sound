@@ -53,7 +53,9 @@ Since the frequency is determined through the capacitor C and the resistor R, a 
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093_PCB.jpg">
 
-costs for PCBs
+Prizes for professionally produced PCB are affordable
+
+
 The motivation behind this project is to offer a set of building blocks to evaluate logic ICs for sound creation and composition in artistic and educational fields. Each building block is designed around individual standard CMOS chips and their particular functions under the (for sound) . The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at (geeigneter stelle). It simplifies prototyping and makes customized configurations highly flexible.
 Additionally, as a part of this project, a mounting system...
 for mounting the PCBs is available... files
