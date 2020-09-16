@@ -13,7 +13,7 @@ Besides the established ways of using electronics to synthesize sound, which can
 
 ## CMOS Chips for Sound Creation
 
-Another concept of creating sound with electronics derived from techniques like hardware hacking and circuit bending. Especially the use of digital integrated logic circuits outside of their typical field of application is a remarkable approach to build customized instruments for artistic sound production and interactive music.
+Another concept of creating sound with electronics derived from techniques like hardware hacking and circuit bending. Especially the use of digital integrated logic circuits outside of their typical field of application is a remarkable approach to build customized instruments for artistic sound production and interactive music. The required components are easy to source and low cost. This makes it also interesting for multichannel sound creation and processing.
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS-chips.jpg">
 
@@ -75,12 +75,17 @@ unconventional circuits for sound with CMOS chips can be found in internet forum
 table of content
 ### Logic Control
 
-In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit.
-The two signal states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF". Therefore, electronic switching processes allowed for logical calculations.
+In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit. For example signal ground in a give circuit can represent "0" and the positive voltage rail can represent "1". The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF". Therefore, electronic switching processes allowed for logical calculations.
+
+
 
 IMAGE Oscilloscope SQUAREWAVE with EXPLANATION
 
-In this context, a logic gate is a single input - output device, designed to carry out a specific boolean operation. .. Mapped to a voltage level as a function of time, a rectengular waveform is the result. Logic gates can than be used to control their output states and hence the performance of the waveform over time.
+In this context, a logic gate is a single input - output device, designed to carry out a specific boolean operation, mapped to two voltage levels. Over time, the two alternating voltage levels form a rectangular waveform and the speed of switching between the two levels is perceived as pitch. By combining several logic functions, complex switching performance can be achieved, ranging from  modulated frequencies and interesting spectras to slow, rhythmic pulses oder repeating tones or scales (gated). or sequences
+
+rectangular waveforms or square waves have a distinct sound
+duty cycle
+
 
 Example: NOR
 Voltage controlled inputs
@@ -130,7 +135,7 @@ Mounting holes: 66mm x 66mm
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
 
-The CD40106 hex Schmitt trigger inverter offers six inverters that can be wired externaly to generate square waves. The board allows to setup an offset resistor for use with potentiometers in order to prevent zero resistance between output and input and can be populated alternatively with photoresistors. Furthermore, LEDs and photoresistor can be used and the LED can control the frequency via a light sensitive resistor.
+The CD40106 hex Schmitt trigger inverter offers six seperate inverters in one chip that can be wired externaly to generate square waves. The board allows to setup an offset resistor for use with potentiometers in order to prevent zero resistance between output and input and can be populated alternatively with photoresistors. Furthermore, LEDs and photoresistor can be used and the LED can control the frequency via a light sensitive resistor.
 
 Truth table
 |Inputs|Outputs|
@@ -142,7 +147,7 @@ Truth table
 
 ## CD4093
 
-The CD4093 is a NAND Schmitt trigger and provides 2 inputs. The IC is outputting square waves when the first input is set to high and the second input is wired as the CD40106. Bringing the 1 input to low inhibits oscillations. Therfore, gating the ouput can be achieved by controlling the first input with another signa, square wave or a simple switch. Bringing the first input to high via a push button works like a keyboard.
+The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 output. It is outputting square waves when the first input is set to a logical high and the second input is wired as the CD40106. Bringing the 1 input down to a logical low, inhibits oscillations. Therfore, gating the ouput can be achieved by controlling the first input with another digital signal, square wave or a simple switch for the input pin fo changing between power or signal ground. Bringing the first input to high via a push button works like a keyboard.
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093.jpg>
 
@@ -168,6 +173,20 @@ The last two rows of this truth table indicate that the first inputs needs to be
 counter, waveshaper, Reset function
 
 [CD4022](https://www.ti.com/lit/ds/schs027c/schs027c.pdf?ts=1599062824246&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4022")
+
+## CD4040
+
+(quoted) The 4040 is a binary counter / divider. 
+. It has a single input. 
+Control input Reset should be kept low
+If a square wave is applied to this input, the outputs (labelled Q1 to Q12) each oscillate at a rate related to the input freqeuncy. 
+
+(quoted) Q1 oscillates at a frequency that is half of the input frequency. Q1 at one quarter. Q3 at one eighth and so on. If the output frequencies are within the human hearing range, they will sound one octave apart - with Q1 being the highest and Q12 being the lowest (eleven octaves below Q1).
+
+[CD4040] (https://www.ti.com/lit/ds/symlink/cd4040b.pdf?ts=1600261370155&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4040B "CD4040")
+
+The timing diagram shows the relation of voltage levels between all outputs:
+
 
 ## CD4046
 
