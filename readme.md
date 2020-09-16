@@ -130,6 +130,7 @@ For more details on
 
 76mm (length) x 76mm (wide)
 Mounting holes: 66mm x 66mm
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/PCB_Size.jpg>
 
 ## CD40106
 
