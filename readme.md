@@ -173,9 +173,11 @@ The last two rows of this truth table indicate that the first inputs needs to be
 
 counter, waveshaper, Reset function
 
-[CD4022](https://www.ti.com/lit/ds/schs027c/schs027c.pdf?ts=1599062824246&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4022")
+[CD4022 Data Sheet](https://www.ti.com/lit/ds/schs027c/schs027c.pdf?ts=1599062824246&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4022")
 
 ## CD4040
+
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
 
 (quoted) The 4040 is a binary counter / divider. 
 . It has a single input. 
@@ -184,7 +186,7 @@ If a square wave is applied to this input, the outputs (labelled Q1 to Q12) each
 
 (quoted) Q1 oscillates at a frequency that is half of the input frequency. Q1 at one quarter. Q3 at one eighth and so on. If the output frequencies are within the human hearing range, they will sound one octave apart - with Q1 being the highest and Q12 being the lowest (eleven octaves below Q1).
 
-[CD4040] (https://www.ti.com/lit/ds/symlink/cd4040b.pdf?ts=1600261370155&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4040B "CD4040")
+[CD4040 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4040b.pdf?ts=1600261370155&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4040B "CD4040")
 
 The timing diagram shows the relation of voltage levels between all outputs:
 
@@ -194,7 +196,7 @@ The timing diagram shows the relation of voltage levels between all outputs:
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4046.jpg>
 Phase locked loop
 
-[CD4046](https://www.ti.com/lit/ds/symlink/cd4046b.pdf?ts=1599062962750&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4046")
+[CD4046 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4046b.pdf?ts=1599062962750&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4046")
 
 ## CD4051
 
@@ -214,10 +216,11 @@ Truth table
 |1|1|0|6|
 |1|1|1|7|
 
-[CD4051](https://www.ti.com/lit/ds/symlink/cd4051b.pdf?ts=1599079621658&ref_url=https%253A%252F%252Fwww.google.com%252F "CD405xB")
+[CD4051 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4051b.pdf?ts=1599079621658&ref_url=https%253A%252F%252Fwww.google.com%252F "CD405xB")
 
 ## CD4049
 
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4049.jpg>
 note: power supply pins
 
 Hex Inverting Buffer and Converter
