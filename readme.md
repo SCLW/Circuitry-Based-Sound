@@ -104,7 +104,7 @@ The case offers a surface with mounting holes for the experimenter boards
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg">
 
 Zhens Design
-
+<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg">
 Image: CASE with PCBs
 
 
