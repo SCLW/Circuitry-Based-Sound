@@ -101,6 +101,8 @@ pull-up resistor or pull-down resistor
 
 The case offers a surface with mounting holes for the experimenter boards
 
+<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg">
+
 Zhens Design
 
 Image: CASE with PCBs
