@@ -54,6 +54,8 @@ Since the frequency is determined through the capacitor C and the resistor R, a 
 
 Prizes for professionally produced PCB are affordable
 
+PCB production is based on computer aided electronic design (EDA) and cost effective manufacturers how also offer professional production of small board quantities for prototyping produced at very low costs. Today, there is no need for DIY etching, which usually results in very rough designs.
+
 
 The motivation behind this project is to offer a set of building blocks to evaluate logic ICs for sound creation and composition in artistic and educational fields. Each building block is designed around individual standard CMOS chips and their particular functions under the (for sound) . The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at (geeigneter stelle). It simplifies prototyping and makes customized configurations highly flexible.
 Additionally, as a part of this project, a mounting system...
@@ -232,6 +234,7 @@ Truth table
 
 Summing operational amplifier.mixing signals together
 
+an opamp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. However, it comes in handy when adding multiple signals together. the basic wiring is shown below. Besides it function as a mixer, it can also be used to achieve a desired output gain by modifying the the feedback resistor in relation to the input resistor of each input. The minus indicates its inversed voltage level. To (umgehen) inversion, a second stage following the circuit can be used.
 
 In this contxt, when the signal level is close to the operating voltage level, distortion might quite likely occure when adding several signals produced by CMOS chips. When the signal level excesses the supply voltage of the op amp. Voltage divider (potentiometers) before the Rin might solve that problem. Otherwise, lowering the value of Rf in relation to Rin would also reduce the level.
 
