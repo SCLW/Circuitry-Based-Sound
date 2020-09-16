@@ -106,7 +106,7 @@ The case offers a surface with mounting holes for the experimenter boards
 Zhens Design
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg">
 Image: CASE with PCBs
-
+<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Cases.jpg">
 
 ### Power Supply
 ### Power consumption:
