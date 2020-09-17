@@ -196,18 +196,6 @@ Phase locked loop
 
 [CD4046 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4046b.pdf?ts=1599062962750&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4046")
 
-## CD4049
-
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4049.jpg>
-note: power supply pins
-
-Hex Inverting Buffer and Converter
-
-Truth table
-|Inputs|Outputs|
-|----|----|
-|0|1|
-|1|0|
 
 ## CD4051
 
