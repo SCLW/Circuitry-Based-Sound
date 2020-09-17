@@ -100,13 +100,11 @@ active low - active high
 
 external wiring
 
-
-
-### unused inputs
+unused inputs
 
 pull-up resistor or pull-down resistor
 
-### Case
+### Experimenter console
 
 The case offers a surface with mounting holes for the experimenter boards
 
@@ -117,11 +115,8 @@ The case offers a surface with mounting holes for the experimenter boards
 ©Zhen Bian
 
 ### Power Supply
-### Power consumption:
 
-Measure Power Consumption
-
-works with 9V guitar effect units PSUs
+Power supply for the boards should comply with the power ratings of the used ICs, which is between 3V - 18V. LED series resitors need to be calculated accordingly. For the experimenter console, 9V power supply for guitar effects work well.
 
 
 ### Tool Requirements
@@ -256,8 +251,10 @@ A PCB with push buttons for setting inputs to high or low
 
 examples of parts, but not limited to.
 as long as the packages fit or the pitch is..
+A of required components.
 
-## Bill of Material
+Potentiometers
+Switches
 
 
 No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
@@ -293,10 +290,7 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 29|Push Button|SKHHDAA010|||[688-SKHHDAA010](https://www.mouser.de/ProductDetail/Alps-Alpine/SKHHDAA010?qs=6EGMNY9ZYDTDig1hGWofxQ%3D%3D "Sensorschalter 50 mAmps at 12 Volts")|
 30|Push Button|7.4 x 7.4 x 9.9 mm||KSL0M412 LFT|[611-KSL0M412-LFT](https://www.mouser.de/ProductDetail/CK/KSL0M412-LFT?qs=nrpkpS80q8GfGWfXZwdZgg%3D%3D "Sensorschalter Switch Tact Long Man ual Markii")|
 
-A [list](https://github.com/clswa/Circuitry-Based-Sound/tree/master/PCB_Hardware/BOM "Bill of Material") of required components.
 
-Potentiometers
-Switches
 
 ## Authors
 
