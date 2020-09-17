@@ -57,7 +57,8 @@ Prizes for professionally produced PCB are affordable
 PCB production is based on computer aided electronic design (EDA) and cost effective manufacturers how also offer professional production of small board quantities for prototyping produced at very low costs. Today, there is no need for DIY etching, which usually results in very rough designs.
 
 
-The motivation behind this project is to offer a set of building blocks to evaluate logic ICs for sound creation and composition in artistic and educational fields. Each building block is designed around individual standard CMOS chips and their particular functions under the (for sound) . The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at (geeigneter stelle). It simplifies prototyping and makes customized configurations highly flexible.
+The motivation behind this project is to offer a set of building blocks to evaluate logic ICs for sound creation and composition in artistic and educational fields. Each building block is designed around individual standard CMOS chips and their particular functions under the (for sound) . The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible.
+
 Additionally, as a part of this project, a mounting system...
 for mounting the PCBs is available... files
 Jumper cables can be used as patch cords
@@ -198,6 +199,19 @@ Phase locked loop
 
 [CD4046 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4046b.pdf?ts=1599062962750&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4046")
 
+## CD4049
+
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4049.jpg>
+note: power supply pins
+
+Hex Inverting Buffer and Converter
+
+Truth table
+|Inputs|Outputs|
+|----|----|
+|0|1|
+|1|0|
+
 ## CD4051
 
 Multiplexer/Demultiplexer
@@ -218,28 +232,17 @@ Truth table
 
 [CD4051 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4051b.pdf?ts=1599079621658&ref_url=https%253A%252F%252Fwww.google.com%252F "CD405xB")
 
-## CD4049
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4049.jpg>
-note: power supply pins
-
-Hex Inverting Buffer and Converter
-
-Truth table
-|Inputs|Outputs|
-|----|----|
-|0|1|
-|1|0|
 
 ## Mixer
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
 
-Summing operational amplifier.mixing signals together
+There are severaly ways of mixing signals together. Passive mixing is a very simple method that can be accomplished by using diodes or resitors for each source. 
+To avoid interaction between the signals and to obtain individual gain control, active mixing using an operational amplifier is preferred.
+An opamp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. The basic wiring is shown below. Besides it function as a mixer with gain control over every individual input by adding voltage dividers, it can also be used to achieve a desired output gain by modifying the the feedback resistor in relation to the input resistors of each input. The minus in the formula indicates its inversed voltage level. To undo inversion, a second stage following the shwon circuit can be used.
 
-an opamp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. However, it comes in handy when adding multiple signals together. the basic wiring is shown below. Besides it function as a mixer, it can also be used to achieve a desired output gain by modifying the the feedback resistor in relation to the input resistor of each input. The minus indicates its inversed voltage level. To (umgehen) inversion, a second stage following the circuit can be used.
-
-In this contxt, when the signal level is close to the operating voltage level, distortion might quite likely occure when adding several signals produced by CMOS chips. When the signal level excesses the supply voltage of the op amp. Voltage divider (potentiometers) before the Rin might solve that problem. Otherwise, lowering the value of Rf in relation to Rin would also reduce the level.
+In this contxt, when the signal level is close to the operating voltage level, distortion might quite likely occure when adding several CMOS signals. When the signal level excesses the supply voltage of the op amp. Voltage divider (potentiometers) before the Rin might solve that problem. Otherwise, lowering the value of Rf in relation to Rin would also reduce the level.
 
 
 ## Trigger Board
