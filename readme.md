@@ -119,11 +119,6 @@ The case offers a surface with mounting holes for the experimenter boards
 Power supply for the boards should comply with the power ratings of the used ICs, which is between 3V - 18V. LED series resitors need to be calculated accordingly. For the experimenter console, 9V power supply for guitar effects work well.
 
 
-### Tool Requirements
-
-For more details on
-
-
 ### PCB Sizes
 
 76mm (length) x 76mm (wide)
