@@ -53,6 +53,7 @@ Since the frequency is determined through the capacitor C and the resistor R, a 
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093_PCB.jpg">
 
+This documentation intriduces the CMOS experimenter board
 Prizes for professionally produced PCB are affordable
 
 The motivation behind this project is to offer a set of building blocks to evaluate logic ICs for sound creation and composition in artistic and educational fields. 
