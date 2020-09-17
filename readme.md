@@ -17,8 +17,9 @@ Another concept of creating sound with electronics derived from techniques like 
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS-chips.jpg">
 
-[CMOS chips](https://en.wikipedia.org/wiki/4000-series_integrated_circuits/ "4000-series integrated circuits") are designed to execute boolean functions. Voltage levels represent the binary states 0 and 1. Produced as integrated circuits, individual components relate to basic logical functions like NOT, AND, OR, NAND, XOR, XNOR or implement multiplexers and registers. When logical operations and their relation to voltage and sound are understood, CMOS-logic chips are an inexhaustible, very simple and low cost source for unconventional electronic sound. They produce digital signals - square waves - that can be modified, shaped, gated, sequenced and many more. Combining different logic functions allows generating a multitude of unique sounds. These circuits yield a high variability but also unpredictable behavior, including randomness, while they produce the richness of analog sound. Due to its simplicity, the unconventional approach of building electronic sound systems can be used for educational reasons, since most of its technical operations can easily be understood and relate to basic electronic knowledge. This subject is also a matter of various publications, most notably Nicolas Collins' „Handmade Electronic Music, The Art of Hardware Hacking" (2006). Composers like David Tudor electronic circuits...
+[CMOS chips](https://en.wikipedia.org/wiki/4000-series_integrated_circuits/ "4000-series integrated circuits") are designed to execute boolean functions. Voltage levels represent the binary states 0 and 1. Produced as integrated circuits, individual components relate to basic logical functions like NOT, AND, OR, NAND, XOR, XNOR or implement multiplexers and registers. When logical operations and their relation to voltage and sound are understood, CMOS-logic chips are an inexhaustible source for unconventional electronic sound. They produce digital signals - square waves - that can be modified, shaped, gated, sequenced and many more. Combining different logic functions allows generating a multitude of unique sounds. These circuits yield a high variability and a wide range of control parameters, [...] including randomness, while they produce the richness of analog sound. Due to its simplicity, the unconventional approach of building electronic sound systems can be used for educational reasons, since most of its technical operations can easily be understood and relate to basic electronic knowledge. This subject is also a matter of various publications, most notably Nicolas Collins' „Handmade Electronic Music, The Art of Hardware Hacking" (2006). [...] David Tudor built his work on finding, designing and evaluating electronic circuits, making it a fundamental part of his compositions.
 
+unpredictable behavior
 -> sonically rewarding.
 Rhythmic glitches, slow clicking sounds, digital noise, rich overtones,
 
@@ -54,10 +55,11 @@ Since the frequency is determined through the capacitor C and the resistor R, a 
 
 Prizes for professionally produced PCB are affordable
 
-PCB production is based on computer aided electronic design (EDA) and cost effective manufacturers how also offer professional production of small board quantities for prototyping produced at very low costs. Today, there is no need for DIY etching, which usually results in very rough designs.
+The motivation behind this project is to offer a set of building blocks to evaluate logic ICs for sound creation and composition in artistic and educational fields. 
 
+With todays availability of PCB manufactureres, there is no need for making your own PCB, which usually includes toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which all results only in very rough designs. PCB prototyping and production is now completly based on computer aided electronic design (EDA) while cost effective manufacturers offer professional quality even for small board quantities at very low costs. 
 
-The motivation behind this project is to offer a set of building blocks to evaluate logic ICs for sound creation and composition in artistic and educational fields. Each building block is designed around individual standard CMOS chips and their particular functions under the (for sound) . The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible.
+Each building block is designed around individual standard CMOS chips and their particular functions under the (for sound) . The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible.
 
 Additionally, as a part of this project, a mounting system...
 for mounting the PCBs is available... files
@@ -77,13 +79,13 @@ unconventional circuits for sound with CMOS chips can be found in internet forum
 table of content
 ### Logic Control
 
-In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit. For example signal ground in a give circuit can represent "0" and the positive voltage rail can represent "1". The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF". Therefore, electronic switching processes allowed for logical calculations.
+In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit. For example signal ground in a give circuit can represent "0" while the positive voltage rail can represent "1". The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF".
 
-
+A logic gate is a single input - output device, designed to carry out a specific boolean operation, mapped to two voltage levels. Over time, the two alternating voltage levels form a rectangular waveform and the speed of switching between the two levels is perceived as pitch. By combining several logic functions, complex switching performance can be achieved, ranging from  modulated frequencies and interesting spectras to slow, rhythmic pulses oder repeating tones or scales (gated). or sequences
 
 IMAGE Oscilloscope SQUAREWAVE with EXPLANATION
 
-In this context, a logic gate is a single input - output device, designed to carry out a specific boolean operation, mapped to two voltage levels. Over time, the two alternating voltage levels form a rectangular waveform and the speed of switching between the two levels is perceived as pitch. By combining several logic functions, complex switching performance can be achieved, ranging from  modulated frequencies and interesting spectras to slow, rhythmic pulses oder repeating tones or scales (gated). or sequences
+
 
 rectangular waveforms or square waves have a distinct sound
 duty cycle
