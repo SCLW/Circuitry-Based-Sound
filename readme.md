@@ -104,7 +104,7 @@ unused inputs
 
 pull-up resistor or pull-down resistor
 
-### Experimenter console
+### Experimenter Console
 
 The case offers a surface with mounting holes for the experimenter boards
 
