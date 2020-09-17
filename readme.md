@@ -57,11 +57,11 @@ Prizes for professionally produced PCB are affordable
 
 The motivation behind this project is to offer a set of building blocks to evaluate logic ICs for sound creation and composition in artistic and educational fields. 
 
-With todays availability of PCB manufactureres, there is no need for making your own PCB, which usually includes toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which all results only in very rough designs. PCB prototyping and production is now completly based on computer aided electronic design (EDA) while cost effective manufacturers offer professional quality even for small board quantities at very low costs. 
+With todays availability of PCB manufactureres, there is no need for making your own PCB, which usually includes toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which all results only in very rough designs. PCB prototyping and production is now completly based on computer aided electronic design (EDA) while manufacturers offer professional quality even for small board quantities at very low costs. 
 
 Each building block is designed around individual standard CMOS chips and their particular functions under the (for sound) . The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible.
 
-Additionally, as a part of this project, a mounting system...
+Additionally, as a part of this project, a mounting system / experimenter console...
 for mounting the PCBs is available... files
 Jumper cables can be used as patch cords
 interface and control
