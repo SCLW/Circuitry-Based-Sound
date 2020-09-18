@@ -64,21 +64,15 @@ With todays availability of PCB manufactureres, there is no need for making your
 
 Each building block is designed around individual standard CMOS chips and their particular functions under sonic considerations. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible.
 
-Jumper cables can be used as patch cords and interface ...
-
-
-All files of this project are made available online. This includes ECAD, Gerber and vector files as well as bill of materials.
-
-Experimenter Console
-
-The case offers a surface with mounting holes for the experimenter boards
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg">
 unconventional circuits for sound with CMOS chips can be found in internet forums or DIY pages. These circuits can be the basis
 
-building blocks
+Experimenter Console
+The case offers a surface with mounting holes for the experimenter boards
+Jumper cables can be used as patch cords and interface ...
+All files of this project are made available online. This includes ECAD, Gerber and vector files as well as bill of materials.
 
-table of content
 
 ### Logic Control
 
@@ -93,22 +87,11 @@ IMAGE Oscilloscope SQUAREWAVE with EXPLANATION
 rectangular waveforms or square waves have a distinct sound
 duty cycle
 
-
 Example: NOR
+
 Voltage controlled inputs
-
-
-active low - active high
-
-
-external wiring
-
 unused inputs
-
 pull-up resistor or pull-down resistor
-
-
-
 
 
 
