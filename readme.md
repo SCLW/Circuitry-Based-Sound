@@ -43,7 +43,7 @@ f=0,72/RC
 However, manufacturing tolerances of all involved parts make it difficult to achieve exact results based on the formula. Since the field of application is artistic sound production, circuits should be evaluated by ear. But the formula shows that bigger RC values produce lower frequencies and vice versa.
 
 
-Since the frequency is determined through the capacitor C and the resistor R, a potentiometer instead of the latter enables pitch control. Other ways of controling the frequency may be a photoresistor, force-sensitive resistor (FSR) or flex sensor. Adding circuit points to alter the sound through interaction allows building customized and versatile instruments. The above example is documented in the IC's data sheet. It's recommendable to use data sheets for all active components used in projects.
+The frequency is determined through the capacitor C and the resistor R. Therfore, a potentiometer instead of the latter enables pitch control. Other ways of controling the frequency may be inserting photoresistors, force-sensitive resistors (FSR) or flex sensors. Adding circuit points to alter the sound through interaction allows building customized and versatile instruments. The above example is documented in the IC's data sheet. It's recommendable to use data sheets for all active components used in projects.
 
 
 ## CMOS Experimenter Board
@@ -55,7 +55,7 @@ The motivation behind this project is to offer a set of PCBs to evaluate logic I
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg">
 
-©Zhen Bian
+© Zhen Bian
 
 
 With todays availability of PCB manufactureres, there is no need for making your own PCB, which usually includes toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which all results only in very rough designs. PCB prototyping and production is now completly based on computer aided electronic design (EDA) while manufacturers offer professional quality even for small board quantities at very low costs. 
@@ -109,8 +109,7 @@ Mounting holes: 66mm x 66mm
 ## CD40106
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
-The inverter is a basic part in digital electronics and performs the logic operation of negation. When the input is connected to ground, the output is pulled to Vdd and vice versa. 
-The CD40106 hex Schmitt trigger inverter offers six seperate inverters in one chip that can be wired externaly to generate square waves. The board allows to setup an offset resistor for use with potentiometers in order to prevent zero resistance between output and input and can be populated alternatively with photoresistors. Furthermore, LEDs and photoresistor can be used and the LED can control the frequency via a light sensitive resistor.
+The inverter is a basic part in digital electronics and performs the logic operation of negation. When the input is connected to ground, the output is pulled to Vdd and vice versa. The CD40106 hex Schmitt trigger inverter offers six seperate inverters in one chip that can be wired externaly to build square wave oscillators. The board allows to insert an offset resistor for use with potentiometers in order to prevent zero resistance between output and input.
 
 Truth table
 |Inputs|Outputs|
@@ -124,7 +123,7 @@ Truth table
 
 The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 output. 
 
-It acts as a square wave oscillator when the first input is set to a logical high and the second input is wired as the CD40106. Bringing the 1 input down to a logical low, inhibits oscillations. Therfore, gating the ouput can be achieved by controlling the first input with another digital signal, square wave or a simple switch for the input pin fo changing between power or signal ground. Bringing the first input to high via a push button works like a keyboard.
+It acts as a square wave oscillator when the first input is set to a logical high and the second input is wired as the CD40106. Bringing the 1 input down to a logical low, inhibits oscillations. A break out section allows for logic control of the 1 input of each NAND gate. Therfore, gating the ouput can be achieved by controlling the first input with another digital signal, square wave or a simple switch for the input pin fo changing between power or signal ground. Bringing the first input to high via a push button works like a keyboard.
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093.jpg>
 
@@ -143,7 +142,10 @@ Truth table for NAND
 
 ## CD4022
 
+CD4022 IC implements a counter/divider function. The positive edge of an incoming square wave signal triggers the outputs successively. 
 
+usually reffered to as clock signal
+It counts forward on the positive edge of an incoming square wave signal
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4022.jpg>
 
