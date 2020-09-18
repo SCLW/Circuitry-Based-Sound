@@ -55,7 +55,6 @@ The motivation behind this project is to offer a set of PCBs to evaluate logic I
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg">
 
-© Zhen Bian
 
 
 With todays availability of PCB manufactureres, there is no need for making your own PCB, which usually includes toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which all results only in very rough designs. PCB prototyping and production is now completly based on computer aided electronic design (EDA) while manufacturers offer professional quality even for small board quantities at very low costs. 
