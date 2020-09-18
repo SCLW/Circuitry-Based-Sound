@@ -109,7 +109,7 @@ Mounting holes: 66mm x 66mm
 ## CD40106
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
-
+The inverter is a basic part in digital electronics and performs the logic operation of negation. When the input is connected to ground, the output is pulled to Vdd and vice versa. 
 The CD40106 hex Schmitt trigger inverter offers six seperate inverters in one chip that can be wired externaly to generate square waves. The board allows to setup an offset resistor for use with potentiometers in order to prevent zero resistance between output and input and can be populated alternatively with photoresistors. Furthermore, LEDs and photoresistor can be used and the LED can control the frequency via a light sensitive resistor.
 
 Truth table
@@ -122,7 +122,9 @@ Truth table
 
 ## CD4093
 
-The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 output. It is outputting square waves when the first input is set to a logical high and the second input is wired as the CD40106. Bringing the 1 input down to a logical low, inhibits oscillations. Therfore, gating the ouput can be achieved by controlling the first input with another digital signal, square wave or a simple switch for the input pin fo changing between power or signal ground. Bringing the first input to high via a push button works like a keyboard.
+The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 output. 
+
+It acts as a square wave oscillator when the first input is set to a logical high and the second input is wired as the CD40106. Bringing the 1 input down to a logical low, inhibits oscillations. Therfore, gating the ouput can be achieved by controlling the first input with another digital signal, square wave or a simple switch for the input pin fo changing between power or signal ground. Bringing the first input to high via a push button works like a keyboard.
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093.jpg>
 
@@ -135,7 +137,7 @@ Truth table for NAND
 |1|0|1|
 |1|1|0|
 
-The last two rows of this truth table indicate that the first inputs needs to be set to high to make the CD4093 work as an astable mutlivibrator when the output is fed back to its second input which is additionaly connected to ground via a capacitor. It's basicilly the same operation as the inverter configuration.
+
 
 [CD4093 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4093b.pdf?ts=1599062791398&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4093")
 
