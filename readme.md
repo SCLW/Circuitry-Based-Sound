@@ -54,31 +54,27 @@ Since the frequency is determined through the capacitor C and the resistor R, a 
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093_PCB.jpg">
 
-This documentation intriduces the CMOS experimenter board
-Prizes for professionally produced PCB are affordable
 
-The motivation behind this project is to offer a set of building blocks to evaluate logic ICs for sound creation and composition in artistic and educational fields. 
+The motivation behind this project is to offer a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. Furthermore, it includes a mounting system to assemble the modules individually on a console, intended for musical performance. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions.
 
 With todays availability of PCB manufactureres, there is no need for making your own PCB, which usually includes toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which all results only in very rough designs. PCB prototyping and production is now completly based on computer aided electronic design (EDA) while manufacturers offer professional quality even for small board quantities at very low costs. 
 
-Each building block is designed around individual standard CMOS chips and their particular functions under the (for sound) . The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible.
+Each building block is designed around individual standard CMOS chips and their particular functions under sonic considerations. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible.
 
-Additionally, as a part of this project, a mounting system / experimenter console...
-for mounting the PCBs is available... files
-Jumper cables can be used as patch cords
-interface and control
-The boards are provided with mounting holes that match the according case. Jumper cables can be used as patch cords.
+Jumper cables can be used as patch cords and interface ...
 
-The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions.
+
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
 
--> all files, EGALE .brd .sch, Gerber files are available online 
+All files of this project are made available online. This includes ECAD, Geber and vector files as well as bill of materials.
 
 unconventional circuits for sound with CMOS chips can be found in internet forums or DIY pages. These circuits can be the basis
 
+building blocks
 
 table of content
+
 ### Logic Control
 
 In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit. For example signal ground in a give circuit can represent "0" while the positive voltage rail can represent "1". The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF".
