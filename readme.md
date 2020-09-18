@@ -81,10 +81,7 @@ A logic gate is a single input - output device, designed to carry out a specific
 
 IMAGE Oscilloscope SQUAREWAVE with EXPLANATION
 
-
-
 rectangular waveforms or square waves have a distinct sound
-duty cycle
 
 Example: NOR
 
