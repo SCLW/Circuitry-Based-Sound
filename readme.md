@@ -163,7 +163,7 @@ If a square wave is applied to this input, the outputs (labelled Q1 to Q12) each
 [CD4040 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4040b.pdf?ts=1600261370155&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4040B "CD4040")
 
 The timing diagram shows the relation of voltage levels between all outputs:
-
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4040_Timing_Diagram.jpg>
 
 ## CD4046
 
