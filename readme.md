@@ -43,12 +43,12 @@ f=0,72/RC
 However, manufacturing tolerances of all involved parts make it difficult to achieve exact results based on the formula. Since the field of application is artistic sound production, circuits should be evaluated by ear. But the formula shows that bigger RC values produce lower frequencies and vice versa.
 
 
-The frequency is determined through the capacitor C and the resistor R. Therfore, a potentiometer instead of the latter enables pitch control. Other ways of controling the frequency may be inserting photoresistors, force-sensitive resistors (FSR) or flex sensors. Adding circuit points to alter the sound through interaction allows building customized and versatile instruments. The above example is documented in the IC's data sheet. It's recommendable to use data sheets for all active components used in projects.
+The frequency is determined through the capacitor C and the resistor R. Therefore, a potentiometer instead of the latter enables pitch control. Other ways of controlling the frequency may be inserting photoresistors, force-sensitive resistors (FSR) or flex sensors. Adding circuit points to alter the sound through interaction allows building customized and versatile instruments. The above example is documented in the IC's data sheet. It's recommendable to use data sheets for all active components used in projects.
 
 
 ## CMOS Experimenter Board
 
-The motivation behind this project is to offer a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. With todays availability of PCB manufactureres and affordable prizes for PCBs, there is no need for DIY, which usually includes handling toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which usually ends in very poor designs. PCB prototyping and production is now completly based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions.
+The motivation behind this project is to offer a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. With todays availability of PCB manufacturers and affordable prizes for PCBs, there is no need for DIY, which usually includes handling toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which usually ends in very poor designs. PCB prototyping and production is now completely based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions.
 
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093_PCB.jpg">
@@ -57,7 +57,7 @@ Furthermore, the project includes a mounting system to assemble the modules indi
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg">
 
-Each building block is designed around individual standard CMOS chips and their particular functions under sonic considerations. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible. unconventional circuits for sound with CMOS chips can be found in internet forums or DIY pages. These circuits can be the basis.
+Each building block is designed around individual standard CMOS chips and their particular functions under sonic considerations. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible. Unconventional circuits for sound with CMOS chips can be found in internet forums or DIY pages. These circuits can be the basis.
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
 
@@ -71,7 +71,7 @@ All files of this project are made available online. This includes ECAD, Gerber 
 
 In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit. For example signal ground in a give circuit can represent "0" while the positive voltage rail can represent "1". The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF".
 
-A logic gate is a single input - output device, designed to carry out a specific boolean operation, mapped to two voltage levels. Over time, the two alternating voltage levels form a rectangular waveform and the speed of switching between the two levels is perceived as pitch. By combining several logic functions, complex switching performance can be achieved, ranging from  modulated frequencies and interesting spectras to slow, rhythmic pulses oder repeating tones or scales (gated). or sequences
+A logic gate is a single input - output device, designed to carry out a specific boolean operation, mapped to two voltage levels. Over time, the two alternating voltage levels form a rectangular waveform and the speed of switching between the two levels is perceived as pitch. By combining several logic functions, complex switching performance can be achieved, ranging from  modulated frequencies and interesting spectra to slow, rhythmic pulses oder repeating tones or scales (gated). or sequences
 
 IMAGE Oscilloscope SQUAREWAVE with EXPLANATION
 
@@ -87,7 +87,7 @@ pull-up resistor or pull-down resistor
 
 ### Power Supply
 
-Power supply for the boards should comply with the power ratings of the used ICs, which is between 3V - 18V. LED series resitors need to be calculated accordingly. For the experimenter console, 9V power supply for guitar effects work well.
+Power supply for the boards should comply with the power ratings of the used ICs, which is between 3V - 18V. LED series resistors need to be calculated accordingly. For the experimenter console, 9V power supply for guitar effects work well.
 
 
 ### PCB Sizes
@@ -98,7 +98,7 @@ Mounting holes: 66mm x 66mm
 
 ## CD40106
 
-The inverter is a basic part in digital electronics and performs the logic operation of negation. When the input is connected to ground, the output is pulled to V<sub>DD</sub> and vice versa. The CD40106 hex Schmitt trigger inverter offers six seperate inverters in one chip that can be wired externaly to build square wave oscillators. The board allows to insert an offset resistor for use with potentiometers in order to prevent zero resistance between output and input.
+The inverter is a basic part in digital electronics and performs the logic operation of negation. When the input is connected to ground, the output is pulled to V<sub>DD</sub> and vice versa. The CD40106 hex Schmitt trigger inverter offers six separate inverters in one chip that can be wired externally to build square wave oscillators. The board allows to insert an offset resistor for use with potentiometers in order to prevent zero resistance between output and input.
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
 
@@ -114,7 +114,7 @@ Truth table
 
 The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 output. 
 
-It acts as a square wave oscillator when the inputs are connected to form an inverter. The last two rows of the truth table indicate that one input has to be set to a logical high in order to get an inversion. When the second input is wired as the CD40106, the CD4093 also generates square waves. Bringing the logical high down to a logical low, inhibits oscillations. A break out section allows for logic control of the first input of each NAND gate. Therfore, gating the ouput can be achieved by controlling the first input with another digital signal, square wave or a simple switch.
+It acts as a square wave oscillator when the inputs are connected to form an inverter. The last two rows of the truth table indicate that one input has to be set to a logical high in order to get an inversion. When the second input is wired as the CD40106, the CD4093 also generates square waves. Bringing the logical high down to a logical low, inhibits oscillations. A break out section allows for logic control of the first input of each NAND gate. Therefore, gating the output can be achieved by controlling the first input with another digital signal, square wave or a simple switch.
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093.jpg>
 
@@ -135,12 +135,12 @@ Truth table for NAND
 
 CD4022 IC implements a counter/divider function. The positive edge of an incoming square wave signal triggers the outputs successively. 
 Every 8 step counting cycle, carry out is outputting a pulse.
-usually reffered to as clock signal
+usually referred to as clock signal
 It counts forward on the positive edge of an incoming square wave signal
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4022.jpg>
 
-counter, waveshaper
+counter, wave shaper
 Staircase waveform
 
 
@@ -155,7 +155,7 @@ Ripple Counter
 (quoted) The 4040 is a binary counter / divider. 
 . It has a single input. 
 Control input Reset should be kept low
-If a square wave is applied to this input, the outputs (labelled Q1 to Q12) each oscillate at a rate related to the input freqeuncy. 
+If a square wave is applied to this input, the outputs (labelled Q1 to Q12) each oscillate at a rate related to the input frequency. 
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
 
@@ -198,13 +198,13 @@ Truth table
 
 ## Mixer
 
-There are severaly ways of mixing signals together. Passive mixing is a very simple method that can be accomplished by using diodes or resitors for each source. 
+There are several ways of mixing signals together. Passive mixing is a very simple method that can be accomplished by using diodes or resistors for each source. 
 To avoid interaction between the signals and to obtain individual gain control, active mixing using an operational amplifier is preferred.
-An opamp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. The basic wiring is shown below. Besides it function as a mixer with gain control over every individual input by adding voltage dividers, it can also be used to achieve a desired output gain by modifying the the feedback resistor in relation to the input resistors of each input. The minus in the formula indicates its inversed voltage level. To undo inversion, a second stage following the shwon circuit can be used.
+An op amp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. The basic wiring is shown below. Besides it function as a mixer with gain control over every individual input by adding voltage dividers, it can also be used to achieve a desired output gain by modifying the the feedback resistor in relation to the input resistors of each input. The minus in the formula indicates its unversed voltage level. To undo inversion, a second stage following the shown circuit can be used.
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
 
-In this contxt, when the signal level is close to the operating voltage level, distortion might quite likely occure when adding several CMOS signals. When the signal level excesses the supply voltage of the op amp. Voltage divider (potentiometers) before the R<sub>IN</sub> might solve that problem. Otherwise, lowering the value of R<sub>F</sub> in relation to R<sub>IN</sub> would also reduce the level.
+In this context, when the signal level is close to the operating voltage level, distortion might quite likely occur when adding several CMOS signals. When the signal level excesses the supply voltage of the op amp. Voltage divider (potentiometers) before the R<sub>IN</sub> might solve that problem. Otherwise, lowering the value of R<sub>F</sub> in relation to R<sub>IN</sub> would also reduce the level.
 
 
 ## Trigger Board
@@ -248,7 +248,7 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 22|Switch|||||
 23|3mm LED|||||
 24|5mm LED. Ultra Bright|||||
-25|Leaded Resistors (Metal or Carbon Film)|| Assorted Values (12 Ω - 1 MΩ) |||
+25|Leaded Resistors (Metal or Carbon Film)|| Assorted Values (12 Ω - 1 MΩ) |||
 26|Leaded Capacitors (Ceramic, Film and Electrolytic)|| Assorted Values (56pF - 47µF)|||
 27|Stranded Wire|||||
 28|Push Button|7.4 x 7.3 x 5.37 mm||KSJ0V41180SHLFTR|[611-KSJ0V41180SHLFT](https://www.mouser.de/ProductDetail/CK/KSJ0V41180SHLFTR?qs=wpKP3X6Fz6rOTpKOA5n8pw%3D%3D "Sensorschalter SWITCH TACTILE")|
