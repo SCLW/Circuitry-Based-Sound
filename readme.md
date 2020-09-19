@@ -57,7 +57,7 @@ The motivation behind this project is to offer a set of PCBs to evaluate logic I
 
 
 
-With todays availability of PCB manufactureres, there is no need for making your own PCB, which usually includes toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which all results only in very rough designs. PCB prototyping and production is now completly based on computer aided electronic design (EDA) while manufacturers offer professional quality even for small board quantities at very low costs. 
+With todays availability of PCB manufactureres and affordable prizes, there is no need for DIY PCBs, which usually includes toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which all results only in very rough designs. PCB prototyping and production is now completly based on computer aided electronic design (EDA) while manufacturers offer professional quality even for small board quantities at very low costs. 
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
 
@@ -203,7 +203,7 @@ There are severaly ways of mixing signals together. Passive mixing is a very sim
 To avoid interaction between the signals and to obtain individual gain control, active mixing using an operational amplifier is preferred.
 An opamp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. The basic wiring is shown below. Besides it function as a mixer with gain control over every individual input by adding voltage dividers, it can also be used to achieve a desired output gain by modifying the the feedback resistor in relation to the input resistors of each input. The minus in the formula indicates its inversed voltage level. To undo inversion, a second stage following the shwon circuit can be used.
 
-In this contxt, when the signal level is close to the operating voltage level, distortion might quite likely occure when adding several CMOS signals. When the signal level excesses the supply voltage of the op amp. Voltage divider (potentiometers) before the R<sub>IN</sub> might solve that problem. Otherwise, lowering the value of Rf in relation to Rin would also reduce the level.
+In this contxt, when the signal level is close to the operating voltage level, distortion might quite likely occure when adding several CMOS signals. When the signal level excesses the supply voltage of the op amp. Voltage divider (potentiometers) before the R<sub>IN</sub> might solve that problem. Otherwise, lowering the value of R<sub>F</sub> in relation to R<sub>IN</sub> would also reduce the level.
 
 
 ## Trigger Board
