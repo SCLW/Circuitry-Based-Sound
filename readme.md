@@ -53,7 +53,7 @@ The motivation behind this project is to offer a set of PCBs to evaluate logic I
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093_PCB.jpg">
 
-Furthermore, the project includes a mounting system to assemble the modules individually on a console, intended for musical performance. The case offers a surface with mounting holes for the experimenter boards. Jumper cables can be used as patch cords and interface.
+Furthermore, the project includes a mounting system to assemble the modules individually on a console, intended for musical performance. The case offers a surface with mounting holes for the experimenter boards. Jumper cables can be used as patch cords to connect control signals or to tap audio signals.
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg">
 
@@ -114,7 +114,7 @@ Truth table
 
 The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 output. 
 
-It acts as a square wave oscillator when the first input is set to a logical high and the second input is wired as the CD40106. Bringing the 1 input down to a logical low, inhibits oscillations. A break out section allows for logic control of the 1 input of each NAND gate. Therfore, gating the ouput can be achieved by controlling the first input with another digital signal, square wave or a simple switch for the input pin fo changing between power or signal ground. Bringing the first input to high via a push button works like a keyboard.
+It acts as a square wave oscillator when the inputs are connected to form an inverter. The last two rows of the truth table indicate that one input has to be set to a logical high in order to get an inversion. When the second input is wired as the CD40106, the CD4093 also generates square waves. Bringing the logical high down to a logical low, inhibits oscillations. A break out section allows for logic control of the first input of each NAND gate. Therfore, gating the ouput can be achieved by controlling the first input with another digital signal, square wave or a simple switch.
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093.jpg>
 
@@ -149,7 +149,7 @@ counter, waveshaper, Reset function
 
 ## CD4040
 
-
+Frequency division
 
 (quoted) The 4040 is a binary counter / divider. 
 . It has a single input. 
