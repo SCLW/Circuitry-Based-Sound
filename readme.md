@@ -48,26 +48,23 @@ The frequency is determined through the capacitor C and the resistor R. Therfore
 
 ## CMOS Experimenter Board
 
-The motivation behind this project is to offer a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. Furthermore, it includes a mounting system to assemble the modules individually on a console, intended for musical performance. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions.
+The motivation behind this project is to offer a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. With todays availability of PCB manufactureres and affordable prizes for PCBs, there is no need for DIY, which usually includes handling toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which usually ends in very poor designs. PCB prototyping and production is now completly based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions.
 
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093_PCB.jpg">
 
-With todays availability of PCB manufactureres and affordable prizes, there is no need for DIY PCBs, which usually includes toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which all results only in very rough designs. PCB prototyping and production is now completly based on computer aided electronic design (EDA) while manufacturers offer professional quality even for small board quantities at very low costs. 
+Furthermore, the project includes a mounting system to assemble the modules individually on a console, intended for musical performance. The case offers a surface with mounting holes for the experimenter boards. Jumper cables can be used as patch cords and interface.
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg">
 
-Each building block is designed around individual standard CMOS chips and their particular functions under sonic considerations. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible.
+Each building block is designed around individual standard CMOS chips and their particular functions under sonic considerations. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible. unconventional circuits for sound with CMOS chips can be found in internet forums or DIY pages. These circuits can be the basis.
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
 
-Experimenter Console
-The case offers a surface with mounting holes for the experimenter boards
-Jumper cables can be used as patch cords and interface ...
 All files of this project are made available online. This includes ECAD, Gerber and vector files as well as bill of materials.
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg">
-unconventional circuits for sound with CMOS chips can be found in internet forums or DIY pages. These circuits can be the basis
+
 
 
 ### Logic Control
