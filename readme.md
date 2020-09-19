@@ -145,6 +145,9 @@ It counts forward on the positive edge of an incoming square wave signal
 
 counter, waveshaper, Reset function
 
+
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4022_Timing_Diagram.jpg>
+
 [CD4022 Data Sheet](https://www.ti.com/lit/ds/schs027c/schs027c.pdf?ts=1599062824246&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4022")
 
 ## CD4040
