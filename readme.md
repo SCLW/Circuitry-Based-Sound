@@ -61,7 +61,7 @@ Each building block is designed around individual standard CMOS chips and their 
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
 
-All files of this project are made available online. This includes ECAD, Gerber and vector files as well as bill of materials.
+All files of this project are made available online. This includes [ECAD](https://github.com/clswa/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Schematics"), [Gerber](https://github.com/clswa/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Gerber") and [vector files]("") as well as bill of materials.
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg">
 
