@@ -236,8 +236,8 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 11|Photoresistor|||161|[485-161](https://www.mouser.de/ProductDetail/Adafruit/161?qs=GURawfaeGuDpQ5XPTNqKUw%3D%3D "Photoresistor")|
 12|Photoresistor|||SEN-09088|[474-SEN-09088](https://www.mouser.de/ProductDetail/SparkFun/SEN-09088?qs=WyAARYrbSnbNBfpKra%2FIvQ%3D%3D "Photoresistor")|
 13|Force Sensitive Resistor|||1075|[485-1075](https://www.mouser.de/ProductDetail/Adafruit/1075?qs=GURawfaeGuDaOmXus2Zwlg%3D%3D "Force Sensitive Resistor")|
-14|Aluminum Electrolytic Capacitors|2mm |10uF|EEU-FR1H100|[667-EEU-FR1H100](https://www.mouser.de/ProductDetail/Panasonic/EEU-FR1H100?qs=tfZGHB2PWd1NAbdNSgjToQ%3D%3D "Aluminum Electrolytic Capacitors")|
-15|MLCC|2.5mm |0.1uF|K104K15X7RF53K2|[594-K104K15X7RF53K2](https://www.mouser.de/ProductDetail/Vishay-BC-Components/K104K15X7RF53K2?qs=%2Fha2pyFadujQ%252Bv0xHOEo91Fp6rFGP5krxuyVhQ%252B1w%252BsnJ7knhvdeQDps3CPFUP6U "Keramik-Vielschichtkondensator MLCC")|
+14|Aluminum Electrolytic Capacitors|2mm |10µF|EEU-FR1H100|[667-EEU-FR1H100](https://www.mouser.de/ProductDetail/Panasonic/EEU-FR1H100?qs=tfZGHB2PWd1NAbdNSgjToQ%3D%3D "Aluminum Electrolytic Capacitors")|
+15|MLCC|2.5mm |0.1µF|K104K15X7RF53K2|[594-K104K15X7RF53K2](https://www.mouser.de/ProductDetail/Vishay-BC-Components/K104K15X7RF53K2?qs=%2Fha2pyFadujQ%252Bv0xHOEo91Fp6rFGP5krxuyVhQ%252B1w%252BsnJ7knhvdeQDps3CPFUP6U "Keramik-Vielschichtkondensator MLCC")|
 16|Jumper Cable|15cm||MIKROE-513|[932-MIKROE-513](https://www.mouser.de/ProductDetail/932-MIKROE-513 "Jumper Cable")|
 17|Pin Header|1 x 36 2.54mm ||10129378-936002BLF|[649-1012937893602BLF](https://www.mouser.de/ProductDetail/649-1012937893602BLF "Sockel & Kabelgehäuse ECONOSTIK HEADER SR VT TH 1X36")|
 18|Pin Header|1 x 36 2.54mm ||68797-436HLF|[649-68797-436HLF](https://www.mouser.de/ProductDetail/649-68797-436HLF "Sockel & Kabelgehäuse BREAKAWAY HEADER 36")|
@@ -247,8 +247,8 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 22|Switch|||||
 23|3mm LED|||||
 24|5mm LED. Ultra Bright|||||
-25|Leaded Resistors (Metal or Carbon Film)|| Assorted Values |||
-26|Leaded Capacitors|| Assorted Values |||
+25|Leaded Resistors (Metal or Carbon Film)|| Assorted Values (12 Ω - 1 MΩ) |||
+26|Leaded Capacitors (Ceramic, Film and Electrolytic)|| Assorted Values (56pF - 47µF)|||
 27|Stranded Wire|||||
 28|Push Button|7.4 x 7.3 x 5.37 mm||KSJ0V41180SHLFTR|[611-KSJ0V41180SHLFT](https://www.mouser.de/ProductDetail/CK/KSJ0V41180SHLFTR?qs=wpKP3X6Fz6rOTpKOA5n8pw%3D%3D "Sensorschalter SWITCH TACTILE")|
 29|Push Button|SKHHDAA010|||[688-SKHHDAA010](https://www.mouser.de/ProductDetail/Alps-Alpine/SKHHDAA010?qs=6EGMNY9ZYDTDig1hGWofxQ%3D%3D "Sensorschalter 50 mAmps at 12 Volts")|
