@@ -87,7 +87,7 @@ pull-up resistor or pull-down resistor
 
 ### Power Supply
 
-Power supply for the boards should comply with the power ratings of the used ICs, which is between 3V - 18V. LED series resistors need to be calculated accordingly. For the experimenter console, 9V power supply for guitar effects work well.
+Power supply for the boards should comply with the power ratings of the used ICs, which is between 3V - 18V DC. LED series resistors need to be calculated accordingly. For the experimenter console, 9V power supply for guitar effects work well.
 
 
 ### PCB Sizes
