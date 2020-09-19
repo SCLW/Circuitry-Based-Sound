@@ -48,29 +48,26 @@ The frequency is determined through the capacitor C and the resistor R. Therfore
 
 ## CMOS Experimenter Board
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093_PCB.jpg">
-
-
 The motivation behind this project is to offer a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. Furthermore, it includes a mounting system to assemble the modules individually on a console, intended for musical performance. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions.
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg">
 
-
+<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093_PCB.jpg">
 
 With todays availability of PCB manufactureres and affordable prizes, there is no need for DIY PCBs, which usually includes toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which all results only in very rough designs. PCB prototyping and production is now completly based on computer aided electronic design (EDA) while manufacturers offer professional quality even for small board quantities at very low costs. 
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
+<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg">
 
 Each building block is designed around individual standard CMOS chips and their particular functions under sonic considerations. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible.
 
-
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg">
-unconventional circuits for sound with CMOS chips can be found in internet forums or DIY pages. These circuits can be the basis
+<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
 
 Experimenter Console
 The case offers a surface with mounting holes for the experimenter boards
 Jumper cables can be used as patch cords and interface ...
 All files of this project are made available online. This includes ECAD, Gerber and vector files as well as bill of materials.
+
+<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg">
+unconventional circuits for sound with CMOS chips can be found in internet forums or DIY pages. These circuits can be the basis
 
 
 ### Logic Control
@@ -104,8 +101,9 @@ Mounting holes: 66mm x 66mm
 
 ## CD40106
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
 The inverter is a basic part in digital electronics and performs the logic operation of negation. When the input is connected to ground, the output is pulled to V<sub>DD</sub> and vice versa. The CD40106 hex Schmitt trigger inverter offers six seperate inverters in one chip that can be wired externaly to build square wave oscillators. The board allows to insert an offset resistor for use with potentiometers in order to prevent zero resistance between output and input.
+
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
 
 Truth table
 |Inputs|Outputs|
@@ -151,12 +149,14 @@ counter, waveshaper, Reset function
 
 ## CD4040
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
+
 
 (quoted) The 4040 is a binary counter / divider. 
 . It has a single input. 
 Control input Reset should be kept low
 If a square wave is applied to this input, the outputs (labelled Q1 to Q12) each oscillate at a rate related to the input freqeuncy. 
+
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
 
 (quoted) Q1 oscillates at a frequency that is half of the input frequency. Q1 at one quarter. Q3 at one eighth and so on. If the output frequencies are within the human hearing range, they will sound one octave apart - with Q1 being the highest and Q12 being the lowest (eleven octaves below Q1).
 
@@ -197,11 +197,11 @@ Truth table
 
 ## Mixer
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
-
 There are severaly ways of mixing signals together. Passive mixing is a very simple method that can be accomplished by using diodes or resitors for each source. 
 To avoid interaction between the signals and to obtain individual gain control, active mixing using an operational amplifier is preferred.
 An opamp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. The basic wiring is shown below. Besides it function as a mixer with gain control over every individual input by adding voltage dividers, it can also be used to achieve a desired output gain by modifying the the feedback resistor in relation to the input resistors of each input. The minus in the formula indicates its inversed voltage level. To undo inversion, a second stage following the shwon circuit can be used.
+
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
 
 In this contxt, when the signal level is close to the operating voltage level, distortion might quite likely occure when adding several CMOS signals. When the signal level excesses the supply voltage of the op amp. Voltage divider (potentiometers) before the R<sub>IN</sub> might solve that problem. Otherwise, lowering the value of R<sub>F</sub> in relation to R<sub>IN</sub> would also reduce the level.
 
