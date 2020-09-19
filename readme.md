@@ -134,13 +134,14 @@ Truth table for NAND
 ## CD4022
 
 CD4022 IC implements a counter/divider function. The positive edge of an incoming square wave signal triggers the outputs successively. 
-
+Every 8 step counting cycle, carry out is outputting a pulse.
 usually reffered to as clock signal
 It counts forward on the positive edge of an incoming square wave signal
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4022.jpg>
 
-counter, waveshaper, Reset function
+counter, waveshaper
+Staircase waveform
 
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4022_Timing_Diagram.jpg>
@@ -150,7 +151,7 @@ counter, waveshaper, Reset function
 ## CD4040
 
 Frequency division
-
+Ripple Counter
 (quoted) The 4040 is a binary counter / divider. 
 . It has a single input. 
 Control input Reset should be kept low
