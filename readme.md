@@ -254,12 +254,10 @@ A PCB with push buttons for setting inputs to high or low
 
 ## Bill of Material
 
-examples of parts, but not limited to.
-as long as the packages fit or the pitch is..
-A of required components.
+Following are examples of parts and values, that can be used for this project.
+All parts can be substituted with similar packages or foot prints.
 
-Potentiometers
-Switches
+
 
 
 No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
