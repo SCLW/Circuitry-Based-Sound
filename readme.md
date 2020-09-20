@@ -111,6 +111,8 @@ Truth table
 "1" = High Level  
 "0" = Low Level
 
+* oscillator
+* control signal
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD40106_Board.jpg>
 
@@ -135,6 +137,9 @@ Truth table for NAND
 |1|0|1|
 |1|1|0|
 
+* gated oscillator
+* control signal
+
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093_Board.jpg>
 
 
@@ -150,7 +155,7 @@ CD4022 IC implements a counter/divider function. The positive edge of an incomin
 * counter
 * wave shaper
 * Staircase wave form
-
+* sequencer
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4022_Timing_Diagram.jpg>
 
@@ -162,6 +167,7 @@ This IC performs frequency division. If a square wave is applied to the input, e
 
 Control input reset triggers the first output. For continuously frequency division it should be kept at logical low.
 
+* subharmonic oscillator
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
 
@@ -176,6 +182,10 @@ The timing diagram shows the relation of voltage levels between all outputs of t
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4046.jpg>
 Phase locked loop
+
+
+* distortion
+
 
 [CD4046 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4046b.pdf?ts=1599062962750&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4046")
 
@@ -209,6 +219,9 @@ To avoid interaction between the signals and to obtain individual gain control, 
 An op amp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. The basic wiring is shown below. Besides it function as a mixer with gain control over every individual input by adding voltage dividers, it can also be used to achieve a desired output gain by modifying the the feedback resistor in relation to the input resistors of each input. The minus in the formula indicates its unversed voltage level. To undo inversion, a second stage following the shown circuit can be used.
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
+
+* signal mixing
+* gain control
 
 In this context, when the signal level is close to the operating voltage level, distortion might quite likely occur when adding several CMOS signals. When the signal level excesses the supply voltage of the op amp. Voltage divider (potentiometers) before the R<sub>IN</sub> might solve that problem. Otherwise, lowering the value of R<sub>F</sub> in relation to R<sub>IN</sub> would also reduce the level.
 
