@@ -292,7 +292,7 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 ## Authors
 
 Zhen Bian  
-Hangyan Chen
+Hangyan Chen  
 Jeongmin Han  
 Anna Helsen  
 Jihye Jang  
