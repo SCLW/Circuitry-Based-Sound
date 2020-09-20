@@ -11,3 +11,6 @@ The workshop requires some tools and materials
 * Digital storage oscilloscope (DSO)
 * Temperature-controlled soldering station
 * Breadboard
+
+
+A list of electronic components can be found [here](https://github.com/clswa/Circuitry-Based-Sound#bill-of-material"BoM").
