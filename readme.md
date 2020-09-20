@@ -84,6 +84,23 @@ unused inputs
 pull-up resistor or pull-down resistor
 
 
+# Requirements
+
+The workshop requires some tools and materials
+
+* Screw drivers.
+* ESD electronic diagonal cutter.
+* Precision cutter.
+* Laboratory power supply + connectors (preferable 4mm banana laboratory connectors)
+* Jumper cables
+* Digital multimeter (DVM)
+* Digital storage oscilloscope (DSO)
+* Temperature-controlled soldering station
+* Breadboard
+
+
+electronic components
+
 
 ### Power Supply
 
@@ -95,6 +112,7 @@ Power supply for the boards should comply with the power ratings of the used ICs
 76mm (length) x 76mm (wide)
 Mounting holes: 66mm x 66mm
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/SIZE.jpg>
+
 
 ## CD40106
 
