@@ -238,6 +238,7 @@ An op amp is another class of active electronic component. Its purpose and funct
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
 
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Summing.jpg>
 
 ## Trigger Board
 
