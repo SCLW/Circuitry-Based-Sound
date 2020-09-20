@@ -174,14 +174,15 @@ CD4022 IC implements a binary counter/divider function. The positive edge of an 
 
 This IC performs frequency division. If a square wave is applied to the input, each output creates square waves at half the frequency of its preceeding output, at which the first output Q1 applies its division to the input signal and oscillates at a rate at on half, Q2 at one quarter, Q3 at one eighth Q4 at one sixteenth and so on.
 
-Control input reset triggers the first output. For continuously frequency division it should be kept at logical low.
+Control input reset triggers all output stages to . For continuously frequency division it should be kept at logical low.
 
 *Musical applications:*
 * subharmonic oscillator
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
 
-(quoted) Q1 oscillates at a frequency that is half of the input frequency. Q1 at one quarter. Q3 at one eighth and so on. If the output frequencies are within the human hearing range, they will sound one octave apart - with Q1 being the highest and Q12 being the lowest (eleven octaves below Q1).
+
+each output producing one octave lower than its previous output, respectivly input
 
 [CD4040 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4040b.pdf?ts=1600261370155&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4040B "CD4040")
 
