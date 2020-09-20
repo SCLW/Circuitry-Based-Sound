@@ -236,7 +236,7 @@ An op amp is another class of active electronic component. Its purpose and funct
 ## Bill of Material
 
 Following are examples of parts and values, that can be used for this project.
-All parts can be substituted with similar packages or foot prints.
+All parts can be substituted with alternative components and same packages or foot prints.
 
 
 
