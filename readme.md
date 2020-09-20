@@ -111,8 +111,6 @@ Truth table
 "1" = High Level  
 "0" = Low Level
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD40106_Schematic.jpg>
-
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD40106_Board.jpg>
 
@@ -137,7 +135,7 @@ Truth table for NAND
 |1|0|1|
 |1|1|0|
 
-
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093_Board.jpg>
 
 
 [CD4093 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4093b.pdf?ts=1599062791398&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4093")
