@@ -231,9 +231,6 @@ An op amp is another class of active electronic component. Its purpose and funct
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Summing.jpg>
 
-## Trigger Board
-
-A PCB with push buttons for setting inputs to high or low
 
 
 ## Bill of Material
