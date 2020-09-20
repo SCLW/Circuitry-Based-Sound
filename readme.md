@@ -51,7 +51,7 @@ The frequency is determined through the capacitor C and the resistor R. Therefor
 The motivation behind this project is to offer a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. With todays availability of PCB manufacturers and affordable prizes for PCBs, there is no need for DIY, which usually includes handling toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which usually ends in very poor designs. PCB prototyping and production is now completely based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions.
 
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093_PCB.jpg">
+<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
 
 Furthermore, the project includes a mounting system to assemble the modules individually on a console, intended for musical performance. The case offers a surface with mounting holes for the experimenter boards. Jumper cables can be used as patch cords to connect control signals or to tap audio signals.
 
@@ -59,11 +59,11 @@ Furthermore, the project includes a mounting system to assemble the modules indi
 
 Each building block is designed around individual standard CMOS chips and their particular functions under sonic considerations. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible. Unconventional circuits for sound with CMOS chips can be found in internet forums or DIY pages. These circuits can be the basis.
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
+<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg">
 
 All files of this project are made available online. This includes [ECAD](https://github.com/clswa/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Schematics"), [Gerber](https://github.com/clswa/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Gerber") and [vector files](https://github.com/clswa/Circuitry-Based-Sound/tree/master/Case "Case") as well as [bill of materials](https://github.com/clswa/Circuitry-Based-Sound#bill-of-material "BOM").
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg">
+
 
 
 
