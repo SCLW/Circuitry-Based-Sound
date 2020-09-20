@@ -111,6 +111,7 @@ Truth table
 "1" = High Level  
 "0" = Low Level
 
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD40106_Schematic.jpg>
 [CD40106 Data Sheet](https://www.ti.com/lit/ds/symlink/cd40106b.pdf?ts=1599062729936&ref_url=https%253A%252F%252Fwww.google.com%252F "CD40106")
 
 ## CD4093
