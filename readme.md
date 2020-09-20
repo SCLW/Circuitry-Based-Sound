@@ -94,7 +94,7 @@ Power supply for the boards should comply with the power ratings of the used ICs
 
 76mm (length) x 76mm (wide)
 Mounting holes: 66mm x 66mm
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/PCB_Size.jpg>
+<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/SIZE.jpg>
 
 ## CD40106
 
