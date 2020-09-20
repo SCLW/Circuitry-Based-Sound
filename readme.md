@@ -100,6 +100,7 @@ Mounting holes: 66mm x 66mm
 
 The inverter is a basic part in digital electronics and performs the logic operation of negation. When the input is connected to ground, the output is pulled to V<sub>DD</sub> and vice versa. The CD40106 hex Schmitt trigger inverter offers six separate inverters in one chip that can be wired externally to build square wave oscillators. The board allows to insert an offset resistor for use with potentiometers in order to prevent zero resistance between output and input.
 
+*Musical applications:*
 * oscillator
 * control signal
 
@@ -128,6 +129,7 @@ The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 outpu
 
 It acts as a square wave oscillator when the inputs are connected to form an inverter. The last two rows of the truth table indicate that one input has to be set to a logical high in order to get an inversion. When the second input is wired as the CD40106, the CD4093 also generates square waves. Bringing the first one down to a logical low, inhibits oscillations. A break out section allows for logic control of the first input of each NAND gate. Therefore, gating the output can be achieved by controlling the first input with another digital signal, square wave or a simple switch.
 
+*Musical applications:*
 * gated oscillator
 * control signal
 
@@ -154,6 +156,7 @@ Truth table for NAND
 
 CD4022 IC implements a binary counter/divider function. The positive edge of an incoming square wave, usually referred to as clock signal, triggers successively the outputs. Carry out is outputting one cycle over 8 clock pulses.
 
+*Musical applications:*
 * counter
 * wave shaper
 * Staircase wave form
@@ -173,6 +176,7 @@ This IC performs frequency division. If a square wave is applied to the input, e
 
 Control input reset triggers the first output. For continuously frequency division it should be kept at logical low.
 
+*Musical applications:*
 * subharmonic oscillator
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
@@ -189,6 +193,7 @@ The timing diagram shows the relation of voltage levels between all outputs of t
 
 Phase locked loop
 
+*Musical applications:*
 * tone distortion
 * pitch tracking
 * frequency multiplication
@@ -227,6 +232,7 @@ There are several ways of mixing signals together. Passive mixing is a very simp
 To avoid interaction between the signals and to obtain individual gain control, active mixing using an operational amplifier is preferred.
 An op amp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. The basic wiring is shown below. Besides it function as a mixer with gain control over every individual input by adding voltage dividers, it can also be used to achieve a desired output gain by modifying the the feedback resistor R<sub>F</sub> in relation to the input resistors R<sub>IN</sub> of each input. The minus in the formula indicates its inversed voltage level. To undo inversion, a second stage following the shown circuit can be used.
 
+*Musical applications:*
 * signal mixing
 * gain control
 
@@ -286,12 +292,14 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 ## Authors
 
 Zhen Bian  
-Hangyan Chen  
+Hangyan Chen
+Jeongmin Han  
 Anna Helsen  
 Jihye Jang  
 Xingchen Liu  
 Su Lu  
 Ruoyi Qiu  
+Vivian Reuter  
 Christina Vinke  
 Yunfei Zhang  
 
