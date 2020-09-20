@@ -122,7 +122,7 @@ Truth table
 
 The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 output. 
 
-It acts as a square wave oscillator when the inputs are connected to form an inverter. The last two rows of the truth table indicate that one input has to be set to a logical high in order to get an inversion. When the second input is wired as the CD40106, the CD4093 also generates square waves. Bringing the logical high down to a logical low, inhibits oscillations. A break out section allows for logic control of the first input of each NAND gate. Therefore, gating the output can be achieved by controlling the first input with another digital signal, square wave or a simple switch.
+It acts as a square wave oscillator when the inputs are connected to form an inverter. The last two rows of the truth table indicate that one input has to be set to a logical high in order to get an inversion. When the second input is wired as the CD40106, the CD4093 also generates square waves. Bringing the first one down to a logical low, inhibits oscillations. A break out section allows for logic control of the first input of each NAND gate. Therefore, gating the output can be achieved by controlling the first input with another digital signal, square wave or a simple switch.
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093.jpg>
 
@@ -143,15 +143,13 @@ Truth table for NAND
 
 ## CD4022
 
-CD4022 IC implements a counter/divider function. The positive edge of an incoming square wave signal triggers the outputs successively. 
-Every 8 step counting cycle, carry out is outputting a pulse.
-usually referred to as clock signal
-It counts forward on the positive edge of an incoming square wave signal
+CD4022 IC implements a counter/divider function. The positive edge of an incoming square wave, usually referred to as clock signal, triggers successively the outputs. Carry out is outputting one cycle over 8 clock pulses.
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4022.jpg>
 
-counter, wave shaper
-Staircase waveform
+* counter
+* wave shaper
+* Staircase wave form
 
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4022_Timing_Diagram.jpg>
@@ -160,12 +158,10 @@ Staircase waveform
 
 ## CD4040
 
-Frequency division
-Ripple Counter
-(quoted) The 4040 is a binary counter / divider. 
-. It has a single input. 
-Control input Reset should be kept low
-If a square wave is applied to this input, the outputs (labelled Q1 to Q12) each oscillate at a rate related to the input frequency. 
+This IC performs frequency division. If a square wave is applied to the input, each output creates square waves at half the frequency of its preceeding output, at which the first output Q1 applies its division to the input signal and oscillates at a rate at on half, Q2 at one quarter, Q3 at one eighth Q4 at one sixteenth and so on.
+
+Control input reset triggers the first output. For continuously frequency division it should be kept at logical low.
+
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
 
