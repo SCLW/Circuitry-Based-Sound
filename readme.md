@@ -48,16 +48,16 @@ The frequency is determined through the capacitor C and the resistor R. Therefor
 
 ## CMOS Experimenter Board
 
-The motivation behind this project is to offer a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. With todays availability of PCB manufacturers and affordable prizes for PCBs, there is no need for DIY, which usually includes handling toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which usually ends in very poor designs. PCB prototyping and production is now completely based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions.
+The motivation behind this project is to offer a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. With todays availability of PCB manufacturers and affordable prizes for PCBs, there is no need for DIY, which usually includes handling toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which usually ends in very poor designs. PCB prototyping and production is now completely based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions. By combining several boards with different logic functions, complex switching performance can be achieved, ranging from  modulated frequencies and interesting audio spectra to slow, rhythmic pulses or tone sequences.
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg">
 
 
-Furthermore, the project includes a mounting system to assemble the modules individually on a console, intended for musical performance. The case offers a surface with mounting holes for the experimenter boards. Jumper cables can be used as patch cords to connect control signals or to tap audio signals.
+Furthermore, the project includes a mounting system to assemble the modules individually on a console, intended for musical performance. The surface has mounting holes for the experimenter boards. Jumper cables can be used as patch cords to connect control signals or to tap audio signals.
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
 
-Each building block is designed around individual standard CMOS chips and their particular functions under sonic considerations. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible. Unconventional circuits for sound with CMOS chips can be found in internet forums or DIY pages. These circuits can be the basis.
+Each building block is designed around individual standard CMOS chips and their particular functions under sonic considerations. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible. A wide range of unconventional circuits for sound with CMOS chips can be found on DIY websites and are a subject of discussion in various internet forums. These circuits can be a good basis for experimenting with CMOS chips.
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg">
 
@@ -71,7 +71,9 @@ All files of this project are made available online. This includes [ECAD](https:
 
 In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit. For example signal ground in a give circuit can represent "0" while the positive voltage rail can represent "1". The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF".
 
-A logic gate is a single input - output device, designed to carry out a specific boolean operation, mapped to two voltage levels. Over time, the two alternating voltage levels form a rectangular waveform and the speed of switching between the two levels is perceived as pitch. By combining several logic functions, complex switching performance can be achieved, ranging from  modulated frequencies and interesting spectra to slow, rhythmic pulses oder repeating tones or scales (gated). or sequences
+A logic gate is a single input - output device, designed to carry out a specific boolean operation, mapped to two voltage levels. Over time, the two alternating voltage levels form a rectangular waveform and the speed of switching between the two levels is perceived as pitch. The ratio between the on-and-off states is 1:1 and further circuitry is needed to alter the ratio, which affects the audio spectrum.
+
+
 
 
 ### Power Supply
@@ -92,7 +94,6 @@ The inverter is a basic part in digital electronics and performs the logic opera
 
 *Applications:*
 * oscillator
-* control signal
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
 
@@ -120,8 +121,7 @@ The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 outpu
 It acts as a square wave oscillator when the inputs are connected to form an inverter. The last two rows of the truth table indicate that one input has to be set to a logical high in order to get an inversion. When the second input is wired as the CD40106, the CD4093 also generates square waves. Bringing the first one down to a logical low, inhibits oscillations. A break out section allows for logic control of the first input of each NAND gate. Therefore, gating the output can be achieved by controlling the first input with another digital signal, square wave or a simple switch.
 
 *Applications:*
-* gated oscillator
-* control signal
+* oscillator with gating control
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093.jpg>
 
@@ -148,8 +148,7 @@ CD4022 IC implements a binary counter/divider function. The positive edge of an 
 
 *Applications:*
 * counter
-* wave shaper
-* Staircase wave form
+* wave shaper and staircase wave form generator
 * sequencer
 
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4022.jpg>
@@ -172,7 +171,7 @@ Control input reset triggers all output stages to . For continuously frequency d
 <img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
 
 
-each output producing one octave lower than its previous output, respectivly input
+Each output producing one octave lower than its previous output, respectivly input.
 
 [CD4040 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4040b.pdf?ts=1600261370155&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4040B "CD4040")
 
@@ -221,7 +220,7 @@ Truth table
 
 There are several ways of mixing signals together. Passive mixing is a very simple method that can be accomplished by using diodes or resistors for each source. 
 To avoid interaction between the signals and to obtain individual gain control, active mixing using an operational amplifier is preferred.
-An op amp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. The basic wiring is shown below. Besides it function as a mixer with gain control over every individual input by adding voltage dividers, it can also be used to achieve a desired output gain by modifying the the feedback resistor R<sub>F</sub> in relation to the input resistors R<sub>IN</sub> of each input. The minus in the formula indicates its inversed voltage level. To undo inversion, a second stage following the shown circuit can be used.
+An op amp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. The basic wiring is shown below. Besides it function as a mixer with gain control over every individual input by adding voltage dividers, it can also be used to achieve a desired output gain by modifying the the feedback resistor R<sub>F</sub> in relation to the input resistors R<sub>IN</sub> of each input. The minus sign in the formula indicates its inversed voltage level. To undo inversion, a second stage following the shown circuit can be used.
 
 *Applications:*
 * signal mixing
@@ -277,7 +276,7 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 32|Potentiometer|9mm|100kΩ|PTV09A-4015U-B104|[652-PTV09A-4015UB104](https://www.mouser.de/ProductDetail/Bourns/PTV09A-4015U-B104?qs=pxDZlBjcsCi2tw983aFXVQ%3D%3D "Potentiometers PANEL CONTROL - 9MM-ST-CA 100 kohms 15 mm")
 33|Potentiometer|9mm|500kΩ|PTV09A-4015U-B504|[652-PTV09A-4015UB504](https://www.mouser.de/ProductDetail/Bourns/PTV09A-4015U-B504?qs=pxDZlBjcsCherlTtJcuegw%3D%3D "Potentiometers PANEL CONTROL - 9MM-ST-CA 500 kohms 15 mm")
 34|Potentiometer|9mm|1MΩ|PTV09A-4020F-B105|[652-PTV09A4020FB105](https://www.mouser.de/ProductDetail/Bourns/PTV09A-4020F-B105?qs=%252B9%2Fcbd0IE0TagBKq%252BGRbqw%3D%3D "Potentiometers 1M 20% 9MM CARBON POT")
-
+35|Diode|DO-35	||1N4148|[512-1N4148](https://www.mouser.de/ProductDetail/ON-Semiconductor-Fairchild/1N4148?qs=i4Fj9T%2FoRm8RMUhj5DeFQg%3D%3D "Dioden (Allzweck, Leistung, Schaltung) 100V Io/200mA BULK")
  
  
 
