@@ -13,7 +13,7 @@ Aside from the established way of using electronics to generate and process soun
 
 ## CMOS Chips for Sound Creation
 
-Another concept of creating sound with electronics derived from techniques like hardware hacking and circuit bending. Especially the use of digital integrated logic circuits outside of their typical field of application is a remarkable approach to build customized instruments for artistic sound production and interactive music. The required components are easy to source and low cost. This makes it also interesting for multichannel sound.
+Another concept of creating sound with electronics derived from techniques like hardware hacking and circuit bending. Especially the use of digital integrated logic circuits outside of their typical field of application is a remarkable approach to build customized instruments for artistic sound production and interactive music. The required components are easy to source and low cost.
 
 <img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS-chips.jpg">
 
