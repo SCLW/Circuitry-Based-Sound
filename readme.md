@@ -71,8 +71,7 @@ All files of this project are made available online. This includes [ECAD](https:
 
 In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit. For example signal ground in a give circuit can represent "0" while the positive voltage rail can represent "1". The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF".
 
-A logic gate is a single input - output device, designed to carry out a specific boolean operation, mapped to two voltage levels. Over time, the two alternating voltage levels form a rectangular waveform and the speed of switching between the two levels is perceived as pitch. The ratio between the on-and-off states is 1:1 and further circuitry is needed to alter the ratio, which affects the audio spectrum.
-
+A logic gate is a single input - output device, designed to carry out a specific boolean operation, mapped to two voltage levels. Over time, the two alternating voltage levels form a rectangular waveform and the speed of switching between the two levels is perceived as pitch. The ratio between the on-and-off states is 1:1, a 50% duty cycle. Further circuitry is needed to alter the ratio, which causes different spectra.
 
 
 
