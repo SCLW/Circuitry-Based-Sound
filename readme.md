@@ -14,7 +14,7 @@ Aside from the established way of using electronics to generate and process soun
 
 Another concept of creating sound with electronics derived from techniques like hardware hacking and circuit bending. Especially the use of digital integrated logic circuits outside of their typical field of application is a remarkable approach to build customized instruments for artistic sound production and interactive music. The required components are easy to source and low cost.
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS-chips.jpg">
+<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS-chips.jpg">
 
 [CMOS chips](https://en.wikipedia.org/wiki/4000-series_integrated_circuits/ "4000-series integrated circuits") are designed to execute boolean functions. Voltage levels represent the binary states 0 and 1. Produced as integrated circuits, individual components relate to basic logical functions like NOT, AND, OR, NAND, XOR, XNOR or implement multiplexers, counters, dividers and registers. When logical operations and their relation to voltage and sound are understood, CMOS-logic chips are an inexhaustible source for unconventional electronic sound. They produce digital signals - square waves - that can be modified, shaped, gated, sequenced and many more. Combining different logic functions allows generating a multitude of unique sounds and temporal music structures, while they produce the richness of analog sound. These circuits also yield unpredictable behavior, produce rhythmic glitches or digital noise.
 
@@ -24,7 +24,7 @@ Due to its simplicity, CMOS chips can be used for educational reasons, since mos
 
 The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the following picture:
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Basic_Oscillator_CD40106.jpg">
+<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Basic_Oscillator_CD40106.jpg">
 
 It shows a square wave sound generator that can be built with only three components:  
 * inverting Schmitt trigger IC, e.g. CD40106
@@ -33,7 +33,7 @@ It shows a square wave sound generator that can be built with only three compone
 
 An inverting Schmitt trigger is an active electronic component whose output state can be triggered complementarily through an input signal, whereas the positive trigger threshold differs from the negative trigger threshold. Feeding back the output voltage to its input and tying the input via a capacitor to ground creates a relaxation oscillator or astable multivibrator.
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/ST_inv.gif">
+<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/ST_inv.gif">
 
 The frequency can be roughly calculated with this formula:
 
@@ -49,18 +49,18 @@ The frequency is determined through the capacitor C and the resistor R. Therefor
 
 The motivation behind this project is to offer a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. With todays availability of PCB manufacturers and affordable prizes for PCBs, there is no need for DIY, which usually includes handling toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which usually ends in very poor designs. PCB prototyping and production is now completely based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions. By combining several boards with different logic functions, complex switching performance can be achieved, ranging from  modulated frequencies and interesting audio spectra to slow, rhythmic pulses or tone sequences.
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg">
+<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg">
 
 
 Furthermore, the project includes a mounting system to assemble the modules individually on a console, intended for musical performance. The surface has mounting holes for the experimenter boards. Jumper cables can be used as patch cords to connect control signals or to tap audio signals.
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
+<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
 
 Each building block is designed around individual standard CMOS chips and their particular functions under sonic considerations. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible. A wide range of unconventional circuits for sound with CMOS chips can be found on DIY websites and are a subject of discussion in various internet forums. These circuits can be a good basis for experimenting with CMOS chips. In addition, it is recommendable to use data sheets for all active components used in electronic projects.
 
-<img src="https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg">
+<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg">
 
-All involved files are made available online. This includes [ECAD](https://github.com/clswa/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Schematics"), [Gerber](https://github.com/clswa/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Gerber") and [vector files](https://github.com/clswa/Circuitry-Based-Sound/tree/master/Case "Case") as well as [bill of materials](https://github.com/clswa/Circuitry-Based-Sound#bill-of-material "BOM").
+All involved files are made available online. This includes [ECAD](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Schematics"), [Gerber](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Gerber") and [vector files](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/Case "Case") as well as [bill of materials](https://github.com/SCLW/Circuitry-Based-Sound#bill-of-material "BOM").
 
 
 
@@ -82,7 +82,7 @@ Power supply for the boards should comply with the power ratings of the used ICs
 
 76mm (length) x 76mm (wide)
 Mounting holes: 66mm x 66mm
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/SIZE.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/SIZE.jpg>
 
 
 ## CD40106
@@ -92,7 +92,7 @@ The inverter is a basic part in digital electronics and performs the logic opera
 *Applications:*
 * oscillator
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
 
 Truth table
 |Inputs|Outputs|
@@ -105,7 +105,7 @@ Truth table
 
 
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD40106_Board.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_Board.jpg>
 
 
 
@@ -120,7 +120,7 @@ It acts as a square wave oscillator when the inputs are connected to form an inv
 *Applications:*
 * gated oscillator
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093.jpg>
 
 Truth table for NAND
 
@@ -133,7 +133,7 @@ Truth table for NAND
 
 
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4093_Board.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093_Board.jpg>
 
 
 [CD4093 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4093b.pdf?ts=1599062791398&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4093")
@@ -148,11 +148,11 @@ CD4022 IC implements a binary counter/divider function. The positive edge of an 
 * wave shaper and staircase wave form generator
 * sequencer
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4022.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022.jpg>
 
 
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4022_Timing_Diagram.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_Timing_Diagram.jpg>
 
 [CD4022 Data Sheet](https://www.ti.com/lit/ds/schs027c/schs027c.pdf?ts=1599062824246&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4022")
 
@@ -165,7 +165,7 @@ Control input reset triggers all output stages to . For continuously frequency d
 *Applications:*
 * subharmonic oscillator
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
 
 
 Each output producing one octave lower than its previous output, respectivly input.
@@ -173,7 +173,7 @@ Each output producing one octave lower than its previous output, respectivly inp
 [CD4040 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4040b.pdf?ts=1600261370155&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4040B "CD4040")
 
 The timing diagram shows the relation of voltage levels between all outputs of the CD4024 IC, a 7 output stage version:
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4040_Timing_Diagram.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_Timing_Diagram.jpg>
 
 ## CD4046
 
@@ -186,7 +186,7 @@ Phase locked loop
 * frequency multiplication
 
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4046.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4046.jpg>
 
 [CD4046 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4046b.pdf?ts=1599062962750&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4046")
 
@@ -195,7 +195,7 @@ Phase locked loop
 
 Multiplexer/Demultiplexer
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/CD4051.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051.jpg>
 
 Truth table
 |C|B|A|ON CHANNEL(S)|
@@ -223,9 +223,9 @@ An op amp is another class of active electronic component. Its purpose and funct
 * signal mixing
 * gain control
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
 
-<img src=https://github.com/clswa/Circuitry-Based-Sound/blob/master/img/Summing.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Summing.jpg>
 
 
 
