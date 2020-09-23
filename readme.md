@@ -1,14 +1,14 @@
 # Circuitry-Based Sound
 
-Circuitry-Based sound is an ongoing seminar at [University of Arts and Design Karlsruhe](https://www.hfg-karlsruhe.de/ "University of Arts and Design Karlsruhe"). It focuses on electronic sound synthesis and parametric interfacing. It's examining musical characteristics of electronic sound generators and processors and comparing different approaches on how to design electronic sound modules. Due to the measures against the coronavirus spread in 2020, the seminar’s workflow had been adapted to the restrictions and therefore was hold on-line.
+"Circuitry-Based Sound" is an ongoing seminar at [University of Arts and Design Karlsruhe](https://www.hfg-karlsruhe.de/ "University of Arts and Design Karlsruhe"). It focuses on electronic sound synthesis and parametric interfacing. It's examining musical characteristics of electronic instruments and comparing different approaches on how to design electronic sound modules. Due to the measures against the coronavirus spread in 2020, the seminar’s workflow had been adapted to the restrictions and therefore was hold on-line.
 
-Based on previous's semesters studies of logic chips for sound creation and its musical applications, the course focused on computer aided circuit design and professional PCB manufacturing processes to build custom-made instruments. Participants were guided to use the latest technology, production chain and global logistics to develop, design and produce circuit boards for musical use. This allowed the participants to easily create circuit boards with more variable features and adjustable parameters than hand soldered protoboards or breadboards. During the seminar, several experimenter boards for CMOS logic chips were designed and used for a live performance across the Federal Prosecutor's office in Karlsruhe. The developement of this project is documented here.
+Based on previous's semesters studies of logic chips for sound creation and its musical applications, the course focused on computer aided circuit design and professional PCB manufacturing processes to build custom-made instruments. Participants were guided to use the latest technology, production chain and global logistics to develop, design and produce circuit boards for musical use. This allowed the participants to easily create circuit boards with more variable features and adjustable parameters than hand soldered protoboards or solderless breadboards. During the seminar, several experimenter boards for CMOS logic chips were conceived and built. The boards were used for a live performance in front of the Federal Prosecutor's office in Karlsruhe. The developement of this project is documented here.
 
 
 # Unconventional Electronic Sound
 ## Classical Sound Synthesis
 
-Aside from the established way of using electronics to generate and process sound, which can be found in analog synthesizers, there are also unconventional applications of electronics to create sound or experimental music, which will be introduced below. Analog synthesizers apply techniques like subtractive synthesis to produce audio. A common concept of the analog signal flow is filtering the output of an oscillator and shaping the overall volume. Variations of this concept can be found in most synthesizers, both analog and digital. Parameters can be altered through control signals, which offers a wide range of musical expression, like tuning oscillators in a 12-tone musical scale or key triggered envelopes for volume, filters or other effect processors. To obtain these functionalities, circuits of analog synthesizers are relatively complex, involve a high part count and require often precision components.
+Aside from the established way of using electronics to generate and process sound, which can be found in analog synthesizers, there are also unconventional applications of electronics to create sound or experimental music, which will be introduced below. Analog synthesizers apply techniques like subtractive synthesis to produce audio. A common concept of the analog signal flow is filtering the output of an oscillator and shaping the overall volume. Variations of this concept can be found in most synthesizers, both analog and digital. Parameters can be altered through control signals. This offers a wide range of musical expression, like tuning oscillators in a 12-tone musical scale or key triggered envelopes for volume, filters or other effect processors. To obtain these functionalities, circuits of analog synthesizers are relatively complex, involve a high part count and require often precision components.
 
 ## CMOS Chips for Sound Creation
 
@@ -31,7 +31,7 @@ It shows a square wave sound generator that can be built with only three compone
 * capacitor C
 * resistor R
 
-An inverting Schmitt trigger is an active electronic component whose output state can be triggered complementarily through an input signal, whereas the positive trigger threshold differs from the negative trigger threshold. Feeding back the output voltage to its input and tying the input via a capacitor to ground creates a relaxation oscillator or astable multivibrator.
+An inverting Schmitt trigger is an active electronic component whose output state can be triggered complementarily through an input signal, whereas the positive trigger threshold differs from the negative. Feeding back the output voltage to its input and tying the input via a capacitor to ground creates a relaxation oscillator or astable multivibrator.
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/ST_inv.gif">
 
@@ -47,7 +47,7 @@ The frequency is determined through the capacitor C and the resistor R. Therefor
 
 ## CMOS Experimenter Board
 
-The motivation behind this project is to offer a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. With todays availability of PCB manufacturers and affordable prizes for PCBs, there is no need for DIY, which usually includes handling toxic chemical products for etching and developing as well as manual steps like drilling and cutting, which usually ends in very poor designs. PCB prototyping and production is now completely based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions. By combining several boards with different logic functions, complex switching performance can be achieved, ranging from  modulated frequencies and interesting audio spectra to slow, rhythmic pulses or tone sequences.
+The motivation behind this project is to offer a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. With todays availability of PCB manufacturers and affordable prizes for PCBs. PCB prototyping and production is now completely based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions. By combining several boards with different logic functions, complex switching performance can be achieved, ranging from  modulated frequencies and interesting audio spectra to slow, rhythmic pulses or tone sequences.
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg">
 
@@ -56,7 +56,7 @@ Furthermore, the project includes a mounting system to assemble the modules indi
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
 
-Each building block is designed around individual standard CMOS chips and their particular functions under sonic considerations. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and alternative external wirings. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible. A wide range of unconventional circuits for sound with CMOS chips can be found on DIY websites and are a subject of discussion in various internet forums. These circuits can be a good basis for experimenting with CMOS chips. In addition, it is recommendable to use data sheets for all active components used in electronic projects.
+Each PCB is designed around individual standard CMOS chips and their particular functions under sonic considerations. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and wiring alternative external circuitry. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points. It simplifies prototyping and makes customized configurations highly flexible. A wide range of unconventional circuits for sound with CMOS chips can be found on DIY websites and are a subject of discussion in various internet forums. These circuits can be a good basis for experimenting with CMOS chips. In addition, it is recommendable to use data sheets for all active components used in electronic projects.
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg">
 
@@ -67,9 +67,9 @@ All involved files are made available online. This includes [ECAD](https://githu
 
 ### Logic Control
 
-In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit. For example signal ground in a give circuit can represent "0" while the positive voltage rail can represent "1". The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF".
+In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit. For example signal ground in a given circuit can represent "0" while the positive voltage rail can represent "1". The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF".
 
-A logic gate is a single input - output device, designed to carry out a specific boolean operation, mapped to two voltage levels. Over time, the two alternating voltage levels form a rectangular waveform and the speed of switching between the two levels is perceived as pitch. The ratio between the on-and-off states is 1:1, a 50% duty cycle. Further circuitry is needed to alter the ratio, which causes different spectra.
+A logic gate is a single input - output device, designed to carry out a specific boolean operation, mapped to two voltage levels. Over time, the two alternating voltage levels form a rectangular waveform and the speed of switching between the two levels is perceived as pitch. The ratio between the on-and-off states is 1:1, a 50% duty cycle. Further circuitry is needed to alter this ratio, which alters the audio spectrum of the square wave.
 
 
 
@@ -115,7 +115,7 @@ Truth table
 
 The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 output. 
 
-It acts as a square wave oscillator when the inputs are connected to form an inverter. The last two rows of the truth table indicate that one input has to be set to a logical high in order to get an inversion. When the second input is wired as the CD40106, the CD4093 also generates square waves. Bringing the first one down to a logical low, inhibits oscillations. A break out section allows for logic control of the first input of each NAND gate. Therefore, gating the output can be achieved by controlling the first input with another digital signal, square wave or a simple switch.
+It acts as a square wave oscillator when the inputs are connected to form an inverter. The last two rows of the truth table indicate that one input has to be set to a logical high in order to attain inversion. When the second input is wired like the CD40106, the CD4093 generates square waves too. Bringing the first one down to a logical low, inhibits oscillations. A break out section allows for logic control of the first input of each NAND gate. Therefore, gating the output can be achieved by controlling the first input with another digital signal, square wave or a simple switch.
 
 *Applications:*
 * gated oscillator
@@ -141,7 +141,7 @@ Truth table for NAND
 
 ## CD4022
 
-CD4022 IC implements a binary counter/divider function. The positive edge of an incoming square wave, usually referred to as clock signal, triggers successively the outputs. Carry out is outputting one cycle over 8 clock pulses.
+CD4022 IC implements a binary counter/divider function. The positive edge of an incoming square wave, usually referred to as "clock signal", triggers successively the outputs. "Carry out" is outputting one cycle over 8 clock pulses.
 
 *Applications:*
 * counter
@@ -158,9 +158,9 @@ CD4022 IC implements a binary counter/divider function. The positive edge of an 
 
 ## CD4040
 
-This IC performs frequency division. If a square wave is applied to the input, each output creates square waves at half the frequency of its preceeding output, at which the first output Q1 applies its division to the input signal and oscillates at a rate at on half, Q2 at one quarter, Q3 at one eighth Q4 at one sixteenth and so on.
+This IC performs frequency division. If a square wave is applied to the input, each output creates square waves at half the frequency of its preceeding output, at which the first output Q1 applies its division to the input signal and oscillates at a rate at one half, Q2 at one quarter, Q3 at one eighth Q4 at one sixteenth and so on.
 
-Control input reset triggers all output stages to . For continuously frequency division it should be kept at logical low.
+Control input "reset" triggers all output stages to "low". For continuously frequency division it should be kept at a logical low.
 
 *Applications:*
 * subharmonic oscillator
@@ -217,7 +217,7 @@ Truth table
 
 There are several ways of mixing signals together. Passive mixing is a very simple method that can be accomplished by using diodes or resistors for each source. 
 To avoid interaction between the signals and to obtain individual gain control, active mixing using an operational amplifier is preferred.
-An op amp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. The basic wiring is shown below. Besides it function as a mixer with gain control over every individual input by adding voltage dividers, it can also be used to achieve a desired output gain by modifying the the feedback resistor R<sub>F</sub> in relation to the input resistors R<sub>IN</sub> of each input. The minus sign in the formula indicates its inversed voltage level. To undo inversion, a second stage following the shown circuit can be used.
+An op amp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. The basic wiring is shown below. Besides it function as a mixer with gain control over every individual input by adding voltage dividers, it can also be used to achieve a desired output gain by modifying the the feedback resistor R<sub>F</sub> in relation to the input resistors R<sub>IN</sub> of each input. The minus sign in the formula indicates that the output voltage is inversed. To undo inversion, a second stage following the shown circuit can be used.
 
 *Applications:*
 * signal mixing
@@ -275,7 +275,11 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 34|Potentiometer|9mm|1MΩ|PTV09A-4020F-B105|[652-PTV09A4020FB105](https://www.mouser.de/ProductDetail/Bourns/PTV09A-4020F-B105?qs=%252B9%2Fcbd0IE0TagBKq%252BGRbqw%3D%3D "Potentiometers 1M 20% 9MM CARBON POT")
 35|Diode|DO-35	||1N4148|[512-1N4148](https://www.mouser.de/ProductDetail/ON-Semiconductor-Fairchild/1N4148?qs=i4Fj9T%2FoRm8RMUhj5DeFQg%3D%3D "Dioden (Allzweck, Leistung, Schaltung) 100V Io/200mA BULK")
  
- 
+## Requirements
+
+* good light
+* small mixing desk
+* Loudspeaker
 
 
 ## Authors
