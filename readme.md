@@ -277,9 +277,23 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
  
 ## Requirements
 
-* good light
-* small mixing desk
-* Loudspeaker
+The workshop requires some tools and materials
+
+* Good light.
+* Small mixing desk.
+* Loudspeaker.
+* Worktables.
+* Screw drivers.
+* ESD electronic diagonal cutter.
+* Precision cutter.
+* Stranded wires.
+* Laboratory power supply + connectors (preferable 4mm banana laboratory connectors).
+* Jumper cables and jumper wires.
+* Digital multimeter (DVM).
+* Digital storage oscilloscope (DSO).
+* Temperature-controlled soldering station.
+* Breadboards.
+
 
 
 ## Authors
