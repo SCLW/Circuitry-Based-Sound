@@ -52,7 +52,7 @@ The motivation behind this project is to offer a set of PCBs to evaluate logic I
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg">
 
 
-Furthermore, the project includes a mounting system to assemble the modules individually on a console, intended for musical performance. The surface has mounting holes for the experimenter boards. Jumper cables can be used as patch cords to connect control signals or to tap audio signals.
+Furthermore, the project includes laser-cutting files for a console on which the modules can be assembled. [...] intended for musical performance. The frame's surface has mounting holes for the experimenter boards. Jumper cables can be used as patch cords to connect control signals or to tap audio signals.
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg">
 
