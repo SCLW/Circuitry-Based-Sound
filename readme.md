@@ -31,7 +31,7 @@ It shows a square wave sound generator that can be built with only three compone
 * capacitor C
 * resistor R
 
-An inverting Schmitt trigger is an active electronic component whose output state can be triggered complementarily through an input signal, whereas the positive trigger threshold differs from the negative. Feeding back the output voltage to its input and tying the input via a capacitor to ground creates a relaxation oscillator or astable multivibrator.
+An inverting Schmitt trigger is an active electronic component whose output state can be triggered complementarily through an input signal, while the positive trigger threshold differs from the negative. Feeding back the output voltage to its input and tying the input via a capacitor to ground creates a relaxation oscillator or astable multivibrator.
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/ST_inv.gif">
 
