@@ -107,9 +107,7 @@ Truth table
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_Board.jpg>
 
-
-
-<div class="pull-left">[CD40106 Data Sheet](https://www.ti.com/lit/ds/symlink/cd40106b.pdf?ts=1599062729936&ref_url=https%253A%252F%252Fwww.google.com%252F "CD40106")
+<div class="pull-right">[CD40106 Data Sheet](https://www.ti.com/lit/ds/symlink/cd40106b.pdf?ts=1599062729936&ref_url=https%253A%252F%252Fwww.google.com%252F "CD40106")
 
 ## CD4093
 
