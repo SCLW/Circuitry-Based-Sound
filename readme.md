@@ -297,7 +297,7 @@ Some helpful tools and useful materials:
 * Digital storage oscilloscope (DSO).
 * Temperature-controlled soldering station.
 * Breadboards.
-* Good light situation.
+* Good light conditions.
 
 
 ## Authors
