@@ -291,7 +291,7 @@ Some helpful tools and useful materials:
 * ESD electronic diagonal cutter.
 * Precision cutter.
 * Stranded wires.
-* Laboratory power supply + connectors (preferable 4mm banana laboratory connectors).
+* Laboratory power supply & connectors (preferable 4mm banana laboratory connectors).
 * Jumper cables and jumper wires.
 * Digital multimeter (DVM).
 * Digital storage oscilloscope (DSO).
