@@ -232,8 +232,8 @@ An op amp is another class of active electronic component. Its purpose and funct
 
 ## Bill of Material
 
-In the following are examples of parts and values, that can be used for this project.
-All parts can be substituted with alternative components and same packages or foot prints.
+Below are examples of parts that can be used for this project.
+All parts can be substituted with alternative components and equivalent foot prints.
 
 
 
@@ -280,13 +280,14 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
  
 ## Requirements
 
-The workshop requires some tools and materials
+Some helpful tools and useful materials:
 
-* Good light.
+
 * Small mixing desk.
-* Loudspeaker.
+* Active loudspeakers.
 * Worktables.
 * Screw drivers.
+* Metric screw assortment (M3, ~12mm) and nuts.
 * ESD electronic diagonal cutter.
 * Precision cutter.
 * Stranded wires.
@@ -296,7 +297,7 @@ The workshop requires some tools and materials
 * Digital storage oscilloscope (DSO).
 * Temperature-controlled soldering station.
 * Breadboards.
-
+* Good light situation.
 
 
 ## Authors
