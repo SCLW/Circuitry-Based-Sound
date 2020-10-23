@@ -216,37 +216,37 @@ All parts can be substituted with alternative components and equivalent foot pri
 
 No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
  --- | --- | --- | --- |--- | --- 
-1|Logic Gates CMOS Quad 2-In|DIP-14||CD4001BE|[595-CD4001BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4001BE?qs=Tv815z3GeNSKspfG7F34rg%3D%3D "CD4001")||
-2|Specialty Function Logic Dual Comp Pair Plus|DIP-14||CD4007UBE|[595-CD4007UBE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4007UBE?qs=LfG3tU9ud8BdeBYIAnqsKQ%3D%3D "CD4007")||
-3|Inverters Hex Inverter Buffer|DIP-16||CD4009UBE|[595-CD4009UBE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4009UBE?qs=VolsR0DjNPrED2AO%2FOVdHw%3D%3D "CD4009")||
+1|Logic Gates CMOS Quad 2-In|DIP-14||CD4001BE|[595-CD4001BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4001BE?qs=Tv815z3GeNSKspfG7F34rg%3D%3D "CD4001")||
+2|Specialty Function Logic Dual Comp Pair Plus|DIP-14||CD4007UBE|[595-CD4007UBE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4007UBE?qs=LfG3tU9ud8BdeBYIAnqsKQ%3D%3D "CD4007")||
+3|Inverters Hex Inverter Buffer|DIP-16||CD4009UBE|[595-CD4009UBE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4009UBE?qs=VolsR0DjNPrED2AO%2FOVdHw%3D%3D "CD4009")||
 4|Inverter Hex Schmitt Trigger|DIP-14||CD40106BE|[595-CD40106BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD40106BE?qs=YhsVCygOPE1CyKyInx%252Bh3Q%3D%3D&gclid=EAIaIQobChMIgtOchp_K6wIVBt-yCh0zXgXAEAAYASAAEgIDAPD_BwE/ "CD40106BE")||
-5|Logic Gates Quad 2-Input|DIP-14||CD4011BE|[595-CD4011BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4011BE?qs=st7IWvlL5%2FgbunuzXw39Lg%3D%3D "CD4011")||
-6|Flip-Flops Dual CMOS|DIP-14||CD4013BE|[595-CD4013BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4013BE?qs=pt%2FIv5r0EPc2Chv9B9JKAA%3D%3D "CD4013")||
-7|Counter Shift Registers Dual 4-Stage Static|DIP-16||CD4015BE|[595-CD4015BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4015BE?qs=j01uVdFEFjH4vzjiL7DJWw%3D%3D "CD4015")||
+5|Logic Gates Quad 2-Input|DIP-14||CD4011BE|[595-CD4011BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4011BE?qs=st7IWvlL5%2FgbunuzXw39Lg%3D%3D "CD4011")||
+6|Flip-Flops Dual CMOS|DIP-14||CD4013BE|[595-CD4013BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4013BE?qs=pt%2FIv5r0EPc2Chv9B9JKAA%3D%3D "CD4013")||
+7|Counter Shift Registers Dual 4-Stage Static|DIP-16||CD4015BE|[595-CD4015BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4015BE?qs=j01uVdFEFjH4vzjiL7DJWw%3D%3D "CD4015")||
 8|Counter IC 10 Decade/Divider|DIP-16||CD4017BE|[595-CD4017BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4017BE?qs=IF4wzcbwb3rdXSZhHlgcJw%3D%3D "CD4017")||
-9|Counter ICs CMOS Presettable Bin UP/Down Counter|	PDIP-16||CD40193BE|[595-CD40193BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD40193BE?qs=D5pVkbrsqqK9UQwfGopiNQ%3D%3D "CD40193")||
+9|Counter ICs CMOS Presettable Bin UP/Down Counter|	PDIP-16||CD40193BE|[595-CD40193BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD40193BE?qs=D5pVkbrsqqK9UQwfGopiNQ%3D%3D "CD40193")||
 10|Counter IC CMOS Octal Counter|DIP-16||CD4022BE|[595-CD4022BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4022BE?qs=LU5rZWrBGo2Wnh%252BM60ZqEA%3D%3D "CD4022")||
-11|Counter ICs 7-Bit Ripple-Carry|DIP-14||CD4024BE|[595-CD4024BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4024BE?qs=j%2FZo4ajzVJJKX%2F7efvSm1w%3D%3D "CD4024")||
-12|Flip-Flops Dual Master/Slave|DIP-16||CD4027BE|[595-CD4027BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4027BE?qs=nMmhAzRCgdBAU0RPgOaejQ%3D%3D "CD4027")||
-13|Counter ICs Preset UpDn Binary|DIP-16||CD4029BE|[595-CD4029BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4029BE?qs=q2XTDbzbm6C3NEJn1CP1SA%3D%3D "CD4020")||
-14|Logic Gates Quad Exclusive|DIP-14||CD4030BE|[595-CD4030BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4030BE?qs=JHHQeKcAU3C7Kmjg3SCYVA%3D%3D "CD4030")||
+11|Counter ICs 7-Bit Ripple-Carry|DIP-14||CD4024BE|[595-CD4024BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4024BE?qs=j%2FZo4ajzVJJKX%2F7efvSm1w%3D%3D "CD4024")||
+12|Flip-Flops Dual Master/Slave|DIP-16||CD4027BE|[595-CD4027BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4027BE?qs=nMmhAzRCgdBAU0RPgOaejQ%3D%3D "CD4027")||
+13|Counter ICs Preset UpDn Binary|DIP-16||CD4029BE|[595-CD4029BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4029BE?qs=q2XTDbzbm6C3NEJn1CP1SA%3D%3D "CD4020")||
+14|Logic Gates Quad Exclusive|DIP-14||CD4030BE|[595-CD4030BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4030BE?qs=JHHQeKcAU3C7Kmjg3SCYVA%3D%3D "CD4030")||
 15|Counter ICs 12 STAGE BINARY CNTR|DIP-16||CD4040BE|[595-CD4040BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4040BE?qs=L4Mc90zKIpgVInmXWEixLQ%3D%3D "CD4040")||
 16|Phase Locked Loop|DIP-16||CD4046BE|[595-CD4046BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4046BE?qs=fvkeCqCHl3AX2sxIYB2bdg%3D%3D "CD4046")||
 17|Multiplexer Switch ICs 8-Channel Analog|DIP-16||CD4051BE|[595-CD4051BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4051BE?qs=q2XTDbzbm6DxulBsMcV7tA%3D%3D "CD4051")||
-18|Multiplexer Switch ICs 4-Ch. Analog|DIP-16||CD4052BE|[595-CD4052BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4052BE?qs=Tv815z3GeNSSxm5loQgO7w%3D%3D "CD4052")||
-19|Counter ICs 14-Bit Ripple|DIP-16||CD4060BE|[595-CD4060BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4060BE?qs=5BZzbFV4k2vIRvFJ20ZWwg%3D%3D "CD4060")||
-20|Analogue Switch ICs Quad|DIP-14||CD4066BE|[595-CD4066BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4066BE?qs=mTHRaKC2c7ObpofRtjqLig%3D%3D "CD4066")||
-21|Logic Gates 8-Input NAND/AND|DIP-14||CD4068BE|[595-CD4068BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4068BE?qs=FM6NhYOeeBUbd80VDCMlFg%3D%3D "CD4068")||
-22|Logic Gates Quad 2-Input|DIP-14||CD4071BE|[595-CD4071BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4071BE?qs=D5pVkbrsqqJag2QszZHFMA%3D%3D "CD4071")||
-23|Logic Gates Quad 2-Input|DIP-14||CD4081BE|[595-CD4081BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4081BE?qs=dQbkqP7qjaZ0jSz5I7zHYA%3D%3D "CD4081")||
+18|Multiplexer Switch ICs 4-Ch. Analog|DIP-16||CD4052BE|[595-CD4052BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4052BE?qs=Tv815z3GeNSSxm5loQgO7w%3D%3D "CD4052")||
+19|Counter ICs 14-Bit Ripple|DIP-16||CD4060BE|[595-CD4060BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4060BE?qs=5BZzbFV4k2vIRvFJ20ZWwg%3D%3D "CD4060")||
+20|Analogue Switch ICs Quad|DIP-14||CD4066BE|[595-CD4066BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4066BE?qs=mTHRaKC2c7ObpofRtjqLig%3D%3D "CD4066")||
+21|Logic Gates 8-Input NAND/AND|DIP-14||CD4068BE|[595-CD4068BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4068BE?qs=FM6NhYOeeBUbd80VDCMlFg%3D%3D "CD4068")||
+22|Logic Gates Quad 2-Input|DIP-14||CD4071BE|[595-CD4071BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4071BE?qs=D5pVkbrsqqJag2QszZHFMA%3D%3D "CD4071")||
+23|Logic Gates Quad 2-Input|DIP-14||CD4081BE|[595-CD4081BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4081BE?qs=dQbkqP7qjaZ0jSz5I7zHYA%3D%3D "CD4081")||
 24|NAND Logic Gates Schmitt Trigger|DIP-14||CD4093BE|[595-CD4093BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4093BE?qs=X1HXWTtiZ0QxcrKuDdZ5rg%3D%3D "CD4093")||
 25|Dual Op Amp|DIP-8||TL072IP|[595-TL072IP](https://www.mouser.de/ProductDetail/Texas-Instruments/TL072IP?qs=5BZzbFV4k2v7IBrcArRPQw%3D%3D "TL072")||
-26|TL074|DIP-14||TL074CN|[595-TL074CN] (https://www.mouser.de/ProductDetail/Texas-Instruments/TL074CN?qs=AMJt07B76uv7dLYnj7iLiQ%3D%3D "TL074")||
-27|Operational Amplifiers - Op Amps Quad|DIP-14||LM324N|[595-LM324N] (https://www.mouser.de/ProductDetail/Texas-Instruments/LM324N?qs=VolsR0DjNPqtt3qB38bTqw%3D%3D "LM324")||
+26|TL074|DIP-14||TL074CN|[595-TL074CN](https://www.mouser.de/ProductDetail/Texas-Instruments/TL074CN?qs=AMJt07B76uv7dLYnj7iLiQ%3D%3D "TL074")||
+27|Operational Amplifiers - Op Amps Quad|DIP-14||LM324N|[595-LM324N](https://www.mouser.de/ProductDetail/Texas-Instruments/LM324N?qs=VolsR0DjNPqtt3qB38bTqw%3D%3D "LM324")||
 28|Dual Op Amp|DIP-8||LM358P|[595-LM358P](https://www.mouser.de/ProductDetail/Texas-Instruments/LM358P?qs=X1HXWTtiZ0QtOTT8%252BVnsyw%3D%3D "LM358")||
-29|Timers & Support Products Precision|DIP-8||NE555P|[595-NE555P] (https://www.mouser.de/ProductDetail/Texas-Instruments/NE555P?qs=rkhjVJ6%2F3EIf4CWgjIKuKQ%3D%3D "NE555")||
-30|Bipolar Transistors - BJT NPN|TO-92||BC547CTA|[512-BC547BTA] (https://www.mouser.de/ProductDetail/ON-Semiconductor-Fairchild/BC547BTA?qs=TABiY4F6Vcf01oKZdNLa0w%3D%3D "BC547")||
-31|Bipolar Transistors - BJT PNP|TO-92||BC557BTA|[512-BC557BTA] (https://www.mouser.de/ProductDetail/ON-Semiconductor-Fairchild/BC557BTA?qs=Lnpu0ExxCB4xDNL%2Fw990%2FQ%3D%3D "BC557")||
+29|Timers & Support Products Precision|DIP-8||NE555P|[595-NE555P](https://www.mouser.de/ProductDetail/Texas-Instruments/NE555P?qs=rkhjVJ6%2F3EIf4CWgjIKuKQ%3D%3D "NE555")||
+30|Bipolar Transistors - BJT NPN|TO-92||BC547CTA|[512-BC547BTA](https://www.mouser.de/ProductDetail/ON-Semiconductor-Fairchild/BC547BTA?qs=TABiY4F6Vcf01oKZdNLa0w%3D%3D "BC547")||
+31|Bipolar Transistors - BJT PNP|TO-92||BC557BTA|[512-BC557BTA](https://www.mouser.de/ProductDetail/ON-Semiconductor-Fairchild/BC557BTA?qs=Lnpu0ExxCB4xDNL%2Fw990%2FQ%3D%3D "BC557")||
 32|3mm LED||Blue|151033BS03000|[710-151033BS03000](https://www.mouser.de/ProductDetail/Wurth-Elektronik/151033BS03000?qs=2kOmHSv6VfSefdpzrMLWSw%3D%3D "Standard LEDs - Through Hole WL-TMRW THT Mono Waterclr Rnd 3mmBlue")||
 33|Diode|DO-35	||1N4148|[512-1N4148](https://www.mouser.de/ProductDetail/ON-Semiconductor-Fairchild/1N4148?qs=i4Fj9T%2FoRm8RMUhj5DeFQg%3D%3D "Dioden (Allzweck, Leistung, Schaltung) 100V Io/200mA BULK")||
 34|3mm LEDs||Assorted Values|COM-12062|[474-COM-12062](https://www.mouser.de/ProductDetail/SparkFun/COM-12062?qs=WyAARYrbSnZzv4I0CztaEg%3D%3D "SparkFun Accessories LED - Assorted (20 pack)")||
@@ -266,8 +266,8 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 48|Force Sensitive Resistor|||1075|[485-1075](https://www.mouser.de/ProductDetail/Adafruit/1075?qs=GURawfaeGuDaOmXus2Zwlg%3D%3D "Force Sensitive Resistor")||
 49|Flex Sensor|55.37 mm ||FS-L-0055-253-ST|[744-FS-L-0055-253-ST](https://www.mouser.de/ProductDetail/Spectra-Symbol/FS-L-0055-253-ST?qs=avFSO%252B7Rp3iBf0lmBypxdg%3D%3D "Industrial Motion & Position Sensors Flex Sensor 55.37mm Linear")||
 50|Force Sensors|||FSR06BE|[588-FSR06BE](https://www.mouser.de/ProductDetail/Ohmite/FSR06BE?qs=0lSvoLzn4L%252BLr%252BqMretnhw%3D%3D "Force Sensors & Load Cells 14.7mm Round Solder Tab")||
-51|Position Sensors SoftPot|500mm|20kŒ©|SP-L-0500-203-3%-ST|[744-SP-L-0500-2033ST] (https://www.mouser.de/ProductDetail/spectra-symbol/sp-l-0500-203-3-st/?qs=rVuZtzXoae5%2FClXxQbhQtw==&countrycode=DE&currencycode=EUR "SoftPot")||
-52|Position Sensors SoftPot Low Form-Factor|50mm|10kŒ©|SP-L-0050-103-1%-ST|[744-SPL00501031%ST] (https://www.mouser.de/ProductDetail/spectra-symbol/sp-l-0050-103-1-st/?qs=rVuZtzXoae5IELdwVMEdkA==&countrycode=DE&currencycode=EUR "SoftPot")||
+51|Position Sensors SoftPot|500mm|20kŒ©|SP-L-0500-203-3%-ST|[744-SP-L-0500-2033ST](https://www.mouser.de/ProductDetail/spectra-symbol/sp-l-0500-203-3-st/?qs=rVuZtzXoae5%2FClXxQbhQtw==&countrycode=DE&currencycode=EUR "SoftPot")||
+52|Position Sensors SoftPot Low Form-Factor|50mm|10kŒ©|SP-L-0050-103-1%-ST|[744-SPL00501031%ST](https://www.mouser.de/ProductDetail/spectra-symbol/sp-l-0050-103-1-st/?qs=rVuZtzXoae5IELdwVMEdkA==&countrycode=DE&currencycode=EUR "SoftPot")||
 53|Push Button|5,9mm|OFF - (ON)|1-1825910-4|[506-1-1825910-4](https://www.mouser.de/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D "Tactile Switches 6MM ACTHIGH TEMP TACT SWITCH")||
 54|Pin Header|1 x 36 2.54mm ||68797-436HLF|[649-68797-436HLF](https://www.mouser.de/ProductDetail/649-68797-436HLF "Sockel & Kabelgeh‚àö¬ßuse BREAKAWAY HEADER 36")||
 55|Pin Socket|1 x 32 2.54mm ||61303211821|[710-61303211821](https://www.mouser.de/ProductDetail/710-61303211821 "2.54mm 32Pin Socket Header")||
@@ -279,10 +279,10 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 61|Component Sockets|DIP-16||1-2199298-4|[571-1-2199298-4](https://www.mouser.de/ProductDetail/TE-Connectivity/1-2199298-4?qs=%2Fha2pyFadugJp%2F0oQpeWgVBpv3LzMBBwVqoB59rQ35Apde3oZfgpGA%3D%3D "Component Sockets 16P DIP")||
 62|Jumper Cable|15cm||MIKROE-513|[932-MIKROE-513](https://www.mouser.de/ProductDetail/932-MIKROE-513 "Jumper Cable")||
 63|Pin Header|1 x 36 2.54mm ||10129378-936002BLF|[649-1012937893602BLF](https://www.mouser.de/ProductDetail/649-1012937893602BLF "Sockel & Kabelgeh‚àö¬ßuse ECONOSTIK HEADER SR VT TH 1X36")||
-64|Piezo Buzzers & Audio Indicators||12mm|7BB-12-9|[81-7BB-12-9] (https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-12-9?qs=PSBlsCV0pRZoIir08fDstg%3D%3D "Piezo disk")||
-65|Piezo Buzzers & Audio Indicators||20mm|7BB-20-3|[81-7BB-20-3] (https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-20-3?qs=JJeuIrkYhekHouIxq0fvsw%3D%3D "Piezo disk")||
-66|Piezo Buzzers & Audio Indicators||27mm|7BB-27-4L0|[81-7BB-27-4L0] (https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-27-4L0?qs=PkW2zKsTBmE%2F8VGC6sKDJA%3D%3D "Piezo disk")||
-67|Piezo Buzzers & Audio Indicators||35mm|7BB-35-3C|[81-7BB-35-3C] (https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-35-3C?qs=gRcAz2mAxnN1kUKNPnYYbw%3D%3D "Piezo disk")||
+64|Piezo Buzzers & Audio Indicators||12mm|7BB-12-9|[81-7BB-12-9](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-12-9?qs=PSBlsCV0pRZoIir08fDstg%3D%3D "Piezo disk")||
+65|Piezo Buzzers & Audio Indicators||20mm|7BB-20-3|[81-7BB-20-3](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-20-3?qs=JJeuIrkYhekHouIxq0fvsw%3D%3D "Piezo disk")||
+66|Piezo Buzzers & Audio Indicators||27mm|7BB-27-4L0|[81-7BB-27-4L0](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-27-4L0?qs=PkW2zKsTBmE%2F8VGC6sKDJA%3D%3D "Piezo disk")||
+67|Piezo Buzzers & Audio Indicators||35mm|7BB-35-3C|[81-7BB-35-3C](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-35-3C?qs=gRcAz2mAxnN1kUKNPnYYbw%3D%3D "Piezo disk")||
 
 # Past Projects
 
