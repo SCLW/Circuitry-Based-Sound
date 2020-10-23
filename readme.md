@@ -284,7 +284,7 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 66|Piezo Buzzers & Audio Indicators||27mm|7BB-27-4L0|[81-7BB-27-4L0](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-27-4L0?qs=PkW2zKsTBmE%2F8VGC6sKDJA%3D%3D "Piezo disk")||
 67|Piezo Buzzers & Audio Indicators||35mm|7BB-35-3C|[81-7BB-35-3C](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-35-3C?qs=gRcAz2mAxnN1kUKNPnYYbw%3D%3D "Piezo disk")||
 
-# Past Projects
+# Projects
 
 
 
