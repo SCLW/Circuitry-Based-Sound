@@ -304,7 +304,7 @@ All involved files are made available online. This includes [ECAD](https://githu
 
 ## Requirements
 
-Some helpful tools and useful materials:
+Helpful tools and useful materials:
 
 
 * Small mixing desk.
@@ -338,7 +338,7 @@ Vivian Reuter
 Arno Schlipf   
 Florian Schwarz   
 Christina Vinke  
-Yunfei Zhang 
+Yunfei Zhang  
 Pei Zhou  
 
 **Lorenz Schwarz** - *lecturer* 
