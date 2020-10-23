@@ -341,8 +341,11 @@ Xingchen Liu
 Su Lu  
 Ruoyi Qiu  
 Vivian Reuter  
+Arno Schlipf   
+Florian Schwarz   
 Christina Vinke  
-Yunfei Zhang  
+Yunfei Zhang 
+Pei Zhou  
 
 **Lorenz Schwarz** - *lecturer* 
 
