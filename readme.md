@@ -326,20 +326,20 @@ Helpful tools and useful materials:
 
 ## Authors
 
-Zhen Bian 
-Hangyan Chen 
-Jeongmin Han 
-Anna Helsen 
-Jihye Jang 
-Xingchen Liu 
-Su Lu 
-Ruoyi Qiu 
-Vivian Reuter 
-Arno Schlipf  
-Florian Schwarz  
-Christina Vinke 
-Yunfei Zhang 
-Pei Zhou 
+Zhen Bian  
+Hangyan Chen  
+Jeongmin Han  
+Anna Helsen  
+Jihye Jang  
+Xingchen Liu  
+Su Lu  
+Ruoyi Qiu  
+Vivian Reuter  
+Arno Schlipf   
+Florian Schwarz   
+Christina Vinke  
+Yunfei Zhang  
+Pei Zhou  
 
 **Lorenz Schwarz** - *lecturer*
 
