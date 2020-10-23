@@ -253,21 +253,21 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 35|3mm LED||Red|LTL-4222|[859-LTL-4222](https://www.mouser.de/ProductDetail/Lite-On/LTL-4222?qs=PaUBgWdAOGEl%252Bf85PeEXqA%3D%3D "Standard LEDs - Through Hole Red Transparent")||
 36|MLCC|2.5mm |0.1¬µF|K104K15X7RF53K2|[594-K104K15X7RF53K2](https://www.mouser.de/ProductDetail/Vishay-BC-Components/K104K15X7RF53K2?qs=%2Fha2pyFadujQ%252Bv0xHOEo91Fp6rFGP5krxuyVhQ%252B1w%252BsnJ7knhvdeQDps3CPFUP6U "Multilayer Ceramic Capacitors")||
 37|Aluminum Electrolytic Capacitors|2mm |10¬µF|ECE-A1HKA100I|[667-ECE-A1HKA100I](https://www.mouser.de/ProductDetail/Panasonic/ECE-A1HKA100I?qs=rMMd5vBiahpRBI%252BQ5jocrQ%3D%3D "Aluminum Electrolytic Capacitors")||
-38|Leaded Resistors (Metal or Carbon Film)|| Assorted Values (12 Œ© - 1 MŒ©) ||||
+38|Leaded Resistors (Metal or Carbon Film)|| Assorted Values (12 Ω - 1 MΩ) ||||
 39|Leaded Capacitors (Ceramic, Film and Electrolytic)|| Assorted Values (56pF - 47¬µF)||||
-40|Potentiometer|9mm|20kŒ©|PTV09A-1015U-B203|[652-PTV09A-1015UB203](https://www.mouser.de/ProductDetail/Bourns/PTV09A-1015U-B203?qs=pxDZlBjcsCjw%252BRGNXMHqEQ%3D%3D "Potentiometers PANEL CONTROL - 9MM-ST-CARBON 20 kohms 15 mm")||
-41|Potentiometer|9mm|100kŒ©|PTV09A-4015U-B104|[652-PTV09A-4015UB104](https://www.mouser.de/ProductDetail/Bourns/PTV09A-4015U-B104?qs=pxDZlBjcsCi2tw983aFXVQ%3D%3D "Potentiometers PANEL CONTROL - 9MM-ST-CA 100 kohms 15 mm")||
-42|Potentiometer|9mm|500kŒ©|PTV09A-4015U-B504|[652-PTV09A-4015UB504](https://www.mouser.de/ProductDetail/Bourns/PTV09A-4015U-B504?qs=pxDZlBjcsCherlTtJcuegw%3D%3D "Potentiometers PANEL CONTROL - 9MM-ST-CA 500 kohms 15 mm")||
-43|Potentiometer|9mm|1MŒ©|PTV09A-4020F-B105|[652-PTV09A4020FB105](https://www.mouser.de/ProductDetail/Bourns/PTV09A-4020F-B105?qs=%252B9%2Fcbd0IE0TagBKq%252BGRbqw%3D%3D "Potentiometers 1M 20% 9MM CARBON POT")||
-44|Potentiometer|9mm|10kŒ©|PTV09A-6230F-B103|[652-PTV09A-6230FB103](https://www.mouser.de/ProductDetail/Bourns/PTV09A-6230F-B103?qs=pxDZlBjcsCg8U96haor%252BfA%3D%3D "Potentiometers PANEL CONTROL - 9MM-ST-CARBON 10 kohms 30 mm")||
-45|Potentiometer|9mm|50kŒ©|RK09D113000K|[688-RK09D113000K](https://www.mouser.de/ProductDetail/Alps-Alpine/RK09D113000K?qs=oKW7zmyQiO5%2FMNsP8zcsfA%3D%3D "Potentiometers 9MM 50K V/ADJ")||
+40|Potentiometer|9mm|20kΩ|PTV09A-1015U-B203|[652-PTV09A-1015UB203](https://www.mouser.de/ProductDetail/Bourns/PTV09A-1015U-B203?qs=pxDZlBjcsCjw%252BRGNXMHqEQ%3D%3D "Potentiometers PANEL CONTROL - 9MM-ST-CARBON 20 kohms 15 mm")||
+41|Potentiometer|9mm|100kΩ|PTV09A-4015U-B104|[652-PTV09A-4015UB104](https://www.mouser.de/ProductDetail/Bourns/PTV09A-4015U-B104?qs=pxDZlBjcsCi2tw983aFXVQ%3D%3D "Potentiometers PANEL CONTROL - 9MM-ST-CA 100 kohms 15 mm")||
+42|Potentiometer|9mm|500kΩ|PTV09A-4015U-B504|[652-PTV09A-4015UB504](https://www.mouser.de/ProductDetail/Bourns/PTV09A-4015U-B504?qs=pxDZlBjcsCherlTtJcuegw%3D%3D "Potentiometers PANEL CONTROL - 9MM-ST-CA 500 kohms 15 mm")||
+43|Potentiometer|9mm|1MΩ|PTV09A-4020F-B105|[652-PTV09A4020FB105](https://www.mouser.de/ProductDetail/Bourns/PTV09A-4020F-B105?qs=%252B9%2Fcbd0IE0TagBKq%252BGRbqw%3D%3D "Potentiometers 1M 20% 9MM CARBON POT")||
+44|Potentiometer|9mm|10kΩ|PTV09A-6230F-B103|[652-PTV09A-6230FB103](https://www.mouser.de/ProductDetail/Bourns/PTV09A-6230F-B103?qs=pxDZlBjcsCg8U96haor%252BfA%3D%3D "Potentiometers PANEL CONTROL - 9MM-ST-CARBON 10 kohms 30 mm")||
+45|Potentiometer|9mm|50kΩ|RK09D113000K|[688-RK09D113000K](https://www.mouser.de/ProductDetail/Alps-Alpine/RK09D113000K?qs=oKW7zmyQiO5%2FMNsP8zcsfA%3D%3D "Potentiometers 9MM 50K V/ADJ")||
 46|Photoresistor|||SEN-09088|[474-SEN-09088](https://www.mouser.de/ProductDetail/SparkFun/SEN-09088?qs=WyAARYrbSnbNBfpKra%2FIvQ%3D%3D "Photoresistor")||
 47|Photoresistor|||161|[485-161](https://www.mouser.de/ProductDetail/Adafruit/161?qs=GURawfaeGuDpQ5XPTNqKUw%3D%3D "Photoresistor")||
 48|Force Sensitive Resistor|||1075|[485-1075](https://www.mouser.de/ProductDetail/Adafruit/1075?qs=GURawfaeGuDaOmXus2Zwlg%3D%3D "Force Sensitive Resistor")||
 49|Flex Sensor|55.37 mm ||FS-L-0055-253-ST|[744-FS-L-0055-253-ST](https://www.mouser.de/ProductDetail/Spectra-Symbol/FS-L-0055-253-ST?qs=avFSO%252B7Rp3iBf0lmBypxdg%3D%3D "Industrial Motion & Position Sensors Flex Sensor 55.37mm Linear")||
 50|Force Sensors|||FSR06BE|[588-FSR06BE](https://www.mouser.de/ProductDetail/Ohmite/FSR06BE?qs=0lSvoLzn4L%252BLr%252BqMretnhw%3D%3D "Force Sensors & Load Cells 14.7mm Round Solder Tab")||
-51|Position Sensors SoftPot|500mm|20kŒ©|SP-L-0500-203-3%-ST|[744-SP-L-0500-2033ST](https://www.mouser.de/ProductDetail/spectra-symbol/sp-l-0500-203-3-st/?qs=rVuZtzXoae5%2FClXxQbhQtw==&countrycode=DE&currencycode=EUR "SoftPot")||
-52|Position Sensors SoftPot Low Form-Factor|50mm|10kŒ©|SP-L-0050-103-1%-ST|[744-SPL00501031%ST](https://www.mouser.de/ProductDetail/spectra-symbol/sp-l-0050-103-1-st/?qs=rVuZtzXoae5IELdwVMEdkA==&countrycode=DE&currencycode=EUR "SoftPot")||
+51|Position Sensors SoftPot|500mm|20kΩ|SP-L-0500-203-3%-ST|[744-SP-L-0500-2033ST](https://www.mouser.de/ProductDetail/spectra-symbol/sp-l-0500-203-3-st/?qs=rVuZtzXoae5%2FClXxQbhQtw==&countrycode=DE&currencycode=EUR "SoftPot")||
+52|Position Sensors SoftPot Low Form-Factor|50mm|10kΩ|SP-L-0050-103-1%-ST|[744-SPL00501031%ST](https://www.mouser.de/ProductDetail/spectra-symbol/sp-l-0050-103-1-st/?qs=rVuZtzXoae5IELdwVMEdkA==&countrycode=DE&currencycode=EUR "SoftPot")||
 53|Push Button|5,9mm|OFF - (ON)|1-1825910-4|[506-1-1825910-4](https://www.mouser.de/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D "Tactile Switches 6MM ACTHIGH TEMP TACT SWITCH")||
 54|Pin Header|1 x 36 2.54mm ||68797-436HLF|[649-68797-436HLF](https://www.mouser.de/ProductDetail/649-68797-436HLF "Headers & Wire Housings BREAKAWAY HEADER 36")||
 55|Pin Socket|1 x 32 2.54mm ||61303211821|[710-61303211821](https://www.mouser.de/ProductDetail/710-61303211821 "Headers & Wire Housings WR-PHD 2.54mm 32Pin Socket Header")||
@@ -279,10 +279,10 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 61|Component Sockets|DIP-16||1-2199298-4|[571-1-2199298-4](https://www.mouser.de/ProductDetail/TE-Connectivity/1-2199298-4?qs=%2Fha2pyFadugJp%2F0oQpeWgVBpv3LzMBBwVqoB59rQ35Apde3oZfgpGA%3D%3D "Component Sockets 16P DIP")||
 62|Jumper Cable|15cm||MIKROE-513|[932-MIKROE-513](https://www.mouser.de/ProductDetail/932-MIKROE-513 "Jumper Cable")||
 63|Pin Header|1 x 36 2.54mm ||10129378-936002BLF|[649-1012937893602BLF](https://www.mouser.de/ProductDetail/649-1012937893602BLF "Headers & Wire Housings ECONOSTIK HEADER SR VT TH 1X36")||
-64|Piezo Buzzers & Audio Indicators||12mm|7BB-12-9|[81-7BB-12-9](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-12-9?qs=PSBlsCV0pRZoIir08fDstg%3D%3D "Piezo disk")||
-65|Piezo Buzzers & Audio Indicators||20mm|7BB-20-3|[81-7BB-20-3](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-20-3?qs=JJeuIrkYhekHouIxq0fvsw%3D%3D "Piezo disk")||
-66|Piezo Buzzers & Audio Indicators||27mm|7BB-27-4L0|[81-7BB-27-4L0](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-27-4L0?qs=PkW2zKsTBmE%2F8VGC6sKDJA%3D%3D "Piezo disk")||
-67|Piezo Buzzers & Audio Indicators||35mm|7BB-35-3C|[81-7BB-35-3C](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-35-3C?qs=gRcAz2mAxnN1kUKNPnYYbw%3D%3D "Piezo disk")||
+64|Piezo Buzzers & Audio Indicators|12mm||7BB-12-9|[81-7BB-12-9](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-12-9?qs=PSBlsCV0pRZoIir08fDstg%3D%3D "Piezo disk")||
+65|Piezo Buzzers & Audio Indicators|20mm||7BB-20-3|[81-7BB-20-3](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-20-3?qs=JJeuIrkYhekHouIxq0fvsw%3D%3D "Piezo disk")||
+66|Piezo Buzzers & Audio Indicators|27mm||7BB-27-4L0|[81-7BB-27-4L0](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-27-4L0?qs=PkW2zKsTBmE%2F8VGC6sKDJA%3D%3D "Piezo disk")||
+67|Piezo Buzzers & Audio Indicators|35mm||7BB-35-3C|[81-7BB-35-3C](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-35-3C?qs=gRcAz2mAxnN1kUKNPnYYbw%3D%3D "Piezo disk")||
 
 # Projects
 
