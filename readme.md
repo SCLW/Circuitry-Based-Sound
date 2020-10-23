@@ -25,7 +25,7 @@ The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to p
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Basic_Oscillator_CD40106.jpg">
 
-It shows a square wave sound generator that can be built with only three components:  
+It shows a square wave sound generator that can be built with only three components: 
 * inverting Schmitt trigger IC, e.g. CD40106
 * capacitor C
 * resistor R
@@ -41,7 +41,7 @@ f=0,72/RC
 However, manufacturing tolerances of all involved parts make it difficult to achieve exact results based on the formula. Since the field of application is artistic sound production, circuits should be evaluated by ear. But the formula shows that bigger RC values produce lower frequencies and vice versa.
 
 
-The frequency is determined through the capacitor C and the resistor R. Therefore, a potentiometer instead of the latter enables pitch control. Other ways of controlling the frequency may be inserting photoresistors, force-sensitive resistors (FSR) or flex sensors. Adding circuit points to alter the sound through interaction allows building customized and versatile instruments. 
+The frequency is determined through the capacitor C and the resistor R. Therefore, a potentiometer instead of the latter enables pitch control. Other ways of controlling the frequency may be inserting photoresistors, force-sensitive resistors (FSR) or flex sensors. Adding circuit points to alter the sound through interaction allows building customized and versatile instruments.
 
 
 
@@ -49,7 +49,7 @@ The frequency is determined through the capacitor C and the resistor R. Therefor
 ### Logic Control
 
 
-Some basic information about digital electronics may act as a short introduction. 
+Some basic information about digital electronics may act as a short introduction.
 
 In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit. For example signal ground in a given circuit can represent "0" while the positive voltage rail can represent "1". The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF".
 
@@ -76,7 +76,7 @@ Truth table
 |0|1|
 |1|0|
 
-"1" = High Level  
+"1" = High Level 
 "0" = Low Level
 
 
@@ -86,7 +86,7 @@ Truth table
 
 ## CD4093
 
-The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 output. 
+The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 output.
 
 It acts as a square wave oscillator when the inputs are connected to form an inverter. The last two rows of the truth table indicate that one input has to be set to a logical high in order to attain inversion. When the second input is wired like the CD40106, the CD4093 generates square waves too. Bringing the first one down to a logical low, inhibits oscillations. A break out section allows for logic control of the first input of each NAND gate. Therefore, gating the output can be achieved by controlling the first input with another digital signal, square wave or a simple switch.
 
@@ -130,7 +130,7 @@ CD4022 IC implements a binary counter/divider function. The positive edge of an 
 
 ## CD4040
 
-This IC performs frequency division. If a square wave is applied to the input, each output creates square waves at half the frequency of its preceeding output, at which the first output Q1 applies its division to the input signal and oscillates at a rate at one half, Q2 at one quarter, Q3 at one eighth Q4 at one sixteenth and so on.
+This IC performs frequency division. If a square wave is applied to the input, each output creates square waves at half the frequency of its preceding output, at which the first output Q1 applies its division to the input signal and oscillates at a rate at one half, Q2 at one quarter, Q3 at one eighth Q4 at one sixteenth and so on.
 
 Control input "reset" triggers all output stages to "low". For continuously frequency division it should be kept at a logical low.
 
@@ -140,7 +140,7 @@ Control input "reset" triggers all output stages to "low". For continuously freq
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
 
 
-Each output producing one octave lower than its previous output, respectivly input.
+Each output producing one octave lower than its previous output, respectively input.
 
 [CD4040 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4040b.pdf?ts=1600261370155&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4040B "CD4040")
 
@@ -187,7 +187,7 @@ Truth table
 
 ## Mixer
 
-There are several ways of mixing signals together. Passive mixing is a very simple method that can be accomplished by using diodes or resistors for each source. 
+There are several ways of mixing signals together. Passive mixing is a very simple method that can be accomplished by using diodes or resistors for each source.
 To avoid interaction between the signals and to obtain individual gain control, active mixing using an operational amplifier is preferred.
 An op amp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. The basic wiring is shown below. Besides it function as a mixer with gain control over every individual input by adding voltage dividers, it can also be used to achieve a desired output gain by modifying the the feedback resistor R<sub>F</sub> in relation to the input resistors R<sub>IN</sub> of each input. The minus sign in the formula indicates that the output voltage is inversed. To undo inversion, a second stage following the shown circuit can be used.
 
@@ -209,7 +209,7 @@ All parts can be substituted with alternative components and equivalent foot pri
 
 
 No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
- --- | --- | --- | --- |--- | --- 
+ --- | --- | --- | --- |--- | ---
 1|Logic Gates CMOS Quad 2-In|DIP-14||CD4001BE|[595-CD4001BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4001BE?qs=Tv815z3GeNSKspfG7F34rg%3D%3D "CD4001")||
 2|Specialty Function Logic Dual Comp Pair Plus|DIP-14||CD4007UBE|[595-CD4007UBE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4007UBE?qs=LfG3tU9ud8BdeBYIAnqsKQ%3D%3D "CD4007")||
 3|Inverters Hex Inverter Buffer|DIP-16||CD4009UBE|[595-CD4009UBE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4009UBE?qs=VolsR0DjNPrED2AO%2FOVdHw%3D%3D "CD4009")||
@@ -218,7 +218,7 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 6|Flip-Flops Dual CMOS|DIP-14||CD4013BE|[595-CD4013BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4013BE?qs=pt%2FIv5r0EPc2Chv9B9JKAA%3D%3D "CD4013")||
 7|Counter Shift Registers Dual 4-Stage Static|DIP-16||CD4015BE|[595-CD4015BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4015BE?qs=j01uVdFEFjH4vzjiL7DJWw%3D%3D "CD4015")||
 8|Counter IC 10 Decade/Divider|DIP-16||CD4017BE|[595-CD4017BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4017BE?qs=IF4wzcbwb3rdXSZhHlgcJw%3D%3D "CD4017")||
-9|Counter ICs CMOS Presettable Bin UP/Down Counter|	PDIP-16||CD40193BE|[595-CD40193BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD40193BE?qs=D5pVkbrsqqK9UQwfGopiNQ%3D%3D "CD40193")||
+9|Counter ICs CMOS Presettable Bin UP/Down Counter|    PDIP-16||CD40193BE|[595-CD40193BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD40193BE?qs=D5pVkbrsqqK9UQwfGopiNQ%3D%3D "CD40193")||
 10|Counter IC CMOS Octal Counter|DIP-16||CD4022BE|[595-CD4022BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4022BE?qs=LU5rZWrBGo2Wnh%252BM60ZqEA%3D%3D "CD4022")||
 11|Counter ICs 7-Bit Ripple-Carry|DIP-14||CD4024BE|[595-CD4024BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4024BE?qs=j%2FZo4ajzVJJKX%2F7efvSm1w%3D%3D "CD4024")||
 12|Flip-Flops Dual Master/Slave|DIP-16||CD4027BE|[595-CD4027BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4027BE?qs=nMmhAzRCgdBAU0RPgOaejQ%3D%3D "CD4027")||
@@ -242,7 +242,7 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 30|Bipolar Transistors - BJT NPN|TO-92||BC547CTA|[512-BC547BTA](https://www.mouser.de/ProductDetail/ON-Semiconductor-Fairchild/BC547BTA?qs=TABiY4F6Vcf01oKZdNLa0w%3D%3D "BC547")||
 31|Bipolar Transistors - BJT PNP|TO-92||BC557BTA|[512-BC557BTA](https://www.mouser.de/ProductDetail/ON-Semiconductor-Fairchild/BC557BTA?qs=Lnpu0ExxCB4xDNL%2Fw990%2FQ%3D%3D "BC557")||
 32|3mm LED||Blue|151033BS03000|[710-151033BS03000](https://www.mouser.de/ProductDetail/Wurth-Elektronik/151033BS03000?qs=2kOmHSv6VfSefdpzrMLWSw%3D%3D "Standard LEDs - Through Hole WL-TMRW THT Mono Waterclr Rnd 3mmBlue")||
-33|Diode|DO-35	||1N4148|[512-1N4148](https://www.mouser.de/ProductDetail/ON-Semiconductor-Fairchild/1N4148?qs=i4Fj9T%2FoRm8RMUhj5DeFQg%3D%3D "Dioden (Allzweck, Leistung, Schaltung) 100V Io/200mA BULK")||
+33|Diode|DO-35    ||1N4148|[512-1N4148](https://www.mouser.de/ProductDetail/ON-Semiconductor-Fairchild/1N4148?qs=i4Fj9T%2FoRm8RMUhj5DeFQg%3D%3D "Dioden (Allzweck, Leistung, Schaltung) 100V Io/200mA BULK")||
 34|3mm LEDs||Assorted Values|COM-12062|[474-COM-12062](https://www.mouser.de/ProductDetail/SparkFun/COM-12062?qs=WyAARYrbSnZzv4I0CztaEg%3D%3D "SparkFun Accessories LED - Assorted (20 pack)")||
 35|3mm LED||Red|LTL-4222|[859-LTL-4222](https://www.mouser.de/ProductDetail/Lite-On/LTL-4222?qs=PaUBgWdAOGEl%252Bf85PeEXqA%3D%3D "Standard LEDs - Through Hole Red Transparent")||
 36|MLCC|2.5mm |0.1µF|K104K15X7RF53K2|[594-K104K15X7RF53K2](https://www.mouser.de/ProductDetail/Vishay-BC-Components/K104K15X7RF53K2?qs=%2Fha2pyFadujQ%252Bv0xHOEo91Fp6rFGP5krxuyVhQ%252B1w%252BsnJ7knhvdeQDps3CPFUP6U "Multilayer Ceramic Capacitors")||
@@ -284,7 +284,7 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 
 ## CMOS Experimenter Board
 
-The motivation behind this project was to produce a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. The idea of providing a CMOS experimenter board was initiated particularly with regard to todays availability of PCB manufacturers and affordable prizes. PCB prototyping and production is now completely based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities.
+The motivation behind this project was to produce a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. The idea of providing a CMOS experimenter board was initiated particularly with regard to today's availability of PCB manufacturers and affordable prizes. PCB prototyping and production is now completely based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities.
 
 Each PCB is designed around individual standard CMOS chips and their particular functions in order to create sound. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and wiring alternative external circuitry. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points.
 
@@ -299,7 +299,7 @@ Furthermore, the project includes laser-cutting files for a desktop console on w
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg">
 
-All involved files are made available online. This includes [ECAD](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Schematics"), [Gerber](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Gerber") and [vector files](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/Case "Case") as well as [bill of materials](https://github.com/SCLW/Circuitry-Based-Sound#bill-of-material "BOM"). Please do take note that these files refer to a protype which hasn't been evaluated yet in detail. The board and the laser cutting files work but can be optimized.
+All involved files are made available online. This includes [ECAD](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Schematics"), [Gerber](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Gerber") and [vector files](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/Case "Case") as well as [bill of materials](https://github.com/SCLW/Circuitry-Based-Sound#bill-of-material "BOM"). Please do take note that these files refer to a prototype which hasn't been evaluated yet in detail. The board and the laser cutting files work but can be optimized.
 
 
 ## Requirements
@@ -326,22 +326,22 @@ Helpful tools and useful materials:
 
 ## Authors
 
-Zhen Bian  
-Hangyan Chen  
-Jeongmin Han  
-Anna Helsen  
-Jihye Jang  
-Xingchen Liu  
-Su Lu  
-Ruoyi Qiu  
-Vivian Reuter  
-Arno Schlipf   
-Florian Schwarz   
-Christina Vinke  
-Yunfei Zhang  
-Pei Zhou  
+Zhen Bian 
+Hangyan Chen 
+Jeongmin Han 
+Anna Helsen 
+Jihye Jang 
+Xingchen Liu 
+Su Lu 
+Ruoyi Qiu 
+Vivian Reuter 
+Arno Schlipf  
+Florian Schwarz  
+Christina Vinke 
+Yunfei Zhang 
+Pei Zhou 
 
-**Lorenz Schwarz** - *lecturer* 
+**Lorenz Schwarz** - *lecturer*
 
 ## License
 
@@ -350,3 +350,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgment
 
 * Thanks to Dr. Paul Modler
+
