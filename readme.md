@@ -142,10 +142,11 @@ Control input "reset" triggers all output stages to "low". For continuously freq
 
 Each output producing one octave lower than its previous output, respectively input.
 
-[CD4040 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4040b.pdf?ts=1600261370155&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4040B "CD4040")
 
 The timing diagram shows the relation of voltage levels between all outputs of the CD4024 IC, a 7 output stage version:
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_Timing_Diagram.jpg>
+
+[CD4040 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4040b.pdf?ts=1600261370155&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4040B "CD4040")
 
 ## CD4046
 
