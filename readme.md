@@ -87,7 +87,6 @@ Truth table
 
 
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_Board.jpg>
 
 [CD40106 Data Sheet](https://www.ti.com/lit/ds/symlink/cd40106b.pdf?ts=1599062729936&ref_url=https%253A%252F%252Fwww.google.com%252F "CD40106")
 
@@ -113,7 +112,6 @@ Truth table for NAND
 
 
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093_Board.jpg>
 
 
 [CD4093 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4093b.pdf?ts=1599062791398&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4093")
@@ -205,7 +203,6 @@ An op amp is another class of active electronic component. Its purpose and funct
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Summing.jpg>
 
 
 
