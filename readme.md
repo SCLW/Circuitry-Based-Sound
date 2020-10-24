@@ -186,10 +186,15 @@ Truth table
 [CD4051 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4051b.pdf?ts=1599079621658&ref_url=https%253A%252F%252Fwww.google.com%252F "CD405xB")
 
 
+# Mixer
+There are generally two ways of mixing signals together, active and passive mixing. For most audio applications it is desired to control the portion of each input signal in the sum of the output mix.
 
-## Mixer
+## Passive Mixer
+Passive mixing is a very simple method that can be accomplished by using resistors for each source.
 
-There are several ways of mixing signals together. Passive mixing is a very simple method that can be accomplished by using diodes or resistors for each source.
+## Active Mixer
+
+
 To avoid interaction between the signals and to obtain individual gain control, active mixing using an operational amplifier is preferred.
 An op amp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. The basic wiring is shown below. Besides it function as a mixer with gain control over every individual input by adding voltage dividers, it can also be used to achieve a desired output gain by modifying the the feedback resistor R<sub>F</sub> in relation to the input resistors R<sub>IN</sub> of each input. The minus sign in the formula indicates that the output voltage is inversed. To undo inversion, a second stage following the shown circuit can be used.
 
