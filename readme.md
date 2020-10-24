@@ -187,7 +187,8 @@ Truth table
 
 
 # Mixer
-There are generally two ways of mixing signals together, active and passive mixing. For most audio applications it is desired to control the portion of each input signal in the sum of the output mix.
+There are generally two ways of mixing signals together, active and passive mixing. Active mixing involes components that need a power supply, such as operational amplifiers. Passive mixing works without an additional power supply, but introduces a voltage drop.
+hence the part count is less. For most audio applications it is desired to control the portion of each input signal in the sum of the output mix.
 
 ## Passive Mixer
 Passive mixing is a very simple method that can be accomplished by using resistors for each source.
