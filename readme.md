@@ -191,7 +191,11 @@ There are generally two ways of mixing signals together, active and passive mixi
 hence the part count is less. For most audio applications it is desired to control the portion of each input signal in the sum of the output mix.
 
 ## Passive Mixer
+
 Passive mixing is a very simple method that can be accomplished by using resistors for each source.
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/passive_mixing.jpg>
+
 
 ## Active Mixer
 
