@@ -193,7 +193,7 @@ Passive mixing is a very simple method that can be accomplished by using resisto
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/passive_mixing.jpg>
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/passive_mixing_plot.jpg>
-*Figure 12.* Voltage passive mixer
+_Figure 12._ Voltage passive mixer
 
 ## Active Mixer
 
