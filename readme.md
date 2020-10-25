@@ -285,6 +285,28 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 66|Piezo Buzzers & Audio Indicators|27mm||7BB-27-4L0|[81-7BB-27-4L0](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-27-4L0?qs=PkW2zKsTBmE%2F8VGC6sKDJA%3D%3D "Piezo disk")||
 67|Piezo Buzzers & Audio Indicators|35mm||7BB-35-3C|[81-7BB-35-3C](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-35-3C?qs=gRcAz2mAxnN1kUKNPnYYbw%3D%3D "Piezo disk")||
 
+## Requirements
+
+Helpful tools and useful materials:
+
+
+* Small mixing desk.
+* Active loudspeakers.
+* Worktables.
+* Screw drivers.
+* Metric screw assortment (M3, ~12mm) and nuts.
+* ESD electronic diagonal cutter.
+* Precision cutter.
+* Stranded wires.
+* Laboratory power supply & connectors (preferable 4mm banana laboratory connectors).
+* Jumper cables and jumper wires.
+* Digital multimeter (DVM).
+* Digital storage oscilloscope (DSO).
+* Temperature-controlled soldering station.
+* Breadboards.
+* Good light conditions.
+
+
 # Projects
 
 The artistic range of applications for electronic projects in the fields of experimental sound, interactive music and sound art is quite large. The next sections feature works made in the context of this seminar.
@@ -311,32 +333,6 @@ Furthermore, the project includes laser-cutting files for a desktop console on w
 All involved files are made available online. This includes [ECAD](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Schematics"), [Gerber](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Gerber") and [vector files](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/Case "Case") as well as [bill of materials](https://github.com/SCLW/Circuitry-Based-Sound#bill-of-material "BOM"). Please do take note that these files refer to a prototype which hasn't been evaluated yet in detail. The board and the laser cutting files work but can be optimized.
 
 
-
-## Requirements
-
-Helpful tools and useful materials:
-
-
-* Small mixing desk.
-* Active loudspeakers.
-* Worktables.
-* Screw drivers.
-* Metric screw assortment (M3, ~12mm) and nuts.
-* ESD electronic diagonal cutter.
-* Precision cutter.
-* Stranded wires.
-* Laboratory power supply & connectors (preferable 4mm banana laboratory connectors).
-* Jumper cables and jumper wires.
-* Digital multimeter (DVM).
-* Digital storage oscilloscope (DSO).
-* Temperature-controlled soldering station.
-* Breadboards.
-* Good light conditions.
-
-
-
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Bread_Board.jpg">
-
 ## Authors
 
 Zhen Bian  
@@ -355,6 +351,8 @@ Yunfei Zhang
 Pei Zhou  
 
 **Lorenz Schwarz** - *lecturer*
+
+<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Bread_Board.jpg">
 
 ## License
 
