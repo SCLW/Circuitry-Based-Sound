@@ -2,7 +2,7 @@
 
 "Circuitry-Based Sound" is an ongoing seminar at [University of Arts and Design Karlsruhe](https://www.hfg-karlsruhe.de/ "University of Arts and Design Karlsruhe"). It focuses on electronic sound synthesis and parametric interfacing. It's examining musical characteristics of electronic instruments and comparing different approaches on how to design electronic sound modules. Due to the measures against the coronavirus spread in 2020, the seminar’s workflow had been adapted to the restrictions and is partially held online.
 
-The course is covering electrical and electronic basics, computer aided circuit design and professional PCB manufacturing processes with the aim of building custom-made instruments. The emphasis is on studies of logic chips for sound creation and its musical applications. Participants are guided to use the latest technology, production chain and global logistics to develop, design and produce circuit boards for musical use. This allows the participants to easily create circuit boards with more variable features and adjustable parameters than hand soldered protoboards or solderless breadboards. 
+The course is covering electrical and electronic basics, computer aided circuit design and professional PCB manufacturing processes with the aim of building custom-made instruments. The emphasis is on studies of logic chips for sound creation and its musical applications. Participants are guided to use the latest technology, production chain and global logistics to develop, design and produce circuit boards for musical use. This allows the participants to easily create circuit boards with more variable features and adjustable parameters than hand soldered protoboards or solderless breadboards.
 
 The following is a documentation of the seminar's findings and study materials.
 
@@ -27,7 +27,7 @@ Due to its simplicity, CMOS chips can be used for educational reasons, since mos
 
 The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the picture above:
 
-It shows a square wave sound generator that can be built with only three components: 
+It shows a square wave sound generator that can be built with only three components:
 * inverting Schmitt trigger IC, e.g. CD40106
 * capacitor C
 * resistor R
@@ -73,7 +73,7 @@ Truth table
 |0|1|
 |1|0|
 
-"1" = High Level  
+"1" = High Level 
 "0" = Low Level
 
 
@@ -183,12 +183,12 @@ Truth table
 
 
 ## Mixer
-There are generally two ways of mixing signals together, active and passive mixing. Active mixing involes components that need a power supply, such as operational amplifiers. Passive mixing works without an additional power supply, but introduces a voltage drop.
+There are generally two ways of mixing signals together, active and passive mixing. Active mixing involves components that need a power supply, such as operational amplifiers. Passive mixing works without an additional power supply, but introduces a voltage drop.
 hence the part count is less. For most audio applications it is desired to control the portion of each input signal in the sum of the output mix.
 
 ## Passive Mixer
 
-Passive mixing is a very simple method that can be accomplished by using resistors for each source.
+Passive mixing is a very simple method that can be accomplished by using resistors for each source. The graph shows the input signal compared to the output with a sine wave. The mixing resistors work as a voltage divider network and lower the amplitude of each signal. Therefore, the passive mixer doesn't give the sum of all input signals but the average. Advantages of this method is obviously its low part count.
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/passive_mixing.jpg>
 
@@ -197,7 +197,7 @@ Passive mixing is a very simple method that can be accomplished by using resisto
 
 
 To avoid interaction between the signals and to obtain individual gain control, active mixing using an operational amplifier is preferred.
-An op amp is another class of active electronic component. Its purpose and function is out of the scope of this documentation. The basic wiring is shown below. Besides it function as a mixer with gain control over every individual input by adding voltage dividers, it can also be used to achieve a desired output gain by modifying the the feedback resistor R<sub>F</sub> in relation to the input resistors R<sub>IN</sub> of each input. The minus sign in the formula indicates that the output voltage is inversed. To undo inversion, a second stage following the shown circuit can be used.
+An op amp is another class of active electronic component. How it works is unfortunately out of scope of this documentation. The basic wiring is shown below. Besides its function as a mixer with gain control over every individual input by adding voltage dividers or potentiometers, it can also be used to achieve a desired output gain by modifying the the feedback resistor R<sub>F</sub> in relation to the input resistors R<sub>IN</sub> of each input. The minus sign in the formula indicates that the output voltage is inversed. To undo inversion, a second stage following the shown circuit can be used.
 
 *Applications:*
 * signal mixing
@@ -288,12 +288,11 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 
 # Projects
 
-The artistic range of applications in the fields of experimental sound, interactive music and sound art is ...
-The next sections show some examples ...
+The artistic range of applications for projects in the fields of experimental sound, interactive music and sound art is quite large. The next sections feature works made in the context of this seminar.
 
 ## CMOS Experimenter Board
 
-During the summer semester 2020, experimenter boards for CMOS logic chips and a  prototyp of a corresponding musical interface were conceived and built. The boards and interfaces were used for a group live performance in front of the Federal Prosecutor's office in Karlsruhe. 
+During the summer semester 2020, experimenter boards for CMOS logic chips and a  prototyp of a corresponding musical interface were conceived and built. The boards and interfaces were used for a group live performance in front of the Federal Prosecutor's office in Karlsruhe.
 
 The motivation behind this project was to produce a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. The idea of providing a CMOS experimenter board was initiated particularly with regard to today's availability of PCB manufacturers and affordable prizes. PCB prototyping and production is now completely based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities.
 
@@ -341,20 +340,20 @@ Helpful tools and useful materials:
 
 ## Authors
 
-Zhen Bian  
-Hangyan Chen  
-Jeongmin Han  
-Anna Helsen  
-Jihye Jang  
-Xingchen Liu  
-Su Lu  
-Ruoyi Qiu  
-Vivian Reuter  
-Arno Schlipf   
-Florian Schwarz   
-Christina Vinke  
-Yunfei Zhang  
-Pei Zhou  
+Zhen Bian 
+Hangyan Chen 
+Jeongmin Han 
+Anna Helsen 
+Jihye Jang 
+Xingchen Liu 
+Su Lu 
+Ruoyi Qiu 
+Vivian Reuter 
+Arno Schlipf  
+Florian Schwarz  
+Christina Vinke 
+Yunfei Zhang 
+Pei Zhou 
 
 **Lorenz Schwarz** - *lecturer*
 
@@ -365,4 +364,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgment
 
 * Thanks to Dr. Paul Modler
+
 
