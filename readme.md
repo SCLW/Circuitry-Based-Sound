@@ -184,17 +184,15 @@ Truth table
 
 ## Mixer
 There are generally two ways of mixing signals together, active and passive mixing. Active mixing involves components that need a power supply, such as operational amplifiers. Passive mixing works without an additional power supply, but introduces a voltage drop.
-hence the part count is less. .
 
 ## Passive Mixer
 
-Passive mixing is a very simple method that can be accomplished by using resistors for each source. The graph in figure shows the input signal compared to the output with a sine wave. The mixing resistors work as a voltage divider network and lower the amplitude of each signal. Therefore, the passive mixer doesn't give the sum of all input signals but the average. Advantages of this method is obviously its low part count. To avoid interaction between the signals and to obtain individual gain control, active mixing using an operational amplifier is preferred.
+Passive mixing is a very simple method that can be accomplished by using resistors for each source. The mixing resistors work as a voltage divider network and lower the amplitude of each signal. Therefore, the passive mixer doesn't give the sum of all input signals but the average. This is shown by the graph below, comparing one input signal to the output with a sine wave. To make it more clearly, the other two input sources in the example have 0 volts. Advantage of this method is its low part count. To avoid interaction between the signals and to obtain individual gain control, active mixing using an operational amplifier is preferred.
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/passive_mixing.jpg>
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/passive_mixing_plot.jpg>
 
-*Figure 12.* Voltage passive mixer
 
 ## Active Mixer
 
