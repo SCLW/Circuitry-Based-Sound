@@ -44,7 +44,7 @@ However, manufacturing tolerances of all involved parts make it difficult to ach
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/assorted_sensors.jpg">
 
 
-### Logic Control
+## Logic Control
 
 
 
@@ -53,9 +53,9 @@ In digital electronics, binary numbers are represented by two defined voltage le
 A logic gate is a single input - output device, designed to carry out a specific boolean operation, mapped to two voltage levels. Over time, the two  alternating voltage levels may form a periodical rectangular waveform and the speed of switching between the two levels is perceived as pitch. Aperiodical switching will produce other sonic qualities such as noise or all kinds of texturized sounds. The ratio between the on-and-off states is by default 1:1, a 50% duty cycle. Further circuitry is needed to change this ratio, which alters the audio spectrum of the square wave.
 
 
-# Chips
+## Chips
 
-The following is a list of CMOS chips for sound creation. This list will be constantly extended during the seminar. It outlines for each chip its main applications and gives a short explantion. Pinout, functional diagram, truth tables and some basic example circuits are also shown. However it is not limited to theses examples and the main approach is to find variations and modifications or new creative combinations for experimental sound and music. Please refer to the manufacturer's technical data sheet for more detailed information.
+The following is a list of CMOS chips and other integrated circuits for sound creation. This list will be constantly extended during the seminar. It outlines for each chip its main applications and gives a short explanation. Pinout, functional diagram, truth tables and some basic example circuits are also shown. However it is not limited to theses examples and the main approach is to find variations and modifications or new creative combinations for experimental sound and music. Please refer to the manufacturer's technical data sheet for more detailed information.
 
 
 
@@ -183,7 +183,7 @@ Truth table
 [CD4051 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4051b.pdf?ts=1599079621658&ref_url=https%253A%252F%252Fwww.google.com%252F "CD405xB")
 
 
-# Mixer
+## Mixer
 There are generally two ways of mixing signals together, active and passive mixing. Active mixing involes components that need a power supply, such as operational amplifiers. Passive mixing works without an additional power supply, but introduces a voltage drop.
 hence the part count is less. For most audio applications it is desired to control the portion of each input signal in the sum of the output mix.
 
@@ -289,6 +289,8 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 
 # Projects
 
+The artistic range of applications in the fields of experimental sound, interactive music and sound art is ...
+The next sections show some examples ...
 
 ## CMOS Experimenter Board
 
