@@ -4,7 +4,7 @@
 
 The course is covering electrical and electronic basics, computer aided circuit design and professional PCB manufacturing processes with the aim of building custom-made instruments. The emphasis is on studies of logic chips for sound creation and its musical applications. Participants are guided to use the latest technology, production chain and global logistics to develop, design and produce circuit boards for musical use. This allows the participants to easily create circuit boards with more variable features and adjustable parameters than hand soldered protoboards or solderless breadboards. 
 
-Following is a documentation of the seminar's findings and study materials.
+The following is a documentation of the seminar's findings and study materials.
 
 # Unconventional Electronic Sound
 
@@ -53,7 +53,7 @@ In digital electronics, binary numbers are represented by two defined voltage le
 A logic gate is a single input - output device, designed to carry out a specific boolean operation, mapped to two voltage levels. Over time, the two  alternating voltage levels may form a periodical rectangular waveform and the speed of switching between the two levels is perceived as pitch. Aperiodical switching will produce other sonic qualities such as noise or all kinds of texturized sounds. The ratio between the on-and-off states is by default 1:1, a 50% duty cycle. Further circuitry is needed to change this ratio, which alters the audio spectrum of the square wave.
 
 
-## Chips
+## Electronics Components
 
 The following is a list of CMOS chips and other integrated circuits for sound creation. This list will be constantly extended during the seminar. It outlines for each chip its main applications and gives a short explanation. Pinout, functional diagram, truth tables and some basic example circuits are also shown. However it is not limited to theses examples and the main approach is to find variations and modifications or new creative combinations for experimental sound and music. Please refer to the manufacturer's technical data sheet for more detailed information.
 
