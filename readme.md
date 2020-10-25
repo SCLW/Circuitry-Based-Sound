@@ -1,4 +1,4 @@
-<p style="text-align: right;"> PEter
+<p style="text-align: right;"> PEter </p>
 
 
 # Circuitry-Based Sound
