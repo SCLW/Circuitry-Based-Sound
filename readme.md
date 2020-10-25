@@ -1,5 +1,5 @@
 <p style="text-align: right;"> PEter </p>
-<center>Centered Peter</center>
+<center>Centered text</center>
 
 # Circuitry-Based Sound
 
