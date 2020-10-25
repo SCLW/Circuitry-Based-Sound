@@ -7,7 +7,6 @@ The course is covering electrical and electronic basics, computer aided circuit 
 Following is a documentation of the seminar's findings and study materials.
 
 # Unconventional Electronic Sound
-## Classical Sound Synthesis
 
 Aside from the established way of using electronics to generate and process sound, which can be found in analog synthesizers, there are also unconventional applications of electronics to create sound or experimental music, which will be introduced below. Analog synthesizers apply techniques like subtractive synthesis to produce audio. A common concept of the analog signal flow is filtering the output of an oscillator and shaping the overall volume. Variations of this concept can be found in most synthesizers, both analog and digital. Parameters can be altered through control signals. This offers a wide range of musical expression, like tuning oscillators in a 12-tone musical scale or key triggered envelopes for amplifiers, filters or other effect processors. To obtain these functionalities, circuits of analog synthesizers are relatively complex, involve a high part count and often require precision components.
 
@@ -48,7 +47,6 @@ However, manufacturing tolerances of all involved parts make it difficult to ach
 ### Logic Control
 
 
-Some basic information about digital electronics may act as a short introduction.
 
 In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit. For example signal ground in a given circuit can represent "0" while the positive voltage rail can represent "1". The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF".
 
@@ -57,7 +55,8 @@ A logic gate is a single input - output device, designed to carry out a specific
 
 # Chips
 
-Following a list of CMOS Chips
+The following is a list of CMOS chips for sound creation. This list will be constantly extended during the seminar. It outlines for each chip its main applications and gives a short explantion. Pinout, functional diagram, truth tables and some basic example circuits are also shown. However it is not limited to theses examples and the main approach is to find variations and modifications or new creative combinations for experimental sound and music. Please refer to the manufacturer's technical data sheet for more detailed information.
+
 
 
 ## CD40106
@@ -75,13 +74,13 @@ Truth table
 |0|1|
 |1|0|
 
-"1" = High Level 
+"1" = High Level  
 "0" = Low Level
 
 
 
 
-[CD40106 Data Sheet](https://www.ti.com/lit/ds/symlink/cd40106b.pdf?ts=1599062729936&ref_url=https%253A%252F%252Fwww.google.com%252F "CD40106")
+[CD40106 Sheet](https://www.ti.com/lit/ds/symlink/cd40106b.pdf?ts=1599062729936&ref_url=https%253A%252F%252Fwww.google.com%252F "CD40106")
 
 ## CD4093
 
