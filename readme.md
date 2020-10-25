@@ -1,7 +1,3 @@
-<p align="right"> Peter
-
-<font size="9"> Bild Unterschrift </font>
-
 # Circuitry-Based Sound
 
 "Circuitry-Based Sound" is an ongoing seminar at [University of Arts and Design Karlsruhe](https://www.hfg-karlsruhe.de/ "University of Arts and Design Karlsruhe"). It focuses on electronic sound synthesis and parametric interfacing. It's examining musical characteristics of electronic instruments and comparing different approaches on how to design electronic sound modules. Due to the measures against the coronavirus spread in 2020, the seminar’s workflow had been adapted to the restrictions and is partially held online.
@@ -111,7 +107,7 @@ Truth table for NAND
 
 
 
-<p align="right">[CD4093 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4093b.pdf?ts=1599062791398&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4093")
+[CD4093 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4093b.pdf?ts=1599062791398&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4093")
 
 
 ## CD4022
@@ -318,10 +314,7 @@ Furthermore, the project includes laser-cutting files for a desktop console on w
 
 All involved files are made available online. This includes [ECAD](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Schematics"), [Gerber](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/PCB_Hardware/Schematics "Gerber") and [vector files](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/Case "Case") as well as [bill of materials](https://github.com/SCLW/Circuitry-Based-Sound#bill-of-material "BOM"). Please do take note that these files refer to a prototype which hasn't been evaluated yet in detail. The board and the laser cutting files work but can be optimized.
 
-<details>
-<summary>"Click to expand"</summary>
-this is hidden
-</details>
+
 
 ## Requirements
 
