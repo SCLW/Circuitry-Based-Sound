@@ -184,20 +184,21 @@ Truth table
 
 ## Mixer
 There are generally two ways of mixing signals together, active and passive mixing. Active mixing involves components that need a power supply, such as operational amplifiers. Passive mixing works without an additional power supply, but introduces a voltage drop.
-hence the part count is less. For most audio applications it is desired to control the portion of each input signal in the sum of the output mix.
+hence the part count is less. .
 
 ## Passive Mixer
 
-Passive mixing is a very simple method that can be accomplished by using resistors for each source. The graph shows the input signal compared to the output with a sine wave. The mixing resistors work as a voltage divider network and lower the amplitude of each signal. Therefore, the passive mixer doesn't give the sum of all input signals but the average. Advantages of this method is obviously its low part count.
+Passive mixing is a very simple method that can be accomplished by using resistors for each source. The graph in figure shows the input signal compared to the output with a sine wave. The mixing resistors work as a voltage divider network and lower the amplitude of each signal. Therefore, the passive mixer doesn't give the sum of all input signals but the average. Advantages of this method is obviously its low part count. To avoid interaction between the signals and to obtain individual gain control, active mixing using an operational amplifier is preferred.
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/passive_mixing.jpg>
 
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/passive_mixing_plot.jpg>
+<p align="right"> *Figure 12.* Voltage passive mixer
 
 ## Active Mixer
 
 
-To avoid interaction between the signals and to obtain individual gain control, active mixing using an operational amplifier is preferred.
-An op amp is another class of active electronic component. How it works is unfortunately out of scope of this documentation. The basic wiring is shown below. Besides its function as a mixer with gain control over every individual input by adding voltage dividers or potentiometers, it can also be used to achieve a desired output gain by modifying the the feedback resistor R<sub>F</sub> in relation to the input resistors R<sub>IN</sub> of each input. The minus sign in the formula indicates that the output voltage is inversed. To undo inversion, a second stage following the shown circuit can be used.
+For most audio applications it is desired to control the portion of each input signal in the sum of the output mix. An op amp is another class of active electronic component. How it works is unfortunately out of scope of this documentation. The basic wiring is shown below. Besides its function as a mixer with gain control over every individual input by adding voltage dividers or potentiometers, it can also be used to achieve a desired output gain by modifying the the feedback resistor R<sub>F</sub> in relation to the input resistors R<sub>IN</sub> of each input. The minus sign in the formula indicates that the output voltage is inversed. To undo inversion, a second stage following the shown circuit can be used.
 
 *Applications:*
 * signal mixing
