@@ -10,9 +10,9 @@ The following is a documentation of the seminar's findings and study materials.
 
 Aside from the established way of using electronics to generate and process sound, which can be found in analog synthesizers, there are also unconventional applications of electronics to create sound or experimental music, which will be introduced below. Analog synthesizers apply techniques like subtractive synthesis to produce audio. A common concept of the analog signal flow is filtering the output of an oscillator and shaping the overall volume. Variations of this concept can be found in most synthesizers, both analog and digital. Parameters can be altered through control signals. This offers a wide range of musical expression, like tuning oscillators in a 12-tone musical scale or key triggered envelopes for amplifiers, filters or other effect processors. To obtain these functionalities, circuits of analog synthesizers are relatively complex, involve a high part count and often require precision components.
 
-## CMOS Chips for Sound Creation
-
 Another concept of creating sound with electronics derived from techniques like hardware hacking and circuit bending. Especially the use of digital integrated logic circuits outside of their typical field of application is a remarkable approach to build customized instruments for artistic sound production and interactive music. The required components are easy to source and low cost.
+
+## CMOS Chips for Sound Creation
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS-chips.jpg">
 
@@ -23,9 +23,9 @@ Due to its simplicity, CMOS chips can be used for educational reasons, since mos
 
 ## Basic Example
 
-The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the following picture:
-
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Basic_Oscillator_CD40106.jpg">
+
+The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the picture above:
 
 It shows a square wave sound generator that can be built with only three components: 
 * inverting Schmitt trigger IC, e.g. CD40106
@@ -46,8 +46,6 @@ However, manufacturing tolerances of all involved parts make it difficult to ach
 
 
 ## Logic Control
-
-
 
 In digital electronics, binary numbers are represented by two defined voltage levels that are specified by the used technology and circuit. For example signal ground in a given circuit can represent "0" while the positive voltage rail can represent "1". The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF".
 
