@@ -20,7 +20,7 @@ Another concept of creating sound with electronics derived from techniques like 
 
 Due to its simplicity, CMOS chips can be used for educational reasons, since most of its technical operations can easily be understood and relate to basic electronic knowledge. This subject is also a matter of various publications, most notably Nicolas Collins' „Handmade Electronic Music, The Art of Hardware Hacking" (2006). American Composer David Tudor (1926 - 1996) is considered a pioneer of self-made electronic circuits and instruments, which he used for his compositions.
 
-## Basic Example of Unconventional Synthesis
+## Basic Example
 
 The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the following picture:
 
