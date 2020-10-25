@@ -311,7 +311,7 @@ Helpful tools and useful materials:
 
 The artistic range of applications for electronic projects in the fields of experimental sound, interactive music and sound art is quite large. The next sections feature works made in the context of this seminar.
 
-## CMOS Experimenter Board
+## CMOS Experimenter Boards
 
 During the summer semester 2020, experimenter boards for CMOS logic chips and a  prototyp of a corresponding musical interface were conceived and built. The boards and interfaces were used for a group live performance in front of the Federal Prosecutor's office in Karlsruhe.
 
