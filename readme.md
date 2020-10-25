@@ -287,7 +287,7 @@ No|Description|Package/Pitch|Value|Manufacturer Part Number|Mouser-Nr.
 
 # Projects
 
-The artistic range of applications for projects in the fields of experimental sound, interactive music and sound art is quite large. The next sections feature works made in the context of this seminar.
+The artistic range of applications for electronic projects in the fields of experimental sound, interactive music and sound art is quite large. The next sections feature works made in the context of this seminar.
 
 ## CMOS Experimenter Board
 
