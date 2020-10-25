@@ -334,6 +334,9 @@ Helpful tools and useful materials:
 * Good light conditions.
 
 
+
+<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Bread_Board.jpg">
+
 ## Authors
 
 Zhen Bian  
