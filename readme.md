@@ -1,6 +1,6 @@
-<p style="text-align: right;"> PEter </p>
-<center>Centered text</center>
 <p align="right"> Peter
+
+<font size="1"> Bild Unterschrift </font>
 
 # Circuitry-Based Sound
 
