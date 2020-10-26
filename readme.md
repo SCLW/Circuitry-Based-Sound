@@ -4,7 +4,7 @@
 
 The course is covering electrical and electronic basics, computer aided circuit design and professional PCB manufacturing processes with the aim of building custom-made instruments. The emphasis is on studies of logic chips for sound creation and its musical applications. Participants are guided to use the latest technology, production chain and global logistics to develop, design and produce circuit boards for musical use. This allows the participants to easily create circuit boards with more variable features and adjustable parameters than hand soldered protoboards or solderless breadboards.
 
-The following is a documentation of the seminar's findings and study materials.
+The following is a documentation of the seminar's study materials and findings.
 
 # Unconventional Electronic Sound
 
