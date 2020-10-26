@@ -360,6 +360,6 @@ The content of this documentation is licensed under the [Creative Commons Attrib
 
 ## Acknowledgment
 
-* Thanks to Dr. Paul Modler
+* Thanks to Holger Förterer and Dr. Paul Modler
 
 
