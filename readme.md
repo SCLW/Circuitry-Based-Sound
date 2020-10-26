@@ -63,6 +63,7 @@ The inverter is a basic part in digital electronics and performs the logic opera
 
 *Applications:*
 * oscillator
+* clock signals
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
 
@@ -86,6 +87,7 @@ It acts as a square wave oscillator when the inputs are connected to form an inv
 
 *Applications:*
 * gated oscillator
+* clock signals
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093.jpg>
 
