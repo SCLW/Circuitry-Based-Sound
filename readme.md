@@ -53,7 +53,7 @@ A logic gate is a single input - output device, designed to carry out a specific
 
 ## Electronics Components
 
-The following is a list of CMOS chips and other integrated circuits for sound creation. This list will be constantly extended during the seminar. It outlines for each chip its main applications and gives a short explanation. Pinout, functional diagram, truth tables and some basic example circuits are also shown. However it is not limited to theses examples and the main approach is to find variations and modifications or new creative combinations for experimental sound and music. Please refer to the manufacturer's technical data sheet for more detailed information.
+The following is a list of CMOS chips and other integrated circuits for sound creation. This list will be constantly extended during the seminar. It outlines for each chip its main applications and gives a short explanation. Pinout, functional diagram, truth tables and some basic example circuits are also shown. However the overview is not completed with theses examples and the main approach is to find variations, modifications or new creative combinations for experimental sound and music. Please refer to the manufacturer's technical data sheet for more detailed information.
 
 
 
