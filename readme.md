@@ -182,7 +182,7 @@ Truth table
 
 
 ## Mixer
-There are generally two ways of mixing signals together, active and passive mixing. Active mixing involves components that need a power supply, such as operational amplifiers. Passive mixing works without an additional power supply, but introduces a voltage drop.
+There are two ways of mixing signals together, active and passive mixing. Active mixing involves components, such as operational amplifiers, that need a power supply. Passive mixing works without an additional power supply, but introduces a voltage drop.
 
 ### Passive Mixer
 
