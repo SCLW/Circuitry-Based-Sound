@@ -162,7 +162,13 @@ Phase locked loop
 
 ### CD4051
 
-Multiplexer/Demultiplexer
+Multiplexer/Demultiplexer. All channels are off when inhibit input is set to "high".
+
+
+*Applications:*
+* wave shaping
+* digitally-controlled analog switching
+* signal routing
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_function_animated.gif>
 
