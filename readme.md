@@ -164,7 +164,7 @@ Phase locked loop
 
 Multiplexer/Demultiplexer
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_function_animated.gif>
 
 Truth table
 |C|B|A|ON CHANNEL(S)|
