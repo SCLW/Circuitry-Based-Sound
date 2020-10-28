@@ -170,7 +170,7 @@ Multiplexer/Demultiplexer. All channels are off when inhibit input is set to "hi
 * digitally-controlled analog switching
 * signal routing
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_function_animatedd.gif>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_function_animated.gif>
 
 Truth table
 |C|B|A|ON CHANNEL(S)|
