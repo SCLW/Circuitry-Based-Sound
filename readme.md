@@ -116,7 +116,7 @@ CD4022 IC implements a binary counter/divider function. The positive edge of an 
 * wave shaper and staircase wave form generator
 * sequencer
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_anim.gif>
 
 
 
