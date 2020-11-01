@@ -1,7 +1,7 @@
 # Circuitry-Based Sound
 
 
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Variable_Resistors.jpg">
+
 
 "Circuitry-Based Sound" is an ongoing seminar at [University of Arts and Design Karlsruhe](https://www.hfg-karlsruhe.de/ "University of Arts and Design Karlsruhe"). It focuses on electronic sound synthesis and parametric interfacing. It's examining musical characteristics of electronic instruments and comparing different approaches on how to design electronic sound modules. Due to the measures against the coronavirus spread in 2020, the seminar’s workflow had been adapted to the restrictions and is partially held online.
 
@@ -45,7 +45,7 @@ f=0,72/RC
 
 However, manufacturing tolerances of all involved parts make it difficult to achieve exact results based on the formula. Since the field of application is artistic sound production, circuits should be evaluated by ear. But the formula shows that bigger RC values produce lower frequencies and vice versa. The frequency is determined through the capacitor C and the resistor R. Therefore, a [potentiometer](https://en.wikipedia.org/wiki/Potentiometer "potentiometer") instead of the latter enables pitch control. Other ways of controlling the frequency may be inserting [photoresistors](https://en.wikipedia.org/wiki/Photoresistor "photoresistor"), [force-sensitive resistors](https://en.wikipedia.org/wiki/Force-sensing_resistor "FSR") (FSR) or [flex sensors](https://en.wikipedia.org/wiki/Flex_sensor "flex sensor"). Adding circuit points to alter the sound through interaction allows building customized and versatile instruments.
 
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Potentiometric_devices.jpg">
+<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Variable_Resistors.jpg">
 
 ## Logic Control
 
