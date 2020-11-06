@@ -26,7 +26,7 @@ Due to its simplicity, CMOS chips can be used for educational reasons, since mos
 
 ## Basic Example
 
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Basic_Oscillator_CD40106.jpg">
+<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_Fritzing.jpg">
 
 The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the picture above:
 
