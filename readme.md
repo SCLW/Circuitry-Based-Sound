@@ -119,10 +119,10 @@ CD4070
 The positive and negative edge of an incoming square wave, ... frequency doubling
 
 *Applications:*
-* sound modulation
+* "sound modulation"
 * frequency doubler
 * duty cycle adjustment
-* oscillator
+
 
 
 
