@@ -111,6 +111,23 @@ Truth table for NAND
 [CD4093 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4093b.pdf?ts=1599062791398&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4093")
 
 
+
+### CD4070
+
+CD4070 
+
+The positive and negative edge of an incoming square wave, ... frequency doubling
+
+*Applications:*
+* sound modulation
+* frequency doubler
+* oscillator
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070.jpg>
+
+[CD4070 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4077b.pdf?ts=1606308007892&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4070")
+
+
 ### CD4022
 
 CD4022 IC implements a binary counter/divider function. The positive edge of an incoming square wave, usually referred to as "clock signal", triggers successively the outputs. "Carry out" is outputting one cycle over 8 clock pulses.
