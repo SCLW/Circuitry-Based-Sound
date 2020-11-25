@@ -121,6 +121,7 @@ The positive and negative edge of an incoming square wave, ... frequency doublin
 *Applications:*
 * sound modulation
 * frequency doubler
+* duty cycle adjustment
 * oscillator
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070.jpg>
