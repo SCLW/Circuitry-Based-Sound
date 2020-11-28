@@ -123,9 +123,9 @@ The CD4070 contains four Exclusive-OR logic gates. Each gate has two inputs and 
 * duty cycle adjustment
 
 
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070.jpg>
 
-
-Truth table for NAND
+Truth table for XOR
 
 |A|B|Y = A XOR B|
 |----|----|:----:|
@@ -134,8 +134,6 @@ Truth table for NAND
 |1|0|1|
 |1|1|0|
 
-
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070.jpg>
 
 [CD4070 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4077b.pdf?ts=1606308007892&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4070")
 
