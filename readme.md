@@ -87,7 +87,8 @@ Truth table
 
 The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 output.
 
-It acts as a square wave oscillator when the inputs are connected to form an inverter. The last two rows of the truth table indicate that one input has to be set to a logical high in order to attain inversion. When the second input is wired like the CD40106, the CD4093 generates square waves too. Bringing the first one down to a logical low, inhibits oscillations. Gating the output can be achieved by controlling the first input with another digital signal, square wave or a simple switch.
+It acts as a square wave oscillator when the inputs are connected to form an inverter. The last two rows of the truth table indicate that one input has to be set to a logical high in order to attain inversion. When the second input is then wired like the CD40106 in the previous example, the CD4093 generates square waves too. In this configuration, oscillation can be inhibited by setting the first input to a logical low. Gating the output can be achieved by controlling 
+This way, the first input acts as a control input for gating the oscillator.
 
 *Applications:*
 * gated oscillator
