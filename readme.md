@@ -256,7 +256,7 @@ All parts can be substituted with alternative components and equivalent foot pri
 
 No|Description|Package|Value|Manufacturer Part Number|Mouser-Nr.
 | --- | --- | --- |--- | --- | --- |
-1|Logic Gates CMOS Quad 2-In|DIP-14||CD4001BE|[595-CD4001BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4001BE?qs=Tv815z3GeNSKspfG7F34rg%3D%3D "CD4001")||
+1|Logic Gates CMOS Quad 2-In|DIP-14||CD4001BE|[595-CD4001BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4001BE?qs=Tv815z3GeNSKspfG7F34rg%3D%3D "CD4001")||
 2|Specialty Function Logic Dual Comp Pair Plus|DIP-14||CD4007UBE|[595-CD4007UBE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4007UBE?qs=LfG3tU9ud8BdeBYIAnqsKQ%3D%3D "CD4007")||
 3|Inverters Hex Inverter Buffer|DIP-16||CD4009UBE|[595-CD4009UBE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4009UBE?qs=VolsR0DjNPrED2AO%2FOVdHw%3D%3D "CD4009")||
 4|Inverter Hex Schmitt Trigger|DIP-14||CD40106BE|[595-CD40106BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD40106BE?qs=YhsVCygOPE1CyKyInx%252Bh3Q%3D%3D&gclid=EAIaIQobChMIgtOchp_K6wIVBt-yCh0zXgXAEAAYASAAEgIDAPD_BwE/ "CD40106BE")||
@@ -277,7 +277,7 @@ No|Description|Package|Value|Manufacturer Part Number|Mouser-Nr.
 19|Counter ICs 14-Bit Ripple|DIP-16||CD4060BE|[595-CD4060BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4060BE?qs=5BZzbFV4k2vIRvFJ20ZWwg%3D%3D "CD4060")||
 20|Analogue Switch ICs Quad|DIP-14||CD4066BE|[595-CD4066BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4066BE?qs=mTHRaKC2c7ObpofRtjqLig%3D%3D "CD4066")||
 21|Logic Gates 8-Input NAND/AND|DIP-14||CD4068BE|[595-CD4068BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4068BE?qs=FM6NhYOeeBUbd80VDCMlFg%3D%3D "CD4068")||
-22|Logic Gates Quad Exclusive OR|DIP-14||CD4070BE|[595-CD4070BE] (https://www.mouser.de/ProductDetail/Texas-Instruments/CD4070BE?qs=5WY7Uqh921w5Ya0dPgjorQ%3D%3D "CD4070")||
+22|Logic Gates Quad Exclusive OR|DIP-14||CD4070BE|[595-CD4070BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4070BE?qs=5WY7Uqh921w5Ya0dPgjorQ%3D%3D "CD4070")||
 23|Logic Gates Quad 2-Input|DIP-14||CD4071BE|[595-CD4071BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4071BE?qs=D5pVkbrsqqJag2QszZHFMA%3D%3D "CD4071")||
 24|Logic Gates Quad 2-Input|DIP-14||CD4081BE|[595-CD4081BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4081BE?qs=dQbkqP7qjaZ0jSz5I7zHYA%3D%3D "CD4081")||
 25|NAND Logic Gates Schmitt Trigger|DIP-14||CD4093BE|[595-CD4093BE](https://www.mouser.de/ProductDetail/Texas-Instruments/CD4093BE?qs=X1HXWTtiZ0QxcrKuDdZ5rg%3D%3D "CD4093")||
