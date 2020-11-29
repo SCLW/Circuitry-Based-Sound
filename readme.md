@@ -35,7 +35,7 @@ It shows a [square wave](https://en.wikipedia.org/wiki/Square_wave "square wave"
 * capacitor C
 * resistor R
 
-An inverting Schmitt trigger is an active electronic component whose output state can be triggered complementarily through an input signal, while the positive trigger threshold differs from the negative one. Feeding the output back to its input via a resistor and connecting a capacitor between the input and ground, known as RC circuit, creates a relaxation oscillator or [astable multivibrator](https://en.wikipedia.org/wiki/Multivibrator#Astable_multivibrator "astable multivibrator"). The resitor limits the current for charging the capacitor and determines the charging time.
+An inverting Schmitt trigger is an active electronic component whose output state can be triggered complementarily through an input signal, while the positive trigger threshold differs from the negative one. Feeding the output back to its input via a resistor and connecting a capacitor between the input and ground, known as RC circuit, creates a relaxation oscillator or [astable multivibrator](https://en.wikipedia.org/wiki/Multivibrator#Astable_multivibrator "astable multivibrator"). The resitor limits the current for charging the capacitor and both together determine the charging time.
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/ST_inv.gif">
 
@@ -63,7 +63,7 @@ The following is a list of CMOS chips and other integrated circuits for sound cr
 
 ### CD40106
 
-The inverter is a basic part in digital electronics and performs the logic operation of negation. When the input is connected to ground, the output is pulled to V<sub>DD</sub> and vice versa. The CD40106 hex Schmitt trigger inverter offers six separate inverters in one chip that can be wired externally to build square wave oscillators. When using a potentiometer for frequency control, an offset resistor should be placed in series in order to prevent zero resistance between output and input.
+The inverter is a basic part in digital electronics and performs the logic operation of negation. When the input is connected to ground, the output is pulled to V<sub>DD</sub> and vice versa. The CD40106 hex Schmitt trigger inverter offers six separate inverters in one chip that can be wired externally to build square wave oscillators. When using a potentiometer for frequency control, an offset resistor should be placed in series in order to prevent too low resistance between output and input.
 
 *Applications:*
 * oscillator
