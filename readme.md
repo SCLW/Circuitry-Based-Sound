@@ -35,7 +35,7 @@ It shows a [square wave](https://en.wikipedia.org/wiki/Square_wave "square wave"
 * capacitor C
 * resistor R
 
-An inverting Schmitt trigger is an active electronic component whose output state can be triggered complementarily through an input signal, while the positive trigger threshold differs from the negative one. Feeding the output back to its input via a resistor and connecting a capacitor between the input and ground, known as RC circuit, creates a relaxation oscillator or [astable multivibrator](https://en.wikipedia.org/wiki/Multivibrator#Astable_multivibrator "astable multivibrator"). The resitor limits the current for charging the capacitor and both together determine the charging time.
+An inverting Schmitt trigger is an active electronic component whose output state can be triggered complementarily through an input signal, while the positive trigger threshold differs from the negative one. Feeding the output back to its input via a resistor and connecting a capacitor between the input and ground, known as RC circuit, creates a relaxation oscillator or [astable multivibrator](https://en.wikipedia.org/wiki/Multivibrator#Astable_multivibrator "astable multivibrator"). The resistor limits the current for charging the capacitor and both together determine the charging time.
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/ST_inv.gif">
 
@@ -114,7 +114,7 @@ Truth table for NAND
 
 ### CD4070
 
-The CD4070 contains four Exclusive-OR logic gates. Each gate has two inputs and one output. The output is high when only one of the inputs is high and the other is low and vice verca. If both inputs are high or low, the output is low. If two quare wave signals are connected to the input, the output extracts the difference which results in a frequency mixer like output signal. Frequency doubling can be achieved if one square wave is applied directly to one input and connected via a resitor to its second input with a capacitor to ground. The positive and negative edge of an incoming square wave now force the output to high, hence doubles the incoming frequency.
+The CD4070 contains four Exclusive-OR logic gates. Each gate has two inputs and one output. The output is high when only one of the inputs is high and the other is low and vice verca. If both inputs are high or low, the output is low. If two quare wave signals are connected to the input, the output extracts the difference which results in a frequency mixer like output signal. Frequency doubling can be achieved if one square wave is applied directly to one input and connected via a resistor to its second input with a capacitor to ground. The positive and negative edge of an incoming square wave now force the output to high, hence doubles the incoming frequency.
 
 
 *Applications:*
