@@ -253,6 +253,8 @@ For most audio applications it is desired to control the portion of each input s
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Potentiometer_Voltage_Divider.jpg>
 
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Volume_Control_Variable.jpg>
+
 
 ## Bill of Material
 
