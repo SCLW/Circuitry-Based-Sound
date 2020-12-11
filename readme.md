@@ -244,6 +244,9 @@ For most audio applications it is desired to control the portion of each input s
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
 
 
+### Potentiometer
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Potentiometer_Voltage_Divider.jpg>
 
 
 ## Bill of Material
