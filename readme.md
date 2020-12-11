@@ -243,6 +243,11 @@ For most audio applications it is desired to control the portion of each input s
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
 
+### Passive Filter
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Passive_Filter.jpg>
+
+
 
 ### Potentiometer
 
