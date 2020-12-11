@@ -157,7 +157,7 @@ Reset function can be enabled through a high level at reset pin. Otherwise a low
 |:----:|:----:|:----:|:----:|:----:|
 |/|0|0|0|Qn-1|
 |/|1|0|1|Qn-1|
-|\|X|0|Q1|Qn|
+|\\|X|0|Q1|Qn|
 |X|X|1|0|0|
 
 X = Don't Care Case  
