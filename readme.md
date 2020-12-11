@@ -143,13 +143,26 @@ Truth table for XOR
 ### CD4015
 
 CD4015 IC consists of two four stage shift registers... 
-Reset function can be enabled through a high level at reset pin. Otherwise a low level should be present at the reset pin for continuously operation.
+Reset function can be enabled through a high level at reset pin. Otherwise a low level should be present at the reset pin for continuous operation.
 
 *Applications:*
 * sequencer / pattern generator
 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4015.jpg>
+
+
+
+|CL|D|R|Q1|Qn|
+|:----:|:----:|:----:|:----:|:----:|
+|/|0|0|0|Qn-1|
+|/|1|0|1|Qn-1|
+|\|X|0|Q1|Qn|
+|X|X|1|0|0|
+
+X = Don't Care
+/ = Rising Edge
+\ = Falling Edge
 
 [CD4015 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4015b.pdf?ts=1607676770686&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4015")
 
