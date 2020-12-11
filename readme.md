@@ -140,6 +140,20 @@ Truth table for XOR
 [CD4070 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4077b.pdf?ts=1606308007892&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4070")
 
 
+### CD4015
+
+CD4015 IC consits of two four stage shift registers... 
+
+
+*Applications:*
+* sequencer / pattern generator
+
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4015.jpg>
+
+[CD4015 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4015b.pdf?ts=1607676770686&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4015")
+
+
 ### CD4022
 
 CD4022 IC implements a binary counter/divider function. The positive edge of an incoming square wave, usually referred to as "clock signal", triggers successively the outputs. "Carry out" is outputting one cycle over 8 clock pulses.
