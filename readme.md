@@ -142,8 +142,8 @@ Truth table for XOR
 
 ### CD4015
 
-CD4015 IC consits of two four stage shift registers... 
-
+CD4015 IC consists of two four stage shift registers... 
+Reset function can be enabled through a high level at reset pin. Otherwise a low level should be present at the reset pin for continuously operation.
 
 *Applications:*
 * sequencer / pattern generator
