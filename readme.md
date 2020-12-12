@@ -280,7 +280,7 @@ Tone control and creative equalization are very important processes when working
 
 ## Potentiometer
 
-A potentiometer is a resistive component with three terminals, of wich one is connected to a movable contact to form a variable voltage divider. Configured as a voltage divider, potentiometric devices are used for volume control in audio applications.
+A potentiometer is a passive component with three terminals, of wich one is connected to a movable contact, called wiper, that can be adjusted on a resistive track. The other two terminals are the ends of the resistor. If one end and the wiper are used, it forms a variable resistor. Configured as a voltage divider, potentiometric devices are used for volume control in audio applications.
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Potentiometer_Voltage_Divider.jpg>
 
