@@ -270,13 +270,13 @@ For most audio applications it is desired to control the portion of each input s
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_OpAmp.jpg>
 
-### Passive Filter
+## Passive Filter
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Passive_Filter.jpg>
 
+Tone control and creative equalization is a very important process when working with audio. A filter is frequency-selective and passes only a desired range of frequencies, which is called the pass band. Outside of this pass band, frequencies are attenuated or ideally completely reduced. The simplest way to shape a sound in an electronic circuit is the use of a combination of resistor and capacitor, an RC circuit.
 
-
-### Potentiometer
+## Potentiometer
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Potentiometer_Voltage_Divider.jpg>
 
