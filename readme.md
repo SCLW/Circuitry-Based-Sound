@@ -272,9 +272,10 @@ For most audio applications it is desired to control the portion of each input s
 
 ## Passive Filter
 
+Tone control and creative equalization is a very important process when working with audio. A filter is frequency-selective and passes only a desired range of frequencies, which is called the pass band. Outside of this pass band, frequencies are attenuated or ideally completely reduced. The simplest way to shape a sound in an electronic circuit is the use of a combination of resistor and capacitor, an RC circuit.
+
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Passive_Filter.jpg>
 
-Tone control and creative equalization is a very important process when working with audio. A filter is frequency-selective and passes only a desired range of frequencies, which is called the pass band. Outside of this pass band, frequencies are attenuated or ideally completely reduced. The simplest way to shape a sound in an electronic circuit is the use of a combination of resistor and capacitor, an RC circuit.
 
 ## Potentiometer
 
