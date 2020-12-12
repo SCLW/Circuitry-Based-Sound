@@ -142,8 +142,8 @@ Truth table for XOR
 
 ### CD4015
 
-CD4015 IC consists of two four stage shift registers. A shift register is built of a series of interconnected [flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics) "flip-flop"). The memory content of a flip-flop is shifted to the next one, synchronized to a clock signal.
-Reset function can be enabled through a high level at reset pin. Otherwise a low level should be present at the reset pin for continuous operation.
+CD4015 IC consists of two four stage shift registers. A shift register is built of a series of interconnected [flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics) "flip-flop"). The memory content of a flip-flop is shifted to the next one, synchronized to the rising edge of a clock signal.
+A reset can be enabled through a high level at the reset pin. A low level should be present at the reset pin for a continuous operation.
 
 *Applications:*
 * sequencer / pattern generator
@@ -151,7 +151,7 @@ Reset function can be enabled through a high level at reset pin. Otherwise a low
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4015.jpg>
 
-
+Truth table for CD4015
 
 |CL|D|R|Q1|Qn|
 |:----:|:----:|:----:|:----:|:----:|
@@ -160,9 +160,9 @@ Reset function can be enabled through a high level at reset pin. Otherwise a low
 |``\``|X|0|Q1|Qn|
 |X|X|1|0|0|
 
-X = Don't Care Case  
-/ = Rising Edge  
-\ = Falling Edge  
+X   = Don't Care Case  
+/   = Rising Edge  
+\   = Falling Edge  
 
 [CD4015 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4015b.pdf?ts=1607676770686&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4015")
 
