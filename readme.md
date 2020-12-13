@@ -116,7 +116,7 @@ Truth table for NAND
 
 ### CD4070
 
-The CD4070 contains four Exclusive-OR logic gates. Each gate has two inputs and one output. The output is high when only one of the inputs is high and the other is low and vice verca. If both inputs are high or low, the output is low. If two quare wave signals are connected to the input, the output extracts the difference which results in a frequency mixer like output signal. Frequency doubling can be achieved if one square wave is applied directly to one input and connected via a resistor to its second input with a capacitor to ground. The positive and negative edge of an incoming square wave now force the output to high, hence doubles the incoming frequency.
+The CD4070 contains four Exclusive-OR logic gates. Each gate has two inputs and one output. The output is high when only one of the inputs is high and the other is low and vice verca. If both inputs are high or low, the output is low. If two square wave signals are connected to the input, the output extracts the difference which results in a frequency mixer like output signal. Frequency doubling can be achieved if one square wave is applied directly to one input and connected via a resistor to its second input with a capacitor to ground. The positive and negative edge of an incoming square wave now force the output to high, hence doubles the incoming frequency.
 
 
 *Applications:*
