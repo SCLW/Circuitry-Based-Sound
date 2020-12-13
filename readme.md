@@ -273,7 +273,10 @@ For most audio applications it is desired to control the portion of each input s
 
 ## Passive Filter
 
-Tone control and creative equalization are very important processes when working with audio. A filter is frequency-selective and passes only a desired range of frequencies, which is called the pass band. Outside of this pass band, frequencies are attenuated or ideally completely reduced. The simplest way to shape a sound in an electronic circuit is the use of a combination of resistor and capacitor, an RC circuit.
+Tone control and creative equalization are very important processes when working with audio. A filter is frequency-selective and passes only a desired range of frequencies, which is called the pass band. Outside of this pass band, frequencies are attenuated or ideally completely reduced. The point between pass and stop band is called cutoff frequency.
+
+The simplest way to shape a sound in an electronic circuit is the use of a combination of resistor and capacitor, an RC circuit.
+When a filter is designed with passive components, the roll off, the transition from pass to stop band is rather smooth.
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Passive_Filter.jpg>
 
