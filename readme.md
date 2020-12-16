@@ -47,7 +47,6 @@ However, manufacturing tolerances of all involved parts make it difficult to ach
 
 
 ## Logic Control
-
 In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/wiki/Binary_number "binary number") are represented by two defined voltage levels that are specified by the used technology and circuit. For example signal ground in a given circuit can represent "0" while the positive voltage rail can represent "1". The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF".
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Square-Wave.jpg">
