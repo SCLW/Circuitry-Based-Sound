@@ -389,6 +389,7 @@ Helpful tools and useful materials:
 * ESD electronic diagonal cutter.
 * Precision cutter.
 * Stranded wires.
+* Crocodile clips.
 * Laboratory power supply & connectors (preferable 4mm banana laboratory connectors).
 * Jumper cables and jumper wires.
 * Digital multimeter (DVM).
