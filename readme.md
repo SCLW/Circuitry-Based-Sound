@@ -47,11 +47,28 @@ However, manufacturing tolerances of all involved parts make it difficult to ach
 
 
 ## Logic Control
-In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/wiki/Binary_number "binary number") are represented by two defined voltage levels that are specified by the used technology and circuit. For example signal ground in a given circuit can represent "0" while the positive voltage rail can represent "1". The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF".
+In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/wiki/Binary_number "binary number") are represented by two defined voltage levels that are specified by the used technology and circuit. Everything below a certain voltage threshold level is recognized as 0 and everything above a certain threshold level is recognized as 1. A voltage level in between the two thresholds is not defined and will produce false output triggers. The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF".
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Square-Wave.jpg">
 
+### pull-up and pull-down resistors
+
+When external circuits or devices are added to a logic input, care must be the inputs in a defined state. When switches or transistors are used to control a logic gate, they can physically disconnect the inputs. For example when a normally-open push button is in its default position, the high impedance input is open. This causes the pin to act like an antenna that is very susceptible to electromagnetic noise and forces the output to do unwanted operations like generating random highs or lows. This is called "floating" and introduces undesired effects.
+
+To avoid this unpredicted behavior, a resistor should be connected to ground or to the high voltage, so that the input pin will see a defined state even when nothing else is connected, for example when a switch is opened. The input will be able to accept an input signal when the switch is closed. A connection to Vcc is called "pull-up" and a connection to ground "pull-down". For CMOS-logic, the resistor values can be several thousands ohms.
+
+<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/pull-up_pull-down.jpg">
+
+Even unused logic gates can cause problems since coupled-in interference voltages result in unwanted triggers and excess current draw. Inputs should not be left floating and therefore connected together to GND or Vcc.
+
+## Logic gate
 A logic gate is a single input - output device, designed to carry out a specific [boolean operation](https://en.wikipedia.org/wiki/Boolean_algebra "boolean algebra"), mapped to two voltage levels. Over time, the two  alternating voltage levels may form a periodic rectangular waveform and the speed of switching between the two levels is perceived as pitch. Aperiodic switching will produce other sonic qualities such as noise or all kinds of texturized sounds. The ratio between the on-and-off states is by default 1:1, a 50% [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle "duty cycle"). Further circuitry is needed to change this ratio, which alters the audio spectrum of the square wave.
+
+
+
+
+
+
 
 
 ## Electronic Components
