@@ -159,6 +159,7 @@ A shift register is built of a series of interconnected [flip-flops](https://en.
 
 *Applications:*
 * sequencer / pattern generator
+* noise / "bit crusher"
 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4015.jpg>
