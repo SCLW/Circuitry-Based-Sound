@@ -261,6 +261,30 @@ Truth table
 [CD4051 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4051b.pdf?ts=1599079621658&ref_url=https%253A%252F%252Fwww.google.com%252F "CD405xB")
 
 
+
+### CD4066
+
+Quad Bilateral Switch
+
+IC CD4066 includes four identical digitally controlled switches for analog or digital signals.
+Inputs and outputs are interchangeable as with conventional switches. Each switch can be controlled independently by a control input.
+
+control logic 1 = switch on
+control logic 0 = switch off
+
+
+*Applications:*
+* Signal gating
+* signal routing
+
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4066.jpg>
+
+
+
+[CD4066 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4066b.pdf?ts=1608449210166&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4066")
+
+
 ## Mixer
 There are two ways of mixing signals together, active and passive mixing. Active mixing involves components, such as operational amplifiers, that need a power supply. Passive mixing works without an additional power supply, but introduces a voltage drop.
 
