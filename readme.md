@@ -269,13 +269,13 @@ Quad Bilateral Switch
 IC CD4066 includes four identical digitally controlled switches for analog or digital signals.
 Inputs and outputs are interchangeable as with conventional switches. Each switch can be controlled independently by a control input.
 
-control logic 1 = switch on
+control logic 1 = switch on  
 control logic 0 = switch off
 
 
 *Applications:*
-* Signal gating  
-* Signal routing  
+* Signal gating
+* Signal routing
 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4066.jpg>
