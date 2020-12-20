@@ -274,8 +274,8 @@ control logic 0 = switch off
 
 
 *Applications:*
-* Signal gating
-* signal routing
+* Signal gating  
+* Signal routing  
 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4066.jpg>
