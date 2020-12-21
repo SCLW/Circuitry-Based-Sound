@@ -62,8 +62,7 @@ To avoid this unpredicted behavior, a resistor should be connected to ground or 
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/pull-up_pull-down.jpg">
 
-Even unused logic gates can cause problems since coupled-in interference voltages result in unwanted triggers and excess current draw. Inputs should not be left floating and therefore connected together to GND or V<sub>CC</sub>.
-
+Even unused logic gates can cause problems since coupled-in interference voltages result in unwanted triggers and excess current draw. For proper operation, inputs should not be left floating and therefore connected together to GND or V<sub>CC</sub>.
 
 
 
