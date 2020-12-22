@@ -329,9 +329,9 @@ A variable voltage divider circuit can be configured by connecting a voltage (su
 
 "Voltage starve" or "voltage sag" can be used as an unconventional modulation technique for experimental music. It describes the effect that low supply voltage and limited current may have on a circuit's behavior. Especially battery powered guitar pedals create unique dynamic distortion when the battery's voltage and current delivering capacity is unstable due to aging factors.
 
-For instance, the hysteresis thresholds in Schmitt trigger elements vary with the supply voltage. Lowering the supply voltage affects the frequency and the signal amplitude of Schmitt trigger oscillators. Changing the supply voltage will have different effects on a signal, depending on the actual circuit and the used components. Bypassing capacitors will mitigate certain effects.
+Changing the supply voltage will have different effects on a signal, depending on the actual circuit and the used components. Bypassing capacitors will mitigate certain effects. For instance, the hysteresis thresholds in Schmitt trigger elements vary with the supply voltage. Lowering the supply voltage affects the frequency and the signal amplitude of Schmitt trigger oscillators. 
 
-When working with an adjustable power supply or according circuits, the impacts of current limiting and voltage levels around or below the minimum requirements of an IC can be examined. Similar effect can be simulated with a simple series resistor in the power rail. 10kΩ - 100kΩ potentiometers may be worth experimenting with to create odd sounds.
+When working with an adjustable power supply or an according circuit, the impacts of limited current and voltage levels around or below the minimum requirements of an IC can be examined. Similar effect can be simulated with a simple series resistor in the power rail. 10kΩ - 100kΩ potentiometers may be worth experimenting with to create odd sounds.
 
 ## Bill of Material
 
