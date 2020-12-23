@@ -420,7 +420,6 @@ Helpful tools and useful materials:
 * Active loudspeakers.
 * Worktables.
 * Screw drivers.
-* Metric screw assortment (M3, ~12mm) and nuts.
 * ESD electronic diagonal cutter.
 * Precision cutter.
 * Stranded wires.
