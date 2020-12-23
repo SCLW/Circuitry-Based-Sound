@@ -276,7 +276,7 @@ control logic 0 = switch off
 * Signal routing
 
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4066.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4066_anim.gif>
 
 
 
