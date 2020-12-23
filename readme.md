@@ -431,6 +431,8 @@ Helpful tools and useful materials:
 * Digital storage oscilloscope (DSO).
 * Temperature-controlled soldering station.
 * Breadboards.
+* 9V Batteries.
+* Battery clips.
 * Good light conditions.
 
 
