@@ -283,6 +283,22 @@ control logic 0 = switch off
 [CD4066 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4066b.pdf?ts=1608449210166&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4066")
 
 
+### CD4060
+
+14 stage ripple-carry binary counter/divider and oscillator
+
+
+
+*Applications:*
+* Frequency division
+* Oscillator
+
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4060.jpg>
+
+
+[CD4060 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4060b.pdf "CD4060")
+
 ## Mixing
 
 There are two ways of mixing signals together, active and passive mixing. Active mixing involves components, such as operational amplifiers, that need a power supply. Passive mixing works without an additional power supply, but introduces a voltage drop.
