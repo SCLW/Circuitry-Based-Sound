@@ -77,8 +77,9 @@ The following is a list of CMOS chips and other integrated circuits for sound cr
 The inverter is a basic part in digital electronics and performs the logic operation of negation. When the input is connected to ground, the output is pulled to V<sub>DD</sub> and vice versa. The CD40106 hex Schmitt trigger inverter offers six separate inverters in one chip that can be wired externally to build square wave oscillators. When using a potentiometer for frequency control, an offset resistor should be placed in series in order to prevent too low resistance between output and input.
 
 *Applications:*
-* oscillator
-* clock signals
+* Square Wave Generator
+* Inverting Buffer
+
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
 
@@ -101,8 +102,9 @@ The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 outpu
 It acts as a square wave oscillator when the inputs are connected to form an inverter. The last two rows of the truth table indicate that one input has to be set to a logical high in order to attain inversion of the signal being present at the other input. When the second input is then wired like the CD40106 in the previous example, the CD4093 generates square waves too. In this configuration, oscillation can be inhibited by setting the first input to a logical low. This way, the first input acts as a control input for gating the oscillator.
 
 *Applications:*
-* gated oscillator / modulated square waves
-* clock signals
+* Square Wave Generator
+* Gated Oscillator
+
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093.jpg>
 
@@ -129,9 +131,8 @@ The CD4070 contains four Exclusive-OR logic gates. Each gate has two inputs and 
 
 
 *Applications:*
-* digital frequency mixer
-* frequency doubler
-* duty cycle adjustment
+* Digital Frequency Mixer
+
 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070.jpg>
@@ -156,9 +157,9 @@ CD4015 IC consists of two four stage shift registers.
 A shift register is built of a series of interconnected [flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics) "flip-flop"). A flip-flop or latch is a bistable multivibrator circuit. This means it has two stable states which represent either 0 or 1. The state of a flip-flop can be controlled by an input signal. A flip-flop is used to store 1 bit. In a shift register the incoming serial input data **D** is transferred to a parallel output register **Qn**. More specifically, when a memory content is stored in the first flip-flop, it is shifted to the next one, synchronized to the rising edge of a clock signal **CL**. A logical high at the reset pin is setting all outputs to zero. The reset pin should be set to low for a continuous operation.
 
 *Applications:*
-* sequencer / pattern generator
-* noise / "bit crusher"
-* Linear-feedback shift register (LFSR)
+* Sequencer
+* Noise Generator
+* Linear-feedback Shift Register (LFSR)
 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4015.jpg>
@@ -184,9 +185,10 @@ X   = Don't Care Case
 CD4022 IC implements a binary counter/divider function. The positive edge of an incoming square wave, usually referred to as "clock signal", triggers successively the outputs. "Carry out" is outputting one cycle over 8 clock pulses.
 
 *Applications:*
-* counter
-* wave shaper and staircase wave form generator
-* sequencer
+* Sequencer
+* Staircase Wave Form Generator
+* Wave Shaper
+
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_animated.gif>
 
@@ -203,7 +205,10 @@ This IC performs frequency division. If a square wave is applied to the input, e
 Control input "reset" triggers all output stages to "low". For continuously frequency division it should be kept at a logical low.
 
 *Applications:*
-* subharmonic oscillator
+* Frequency Divider
+* Subharmonic Oscillator
+* Octave Generator
+* Represenation of Binary Numbers
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
 
@@ -222,9 +227,10 @@ The timing diagram shows the relation of voltage levels between all outputs of t
 Phase locked loop
 
 *Applications:*
-* tone distortion
-* pitch tracking
-* frequency multiplication
+* Tone Distortion
+* Pitch Tracking
+* Frequency Multiplication
+* Voltage Controlled Square Wave Generator
 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4046.jpg>
@@ -238,9 +244,9 @@ Multiplexer/Demultiplexer. All channels are off when inhibit input is set to "hi
 
 
 *Applications:*
-* wave shaping
-* digitally-controlled analog switching
-* signal routing
+* Wave Shaper
+* Digitally-controlled Analog Switching
+* Signal Routing
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_animated.gif>
 
@@ -272,8 +278,8 @@ control logic 0 = switch off
 
 
 *Applications:*
-* Signal gating
-* Signal routing
+* Signal Gating
+* Signal Routing
 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4066_anim.gif>
@@ -290,8 +296,8 @@ control logic 0 = switch off
 
 
 *Applications:*
-* Frequency division
-* Oscillator
+* Frequency Divider
+* Square Wave Generator
 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4060.jpg>
