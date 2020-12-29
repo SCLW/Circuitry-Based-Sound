@@ -206,8 +206,7 @@ Control input "reset" triggers all output stages to "low". For continuously freq
 
 *Applications:*
 * Frequency Divider
-* Subharmonic Oscillator
-* Octave Generator
+* Sub Octave Generator
 * Represenation of Binary Numbers
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
