@@ -132,7 +132,6 @@ The CD4070 contains four Exclusive-OR logic gates. Each gate has two inputs and 
 
 *Applications:*
 * Digital Frequency Mixer
-* Spectral Shaper
 * Frequency Doubler
 
 
