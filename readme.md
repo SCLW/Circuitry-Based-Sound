@@ -305,6 +305,27 @@ control logic 0 = switch off
 
 [CD4060 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4060b.pdf "CD4060")
 
+
+### NE555
+
+14 stage ripple-carry binary counter/divider and oscillator
+
+
+
+*Applications:*
+* Frequency Divider
+* Timing
+* Pulse Delay
+* Square Wave Generator
+* Pulse Width Modulation
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/NE555.jpg>
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/NE555_Operation_Types.jpg>
+
+
+[NE555 Data Sheet](https://www.ti.com/lit/ds/symlink/ne555.pdf "NE555")
+
 ## Mixing
 
 There are two ways of mixing signals together, active and passive mixing. Active mixing involves components, such as operational amplifiers, that need a power supply. Passive mixing works without an additional power supply, but introduces a voltage drop.
