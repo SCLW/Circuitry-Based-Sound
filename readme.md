@@ -308,7 +308,6 @@ control logic 0 = switch off
 
 ### NE555
 
-14 stage ripple-carry binary counter/divider and oscillator
 
 
 
