@@ -306,6 +306,22 @@ control logic 0 = switch off
 [CD4060 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4060b.pdf "CD4060")
 
 
+### CD4013
+
+Dual D-Type Flip-Flop
+
+
+
+*Applications:*
+
+
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4013.jpg>
+
+
+[CD4013 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4013b.pdf?ts=1609946760296&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4013")
+
+
 ### NE555
 
 
