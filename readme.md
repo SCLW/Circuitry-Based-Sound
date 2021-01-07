@@ -322,24 +322,23 @@ Dual D-Type Flip-Flop
 [CD4013 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4013b.pdf?ts=1609946760296&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4013")
 
 
-### NE555
-
+### 555 Timer
 
 
 
 *Applications:*
 * Frequency Divider
-* Timing
+* Timer
 * Pulse Delay
 * Square Wave Generator
-* Pulse Width Modulation
+* Pulse Width Modulator
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/NE555.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer.jpg>
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/NE555_Operation_Types.jpg>
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer_Operation.jpg>
 
 
-[NE555 Data Sheet](https://www.ti.com/lit/ds/symlink/ne555.pdf "NE555")
+[LMC555 Data Sheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf?ts=1609974121158&ref_url=https%253A%252F%252Fwww.google.com%252F "LMC555")
 
 ## Mixing
 
