@@ -314,7 +314,7 @@ Dual D-Type Flip-Flop
 
 
 *Applications:*
-
+* Frequency Divider
 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4013.jpg>
