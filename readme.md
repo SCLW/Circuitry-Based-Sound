@@ -127,8 +127,9 @@ Truth table for NAND
 
 ### CD4070
 
-The CD4070 contains four Exclusive-OR logic gates. Each gate has two inputs and one output. The output is high when only one of the inputs is high and the other is low and vice versa. If both inputs are high or low, the output is low. If two square wave signals are connected to the input, the output extracts the difference which results in a frequency mixer like output signal. Frequency doubling can be achieved if one square wave is applied directly to one input and connected via a resistor to its second input with a capacitor to ground. The positive and negative edge of an incoming square wave now force the output to high, hence doubles the incoming frequency.
+The CD4070 contains four Exclusive-OR logic gates. Each gate has two inputs and one output. The output is high when only one of the inputs is high and the other is low and vice versa. If both inputs are high or low, the output is low. If two square wave signals are connected to the input, the output extracts the difference which results in a frequency mixer like output signal. Frequency doubling can be achieved if one square wave is applied directly to one input and connected via a resistor to its second input with a capacitor to ground. The positive and negative edge of an incoming square wave now force the output to high, hence doubles the incoming frequency. The pulse width of the output signal depends on the chosen values and is shorter than the width of the input signal; approximately the length of the RC time constant. Good sounding results can only be reached within a small value range.
 
+CD4077 is the Exclusive-NOR version.
 
 *Applications:*
 * Digital Frequency Mixer
@@ -325,6 +326,7 @@ Dual D-Type Flip-Flop
 ### 555 Timer
 
 
+Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the same pinout and are exchangeable. The CMOS version consumes significantly less power.
 
 *Applications:*
 * Frequency Divider
