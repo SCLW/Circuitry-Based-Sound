@@ -323,7 +323,7 @@ Dual D-Type Flip-Flop
 [CD4013 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4013b.pdf?ts=1609946760296&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4013")
 
 
-### 555 Timer
+### 555 Timer (under construction)
 
 
 Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the same pinout and are exchangeable. The CMOS version consumes significantly less power.
