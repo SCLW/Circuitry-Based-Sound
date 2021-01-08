@@ -245,7 +245,8 @@ Phase locked loop
 
 ### CD4051 (under construction)
 
-Multiplexer/Demultiplexer. 
+Multiplexer/Demultiplexer.
+
 
 *Applications:*
 * Wave Shaper
