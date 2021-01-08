@@ -257,7 +257,7 @@ All channels are off when inhibit input is set to "high" (active low).
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_animated.gif>
 
-Truth table
+Truth table for the CD4051
 |C|B|A|ON CHANNEL(S)|
 |----|----|----|:----:|
 |0|0|0|0|
