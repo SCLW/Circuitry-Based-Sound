@@ -218,7 +218,7 @@ Control input "reset" triggers all output stages to "low". For continuously freq
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
 
 
-Each output producing one octave lower than its previous output, respectively input.
+In terms of generating sound, each output producing one octave lower than its previous output, respectively input.
 
 
 The timing diagram shows the relation of voltage levels between all outputs of the CD4024 IC, a 7-output stage version:
