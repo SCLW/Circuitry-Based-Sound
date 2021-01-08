@@ -243,10 +243,9 @@ Phase locked loop
 [CD4046 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4046b.pdf?ts=1599062962750&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4046")
 
 
-### CD4051
+### CD4051 (under construction)
 
-Multiplexer/Demultiplexer. All channels are off when inhibit input is set to "high".
-
+Multiplexer/Demultiplexer. 
 
 *Applications:*
 * Wave Shaper
