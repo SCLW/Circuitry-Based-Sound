@@ -187,7 +187,7 @@ X   = Don't Care Case
 
 ### CD4022
 
-CD4022 and CD4017 ICs implement a binary counter/divider function. The positive edge of an incoming square wave, usually referred to as "clock signal", triggers successively the outputs. "Carry out" is outputting one cycle over 8 clock pulses (CD4022). A logical high at "clock inhibit" pauses the counting process. A logical high at "reset" sets the counter pulse back to the first output.
+CD4022 and CD4017 ICs implement a binary counter/divider function with 8 outputs in the CD4022 and 10 outputs in the CD4017. The positive edge of an incoming square wave, usually referred to as "clock signal", triggers successively the outputs. "Carry out" is outputting one cycle over 8 (CD4022) respectively 10 (CD4017) clock pulses. A logical high at "clock inhibit" pauses the counting process. A logical high at the "reset" pin sets the counter pulse back to the first output.
 
 *Applications:*
 * Sequencer
