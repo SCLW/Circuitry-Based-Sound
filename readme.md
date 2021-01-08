@@ -243,10 +243,12 @@ Phase locked loop
 [CD4046 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4046b.pdf?ts=1599062962750&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4046")
 
 
-### CD4051 (under construction)
+### CD4051
 
-Multiplexer/Demultiplexer.
+CD405x Multiplexer/Demultiplexer series comes in a 16 DIP package and is useful for switching and routing analog or digital signals.
+CD4051 is a switch in a single pole octal throw configuration with three binary control inputs. CD4052 can be used for multiplexing 2 differential channels in a single-pole quad-throw configuration with two binary control inputs. CD4053 offers individual control over 3 channels in a single-pole, double-throw configuration with an independent binary control input for each channel.
 
+All channels are off when inhibit input is set to "high" (active low).
 
 *Applications:*
 * Wave Shaper
