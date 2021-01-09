@@ -333,15 +333,15 @@ control logic 0 = switch off
 
 D flip-flop truth table
 
-|C|D|Q|
-|:----:|:----:|:----:|
-|/|0|0|
-|/|1|1|
-|``\``|X|no change|
+|C|D|R|S|Q|/Q|
+|:----:|:----:|:----:|:----:|:----:|:----:|
+1|/|0|0|0|0|1|
+2|/|1|0|0|1|0|
+3|``\``|X|0|0|no change|no change|
+4|x|x|1|0|0|1|
+5|x|x|0|1|1|0|
+6|x|x|1|1|1|1|
 
-X   = Don't Care  
-/   = Rising Edge  
-\   = Falling Edge  
 
 
 [CD4013 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4013b.pdf?ts=1609946760296&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4013")
