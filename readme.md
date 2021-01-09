@@ -310,6 +310,7 @@ control logic 0 = switch off
 
 
 
+
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4060.jpg>
 
 
@@ -325,7 +326,8 @@ control logic 0 = switch off
 
 *Applications:*
 * Frequency Divider
-* 
+* Counter
+* Toggle Switch
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4013.jpg>
 
