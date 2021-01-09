@@ -312,6 +312,23 @@ control logic 0 = switch off
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4060.jpg>
 
+
+
+[CD4060 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4060b.pdf "CD4060")
+
+
+### CD4013
+ 
+
+
+
+
+*Applications:*
+* Frequency Divider
+* 
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4013.jpg>
+
 D flip-flop truth table
 
 |C|D|Q|
@@ -323,21 +340,6 @@ D flip-flop truth table
 X   = Don't Care Case  
 /   = Rising Edge  
 \   = Falling Edge  
-
-[CD4060 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4060b.pdf "CD4060")
-
-
-### CD4013
-
-Dual D-Type Flip-Flop.
-
-
-
-*Applications:*
-* Frequency Divider
-
-
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4013.jpg>
 
 
 [CD4013 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4013b.pdf?ts=1609946760296&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4013")
