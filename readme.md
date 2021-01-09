@@ -341,14 +341,11 @@ D flip-flop truth table
 |⧹|X|0|0|no change|no change|
 |X|X|1|0|0|1|
 |X|X|0|1|1|0|
-|0|X|⊓|0|0|1|
-|0|X|0|⊓|1|0|
 |X|X|1|1|1|1|
 
 X   = Don't Care  
 /   = Rising Edge  
 ⧹   = Falling Edge  
-⊓   = Pulse
 
 
 
