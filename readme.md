@@ -308,8 +308,21 @@ control logic 0 = switch off
 * Square Wave Generator
 
 
+
+
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4060.jpg>
 
+D flip-flop truth table
+
+|C|D|Q|
+|:----:|:----:|:----:|
+|/|0|0|
+|/|1|1|
+|``\``|X|no change|
+
+X   = Don't Care Case  
+/   = Rising Edge  
+\   = Falling Edge  
 
 [CD4060 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4060b.pdf "CD4060")
 
