@@ -339,7 +339,7 @@ D flip-flop truth table
 |/|1|1|
 |``\``|X|no change|
 
-X   = Don't Care Case  
+X   = Don't Care  
 /   = Rising Edge  
 \   = Falling Edge  
 
