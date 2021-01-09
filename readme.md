@@ -315,7 +315,7 @@ control logic 0 = switch off
 
 ### CD4013
 
-Dual D-Type Flip-Flop
+Dual D-Type Flip-Flop.
 
 
 
