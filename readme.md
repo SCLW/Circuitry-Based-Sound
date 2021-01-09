@@ -176,12 +176,12 @@ Truth table for four stage shift register
 |:----:|:----:|:----:|:----:|:----:|
 |/|0|0|0|Qn-1|
 |/|1|0|1|Qn-1|
-|``\``|X|0|Q1|Qn|
+|⧹|X|0|Q1|Qn|
 |X|X|1|0|0|
 
 X   = Don't Care Case  
 /   = Rising Edge  
-\   = Falling Edge  
+⧹   = Falling Edge  
 
 [CD4015 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4015b.pdf?ts=1607676770686&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4015")
 
