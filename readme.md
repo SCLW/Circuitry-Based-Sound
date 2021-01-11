@@ -247,7 +247,7 @@ Phase locked loop
 ### CD4051
 
 CD405x Multiplexer/Demultiplexer series comes in a 16 DIP package and is useful for switching and routing analog or digital signals.
-CD4051 is a switch in a single pole octal throw configuration with three binary control inputs. CD4052 can be used for multiplexing one differential channel in a single-pole quad-throw configuration with two binary control inputs. CD4053 offers individual control over 3 channels in a single-pole double-throw configuration with an independent binary control input for each channel.
+CD4051 is a switch in a single pole octal throw configuration with three binary control inputs for setting the contacts. CD4052 can be used for multiplexing one differential channel in a double-pole quad-throw configuration and has two binary control inputs. CD4053 offers individual control over 3 channels in a single-pole double-throw configuration with an independent binary control input for each channel.
 
 All channels are off when inhibit input is set to "high" (active low).
 
