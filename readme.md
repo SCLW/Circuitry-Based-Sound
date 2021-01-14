@@ -393,13 +393,17 @@ Divide-By-'N' Counter
 
 
 FUNCTIONAL TRUTH TABLE
-Preset Jam
-Clock Reset Enable Input Qn
-0 0 XQn
-0 0 XDn*
-X 0 1 01
-X 0 1 10
-X 1 X X1
+
+|Clock|Reset|Preset Enable|Jam Input|/Qn|
+|:----:|:----:|:----:|:----:|:----:|
+|⧹|0|0|X|/Qn|
+|/|0| 0| X|/Dn|
+|X| 0| 1| 0|1|
+|X| 0| 1| 1|0|
+|X| 1| X| X|1|
+
+/Dn is the Data input for that stage.
+
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4018.jpg>
 
