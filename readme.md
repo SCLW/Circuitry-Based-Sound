@@ -380,6 +380,34 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 
 [LMC555 Data Sheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf?ts=1609974121158&ref_url=https%253A%252F%252Fwww.google.com%252F "LMC555")
 
+### CD4018 (under construction)
+
+Divide-By-'N' Counter
+
+
+
+*Applications:*
+* Divide by 10, 8, 6, 4, 2
+* Divide by 9, 7, 5, 3
+* Chord Generator
+
+
+FUNCTIONAL TRUTH TABLE
+Preset Jam
+Clock Reset Enable Input Qn
+0 0 XQn
+0 0 XDn*
+X 0 1 01
+X 0 1 10
+X 1 X X1
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4018.jpg>
+
+
+
+
+[CD4018 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4018b.pdf?ts=1610571153497&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4018B "CD4018")
+
 ## Mixing
 
 There are two ways of mixing signals together, active and passive mixing. Active mixing involves components, such as operational amplifiers, that need a power supply. Passive mixing works without an additional power supply, but introduces a voltage drop.
