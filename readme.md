@@ -361,41 +361,24 @@ X   = Don't Care
 [CD4013 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4013b.pdf?ts=1609946760296&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4013")
 
 
-### 555 Timer (under construction)
-
-
-Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the same pinout and are exchangeable. The CMOS version consumes significantly less power.
-
-*Applications:*
-* Frequency Divider
-* Timer
-* Pulse Delay
-* Square Wave Generator
-* Pulse Width Modulator
-
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer.jpg>
-
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer_Operation.jpg>
-
-
-[LMC555 Data Sheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf?ts=1609974121158&ref_url=https%253A%252F%252Fwww.google.com%252F "LMC555")
-
 ### CD4018 (under construction)
 
 Divide-By-'N' Counter
 
 When the outputs are fed back to the input Data, divide by 10, 8, 6, 4, 2, is calculated. For odd numbers 9, 7, 5, 3, simply use CD4011 or CD4093 to NAND two corresponding output stages and feed the inverted result back into Data.
 
-Divide by 9: /Q4 & /5 via 1/2 CD4011 connected to input Data
-Divide by 7: /Q3 & /Q4 via 1/2 CD4011 connected to input Data
-Divide by 5: /Q2 & /Q3 via 1/2 CD4011 connected to input Data
-Divide by 3: /Q1 & /Q2 via 1/2 CD4011 connected to input Data
+Divide by 9: /Q4 & /5 via 1/2 CD4011 connected to input Data  
+Divide by 7: /Q3 & /Q4 via 1/2 CD4011 connected to input Data  
+Divide by 5: /Q2 & /Q3 via 1/2 CD4011 connected to input Data  
+Divide by 3: /Q1 & /Q2 via 1/2 CD4011 connected to input Data  
 
-Divide by 10: /5 connected to input Data
-Divide by 8: /Q4 connected to input Data
-Divide by 6: /Q3 connected to input Data
-Divide by 4: /Q2 connected to input Data
-Divide by 2: /Q1 connected to input Data
+
+
+Divide by 10: /5 connected to input Data  
+Divide by 8: /Q4 connected to input Data  
+Divide by 6: /Q3 connected to input Data  
+Divide by 4: /Q2 connected to input Data  
+Divide by 2: /Q1 connected to input Data  
 
 Preset enable will transfer Data on the input Jam to its corresponding /Q (inverted).
 A logical high on the reset input causes all /Q Outputs to high.
@@ -429,6 +412,26 @@ X   = Don't Care
 
 
 [CD4018 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4018b.pdf?ts=1610571153497&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4018B "CD4018")
+
+### 555 Timer (under construction)
+
+
+Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the same pinout and are exchangeable. The CMOS version consumes significantly less power.
+
+*Applications:*
+* Frequency Divider
+* Timer
+* Pulse Delay
+* Square Wave Generator
+* Pulse Width Modulator
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer.jpg>
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer_Operation.jpg>
+
+
+[LMC555 Data Sheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf?ts=1609974121158&ref_url=https%253A%252F%252Fwww.google.com%252F "LMC555")
+
 
 ## Mixing
 
