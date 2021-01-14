@@ -373,7 +373,6 @@ Divide by 5: /Q2 & /Q3 via 1/2 CD4011 connected to input Data
 Divide by 3: /Q1 & /Q2 via 1/2 CD4011 connected to input Data  
 
 
-
 Divide by 10: /5 connected to input Data  
 Divide by 8: /Q4 connected to input Data  
 Divide by 6: /Q3 connected to input Data  
@@ -391,6 +390,8 @@ A logical high on the reset input causes all /Q Outputs to high.
 * Chord Generator
 
 
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4018.jpg>
+
 FUNCTIONAL TRUTH TABLE
 
 |Clock|Reset|Preset Enable|Jam Input|/Qn|
@@ -401,14 +402,10 @@ FUNCTIONAL TRUTH TABLE
 |X| 0| 1| 1|0|
 |X| 1| X| X|1|
 
-/Dn = Data input for that stage
+/Dn = Data input for that stage  
 X   = Don't Care  
 /   = Rising Edge  
 ⧹   = Falling Edge  
-
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4018.jpg>
-
-
 
 
 [CD4018 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4018b.pdf?ts=1610571153497&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4018B "CD4018")
