@@ -384,6 +384,22 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 
 Divide-By-'N' Counter
 
+When the outputs are fed back to the input Data, divide by 10, 8, 6, 4, 2, is calculated. For odd numbers 9, 7, 5, 3, simply use CD4011 or CD4093 to NAND two corresponding output stages and feed the inverted result back into Data.
+
+Divide by 9: /Q4 & /5 via 1/2 CD4011 connected to input Data
+Divide by 7: /Q3 & /Q4 via 1/2 CD4011 connected to input Data
+Divide by 5: /Q2 & /Q3 via 1/2 CD4011 connected to input Data
+Divide by 3: /Q1 & /Q2 via 1/2 CD4011 connected to input Data
+
+Divide by 10: /5 connected to input Data
+Divide by 8: /Q4 connected to input Data
+Divide by 6: /Q3 connected to input Data
+Divide by 4: /Q2 connected to input Data
+Divide by 2: /Q1 connected to input Data
+
+Preset enable will transfer Data on the input Jam to its corresponding /Q (inverted).
+A logical high on the reset input causes all /Q Outputs to high.
+
 
 
 *Applications:*
@@ -402,8 +418,10 @@ FUNCTIONAL TRUTH TABLE
 |X| 0| 1| 1|0|
 |X| 1| X| X|1|
 
-/Dn is the Data input for that stage.
-
+/Dn = Data input for that stage
+X   = Don't Care  
+/   = Rising Edge  
+⧹   = Falling Edge  
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4018.jpg>
 
