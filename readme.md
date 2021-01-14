@@ -142,7 +142,7 @@ CD4077 is the Exclusive-NOR version.
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070.jpg>
 
-Truth table for XOR
+Truth table for XOR (CD4070)
 
 |A|B|Y = A XOR B|
 |----|----|:----:|
@@ -150,6 +150,15 @@ Truth table for XOR
 |0|1|1|
 |1|0|1|
 |1|1|0|
+
+Truth table for XNOR (CD4077)
+
+|A|B|Y = A XOR B|
+|----|----|:----:|
+|0|0|1|
+|0|1|0|
+|1|0|0|
+|1|1|1|
 
 
 [CD4070 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4077b.pdf?ts=1606308007892&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4070")
