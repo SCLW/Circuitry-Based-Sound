@@ -77,7 +77,7 @@ The following is a list of CMOS chips and other integrated circuits for sound cr
 
 ### CD40106
 
-The inverter is a basic part in digital electronics and performs the logic operation of negation. When the input is connected to ground, the output is pulled to V<sub>DD</sub> and vice versa. The CD40106 hex Schmitt trigger inverter offers six separate inverters in one chip that can be wired externally to build square wave oscillators. When using a potentiometer for frequency control, an offset resistor should be placed in series in order to prevent too low resistance between output and input.
+The inverter is a basic part in digital electronics and performs the logic operation of negation. When the input is connected to ground, the output is pulled to V<sub>DD</sub> and vice versa. The CD40106 hex Schmitt trigger inverter offers six separate inverters in one chip. The Schmitt trigger action permits unlimited rise and fall times on the input. The chip can be wired externally to build one or more square wave oscillators (see illustration). When using a potentiometer for frequency control, a resistor should be placed in series in order to prevent too low resistance between output and input.
 
 *Applications:*
 * Square Wave Generator
@@ -86,7 +86,7 @@ The inverter is a basic part in digital electronics and performs the logic opera
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
 
-Truth table
+Truth table for NOT
 |Inputs|Outputs|
 |----|----|
 |0|1|
