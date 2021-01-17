@@ -195,7 +195,7 @@ X   = Don't Care Case
 LFSR:
 A linear feedback shift register (LFSR) can be used for generating deterministic pseudorandomness. In terms of electronic sound production it can be used to build a noise source. An LFSR consists of n numbers of flip-flops which are connected in series to form a shift register as described for the CD4015. This shift register is controlled by a clock  that triggers the shift process. Two junctions at a specific position within that chain of flip-flops are directed into an XOR logic gate. The resulting value is fed back into the first register. Other implementations of an LFSR exist and work similarly.
 The produced values are determined by the shift register's current states and length. Since the states are finite it will repeat after certain number of steps. By using an XOR function for the feedback, all zero values are forbidden and all ones are forbidden by using an XNOR function. A maximum-length sequence is therefor 2n - 1. Additional operations can be introduced to produce 2n states. The duration of one cycle is determined by the clock frequency.
-When looked at a shift register from the viewpoint of a musician, the long LFSR arrangements will create white and pink noise. Shorter cycles produce stuttering textures.
+When looked at a shift register from the viewpoint of a musician, the long LFSR arrangements will create white and pink noise. Shorter cycles produce grainy tones, stuttering textures or short noise loops.
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LFSR.jpg>
 
