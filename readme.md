@@ -367,13 +367,13 @@ Divide-By-'N' Counter
 
 When the outputs are fed back to the input Data, divide by 10, 8, 6, 4, 2, is calculated. For odd numbers 9, 7, 5, 3, simply use CD4011 or CD4093 to NAND two corresponding output stages and feed the inverted result back into Data.
 
-Divide by 9: /Q4 & /5 via 1/2 CD4011 connected to input Data  
+Divide by 9: /Q4 & Q/5 via 1/2 CD4011 connected to input Data  
 Divide by 7: /Q3 & /Q4 via 1/2 CD4011 connected to input Data  
 Divide by 5: /Q2 & /Q3 via 1/2 CD4011 connected to input Data  
 Divide by 3: /Q1 & /Q2 via 1/2 CD4011 connected to input Data  
 
 
-Divide by 10: /5 connected to input Data  
+Divide by 10: Q/5 connected to input Data  
 Divide by 8: /Q4 connected to input Data  
 Divide by 6: /Q3 connected to input Data  
 Divide by 4: /Q2 connected to input Data  
@@ -392,7 +392,7 @@ A logical high on the reset input causes all /Q Outputs to high.
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4018.jpg>
 
-FUNCTIONAL TRUTH TABLE
+FUNCTIONAL TRUTH TABLE FOR CD4018
 
 |Clock|Reset|Preset Enable|Jam Input|/Qn|
 |:----:|:----:|:----:|:----:|:----:|
