@@ -329,7 +329,7 @@ control logic 0 = switch off
 
 ### CD4013
  
-The CD4013 IC flip-flop is called a D flip-flop type to characterize its behavior, while D stands for "data" or "delay". It contains two identical D flip-flop arrangements. The device stores a digital state 0 or 1, which is accessible at the output **Q**. The second output **/Q** presents the inverse of **Q**. The control input **Clock** transfers the input state **D** to the output **Q** respectively **/Q**. The CD4093 is positive-edge-triggered, which means that the positive-going transition of a clock impulse triggers the output to hold the state that is present at the input until the next positive-going clock signal. The additional control inputs **Set** and **Reset** have priority over the clock. With a high level on the **Set** input, the output follows its state and goes low with a high level on the **Reset** input, ignoring **D** and **Clock**.
+The CD4013 IC flip-flop is called a D flip-flop type to characterize its behavior, while D stands for "data" or "delay". It contains two identical D flip-flop arrangements. The device stores a digital state 0 or 1, which is accessible at the output **Q**. The second output **/Q** presents the inverse of **Q**. The control input **Clock** transfers the input state **D** to the output **Q** respectively **/Q**. The CD4013 is positive-edge-triggered, which means that the positive-going transition of a clock impulse triggers the device to hold the state that is present at the input and provides it at the output until the next positive-going clock signal. The additional control inputs **Set** and **Reset** have priority over the clock. With a high level on the **Set** input, the output follows its state and goes low with a high level on the **Reset** input, ignoring **D** and **Clock**.
 
 
 
@@ -365,22 +365,21 @@ X   = Don't Care
 
 Divide-By-'N' Counter
 
-When the outputs are fed back to the input Data, divide by 10, 8, 6, 4, 2, is calculated. For odd numbers 9, 7, 5, 3, simply use CD4011 or CD4093 to NAND two corresponding output stages and feed the inverted result back into Data.
-
-Divide by 9: /Q4 & Q/5 via 1/2 CD4011 connected to input Data  
-Divide by 7: /Q3 & /Q4 via 1/2 CD4011 connected to input Data  
-Divide by 5: /Q2 & /Q3 via 1/2 CD4011 connected to input Data  
-Divide by 3: /Q1 & /Q2 via 1/2 CD4011 connected to input Data  
+When the outputs are fed back to the input Data, divide by 10, 8, 6, 4, 2, is calculated. For odd numbers 9, 7, 5, 3, simply use CD4011 or CD4093 to NAND two corresponding output stages and feed the inverted result back into Data. By combining multiple devices, higher divide-by functions can be calculated. Preset enable will transfer Data on the input Jam to its corresponding /Q (inverted). A logical high on the reset input causes all /Q Outputs to high.
 
 
-Divide by 10: Q/5 connected to input Data  
-Divide by 8: /Q4 connected to input Data  
-Divide by 6: /Q3 connected to input Data  
-Divide by 4: /Q2 connected to input Data  
-Divide by 2: /Q1 connected to input Data  
+Divide by 9: **/Q4** & **/Q5** via 1/2 CD4011 connected to input Data  
+Divide by 7: **/Q3** & **/Q4** via 1/2 CD4011 connected to input Data  
+Divide by 5: **/Q**2 & **/Q3** via 1/2 CD4011 connected to input Data  
+Divide by 3: **/Q1** & **/Q2** via 1/2 CD4011 connected to input Data  
 
-Preset enable will transfer Data on the input Jam to its corresponding /Q (inverted).
-A logical high on the reset input causes all /Q Outputs to high.
+Divide by 10: **/Q5** connected to input Data  
+Divide by 8: **/Q4** connected to input Data  
+Divide by 6: **/Q3** connected to input Data  
+Divide by 4: **/Q2** connected to input Data  
+Divide by 2: **/Q1** connected to input Data  
+
+
 
 
 
