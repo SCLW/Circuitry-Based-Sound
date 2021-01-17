@@ -192,6 +192,43 @@ X   = Don't Care Case
 /   = Rising Edge  
 ⧹   = Falling Edge  
 
+LFSR:
+A linear feedback shift register (LFSR) can be used for generating deterministic pseudorandomness. In terms of electronic sound production it can be used to build a noise source. An LFSR consists of n numbers of flip-flops which are connected in series to form a shift register as described for the CD4015. This shift register is controlled by a clock  that triggers the shift process. Two junctions at a specific position within that chain of flip-flops are directed into an XOR logic gate. The resulting value is fed back into the first register. Other implementations of an LFSR exist and work similarly.
+The produced values are determined by the shift register's current states and length. Since the states are finite it will repeat after certain number of steps. By using an XOR function for the feedback, all zero values are forbidden and all ones are forbidden by using an XNOR function. A maximum-length sequence is therefor 2n - 1. Additional operations can be introduced to produce 2n states. The duration of one cycle is determined by the clock frequency.
+When looked at a shift register from the viewpoint of a musician, the long LFSR arrangements will create white and pink noise. Shorter cycles produce stuttering textures.
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LFSR.jpg>
+
+The Xilinx application note XAPP210 (V1.3) shows a table for maximum length sequences, which is presented here for 24 bits:
+
+|n|taps from|
+|:----:|:----:|
+|3|3,2|
+|4|4,3|
+|5|5,3|
+|6|6,5|
+|7|7,6|
+|8|8,6,5,4|
+|9|9,5|
+|10|10,7|
+|11|11,9|
+|12|12,6,4,1,|
+|13|13,4,3,1|
+|14|14,5,3,1|
+|15|15,14|
+|16|16,15,13,4|
+|17|17,14|
+|18|18,11|
+|19|19,6,2,1|
+|20|20,17|
+|21|21,19|
+|22|22,21|
+|23|23,18|
+|24|24,23,22,17|
+
+Depending on the desired operation, other applicable device may be CD4094, CD4014, CD4021 which are all 8-stage shift registers.
+ 
+
 [CD4015 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4015b.pdf?ts=1607676770686&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4015")
 
 
