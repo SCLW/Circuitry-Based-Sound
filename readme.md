@@ -153,7 +153,7 @@ Truth table for XOR (CD4070)
 
 Truth table for XNOR (CD4077)
 
-|A|B|Y = A XOR B|
+|A|B|Y = A XNOR B|
 |----|----|:----:|
 |0|0|1|
 |0|1|0|
