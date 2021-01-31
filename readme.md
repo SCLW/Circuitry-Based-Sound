@@ -245,7 +245,7 @@ CD4022 and CD4017 ICs implement a binary counter/divider function with 8 outputs
 
 This IC performs frequency division and comes with 12 outputs in the CD4020 and the CD4040 versions and 7 outputs in the CD4022 version, whereby the CD4020 is a 14-stage device. Output stages 2 and 3 (divide by 4 and 8) are not accessible. The CD4024 has 3 pins without internal connection (pin 8, 10, 13). If a square wave is applied to the input, each output creates square waves at half the frequency of its preceding output, at which the first output Q1 applies its division to the input signal and oscillates at a rate at one half, Q2 at one quarter, Q3 at one eighth Q4 at one sixteenth and so on. Several units can be cascaded for higher counting.
 
-Control input "reset" triggers all output stages to "low". For continuously frequency division it should be kept at a logical low.
+Control input "reset" triggers all output stages to "low". For continuous frequency division it should be kept at a logical low.
 
 
 *Applications:*
