@@ -199,7 +199,7 @@ A linear feedback shift register (LFSR) can be used for generating deterministic
 
 The Xilinx application note XAPP210 (V1.3) shows a table for maximum length sequences, which is presented here for up to 24 bits:
 
-|n|taps from|
+|n|taps from||n|taps from|
 |:----:|:----:||:----:|:----:|
 |3|3,2||14|14,5,3,1|
 |4|4,3||15|15,14|
