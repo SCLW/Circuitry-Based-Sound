@@ -200,29 +200,30 @@ A linear feedback shift register (LFSR) can be used for generating deterministic
 The Xilinx application note XAPP210 (V1.3) shows a table for maximum length sequences, which is presented here for up to 24 bits:
 
 |n|taps from|
-|:----:|:----:|
-|3|3,2|
-|4|4,3|
-|5|5,3|
-|6|6,5|
-|7|7,6|
-|8|8,6,5,4|
-|9|9,5|
-|10|10,7|
-|11|11,9|
-|12|12,6,4,1,|
-|13|13,4,3,1|
-|14|14,5,3,1|
-|15|15,14|
-|16|16,15,13,4|
-|17|17,14|
-|18|18,11|
-|19|19,6,2,1|
-|20|20,17|
-|21|21,19|
-|22|22,21|
-|23|23,18|
-|24|24,23,22,17|
+|:----:|:----:||:----:|:----:|
+|3|3,2|||14|14,5,3,1|
+|4|4,3|||15|15,14|
+|5|5,3|||16|16,15,13,4|
+|6|6,5|||17|17,14|
+|7|7,6|||18|18,11|
+|8|8,6,5,4|||19|19,6,2,1|
+|9|9,5|||20|20,17|
+|10|10,7|||21|21,19|
+|11|11,9|||22|22,21|
+|12|12,6,4,1,|||23|23,18|
+|13|13,4,3,1|||24|24,23,22,17|
+
+
+
+
+
+
+
+
+
+
+
+
 
 Depending on the desired operation, other applicable device may be CD4094, CD4014, CD4021 which are all 8-stage shift registers.
  
