@@ -217,15 +217,7 @@ The Xilinx application note XAPP210 (V1.3) shows a table for maximum length sequ
 
 
 
-
-
-
-
-
-
-
-
-Depending on the desired operation, other applicable device may be CD4094, CD4014, CD4021 which are all 8-stage shift registers.
+Depending on the desired operation, other applicable devices may be CD4094, CD4014, CD4021 which are all 8-stage shift registers.
  
 
 [CD4015 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4015b.pdf?ts=1607676770686&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4015")
