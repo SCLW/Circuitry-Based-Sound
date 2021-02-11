@@ -437,6 +437,14 @@ X   = Don't Care
 
 [CD4018 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4018b.pdf?ts=1610571153497&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4018B "CD4018")
 
+### LM386 - Power Operational Amplifier (under construction)
+
+Althoug not part of the CMOS logic familiy this ubiquitous power op amp is a very versatile component when it comes to amplification or driving small speakers.
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM386.jpg>
+
+[LM386 Data Sheet](https://www.ti.com/lit/ds/symlink/lm386.pdf?ts=1613028335418&ref_url=https%253A%252F%252Fwww.google.com%252F "LM386")
+
 ### 555 Timer (under construction)
 
 
