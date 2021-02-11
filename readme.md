@@ -439,7 +439,7 @@ X   = Don't Care
 
 ### LM386 - Power Operational Amplifier (under construction)
 
-Althoug not part of the CMOS logic familiy this ubiquitous power op amp is a very versatile component when it comes to amplification or driving small speakers.
+Although not part of the CMOS logic familiy this ubiquitous power op amp is a very versatile component when it comes to amplification or driving small speakers.
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM386.jpg>
 
