@@ -519,7 +519,7 @@ When working with an adjustable power supply or an according circuit, the impact
 
 ## Bill of Material
 
-Below are examples of parts that can be used for this project.
+A list with parts that can be used for this project, is available in the folder [BOM](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/BOM/Readme.md#bill-of-material "Bill of Material")
 All parts can be substituted with alternative components and equivalent foot prints.
 
 
