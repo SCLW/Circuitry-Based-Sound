@@ -648,18 +648,31 @@ Furthermore, the project includes laser-cutting files for a desktop console on w
 ## Authors
 
 Zhen Bian  
+Yinxuan Chen  
 Hangyan Chen  
+Haram Choi  
+Hongyü Guo  
 Jeongmin Han  
 Anna Helsen  
 Jihye Jang  
+Minsu Kim  
+Jung Eun Lee  
+Sangyi Lee  
 Xingchen Liu  
 Su Lu  
+Victoria Mikhaylova  
+Jiun-You Ou  
 Ruoyi Qiu  
 Vivian Reuter  
-Arno Schlipf   
-Florian Schwarz   
+Arno Schlipf  
+Florian Schwarz  
 Christina Vinke  
+Julian Vollmert  
+Dakang Wang  
+Huiyeon Yun  
+Rui Zhang  
 Yunfei Zhang  
+Xinyi Zhao  
 Pei Zhou  
 
 **Lorenz Schwarz** - *lecturer*
