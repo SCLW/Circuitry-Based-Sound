@@ -505,6 +505,7 @@ A potentiometer is a passive, mechanical component inside a housing. It consists
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Potentiometer_Actuator.jpg>
 
+a) housing, b) terminals, c) actuator, d) resistive track, e) wiper
 
 If one end and the wiper are used, the potentiometer forms a variable resistor.
 A variable voltage divider circuit can be configured by connecting a voltage (supply voltage or signal) to one of the outside pins, while the remaining outside pin is connected to GND. A voltage can be tapped at the middle pin that can be adjusted by setting the actuator. For instance, from one end point location to the other, the input voltage can be scaled from minimum to maximum. This can be used for volume control.
