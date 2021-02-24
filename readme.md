@@ -501,9 +501,9 @@ Tone control, modifying the frequency spectrum of a signal or creative equalizat
 
 A potentiometer is a passive, mechanical component inside a housing. It consists of a resistive track and a movable contact, called wiper, whose position along the resistive element can be set with an actuator. The two ends of the resistive element and the end of the wiper can be accessed from outside the housing. The total resistance between the end terminals can be gradually divided into two resistance values between the respective ends of the element and the wiper.
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Potentiometer_Equivalent.jpg>
-
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Potentiometer_Actuator.jpg>
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Potentiometer_Equivalent.jpg>
 
 a) housing, b) terminals, c) actuator, d) resistive track, e) wiper
 
