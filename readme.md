@@ -581,7 +581,7 @@ Zhen Bian
 Yinxuan Chen  
 Hangyan Chen  
 Haram Choi  
-Hongyü Guo  
+Hongyu Guo  
 Jeongmin Han  
 Anna Helsen  
 Jihye Jang  
