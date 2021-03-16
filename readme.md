@@ -620,4 +620,4 @@ The content of this documentation is licensed under the [Creative Commons Attrib
 
 * Thanks to Holger Förterer and Dr. Paul Modler
 
-
+[Circuitry-Based Sound](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#circuitry-based-sound)
