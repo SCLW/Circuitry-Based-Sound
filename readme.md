@@ -1,13 +1,73 @@
 # Circuitry-Based Sound
 
 
-
-
 "Circuitry-Based Sound" is an ongoing seminar at [University of Arts and Design Karlsruhe](https://www.hfg-karlsruhe.de/ "University of Arts and Design Karlsruhe"). It focuses on electronic sound synthesis and parametric interfacing. It's examining musical characteristics of electronic instruments and comparing different approaches on how to design electronic sound modules. Due to the measures against the coronavirus spread in 2020, the seminar’s workflow had been adapted to the restrictions and is partially held online.
 
 The course is covering electrical and electronic basics, computer aided circuit design and professional PCB manufacturing processes with the aim of building custom-made instruments. The emphasis is on studies of logic chips for sound creation and its musical applications. Participants are guided to use the latest technology, production chain and global logistics to develop, design and produce circuit boards for musical use. This allows the participants to easily create circuit boards with more variable features and adjustable parameters than hand soldered protoboards or solderless breadboards.
 
 The following is a documentation of the seminar's study materials and findings.
+
+[Unconventional Electronic Sound](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#unconventional-electronic-sound)
+
+[CMOS Chips for Sound Creation](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cmos-chips-for-sound-creation)
+
+[Basic Example](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#basic-example)
+
+[Logic Control](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#logic-control)
+
+[Pull-up and Pull-down Resistors](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pull-up-and-pull-down-resistors)
+
+[Electronic Components](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#electronic-components)
+
+[CD40106](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd40106)
+
+[CD4093](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4093)
+
+[CD4070](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4070)
+
+[CD4015](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4015)
+
+[CD4022](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4022)
+
+[CD4040](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4040)
+
+[CD4046](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4046)
+
+[CD4051](https://github.com/SCLW/Circuitry-Based-Sound#cd4051)
+
+[CD4066](https://github.com/SCLW/Circuitry-Based-Sound#cd4066)
+
+[CD4060](https://github.com/SCLW/Circuitry-Based-Sound#cd4060)
+
+[CD4013](https://github.com/SCLW/Circuitry-Based-Sound#cd4013)
+
+[CD4018](https://github.com/SCLW/Circuitry-Based-Sound#cd4018-under-construction)
+
+[LM386 - Power Operational Amplifier](https://github.com/SCLW/Circuitry-Based-Sound#lm386---power-operational-amplifier-under-construction)
+
+[555 Timer](https://github.com/SCLW/Circuitry-Based-Sound#555-timer-under-construction)
+
+[Mixing](https://github.com/SCLW/Circuitry-Based-Sound#mixing)
+
+[Passive Mixing](https://github.com/SCLW/Circuitry-Based-Sound#passive-mixing)
+
+[Active Mixing](https://github.com/SCLW/Circuitry-Based-Sound#active-mixing)
+
+[Passive Filters](https://github.com/SCLW/Circuitry-Based-Sound#passive-filters)
+
+[Potentiometers](https://github.com/SCLW/Circuitry-Based-Sound#potentiometers)
+
+[Voltage Starve](https://github.com/SCLW/Circuitry-Based-Sound#voltage-starve)
+
+[Bill of Material](https://github.com/SCLW/Circuitry-Based-Sound#bill-of-material)
+
+[Requirements](https://github.com/SCLW/Circuitry-Based-Sound#requirements)
+
+[Projects](https://github.com/SCLW/Circuitry-Based-Sound#projects)
+
+
+
+
 
 # Unconventional Electronic Sound
 
