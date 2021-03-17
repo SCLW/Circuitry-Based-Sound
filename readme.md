@@ -23,8 +23,8 @@ The following is a documentation of the seminar's study materials and findings.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4046](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4046)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4051](https://github.com/SCLW/Circuitry-Based-Sound#cd4051)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4066](https://github.com/SCLW/Circuitry-Based-Sound#cd4066)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4060](https://github.com/SCLW/Circuitry-Based-Sound#cd4060)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4013](https://github.com/SCLW/Circuitry-Based-Sound#cd4013)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4060](https://github.com/SCLW/Circuitry-Based-Sound#cd4060)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4013](https://github.com/SCLW/Circuitry-Based-Sound#cd4013)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4018](https://github.com/SCLW/Circuitry-Based-Sound#cd4018-under-construction)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[LM386 - Power Operational Amplifier](https://github.com/SCLW/Circuitry-Based-Sound#lm386---power-operational-amplifier-under-construction)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[555 Timer](https://github.com/SCLW/Circuitry-Based-Sound#555-timer-under-construction)\
@@ -37,6 +37,7 @@ The following is a documentation of the seminar's study materials and findings.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bill of Material](https://github.com/SCLW/Circuitry-Based-Sound#bill-of-material)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Requirements](https://github.com/SCLW/Circuitry-Based-Sound#requirements)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Projects](https://github.com/SCLW/Circuitry-Based-Sound#projects)\
+
 
 
 
