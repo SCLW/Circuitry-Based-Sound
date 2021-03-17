@@ -7,8 +7,8 @@ The course is covering electrical and electronic basics, computer aided circuit 
 
 The following is a documentation of the seminar's study materials and findings.
 
-[Circuitry-Based Sound](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#circuitry-based-sound)\
-[Unconventional Electronic Sound](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#unconventional-electronic-sound)\
+&nbsp;&nbsp;[Circuitry-Based Sound](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#circuitry-based-sound)\
+&nbsp;&nbsp;[Unconventional Electronic Sound](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#unconventional-electronic-sound)\
 [CMOS Chips for Sound Creation](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cmos-chips-for-sound-creation)\
 [Basic Example](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#basic-example)\
 [Logic Control](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#logic-control)\
