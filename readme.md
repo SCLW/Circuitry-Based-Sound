@@ -7,36 +7,36 @@ The course is covering electrical and electronic basics, computer aided circuit 
 
 The following is a documentation of the seminar's study materials and findings.
 
-&nbsp;&nbsp;[Circuitry-Based Sound](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#circuitry-based-sound)\
-&nbsp;&nbsp;[Unconventional Electronic Sound](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#unconventional-electronic-sound)\
-[CMOS Chips for Sound Creation](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cmos-chips-for-sound-creation)\
-[Basic Example](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#basic-example)\
-[Logic Control](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#logic-control)\
-[Pull-up and Pull-down Resistors](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pull-up-and-pull-down-resistors)\
-[Electronic Components](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#electronic-components)\
-[CD40106](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd40106)\
-[CD4093](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4093)\
-[CD4070](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4070)\
-[CD4015](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4015)\
-[CD4022](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4022)\
-[CD4040](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4040)\
-[CD4046](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4046)\
-[CD4051](https://github.com/SCLW/Circuitry-Based-Sound#cd4051)\
-[CD4066](https://github.com/SCLW/Circuitry-Based-Sound#cd4066)\
-[CD4060](https://github.com/SCLW/Circuitry-Based-Sound#cd4060)
-[CD4013](https://github.com/SCLW/Circuitry-Based-Sound#cd4013)
-[CD4018](https://github.com/SCLW/Circuitry-Based-Sound#cd4018-under-construction)\
-[LM386 - Power Operational Amplifier](https://github.com/SCLW/Circuitry-Based-Sound#lm386---power-operational-amplifier-under-construction)\
-[555 Timer](https://github.com/SCLW/Circuitry-Based-Sound#555-timer-under-construction)\
-[Mixing](https://github.com/SCLW/Circuitry-Based-Sound#mixing)\
-[Passive Mixing](https://github.com/SCLW/Circuitry-Based-Sound#passive-mixing)\
-[Active Mixing](https://github.com/SCLW/Circuitry-Based-Sound#active-mixing)\
-[Passive Filters](https://github.com/SCLW/Circuitry-Based-Sound#passive-filters)\
-[Potentiometers](https://github.com/SCLW/Circuitry-Based-Sound#potentiometers)\
-[Voltage Starve](https://github.com/SCLW/Circuitry-Based-Sound#voltage-starve)\
-[Bill of Material](https://github.com/SCLW/Circuitry-Based-Sound#bill-of-material)\
-[Requirements](https://github.com/SCLW/Circuitry-Based-Sound#requirements)\
-[Projects](https://github.com/SCLW/Circuitry-Based-Sound#projects)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Circuitry-Based Sound](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#circuitry-based-sound)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Unconventional Electronic Sound](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#unconventional-electronic-sound)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CMOS Chips for Sound Creation](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cmos-chips-for-sound-creation)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Basic Example](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#basic-example)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Logic Control](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#logic-control)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pull-up and Pull-down Resistors](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pull-up-and-pull-down-resistors)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Electronic Components](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#electronic-components)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD40106](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd40106)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4093](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4093)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4070](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4070)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4015](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4015)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4022](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4022)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4040](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4040)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4046](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4046)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4051](https://github.com/SCLW/Circuitry-Based-Sound#cd4051)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4066](https://github.com/SCLW/Circuitry-Based-Sound#cd4066)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4060](https://github.com/SCLW/Circuitry-Based-Sound#cd4060)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4013](https://github.com/SCLW/Circuitry-Based-Sound#cd4013)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4018](https://github.com/SCLW/Circuitry-Based-Sound#cd4018-under-construction)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[LM386 - Power Operational Amplifier](https://github.com/SCLW/Circuitry-Based-Sound#lm386---power-operational-amplifier-under-construction)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[555 Timer](https://github.com/SCLW/Circuitry-Based-Sound#555-timer-under-construction)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Mixing](https://github.com/SCLW/Circuitry-Based-Sound#mixing)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Passive Mixing](https://github.com/SCLW/Circuitry-Based-Sound#passive-mixing)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Active Mixing](https://github.com/SCLW/Circuitry-Based-Sound#active-mixing)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Passive Filters](https://github.com/SCLW/Circuitry-Based-Sound#passive-filters)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Potentiometers](https://github.com/SCLW/Circuitry-Based-Sound#potentiometers)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Voltage Starve](https://github.com/SCLW/Circuitry-Based-Sound#voltage-starve)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bill of Material](https://github.com/SCLW/Circuitry-Based-Sound#bill-of-material)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Requirements](https://github.com/SCLW/Circuitry-Based-Sound#requirements)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Projects](https://github.com/SCLW/Circuitry-Based-Sound#projects)\
 
 
 
