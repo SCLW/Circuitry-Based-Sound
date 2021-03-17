@@ -483,7 +483,7 @@ Although not part of the CMOS logic familiy this ubiquitous power op amp is a ve
 ### 555 Timer (under construction)
 
 
-Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the same pinout and are exchangeable. The CMOS version consumes significantly less power.
+Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the same pinout and are exchangeable. The CMOS version consumes significantly less power. Its name derives from the three 5kΩ resistors that form a voltage divider network.
 
 *Applications:*
 * Frequency Divider
