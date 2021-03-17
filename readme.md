@@ -36,7 +36,7 @@ The following is a documentation of the seminar's study materials and findings.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Voltage Starve](https://github.com/SCLW/Circuitry-Based-Sound#voltage-starve)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bill of Material](https://github.com/SCLW/Circuitry-Based-Sound#bill-of-material)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Requirements](https://github.com/SCLW/Circuitry-Based-Sound#requirements)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Projects](https://github.com/SCLW/Circuitry-Based-Sound#projects)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Projects](https://github.com/SCLW/Circuitry-Based-Sound#projects)
 
 
 
