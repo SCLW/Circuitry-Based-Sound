@@ -308,7 +308,7 @@ The experiment was designed to employ the clicking sound of an electromagnetic r
 
 
 ![Relay_Installation_diagram](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Installation_diagram.jpg)
-*Photo: Victoria Mikhaylova*
+*Graphic: Victoria Mikhaylova*
 <br>
 <br>
 
