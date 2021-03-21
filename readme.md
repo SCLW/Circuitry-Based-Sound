@@ -396,7 +396,7 @@ In addition to sensors or other control elements like potentiometers, force-sens
 <br>
 
  
- The crackle box is a touch-controlled electronic instrument, developed in the 70s by Michel Waisvisz (\*1949 Leiden † 2008 Amsterdam) at STEIM in Amsterdam. Its beginnings date back to the 60s. It's a battery operated small wooden case (14 x 8 x 3 cm), like a cigar box, a visible circuitboard with six distinctive touch points, ~1cm<sup>2</sup> each, and an on/off switch. Underneath the touch surface is a built-in loudspeaker. The vibrating air can pass through a number of holes in the PCB between the touch surface. The instruments produces random noise, clicks and plops or oscillates when touched with fingers. The circuit inside is just an op amp in an inverting configuration, while many circuit points and most pins of the op amp are made available on the outside of the device as conductive touch pads.
+The crackle box is a touch-controlled electronic instrument, developed in the 70s by Michel Waisvisz (\*1949 Leiden † 2008 Amsterdam) at STEIM in Amsterdam. Its beginnings date back to the 60s. It's a battery operated small wooden case (14 x 8 x 3 cm), like a cigar box, a visible circuitboard with six distinctive touch points, ~1cm<sup>2</sup> each, and an on/off switch. Underneath the touch surface is a built-in loudspeaker. The vibrating air can pass through a number of holes in the PCB between the touch surface. The instruments produces random noise, clicks and plops or oscillates when touched with fingers. The circuit inside is just an op amp in an inverting configuration, while many circuit points and most pins of the op amp are made available on the outside of the device as conductive touch pads.
  
 
 ![LM709_TO-5](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM709_TO-5.jpg)
@@ -421,7 +421,7 @@ The device makes use of the LM709/μA709 op-amp (originally National Semiconduct
 
 
  
-The image on the left shows the die of the LM709, embedded in a TO-5 package. A close-up of the die is on the right. The die is called the integrated circuit made of silicon. The design of the crackle box focuses exactly on these imperfections of the LM709 and its special features, particularly its external frequency compensation. Michel Waisvisz’s Crackle box is therefore an early example of circuit bending and unconventional use of electronic components. The crackle box had been reissued over the past decades as assembly kits and can still be ordered from STEIM on request.
+The image on the left shows the die of the LM709, embedded in a TO-5 package. On the right is a close up of the die. The die is called the integrated circuit made of silicon. The design of the crackle box focuses exactly on these imperfections of the LM709 and its special features, particularly its external frequency compensation. Michel Waisvisz’s Crackle box is therefore an early example of circuit bending and unconventional use of electronic components. The crackle box had been reissued over the past decades as assembly kits and can still be ordered from STEIM on request.
 
 
 ![Crackle_Box_Circuit](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Box_Circuit.jpg)
