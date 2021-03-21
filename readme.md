@@ -10,7 +10,7 @@ The following is a documentation of the seminar's study materials and findings.
 <br>
 <br>
 
-# Table of Contents
+[**Table of Contents**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#table-of-contents)
 
 [**INTRODUCTION**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#introduction)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Unconventional Electronic Sound](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#unconventional-electronic-sound)\
