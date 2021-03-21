@@ -1297,6 +1297,9 @@ Changing the supply voltage will have different effects on a signal, depending o
 When working with an adjustable power supply or an according circuit, the impacts of limited current and voltage levels around or below the minimum requirements of an IC can be examined. A similar performance can be simulated with a simple series resistor in the power rail. 500Ω - 10kΩ potentiometers may be worth experimenting with to create odd sounds.
 
 # Materials
+
+Instructions, parts, tools, shopping lists, components, assemblies, and other materials required to create electronic projects in this field.
+
 ## Requirements
 
 Helpful tools and useful materials:
