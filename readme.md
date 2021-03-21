@@ -891,7 +891,7 @@ A shift register is built of a series of interconnected [flip-flops](https://en.
 *Applications:*
 * Sequencer
 * Noise Generator
-* Linear-feedback Shift Register (LFSR)
+* Linear-feedback Shift Register ([LFSR](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#linear-feedback-shift-register "LFSR"))
 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4015.jpg>
