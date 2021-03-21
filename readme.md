@@ -480,11 +480,10 @@ Download Gerber files [here](https://github.com/SCLW/Circuitry-Based-Sound/tree/
 
 
 ![Pi_Day_2021](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Pi_Day_2021.jpg)
-<!--
-*Caption*
+*Torta della Nonna*
 <br>
 <br>
--->
+
 
 <br>
 <br>
