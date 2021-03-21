@@ -77,7 +77,7 @@ The following is a documentation of the seminar's study materials and findings.
 
 
 
-# Disclaimer:
+# Disclaimer
 
 The authors accept no responsibility for damages that are caused by or in connection with the use of the information shown on this website. We are committed to ensure that the content provided is complete and accurate. However, unintended errors may occur. We urge the respective user to cross-check and verify the content before use.
 <br>
