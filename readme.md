@@ -175,7 +175,7 @@ The artistic range of applications for electronic projects in the fields of expe
 
 ## Live Electronic Music
 
-The simplicity of CMOS-circuits for sound production makes them a good fit for building customized sound generators. In 2020, on Valentine's Day, the concert performance [MK Ultra Sound](https://www.youtube.com/watch?v=N06RBw-_2Q8 "MK Ultra Sound") for eight loudspeakers with self-built circuits took place in the halls of the HfG. Interactive visuals were projected on two perpendicularly placed walls.
+The simplicity of CMOS-circuits for sound production makes them a good fit for building customized sound generators. In 2020, on Valentine's Day, the concert performance MK Ultra Sound for eight loudspeakers with self-built circuits took place in the halls of the HfG. Interactive visuals were projected on two perpendicularly placed walls.
 
 
 ![Concert_2020_MK-Ultra-Sound_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_2020_MK-Ultra-Sound_01.jpg)
@@ -194,6 +194,9 @@ The simplicity of CMOS-circuits for sound production makes them a good fit for b
  
  
 Each performer tried out various circuits and chose a combination of CMOS building blocks to create specific sound effects such as drones, glitchy rhythms, noise etc. While rehearsing, we played with various sequences of players playing together or playing one by one, depending on the contributed sound material. During the show we spatialized each performer's signal to a ring of eight loudspeakers through a mixing desk with 8 inputs and 8 outputs.
+
+
+[Watch the video](https://www.youtube.com/watch?v=N06RBw-_2Q8 "MK Ultra Sound") 
 
 Another group live performance was given in July as an open-air concert between the HfG and the Federal Prosecutor's office as part of the [Roundabout 2020](https://youtu.be/eHiamumLI-0 "Roundabout"), the Media Art Sound semester presentation. For this event, we developed individual printed circuit boards (PCBs) for sound synthesis, including a concept for music interfaces with potentiometers, switches, and sensors that allowed for musical expression.
 
