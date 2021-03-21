@@ -113,9 +113,7 @@ Due to its simplicity, CMOS chips can be used for educational reasons, since mos
 <br>
 -->
 
-The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the picture above:
-
-It shows a [square wave](https://en.wikipedia.org/wiki/Square_wave "square wave") sound generator that can be built with only three components, jumper wires and a power supply:
+The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the picture above. It shows a [square wave](https://en.wikipedia.org/wiki/Square_wave "square wave") sound generator that can be built with only three components, jumper wires and a power supply:
 * inverting [Schmitt trigger](https://en.wikipedia.org/wiki/Schmitt_trigger "Schmitt trigger") IC, e.g. CD40106
 * capacitor C
 * resistor R
