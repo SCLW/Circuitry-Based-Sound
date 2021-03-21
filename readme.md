@@ -1175,20 +1175,7 @@ X   = Don't Care
 <br>
 <br>
 
-## Additional ICs
-
-### LM386 - Power Operational Amplifier (under construction)
-
-Although not part of the CMOS logic family this ubiquitous power op amp is a very versatile component when it comes to amplification or driving small speakers.
-
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM386.jpg>
-
-[LM386 Data Sheet](https://www.ti.com/lit/ds/symlink/lm386.pdf?ts=1613028335418&ref_url=https%253A%252F%252Fwww.google.com%252F "LM386")
-<br>
-<br>
-
 ### 555 Timer (under construction)
-
 
 Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the same pinout and are exchangeable. The CMOS version consumes significantly less power. Its name derives from the three 5kΩ resistors that form a voltage divider network.
 
@@ -1212,6 +1199,20 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 [LMC555 Data Sheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf?ts=1609974121158&ref_url=https%253A%252F%252Fwww.google.com%252F "LMC555")
 <br>
 <br>
+
+## Additional ICs
+
+### LM386 - Power Operational Amplifier (under construction)
+
+Although not part of the CMOS logic family this ubiquitous power op amp is a very versatile component when it comes to amplification or driving small speakers.
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM386.jpg>
+
+[LM386 Data Sheet](https://www.ti.com/lit/ds/symlink/lm386.pdf?ts=1613028335418&ref_url=https%253A%252F%252Fwww.google.com%252F "LM386")
+<br>
+<br>
+
+
 
 # Basic Principles
 
