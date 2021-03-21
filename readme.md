@@ -172,7 +172,7 @@ The simplicity of CMOS-circuits for sound production makes them a good fit for b
 
 
 ![Concert_2020_MK-Ultra-Sound_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_2020_MK-Ultra-Sound_01.jpg)
-*Photos: Jonas Piroth et al*
+*Photos: Jonas Piroth et al.*
 <br>
 <br>
 
