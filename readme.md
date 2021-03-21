@@ -108,7 +108,7 @@ Due to its simplicity, CMOS chips can be used for educational reasons, since mos
 ## Basic Example
 
 ![CD40106_Fritzing](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_Fritzing.jpg)
-*Simplfied depictions of Schmitt trigger oscillator on a breadboard*
+*Simplfied depiction of a Schmitt trigger oscillator on a breadboard*
 <br>
 <br>
 
