@@ -50,7 +50,7 @@ The following is a documentation of the seminar's study materials and findings.
 <br>
 
 ***
-[**RESOURCES**]()\
+[**MATERIALS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#Materials)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Requirements](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#requirements)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bill of Material](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#bill-of-material)
 <br>
@@ -1296,7 +1296,7 @@ Changing the supply voltage will have different effects on a signal, depending o
 
 When working with an adjustable power supply or an according circuit, the impacts of limited current and voltage levels around or below the minimum requirements of an IC can be examined. A similar performance can be simulated with a simple series resistor in the power rail. 500Ω - 10kΩ potentiometers may be worth experimenting with to create odd sounds.
 
-
+# Materials
 ## Requirements
 
 Helpful tools and useful materials:
