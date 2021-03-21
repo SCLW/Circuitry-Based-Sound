@@ -9,6 +9,8 @@ The course is covering electrical and electronic basics, computer aided circuit 
 The following is a documentation of the seminar's study materials and findings.
 <br>
 <br>
+<br>
+<br>
 
 <div align="center">
  
