@@ -1347,14 +1347,37 @@ All parts can be substituted with alternative components and equivalent foot pri
 
 ## Authors
 
-<div align="center">
-Zhen Bian, Yinxuan Chen, Hangyan Chen, Haram Choi, Hongyu Guo, Jeongmin Han, Anna Helsen, Jihye Jang, Minsu Kim, Jung Eun Lee, Sangyi Lee, Xingchen Liu, Su Lu, Victoria Mikhaylova, Jiun-You Ou, Ruoyi Qiu, Vivian Reuter, Arno Schlipf, Florian Schwarz, Christina Vinke, Julian Vollmert, Dakang Wang, Huiyeon Yun, Rui Zhang, 
-Yunfei Zhang, Xinyi Zhao, Pei Zhou
-
+Zhen Bian  
+Yinxuan Chen  
+Hangyan Chen  
+Haram Choi  
+Hongyu Guo  
+Jeongmin Han  
+Anna Helsen  
+Jihye Jang  
+Minsu Kim  
+Jung Eun Lee  
+Sangyi Lee  
+Xingchen Liu  
+Su Lu  
+Victoria Mikhaylova  
+Jiun-You Ou  
+Ruoyi Qiu  
+Vivian Reuter  
+Arno Schlipf  
+Florian Schwarz  
+Christina Vinke  
+Julian Vollmert  
+Dakang Wang  
+Huiyeon Yun  
+Rui Zhang  
+Yunfei Zhang  
+Xinyi Zhao  
+Pei Zhou  
 
 **Lorenz Schwarz** - *lecturer*
 
-</div>  
+
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Bread_Board.jpg">
 
