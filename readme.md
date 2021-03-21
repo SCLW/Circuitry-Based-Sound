@@ -386,7 +386,7 @@ In addition to sensors or other control elements like potentiometers, force-sens
 
 
 ![Crackle_Box](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Box.jpg)
-*Photo: Till Kniola*
+*Crackle Box. Photo: Till Kniola*
 <br>
 <br>
 
