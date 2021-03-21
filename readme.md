@@ -416,7 +416,7 @@ The device makes use of the LM709/μA709 op-amp (originally National Semiconduct
 
 
  
-The image on the left shows the die of the LM709, embedded in a TO-5 package. On the right is a close up of the die. The die is called the integrated circuit made of silicon. The design of the crackle box focuses exactly on these imperfections of the LM709 and its special features, particularly its external frequency compensation. Michel Waisvisz’s Crackle box is therefore an early example of circuit bending and unconventional use of electronic components. The crackle box had been reissued over the past decades as assembly kits and can still be ordered from STEIM on request.
+The image on the left shows the [die](https://en.wikipedia.org/wiki/Die_(integrated_circuit)) of the LM709, embedded in a TO-5 package. On the right is a close up of the die. The die is called the integrated circuit made of silicon. The design of the crackle box focuses exactly on these imperfections of the LM709 and its special features, particularly its external frequency compensation. Michel Waisvisz’s Crackle box is therefore an early example of circuit bending and unconventional use of electronic components. The crackle box had been reissued over the past decades as assembly kits and can still be ordered from STEIM on request.
 
 
 ![Crackle_Box_Circuit](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Box_Circuit.jpg)
