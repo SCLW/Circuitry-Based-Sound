@@ -40,7 +40,7 @@ The following is a documentation of the seminar's study materials and findings.
 <br>
 
 ***
-[**BASIC PRINCIPLES**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#annex)\
+[**BASIC PRINCIPLES**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#basic-principles)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Signal Mixing](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#mixing)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Passive Filters](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#passive-filters)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Potentiometers](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#potentiometers)\
