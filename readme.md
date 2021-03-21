@@ -520,16 +520,11 @@ For the Crema Pasticcera:
 
 
 ![uC_Analog_Mux](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/uC_Analog_Mux.jpg)
-<!--
-*Caption*
-<br>
-<br>
--->
-
+*Analog 16 channel multiplexer for audio switchin controlled by a rotary encoder.*
 <br>
 <br>
 
-Analog 16 Channel Multiplexer for Audio, ADG406 Controlled by a rotary encoder
+
 
 
 
