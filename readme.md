@@ -10,8 +10,11 @@ The following is a documentation of the seminar's study materials and findings.
 <br>
 <br>
 
-
+<div align="center">
+ 
 [**TABLE OF CONTENTS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#table-of-contents)
+</div>
+
 
 ***
 [**INTRODUCTION**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#introduction)\
