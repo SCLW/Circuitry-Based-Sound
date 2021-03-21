@@ -410,7 +410,7 @@ The device makes use of the LM709/μA709 op-amp (originally National Semiconduct
 
 
 ![LM709_Die](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM709_Die.jpg)
-*Photo: Richard Kaußler*
+*Die of a LM709 op-amp. Photo: Richard Kaußler*
 <br>
 <br>
 
