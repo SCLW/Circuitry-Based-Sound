@@ -447,7 +447,7 @@ As mentioned above, the LM709 is out of production and most modern op amps are i
 <br>
 <br>
 
-For most applications, building an integrated circuit with discrete parts leads to a significant degradation of its performance. Because the dedicated parts within an IC can be produced precisely to the needs of the circuit. 
+For most applications, building an integrated circuit with discrete parts leads to a significant degradation of its performance. Because the dedicated parts within an IC are produced precisely to the needs of the circuit. 
 
 
 ![Crackle_Circuit_Prototype](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Circuit_Prototype.jpg)
