@@ -158,12 +158,8 @@ In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/
 
 
 ![Square-Wave](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Square-Wave.jpg)
-<!--
-*Caption*
+*Analytical description of a square wave*
 <br>
-<br>
--->
-
 <br>
 <br>
 
