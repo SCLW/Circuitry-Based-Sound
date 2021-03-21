@@ -54,7 +54,7 @@ The following is a documentation of the seminar's study materials and findings.
 ***
 [**MATERIALS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#Materials)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Requirements](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#requirements)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bill of Material](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#bill-of-material)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bill of Materials](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#bill-of-materials)
 <br>
 ***
 <!--
@@ -1330,7 +1330,7 @@ Helpful tools and useful materials:
 
 
 
-## Bill of Material
+## Bill of Materials
 
 A list with parts that can be used for this project, is available in the folder [BOM](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/BOM/Readme.md#bill-of-material "Bill of Material")
 All parts can be substituted with alternative components and equivalent foot prints.
