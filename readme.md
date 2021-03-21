@@ -53,6 +53,7 @@ The following is a documentation of the seminar's study materials and findings.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Potentiometers](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#potentiometers)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Touch Circuits](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#touch-circuits)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pull-up and Pull-down Resistors](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pull-up-and-pull-down-resistors)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linear Feedback Shift Register](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#Linear-shift-register)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Voltage Starve](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#voltage-starve)
 <br>
 
@@ -908,33 +909,7 @@ X   = Don't Care Case
 /   = Rising Edge  
 ⧹   = Falling Edge  
 
-LFSR:
-A linear feedback shift register (LFSR) can be used for generating deterministic pseudorandomness. In terms of electronic sound production it can be used to build a noise source. An LFSR consists of n numbers of flip-flops which are connected in series to form a shift register as described for the CD4015. This shift register is controlled by a clock that triggers the shift process. Two junctions at a specific position within that chain of flip-flops are directed into an XOR logic gate. The resulting value is fed back into the first register. The number of stages can be extended by connecting multiple devices. The produced values are determined by the shift register's current states and total length. Since the states are finite it will repeat after a certain number of steps. The goal is to choose those taps that form the longest possible sequence of zeros and ones before they repeat. Other implementations of an LFSR exist and work similarly. To activate an LFSR each stage needs to be loaded with an initial value. This is called the seed. By using an XOR function for the feedback, having the value 0 in all flip-flops is forbidden. By using an XNOR function it is forbidden to set all flip-flops to 1. A maximum-length sequence is therefor 2<sup>n</sup> - 1. Additional operations can be introduced to produce a length of 2<sup>n</sup>. No matter if XOR or XNOR functions are used, the sequences will have the same length, while the succession of values differs. The duration of one cycle is determined by the clock frequency. When looked at a shift register from the viewpoint of a musician, the long LFSR arrangements will create white and pink noise when controlled with a high frequency (several ten thousands of hertz). Shorter cycles produce grainy tones, stuttering textures or short noise loops.
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LFSR.jpg>
-
-The Xilinx application note XAPP210 (V1.3) shows a table for maximum length sequences, which is presented here for up to 24 bits:
-
-|n|taps from||n|taps from|
-|:----:|:----:|:----:|:----:|:----:|
-|3|3,2||14|14,5,3,1|
-|4|4,3||15|15,14|
-|5|5,3||16|16,15,13,4|
-|6|6,5||17|17,14|
-|7|7,6||18|18,11|
-|8|8,6,5,4||19|19,6,2,1|
-|9|9,5||20|20,17|
-|10|10,7||21|21,19|
-|11|11,9||22|22,21|
-|12|12,6,4,1,||23|23,18|
-|13|13,4,3,1||24|24,23,22,17|
-
-
-
-
-
-Depending on the desired operation, other applicable devices may be CD4094, CD4014, CD4021 which are all 8-stage shift registers.
- 
 
 [CD4015 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4015b.pdf?ts=1607676770686&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4015")
 <br>
@@ -1297,6 +1272,31 @@ To avoid this unpredicted behavior, a resistor should be connected to ground or 
 
 Even unused logic gates can cause problems since coupled-in interference voltages result in unwanted triggers and excess current draw. If a proper operation is desired, all unused inputs should not be left floating and connected together to GND or V<sub>CC</sub>.
 
+### Linear Feedback Shift Register
+
+A linear feedback shift register (LFSR) can be used for generating deterministic pseudorandomness. In terms of electronic sound production it can be used to build a noise source. An LFSR consists of n numbers of flip-flops which are connected in series to form a shift register as described for the CD4015. This shift register is controlled by a clock that triggers the shift process. Two junctions at a specific position within that chain of flip-flops are directed into an XOR logic gate. The resulting value is fed back into the first register. The number of stages can be extended by connecting multiple devices. The produced values are determined by the shift register's current states and total length. Since the states are finite it will repeat after a certain number of steps. The goal is to choose those taps that form the longest possible sequence of zeros and ones before they repeat. Other implementations of an LFSR exist and work similarly. To activate an LFSR each stage needs to be loaded with an initial value. This is called the seed. By using an XOR function for the feedback, having the value 0 in all flip-flops is forbidden. By using an XNOR function it is forbidden to set all flip-flops to 1. A maximum-length sequence is therefor 2<sup>n</sup> - 1. Additional operations can be introduced to produce a length of 2<sup>n</sup>. No matter if XOR or XNOR functions are used, the sequences will have the same length, while the succession of values differs. The duration of one cycle is determined by the clock frequency. When looked at a shift register from the viewpoint of a musician, the long LFSR arrangements will create white and pink noise when controlled with a high frequency (several ten thousands of hertz). Shorter cycles produce grainy tones, stuttering textures or short noise loops.
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LFSR.jpg>
+
+The Xilinx application note XAPP210 (V1.3) shows a table for maximum length sequences, which is presented here for up to 24 bits:
+
+|n|taps from||n|taps from|
+|:----:|:----:|:----:|:----:|:----:|
+|3|3,2||14|14,5,3,1|
+|4|4,3||15|15,14|
+|5|5,3||16|16,15,13,4|
+|6|6,5||17|17,14|
+|7|7,6||18|18,11|
+|8|8,6,5,4||19|19,6,2,1|
+|9|9,5||20|20,17|
+|10|10,7||21|21,19|
+|11|11,9||22|22,21|
+|12|12,6,4,1,||23|23,18|
+|13|13,4,3,1||24|24,23,22,17|
+
+
+Depending on the desired operation, other applicable devices may be CD4094, CD4014, CD4021 which are all 8-stage shift registers.
+ 
 
 ## Voltage Starve
 
