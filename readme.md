@@ -773,19 +773,19 @@ We found that the sound of the NSynth is quite distinct. Some reconstructed soun
 The following is a list of CMOS chips and other integrated circuits for sound creation and processing. This list will be constantly extended during the seminar. It outlines for each chip its main applications and gives a short explanation. Pinout, functional diagram, truth tables and some basic example circuits are also shown. However, the overview is not completed with these examples and the main approach is to find variations, modifications or new creative combinations for experimental sound and music. Please refer to the manufacturer's technical data sheet for more detailed information.
 
 ## Numerical Index
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD40106](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd40106)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4093](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4093)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4070](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4070)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4015](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4015)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4022](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4022)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4040](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4040)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4046](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4046)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4051](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4051)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4066](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4066)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4060](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4060)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4013](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4013)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CD4018](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4018-under-construction)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[555 Timer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#555-timer-under-construction)
+[CD40106](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd40106)\
+[CD4093](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4093)\
+[CD4070](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4070)\
+[CD4015](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4015)\
+[CD4022](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4022)\
+[CD4040](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4040)\
+[CD4046](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4046)\
+[CD4051](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4051)\
+[CD4066](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4066)\
+[CD4060](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4060)\
+[CD4013](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4013)\
+[CD4018](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4018-under-construction)\
+[555 Timer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#555-timer-under-construction)
 
 ### CD40106
 
