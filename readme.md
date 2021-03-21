@@ -198,7 +198,7 @@ Each performer tried out various circuits and chose a combination of CMOS buildi
 
 [Watch the video](https://www.youtube.com/watch?v=N06RBw-_2Q8 "MK Ultra Sound") 
 
-Another group live performance was given in July as an open-air concert between the HfG and the Federal Prosecutor's office as part of the [Roundabout 2020](https://youtu.be/eHiamumLI-0 "Roundabout"), the Media Art Sound semester presentation. For this event, we developed individual printed circuit boards (PCBs) for sound synthesis, including a concept for music interfaces with potentiometers, switches, and sensors that allowed for musical expression.
+Another group live performance was given in July as an open-air concert between the HfG and the Federal Prosecutor's office as part of the Roundabout 2020, the Media Art Sound semester presentation. For this event, we developed individual printed circuit boards (PCBs) for sound synthesis, including a concept for music interfaces with potentiometers, switches, and sensors that allowed for musical expression.
 
 ![Concert_CBS_Roundabout2020](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_CBS_Roundabout2020.jpg)
 *Photo: Susu Lu*
@@ -219,6 +219,7 @@ Another group live performance was given in July as an open-air concert between 
 <br>
 -->
 
+[Watch the video](https://youtu.be/eHiamumLI-0 "Roundabout") 
  
 ## CMOS Experimenter Boards
 
