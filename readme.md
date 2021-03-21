@@ -462,7 +462,7 @@ For most applications, building an integrated circuit with discrete parts leads 
 <br>
 
 
-Since the crackle box doesn't rely on a precise operation but randomness standard transistors can be used. Both schematics presented here omit the push-pull speaker driver using two complementary pairs of transistors. Substituting the obsolete LM709 with discrete components, specifically transistors and resistors, brings and equivalent crackle circuit into being.
+Since the crackle box doesn't rely on a precise operation but on randomness, standard transistors can be used. Both schematics presented here omit the push-pull speaker driver using two complementary pairs of transistors. Substituting the obsolete LM709 with discrete components, specifically transistors and resistors, brings and equivalent crackle circuit into being.
 
 
 
