@@ -8,7 +8,7 @@
 The course is covering electrical and electronic basics, computer aided circuit design and professional printed circuit board (PCB) manufacturing processes with the aim of building custom-made instruments. The emphasis is on studies of logic chips for sound creation and its musical applications. Participants are guided to use the latest technology, production chain and global logistics to develop, design and produce circuit boards for musical use. This allows the participants to easily create circuit boards with more variable features and adjustable parameters than hand soldered protoboards or solderless breadboards.
 
 <audio controls>
-<source src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/03 orch hall.wav">
+<source src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/03%20orch%20hall.wav">
 Your browser does not support the audio element.
 </audio>
 
