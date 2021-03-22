@@ -1,6 +1,7 @@
 
 # Circuitry-Based Sound
 
+<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Bread_Board.jpg">
 
 "Circuitry-Based Sound" is an ongoing seminar at [University of Arts and Design Karlsruhe](https://www.hfg-karlsruhe.de/ "University of Arts and Design Karlsruhe"). It focuses on electronic sound synthesis and parametric interfacing. It's examining musical characteristics of electronic instruments and comparing different approaches on how to design electronic sound modules. Due to the measures against the coronavirus spread in 2020, the seminar’s workflow had been adapted to the restrictions and is partially held online.
 
@@ -1354,10 +1355,12 @@ Xinyi Zhao
 Pei Zhou  
 
 **Lorenz Schwarz** - *lecturer*
+<br>
+<br>
+<br>
 
 
 
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Bread_Board.jpg">
 
 
 ## Acknowledgment
