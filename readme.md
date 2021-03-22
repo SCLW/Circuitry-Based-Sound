@@ -65,6 +65,7 @@ The following is a documentation of the seminar's study materials and findings.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bill of Materials](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#bill-of-materials)
 <br>
 ***
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[License](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#license)
 <!--
 [Disclaimer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#disclaimer)\
 [License](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#license)\
@@ -83,13 +84,6 @@ The authors accept no responsibility for damages that are caused by or in connec
 <br>
 <br>
 
-
-## License
-
-The content of this documentation is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/ "CC BY 3.0"), software is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. Copyright remains with the author(s)
-<br>
-<br>
-<br>
 
 # Introduction
 
@@ -1396,3 +1390,12 @@ https://en.wikipedia.org/wiki/Resistor_ladder<br>
 https://electronics.koncon.nl/oscillators/<br>
 https://electro-music.com/forum/forum-160.html<br>
 http://nomni.com/<br>
+
+
+
+## License
+
+The content of this documentation is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/ "CC BY 3.0"), software is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. Copyright remains with the author(s)
+<br>
+<br>
+<br>
