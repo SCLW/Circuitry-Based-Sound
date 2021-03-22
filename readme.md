@@ -183,7 +183,7 @@ The simplicity of CMOS-circuits for sound production makes them a good fit for b
 
 
 ![Concert_2020_MK-Ultra-Sound_02_edit](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_2020_MK-Ultra-Sound_02_edit.JPG)
-*Group live performance in summer 2020. Photo: Jihye Jang*
+*Photo: Jihye Jang*
 <br>
 <br>
 
@@ -197,7 +197,7 @@ Each performer tried out various circuits and chose a combination of CMOS buildi
 Another group live performance was given in July as an open-air concert between the HfG and the Federal Prosecutor's office as part of the Roundabout 2020, the Media Art Sound semester presentation. For this event, we developed individual printed circuit boards (PCBs) for sound synthesis, including a concept for music interfaces with potentiometers, switches, and sensors that allowed for musical expression.
 
 ![Concert_CBS_Roundabout2020](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_CBS_Roundabout2020.jpg)
-*Photo: Susu Lu*
+*Group live performance in summer 2020. Photo: Susu Lu*
 <br>
 <br>
 
@@ -228,7 +228,7 @@ The motivation behind this project was to produce a set of PCBs to evaluate logi
 -->
 
 ![Experimenter_Board_03](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Board_03.jpg)
-*Experimenter boards. Photo: Susu Lu*
+*Rehearsal with DIY CMOS synthesizer. Photo: Susu Lu*
 <br>
 <br>
 
@@ -237,11 +237,10 @@ Each PCB is designed around individual standard CMOS chips and their particular 
 
 
 ![CMOS_Synthesizer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg)
-<!--
-*Caption*
+*Experimenter boards*
 <br>
 <br>
--->
+
 
 <br>
 <br>
@@ -339,7 +338,7 @@ This sound art installation involves musical interaction between a performer and
 
 
 ![WMS_Installation_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/WMS_Installation_01.jpg)
-*Photo: Vivian Reuter*
+*Sound art installation. Photo: Vivian Reuter*
 <br>
 <br>
 
@@ -415,7 +414,7 @@ The image on the left shows the [die](https://en.wikipedia.org/wiki/Die_(integra
 
 
 ![Crackle_Box_Circuit](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Box_Circuit.jpg)
-*Schematic of Michel Waisvisz’s crackle box*
+*LM709 pin out and schematic of Michel Waisvisz’s crackle box*
 <br>
 <br>
 
@@ -476,11 +475,7 @@ Download Gerber files [here](https://github.com/SCLW/Circuitry-Based-Sound/tree/
 <br>
 
 
-<br>
-<br>
-
-
-For the shortcrust:
+**For the shortcrust:**
 * 450 g all-purpose flour
 * 1 pinch of salt
 * 200 g cold butter, cubed
@@ -488,7 +483,7 @@ For the shortcrust:
 * 150 g sugar
 * Zest of 1 organic lemon
 
-For the Crema Pasticcera:
+**For the Crema Pasticcera:**
 * 1 L milk
 * 250 g sugar
 * 6 egg yolks
