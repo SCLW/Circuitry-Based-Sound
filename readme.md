@@ -404,7 +404,7 @@ The device makes use of the LM709/μA709 op-amp (originally National Semiconduct
 
 
 ![LM709_Die](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM709_Die.jpg)
-*Die of a LM709 op-amp. Photo: Richard Kaußler*
+*Die of an LM709 op-amp. Photo: Richard Kaußler*
 <br>
 <br>
 
@@ -426,7 +426,7 @@ As mentioned above, the LM709 is out of production and most modern op amps are i
 
 
 ![Crackle_Discrete](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Discrete.jpg)
-*Crackle box with LM709 equivalent internal circuit*
+*Schematic with LM709 equivalent internal circuit*
 <br>
 <br>
 
