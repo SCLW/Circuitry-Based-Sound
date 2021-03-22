@@ -175,7 +175,7 @@ The simplicity of CMOS-circuits for sound production makes them a good fit for b
 
 
 ![Concert_2020_MK-Ultra-Sound_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_2020_MK-Ultra-Sound_01.jpg)
-*Photos: Jonas Piroth et al.*
+*MK Ultra Sound setup. Photos: Jonas Piroth et al.*
 <br>
 <br>
 
@@ -183,7 +183,7 @@ The simplicity of CMOS-circuits for sound production makes them a good fit for b
 
 
 ![Concert_2020_MK-Ultra-Sound_02_edit](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_2020_MK-Ultra-Sound_02_edit.JPG)
-*Photo: Jihye Jang*
+*Group live performance in summer 2020. Photo: Jihye Jang*
 <br>
 <br>
 
@@ -228,7 +228,7 @@ The motivation behind this project was to produce a set of PCBs to evaluate logi
 -->
 
 ![Experimenter_Board_03](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Board_03.jpg)
-*Photo: Susu Lu*
+*Experimenter boards. Photo: Susu Lu*
 <br>
 <br>
 
@@ -252,11 +252,10 @@ It simplified prototyping and made customized configurations highly flexible. Th
 
 
 ![Experimenter_Modules](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg)
-<!--
-*Caption*
+*Detail of CMOS synthesizer*
 <br>
 <br>
--->
+
 
 <br>
 <br>
@@ -281,11 +280,10 @@ Furthermore, the project includes laser-cutting files for a desktop console on w
 
 
 ![Relay_Oscillator](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Oscillator.jpg)
-<!--
-*Caption*
+*Relay oscillator configurations*
 <br>
 <br>
--->
+
 
 <br>
 <br>
@@ -329,11 +327,10 @@ Since each relay functioned as a physical sound generator, together with the 4-c
 
 
 ![Wireless_Sound_Module_02](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Wireless_Sound_Module_02.JPG)
-<!--
-*Caption*
+*Wireless sound modules and audio circuits*
 <br>
 <br>
--->
+
 
 <br>
 <br>
@@ -352,11 +349,10 @@ Alterations in sound are caused by repositioning, moving or grouping the sound m
 
 
 ![Simplified_WPT_Diagramm](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Simplified_WPT_Diagramm.jpg)
-<!--
-*Caption*
+*Simplified WPT diagramm*
 <br>
 <br>
--->
+
 
 <br>
 <br>
@@ -395,11 +391,10 @@ The crackle box is a touch-controlled electronic instrument, developed in the 70
  
 
 ![LM709_TO-5](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM709_TO-5.jpg)
-<!--
-*Caption*
+*LM709 TO-5 metal can packages*
 <br>
 <br>
--->
+
 
 <br>
 <br>
@@ -420,11 +415,10 @@ The image on the left shows the [die](https://en.wikipedia.org/wiki/Die_(integra
 
 
 ![Crackle_Box_Circuit](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Box_Circuit.jpg)
-<!--
-*Caption*
+*Schematic of Michel Waisvisz’s crackle box*
 <br>
 <br>
--->
+
 
 <br>
 <br>
@@ -433,11 +427,10 @@ As mentioned above, the LM709 is out of production and most modern op amps are i
 
 
 ![Crackle_Discrete](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Discrete.jpg)
-<!--
-*Caption*
+*Crackle box with LM709 equivalent internal circuit*
 <br>
 <br>
--->
+
 
 <br>
 <br>
@@ -446,11 +439,10 @@ For most applications, building an integrated circuit with discrete parts leads 
 
 
 ![Crackle_Circuit_Prototype](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Circuit_Prototype.jpg)
-<!--
-*Caption*
+*Breadboard with discrete components substituting the LM709*
 <br>
 <br>
--->
+
 
 <br>
 <br>
@@ -461,11 +453,10 @@ Since the crackle box doesn't rely on a precise operation but on randomness, sta
 
 
 ![Crackle_Gerber](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Gerber.jpg)
-<!--
-*Caption*
+*Crackle board*
 <br>
 <br>
--->
+
 
 <br>
 <br>
@@ -686,11 +677,10 @@ NSynth Super is an open source hardware synthesizer, based on Magenta’s NSynth
 
 
 ![NSynth_HDF_Case](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/NSynth_HDF_Case.jpg)
-<!--
-*Caption*
+*Open hardware project NSynth with HDF casing*
 <br>
 <br>
--->
+
 
 <br>
 <br>
@@ -700,11 +690,9 @@ NSynth is able to combine sounds, like a bass and flute, into a new, hybrid bass
 
 
 ![NSynth_Board_Bottom](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/NSynth_Board_Bottom_01.jpg)
-<!--
-*Caption*
+*NSynth bottom view*
 <br>
 <br>
--->
 
 <br>
 <br>
@@ -726,11 +714,10 @@ The Open NSynth physical interface has 4 different sounds in each corner, access
 The user inputs are four rotary encoders in the corners of an X/Y pad as instrument sound selectors. The central X/Y touch interface provides the sound interpolation. Six potentiometers along the bottom edge of the PCB are used for envelope and sample control. Pitch and velocity are introduces via MIDI Keyboard.
 
 ![NSynth_Board_Top_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/NSynth_Board_Top_01.jpg)
-<!--
-*Caption*
+*NSynth top view*
 <br>
 <br>
--->
+
 
 <br>
 <br>
