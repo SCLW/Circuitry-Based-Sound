@@ -97,7 +97,7 @@ Another concept of creating sound with electronics derived from techniques like 
 
 
 ![CMOS-chips](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS-chips.jpg)
-*Various CMOS Chips*
+*Various CMOS chips*
 <br>
 <br>
 
