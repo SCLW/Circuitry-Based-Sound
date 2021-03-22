@@ -499,7 +499,7 @@ Download Gerber files [here](https://github.com/SCLW/Circuitry-Based-Sound/tree/
 
 
 ![uC_Analog_Mux](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/uC_Analog_Mux.jpg)
-*Analog 16 channel multiplexer for audio switchin controlled by a rotary encoder.*
+*Analog 16 channel multiplexer for audio switching, Arduino-controlled by a rotary encoder.*
 <br>
 <br>
 
