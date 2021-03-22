@@ -1367,7 +1367,7 @@ Thanks to Holger Förterer and Dr. Paul Modler
 <br>
 <br>
 
-# REFERENCES
+# References
 
 
 B. Lojek. History of semiconductor engineering, 2007.\
@@ -1383,7 +1383,7 @@ C. Roads. Composing Electronic Music: A New Aesthetic, 2015.
 <br>
 <br>
 
-# LINKS
+# Links
 https://sound-au.com/articles/logic.htm<br>
 https://electricdruid.net/a-study-of-sub-oscillators/<br>
 https://en.wikipedia.org/wiki/Resistor_ladder<br>
