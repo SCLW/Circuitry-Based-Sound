@@ -96,7 +96,7 @@ The authors accept no responsibility for damages that are caused by or in connec
 
 Aside from the established way of using electronics to generate and process sound, which can be found in analog synthesizers, there are also unconventional applications of electronics to create sound or experimental music, which will be introduced below. Analog synthesizers apply techniques like [subtractive synthesis](https://en.wikipedia.org/wiki/Subtractive_synthesis "subtractive synthesis") to produce audio. A common concept of the analog signal flow is filtering the output of an oscillator and shaping the overall volume. Variations of this concept can be found in most synthesizers, both analog and digital. Parameters can be altered through control signals. This offers a wide range of musical expression, like tuning oscillators in a 12-tone musical scale or key triggered [envelopes](https://en.wikipedia.org/wiki/Envelope_(music) "envelope") for amplifiers, filters or other effect processors. To obtain these functionalities, circuits of analog synthesizers are relatively complex, involve a high part count and often require precision components.
 
-## Unconventional Electronic Sound
+### Unconventional Electronic Sound
 
 Another concept of creating sound with electronics derived from techniques like hardware hacking and circuit bending. In particular the use of digital integrated logic circuits outside of their typical field of application is a remarkable approach to build customized instruments for artistic sound production and interactive music. The required components are easy to source and low cost. What makes these types of chips even more handy is that they don't need much external components and wiring. They can be used for generating and processing sound without large expenditure.
 
@@ -251,9 +251,6 @@ Each PCB is designed around individual standard CMOS chips and their particular 
 <br>
 
 
-<br>
-<br>
-
 
 
 It simplified prototyping and made customized configurations highly flexible. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions. By combining several boards with different logic functions, complex switching performance can be achieved, ranging from modulated frequencies and interesting audio spectra to slow, rhythmic pulses or tone sequences. Audio and control signals are exchanged between boards via jumper cables or wires. A wide range of circuit examples with CMOS chips can be found on DIY websites and are widely discussed in various internet forums. These circuits can be a good basis for experimenting with CMOS chips. In addition, it is recommendable to use data sheets for all active components used in electronic projects. Power supply for the boards should comply with the power ratings of the used ICs, which is typically between 3V - 18V DC. LED series resistors need to be calculated accordingly. For the experimenter console, 9V power supply for guitar effects work well.
@@ -293,8 +290,6 @@ Furthermore, the project includes laser-cutting files for a desktop console on w
 <br>
 
 
-<br>
-<br>
 
 A SPDT relay has usually 5 terminals as the figure on the left shows. One common terminal, the NC and NO terminal and the two control terminals. When controlled by an additional circuit (microcontroller or control logic), a SPDT comes with 6 terminals. In addition to the SPDT switch, the control circuit consists of a power connection (terminal + and -/GND) and the control pin (s).
 
@@ -340,9 +335,6 @@ Since each relay functioned as a physical sound generator, together with the 4-c
 <br>
 
 
-<br>
-<br>
-
 This sound art installation involves musical interaction between a performer and a number of smaller “sound objects“, also called modules. The setup consists of a table or pedestal on which the modules are placed. The modules are operated through wireless power transfer (WPT). A multichannel sound field can be easily generated and modulated by placing several sound objects in proximity to the induction coils.
 
 
@@ -362,8 +354,6 @@ Alterations in sound are caused by repositioning, moving or grouping the sound m
 <br>
 
 
-<br>
-<br>
 
 When the objects are placed into the magnetic field of the current-carrying induction coils, which are integrated into a table, the circuits are put into operation and produce sound which is played back via the built-in loudspeakers. The direct relation between the physical parameters of the induction field and the sound gives the user an audible feedback. Here, to play with the sound, the objects can be tilted or even held above the magnetic field, which works up to a distance of approximately 2,5". For example, the frequency of the oscillators rises with distance while the amplitude decays. If several Objects are placed into the same magnetic field, the chips start colluding and "battling" about the available power.
 
@@ -404,8 +394,6 @@ The crackle box is a touch-controlled electronic instrument, developed in the 70
 <br>
 
 
-<br>
-<br>
 
  
 The device makes use of the LM709/μA709 op-amp (originally National Semiconductor, then Texas Instruments), one of the earliest monolithic operational amplifiers, created by [Robert Widlar](https://en.wikipedia.org/wiki/Bob_Widlar "Bob Widlar"). Its design concept and performance were already surpassed by its successor LM741. While the ladder is still in production, the LM709 has been discontinued. Compared with modern op-amps, it lacked of an output buffer stage. This means it is not short circuit proof. Furthermore, the LM709 did not have an internal frequency compensation. External components need to be added to limit the op-amps bandwidth to prevent unwanted oscillation. Richard Kaußler made a detailed analysis of the LM709, which can be found [here](https://www.richis-lab.de/Opamp20.htm "LM709"). His [website](https://www.richis-lab.de/ "Richi´s Lab") (in German) is a good resource for in-depth information about the internal structure of various ICs.
@@ -440,8 +428,6 @@ As mentioned above, the LM709 is out of production and most modern op amps are i
 <br>
 
 
-<br>
-<br>
 
 For most applications, building an integrated circuit with discrete parts leads to a significant degradation of its performance. Because the dedicated parts within an IC are produced precisely to the needs of the circuit. 
 
@@ -451,9 +437,6 @@ For most applications, building an integrated circuit with discrete parts leads 
 <br>
 <br>
 
-
-<br>
-<br>
 
 
 Since the crackle box doesn't rely on a precise operation but on randomness, standard transistors can be used. Both schematics presented here omit the push-pull speaker driver using two complementary pairs of transistors. Substituting the obsolete LM709 with discrete components, specifically transistors and resistors, brings and equivalent crackle circuit into being.
@@ -465,9 +448,6 @@ Since the crackle box doesn't rely on a precise operation but on randomness, sta
 <br>
 <br>
 
-
-<br>
-<br>
 
 Download BOM [here](https://github.com/SCLW/Projects/tree/main/BOMs "BOM Crackle Circuit")
 
