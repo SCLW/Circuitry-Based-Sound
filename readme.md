@@ -319,11 +319,15 @@ Some of the relays were used to control the logic gate of a CD4093 oscillator co
 Since each relay functioned as a physical sound generator, together with the 4-channel loudspeaker setup, an experimental sound field had been created. The result showed us that the setup produced has a dark and rich noise or drone sound and can be even better represented in some dark environment or on a dark stage. An abandoned factory or some industrial area could be an appropriate location for the performance. The setup should be organized in a way to be easily reached to improvise during the performance.
 
 
+
+
 ![Relay_Installation_front-view](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Installation_front-view.jpg)
 *Photo: Victoria Mikhaylova*
 <br>
 <br>
-
+[Watch the video](https://youtu.be/OkDDaWhSzgk "Relay Oscillators") 
+<br>
+<br>
 
 
 ### Wireless Sound Modules
