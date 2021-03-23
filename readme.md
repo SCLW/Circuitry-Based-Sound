@@ -100,7 +100,7 @@ Aside from the established way of using electronics to generate and process soun
 
 Another concept of creating sound with electronics derived from techniques like hardware hacking and circuit bending. In particular the use of digital integrated logic circuits outside of their typical field of application is a remarkable approach to build customized instruments for artistic sound production and interactive music. The required components are easy to source and low cost. What makes these types of chips even more handy is that they don't need much external components and wiring. They can be used for generating and processing sound without large expenditure.
 
-## CMOS Chips for Sound Creation
+### CMOS Chips for Sound Creation
 
 
 ![CMOS-chips](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS-chips.jpg)
@@ -114,7 +114,7 @@ Another concept of creating sound with electronics derived from techniques like 
 Due to its simplicity, CMOS chips can be used for educational reasons, since most of its technical operations can easily be understood and relate to basic electronic knowledge. This subject is also a matter of various publications, most notably [Nicolas Collins'](https://en.wikipedia.org/wiki/Nicolas_Collins "Collins") „Handmade Electronic Music, The Art of Hardware Hacking" (2006). American Composer [David Tudor](https://de.wikipedia.org/wiki/David_Tudor "David Tudor") (1926 - 1996) is considered a pioneer of self-made electronic circuits and instruments, which he used for his compositions. Stanley Lunetta (1937 - 2016), avant-garde composer and artist, incorporated in the 70s digital electronics into his compositions and sound art sculptures and shared his techniques with other artists. In the experimental music community, CMOS synthesizers are therefore often referred to as "Lunettas".
 
 
-## Basic Example
+### Basic Example
 
 ![CD40106_Fritzing](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_Fritzing.jpg)
 *Simplified depiction of a Schmitt trigger oscillator on a breadboard*
@@ -158,7 +158,7 @@ The frequency can be roughly calculated with this formula, where V<sub>P</sub> i
 However, manufacturing tolerances of all involved parts make it difficult to achieve exact results based on the formula. Since the field of application is artistic sound production, circuits should be evaluated by ear. But the formula shows that bigger RC values produce lower frequencies and vice versa. The frequency is determined through the capacitor C and the resistor R. Therefore, a [potentiometer](https://en.wikipedia.org/wiki/Potentiometer "potentiometer") instead of the latter enables pitch control. Other ways of controlling the frequency may be inserting [photoresistors](https://en.wikipedia.org/wiki/Photoresistor "photoresistor"), [force-sensitive resistors](https://en.wikipedia.org/wiki/Force-sensing_resistor "FSR") (FSR) or [flex sensors](https://en.wikipedia.org/wiki/Flex_sensor "flex sensor"). Adding circuit points to alter the sound through interaction allows building customized and versatile instruments.
 
 
-## Logic Control
+### Logic Control
 
 A logic gate is a single input - output device, designed to carry out a specific [Boolean operation](https://en.wikipedia.org/wiki/Boolean_algebra "Boolean algebra"), mapped to two voltage levels. Over time, the two alternating voltage levels may form a periodic rectangular waveform and the speed of switching between the two levels is perceived as pitch. Aperiodic switching will produce other sonic qualities such as noise or all kinds of texturized sounds. The ratio between the on- and off-states is by default close to 1:1, a 50% [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle "duty cycle"). Further circuitry is needed to change this ratio, which alters the ratio of the harmonic components to the fundamental.
 
@@ -178,7 +178,7 @@ In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/
 The artistic range of applications for electronic projects in the fields of experimental sound, interactive music and sound art is quite large. The next sections feature works made in the context of this seminar.
 
 
-## Live Electronic Music
+### Live Electronic Music
 
 The simplicity of CMOS-circuits for sound production makes them a good fit for building customized sound generators. In 2020, on Valentine's Day, the concert performance MK Ultra Sound for eight loudspeakers with self-built circuits took place in the halls of the HfG. Interactive visuals were projected on two perpendicularly placed walls.
 
@@ -226,7 +226,7 @@ Another group live performance was given in July as an open-air concert between 
 
 [Watch the video](https://youtu.be/eHiamumLI-0 "Roundabout") 
  
-## CMOS Experimenter Boards
+### CMOS Experimenter Boards
 
 The motivation behind this project was to produce a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. The idea of providing a CMOS experimenter board was initiated particularly with regard to today's availability of PCB manufacturers and affordable prizes. PCB prototyping and production is now completely based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities.
 
@@ -326,7 +326,7 @@ Since each relay functioned as a physical sound generator, together with the 4-c
 
 
 
-## Wireless Sound Modules
+### Wireless Sound Modules
 
 
 ![Wireless_Sound_Module_02](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Wireless_Sound_Module_02.JPG)
@@ -359,7 +359,7 @@ When the objects are placed into the magnetic field of the current-carrying indu
 
 
 
-## Experimental Oscillators
+### Experimental Oscillators
 
 
 ![Organic_Synthesizer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Organic_Synthesizer.jpg)
@@ -373,7 +373,7 @@ When the objects are placed into the magnetic field of the current-carrying indu
 -->
 
  
-## Crackle Circuits
+### Crackle Circuits
 
 In addition to sensors or other control elements like potentiometers, force-sensing resistors, or similar components, touching directly dedicated connection points in a circuit will also affect its behavior. The human body can add various parameters like resistance or capacitance. The conductivity of the human skin introduced into a circuit varies greatly just like the capacitance of the human body. Moisture (sweat), pressure or even the surroundings define the actual electrical values and make it difficult to predict their effect on a circuit. In this context, the crackle box should be mentioned as a remarkable example.
 
@@ -455,7 +455,7 @@ Download Gerber files [here](https://github.com/SCLW/Circuitry-Based-Sound/tree/
 
 
 
-## Pi Day
+### Pi Day
 
 
 ![Pi_Day_2021](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Pi_Day_2021.jpg)
@@ -484,7 +484,7 @@ Download Gerber files [here](https://github.com/SCLW/Circuitry-Based-Sound/tree/
 * powdered sugar for the Pi
 
 
-## Multiplexing
+### Multiplexing
 
 
 ![uC_Analog_Mux](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/uC_Analog_Mux.jpg)
@@ -655,7 +655,7 @@ Download Gerber files [here](https://github.com/SCLW/Circuitry-Based-Sound/tree/
 
 [ADG406 Data Sheet](https://www.analog.com/media/en/technical-documentation/data-sheets/ADG406_407_426.pdf "ADG406")
 
-## NSynth Super
+### NSynth Super
 
 NSynth Super is an open source hardware synthesizer, based on Magenta’s NSynth algorithm. It uses the open-source software library TensorFlow and the OpenFrameworks toolkit. All information is avilable on Github. It is not an official Google product, but most software components are Google developments and based on research by Google Brain. The project is a very good example for analysing concepts of embedded instruments and interface design. Single parts can be recontextualize or modified for other projects. The board's schematics and layout files are available for KiCad EDA (free software) as well as the generated gerber files.
 
