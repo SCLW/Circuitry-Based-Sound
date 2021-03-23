@@ -1232,10 +1232,11 @@ The piezo electric effect describes that a voltage is generated when a mechanica
 Most voltage comparators use open-collector output stages. If the inverting input has a higher potential than the non-inverting input, the output transistor is open and together with the pullup resistor, a dedicated trigger impulse is generated.
 
 
-For many applications, the rather short voltage spike of a pizeo element needs to be transformed into a pulse with a determined on-time period. This can be done with a  monostabile multivibrator. It remains in this state for a time determined by the circuitry, then it flips back to its initial state. In this case, the comparator circuit of the 555 Timer can be used instead of a regular comparator. The next picture shows such a circuit:
+For many applications, the rather short voltage spike of a pizeo element needs to be transformed into a pulse with a determined on-time period. This can be done with a  monostabile multivibrator. It remains in this state for a time determined by the circuitry, then it flips back to its initial state. In this case, the comparator circuit of the 555 Timer can be used instead of a regular comparator. 
 
-
+<!-- The next picture shows such a circuit:
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Piezo_Trigger_555.jpg">
+-->
 
 Another approach for sensing a touch or the proximity of human fingers or hands is based on capacitance. In CMOS circuits it can be used for controlling pitch. This method of touch control uses the parasitic capacitance between two conductive areas (electrodes) within a circuit. When a high frequency is applied to the two conductive areas, they create an electric field that stores opposite electric charges and act like plates of a capacitor. The electrodes are placed in parallel to a capacitor that forms an RC network together with a resistor. The RC network in turn defines the time constant of an astable multivibrator. When a finger or stylus is brought in close proximity to the electric field, it changes the capacitance and therefore the frequency of the multivibrator. When the electrodes are touched, the finger or stylus changes the dielectric constant. The dielectric is the material between the electrodes. The alterations of capacitance is linear to the force of the touch. The electrodes should be insulated with conformal coating or a thin adhesive strip.
 
