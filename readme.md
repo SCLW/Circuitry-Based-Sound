@@ -488,7 +488,7 @@ Download Gerber files [here](https://github.com/SCLW/Circuitry-Based-Sound/tree/
 * powdered sugar for the Pi
 
 
-### Multiplexing
+### Multiplexing (Arduino based)
 
 
 ![uC_Analog_Mux](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/uC_Analog_Mux.jpg)
@@ -499,7 +499,8 @@ Download Gerber files [here](https://github.com/SCLW/Circuitry-Based-Sound/tree/
 
 
 <!--
-
+<font color="#95a5a6">Holger Förterer</font>
+-->
 <details>
   <summary>
     Arduino Code
@@ -507,7 +508,7 @@ Download Gerber files [here](https://github.com/SCLW/Circuitry-Based-Sound/tree/
 <pre>
 <font color="#95a5a6">&#47;******************************************************************************</font>
 <font color="#95a5a6">Mux_Analog_Output</font>
-<font color="#95a5a6">Holger Förterer</font>
+
 <font color="#95a5a6">May 28, 2020</font>
 <font color="#95a5a6"></font>
 <font color="#95a5a6"></font>
@@ -653,7 +654,6 @@ Download Gerber files [here](https://github.com/SCLW/Circuitry-Based-Sound/tree/
 </pre>
   </details>
 
--->
 
 
 
