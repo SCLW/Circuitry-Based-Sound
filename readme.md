@@ -42,7 +42,7 @@ The following is a documentation of the seminar's study materials and findings.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Experimental Oscillators](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#experimental-oscillators)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Crackle Circuits](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#crackle-circuits)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pi Day](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pi-day)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Multiplexing (Arduino based)](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#multiplexing-(arduino-based))\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Multiplexing (Arduino based)](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#multiplexing-arduino-based)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[NSynth Super](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#nsynth-super)
 <br>
 <!--
