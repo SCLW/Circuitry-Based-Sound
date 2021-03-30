@@ -38,9 +38,6 @@ The following is a documentation of the seminar's study materials and findings.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Live Electronic Music](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#live-electronic-music)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CMOS Experimenter Boards](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cmos-experimenter-boards)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Relay Oscillators](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#relay-oscillators)\
-<!--
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Wireless Sound Modules](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#wireless-sound-modules)\
--->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Experimental Oscillators](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#experimental-oscillators)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Crackle Circuits](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#crackle-circuits)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pi Day](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pi-day)\
@@ -330,6 +327,10 @@ Since each relay functioned as a physical sound generator, together with the 4-c
 [Watch the video](https://youtu.be/OkDDaWhSzgk "Relay Oscillators") 
 <br>
 <br>
+
+<!-- Table of Contents
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Wireless Sound Modules](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#wireless-sound-modules)\
+-->
 
 <!--
 ### Wireless Sound Modules
