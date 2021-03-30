@@ -38,7 +38,9 @@ The following is a documentation of the seminar's study materials and findings.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Live Electronic Music](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#live-electronic-music)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CMOS Experimenter Boards](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cmos-experimenter-boards)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Relay Oscillators](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#relay-oscillators)\
+<!--
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Wireless Sound Modules](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#wireless-sound-modules)\
+-->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Experimental Oscillators](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#experimental-oscillators)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Crackle Circuits](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#crackle-circuits)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pi Day](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pi-day)\
@@ -329,38 +331,24 @@ Since each relay functioned as a physical sound generator, together with the 4-c
 <br>
 <br>
 
-
+<!--
 ### Wireless Sound Modules
-
-
 ![Wireless_Sound_Module_02](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Wireless_Sound_Module_02.JPG)
 *Wireless sound modules and audio circuits*
 <br>
 <br>
-
-
 This sound art installation involves musical interaction between a performer and a number of smaller “sound objects“, also called modules. The setup consists of a table or pedestal on which the modules are placed. The modules are operated through wireless power transfer (WPT). A multichannel sound field can be easily generated and modulated by placing several sound objects in proximity to the induction coils.
-
-
 ![WMS_Installation_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/WMS_Installation_01.jpg)
 *Sound art installation. Photo: Vivian Reuter*
 <br>
 <br>
-
- 
- 
 Alterations in sound are caused by repositioning, moving or grouping the sound modules. Although the objects are not physically linked to each other, they start interacting electro-acoustically when they share the same magnetic field. The sound modules contain electronic sound generators and loudspeakers, and therefore work independently from a sound studio situation. The sound synthesis is carried out by CMOS ICs. Each object functions as a sealed chamber for a single dynamic loudspeaker. We used 3D printing as an effective method to create various shapes, tailored to the needs of our application.
-
-
 ![Simplified_WPT_Diagramm](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Simplified_WPT_Diagramm.jpg)
 *Simplified WPT diagramm*
 <br>
 <br>
-
-
-
 When the objects are placed into the magnetic field of the current-carrying induction coils, which are integrated into a table, the circuits are put into operation and produce sound which is played back via the built-in loudspeakers. The direct relation between the physical parameters of the induction field and the sound gives the user an audible feedback. Here, to play with the sound, the objects can be tilted or even held above the magnetic field, which works up to a distance of approximately 2,5". For example, the frequency of the oscillators rises with distance while the amplitude decays. If several Objects are placed into the same magnetic field, the chips start colluding and "battling" about the available power.
-
+-->
 
 
 ### Experimental Oscillators
