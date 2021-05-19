@@ -204,7 +204,7 @@ Each performer tried out various circuits and chose a combination of CMOS buildi
 Another group live performance was given in July as an open-air concert between the HfG and the Federal Prosecutor's office as part of the Roundabout 2020, the Media Art Sound semester presentation. For this event, we developed individual printed circuit boards (PCBs) for sound synthesis, including a concept for music interfaces with potentiometers, switches, and sensors that allowed for musical expression.
 
 ![Concert_CBS_Roundabout2020](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_CBS_Roundabout2020.jpg)
-*Group live performance in summer 2020. Photo: Susu Lu*
+*Group live performance in summer 2020. Photo: Su Lu*
 <br>
 <br>
 
@@ -231,11 +231,11 @@ The motivation behind this project was to produce a set of PCBs to evaluate logi
 <!--
 | ![Experimenter_Board](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Board_03.jpg) | 
 |:--:| 
-| *Photos: Susu Lu* |
+| *Photos: Su Lu* |
 -->
 
 ![Experimenter_Board_03](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Board_03.jpg)
-*Rehearsal with DIY CMOS synthesizer. Photo: Susu Lu*
+*Rehearsal with DIY CMOS synthesizer. Photo: Su Lu*
 <br>
 <br>
 
@@ -431,7 +431,7 @@ For most applications, building an integrated circuit with discrete parts leads 
 
 
 
-Since the crackle box doesn't rely on a precise operation but on randomness, standard transistors can be used. Both schematics presented here omit the push-pull speaker driver using two complementary pairs of transistors. Substituting the obsolete LM709 with discrete components, specifically transistors and resistors, brings and equivalent crackle circuit into being.
+Since the crackle box doesn't rely on a precise operation but on randomness, standard transistors can be used. Both schematics presented here omit the push-pull speaker driver using two complementary pairs of transistors. Substituting the obsolete LM709 with discrete components, specifically transistors and resistors, brings an equivalent crackle circuit into being.
 
 ![Crackle_Circuit_Prototype](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Board.jpg)
 *Crackle board*
