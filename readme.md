@@ -1105,6 +1105,7 @@ Helpful tools and useful materials:
 * Small mixing desk.
 * Active loudspeakers.
 * Worktables.
+* Pen and paper for drawing schematics.
 * Screw drivers.
 * ESD electronic diagonal cutter.
 * Precision cutter.
