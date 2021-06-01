@@ -971,6 +971,24 @@ Although not part of the CMOS logic family this ubiquitous power op amp is a ver
 [LM386 Data Sheet](https://www.ti.com/lit/ds/symlink/lm386.pdf?ts=1613028335418&ref_url=https%253A%252F%252Fwww.google.com%252F "LM386")
 <br>
 <br>
+|Pin|Function|
+|----|----|
+|1|Gain setting|
+|2|Inverting input|
+|3|Noninverting input|
+|4|Ground reference|
+|5|Output|
+|6|Power supply voltage|
+|7|Bypass decoupling path|
+|8|Gain setting pin|
+
+|Pin|min Voltage|max Voltage|
+|----|----|----|
+|Supply Voltage|4-12V|
+|Analog input voltage|-0.4|0.4|
+
+
+
 
 
 
