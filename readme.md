@@ -984,7 +984,7 @@ Although not part of the CMOS logic family this ubiquitous power op amp is a ver
 
 |Pin|min Voltage|max Voltage|
 |----|----|----|
-|Supply Voltage|4-12V|12V|
+|Supply Voltage|4V|12V|
 |Analog input voltage|-0.4V|0.4V|
 
 
