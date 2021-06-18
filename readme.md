@@ -1016,7 +1016,7 @@ Since the crackle box doesn't rely on a precise operation but on randomness, sta
 <br>
 
 
-Download BOM [here](https://github.com/SCLW/Projects/tree/main/BOMs "BOM Crackle Circuit")
+Download BOM [here](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/BOM_Crackle_Circuit "BOM Crackle Circuit")
 
 Download Gerber files [here](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/Gerber "Crackle Circuit Gerber Files")
 
