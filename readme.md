@@ -33,19 +33,7 @@ The following is a documentation of the seminar's study materials and findings.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Logic Control](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#logic-control)
 <br>
 
-***
-[**WORKS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#works)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Live Electronic Music](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#live-electronic-music)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CMOS Experimenter Boards](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cmos-experimenter-boards)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Relay Oscillators](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#relay-oscillators)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Experimental Oscillators](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#experimental-oscillators)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Crackle Circuits](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#crackle-circuits)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pi Day](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pi-day)
-<!--
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[NSynth Super](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#nsynth-super)
-<br>
-[**SELECTED CMOS CHIPS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#understanding-cmos-chips)\
--->
+
 
 ***
 [**ELECTRONIC COMPONENTS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#electronic-components)\
@@ -65,10 +53,25 @@ The following is a documentation of the seminar's study materials and findings.
 <br>
 
 ***
+[**WORKS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#works)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Live Electronic Music](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#live-electronic-music)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CMOS Experimenter Boards](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cmos-experimenter-boards)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Relay Oscillators](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#relay-oscillators)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Experimental Oscillators](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#experimental-oscillators)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Crackle Circuits](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#crackle-circuits)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pi Day](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pi-day)
+<!--
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[NSynth Super](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#nsynth-super)
+<br>
+[**SELECTED CMOS CHIPS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#understanding-cmos-chips)\
+-->
+
+***
 [**MATERIALS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#Materials)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Requirements](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#requirements)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bill of Materials](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#bill-of-materials)
 <br>
+
 ***
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[License](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#license)
 <!--
@@ -170,387 +173,6 @@ In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/
 <br>
 <br>
 
-
-# Works
-
-The artistic range of applications for electronic projects in the fields of experimental sound, interactive music and sound art is quite large. The next sections feature works made in the context of this seminar.
-
-
-### Live Electronic Music
-
-The simplicity of CMOS-circuits for sound production makes them a good fit for building customized sound generators. In 2020, on Valentine's Day, the concert performance MK Ultra Sound for eight loudspeakers with self-built circuits took place in the halls of the HfG. Interactive visuals were projected on two perpendicularly placed walls.
-
-
-![Concert_2020_MK-Ultra-Sound_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_2020_MK-Ultra-Sound_01.jpg)
-*MK Ultra Sound setup. Photos: Jonas Piroth et al.*
-<br>
-<br>
-
-
-
-
-![Concert_2020_MK-Ultra-Sound_02_edit](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_2020_MK-Ultra-Sound_02_edit.JPG)
-*Photo: Jihye Jang*
-<br>
-<br>
-
- 
- 
-Each performer tried out various circuits and chose a combination of CMOS building blocks to create specific sound effects such as drones, glitchy rhythms, noise etc. While rehearsing, we played with various sequences of players playing together or playing one by one, depending on the contributed sound material. During the show we spatialized each performer's signal to a ring of eight loudspeakers through a mixing desk with 8 inputs and 8 outputs.
-
-
-[Watch the video](https://www.youtube.com/watch?v=N06RBw-_2Q8 "MK Ultra Sound") 
-
-Another group live performance was given in July as an open-air concert between the HfG and the Federal Prosecutor's office as part of the Roundabout 2020, the Media Art Sound semester presentation. For this event, we developed individual printed circuit boards (PCBs) for sound synthesis, including a concept for music interfaces with potentiometers, switches, and sensors that allowed for musical expression.
-
-![Concert_CBS_Roundabout2020](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_CBS_Roundabout2020.jpg)
-*Group live performance in summer 2020. Photo: Su Lu*
-<br>
-<br>
-
-<!--
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_CBS_Roundabout2020.jpg">
- <p align=center> Photos: Susu Lu
-<br>
-<br>
--->
-
-<!--
-![]()
-*Caption*
-<br>
-<br>
--->
-
-[Watch the video](https://youtu.be/eHiamumLI-0 "Roundabout") 
- 
-### CMOS Experimenter Boards
-
-The motivation behind this project was to produce a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. The idea of providing a CMOS experimenter board was initiated particularly with regard to today's availability of PCB manufacturers and affordable prizes. PCB prototyping and production is now completely based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities.
-
-<!--
-| ![Experimenter_Board](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Board_03.jpg) | 
-|:--:| 
-| *Photos: Su Lu* |
--->
-
-![Experimenter_Board_03](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Board_03.jpg)
-*Rehearsal with DIY CMOS synthesizer. Photo: Su Lu*
-<br>
-<br>
-
-
-Each PCB is designed around individual standard CMOS chips and their particular functions in order to create sound. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and wiring alternative external circuitry. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points.
-
-
-![CMOS_Synthesizer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg)
-*Experimenter boards*
-<br>
-<br>
-
-
-
-
-It simplified prototyping and made customized configurations highly flexible. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions. By combining several boards with different logic functions, complex switching performance can be achieved, ranging from modulated frequencies and interesting audio spectra to slow, rhythmic pulses or tone sequences. Audio and control signals are exchanged between boards via jumper cables or wires. A wide range of circuit examples with CMOS chips can be found on DIY websites and are widely discussed in various internet forums. These circuits can be a good basis for experimenting with CMOS chips. In addition, it is recommendable to use data sheets for all active components used in electronic projects. Power supply for the boards should comply with the power ratings of the used ICs, which is typically between 3V - 18V DC. LED series resistors need to be calculated accordingly. For the experimenter console, 9V power supply for guitar effects work well.
-
-
-![Experimenter_Modules](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg)
-*Detail of CMOS synthesizer*
-<br>
-<br>
-
-
-<br>
-<br>
-
-Furthermore, the project includes laser-cutting files for a desktop console on which the boards can be mounted with screws. A power supply can be connected through the frame via banana connectors and distributed to each board.
-
-
-
-![acrylic_transparent](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg)
-*3D Model: Zhen Bian*
-<br>
-<br>
-
-
-
-
-
-## Relay Oscillators
-
-
-[Relays](https://en.wikipedia.org/wiki/Relay "Relay") are voltage controlled switches that operate electromechanically. One common type of relay uses an electromagnet to move an armature which makes or breaks a contact in a circuit. An electromagnet consists of a coil wound around a ferromagnetic material which generates a magnetic field when an electric current is applied to the coil. Therefore, the magnetic field can be controlled electronically. The movable armature is pulled back to the initial position by a spring force. The two positions of the armature define the on-state (contact closed) and off-state (contact opened) of the switch. A SPDT (single-pole, double-throw) switch allows a common terminal connecting to either of two other terminals. The term NO (normally open) refers to the open contact that will close and conduct electricity when the device is energized. NC (normally closed) will open and stop conducting electricity when the device is energized. In either case, applying an electric current to the electromagnet will change their state. Relays are generally used to switch high currents in one circuit with another low voltage circuit, which is also a form of galvanic isolation.
-
-
-![Relay_Oscillator](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Oscillator.jpg)
-*Relay oscillator configurations*
-<br>
-<br>
-
-
-
-A SPDT relay has usually 5 terminals as the figure on the left shows. One common terminal, the NC and NO terminal and the two control terminals. When controlled by an additional circuit (microcontroller or control logic), a SPDT comes with 6 terminals. In addition to the SPDT switch, the control circuit consists of a power connection (terminal + and -/GND) and the control pin (s).
-
-
-![Relay_Oscillator_setup](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Oscillator_setup.jpg)
-*Photo: Victoria Mikhaylova*
-<br>
-<br>
- 
-The experiment was designed to employ the clicking sound of an electromagnetic relay for a sound installation and performance. Some relays were modified with capacitors, resistors, and light sensors in order to built astable multivibrators. When a capacitor is connected in series with the NO, and a power source is connected to the common terminal, an astable multivibrator can be built. An additional resistor in series can vary the frequency (RC component).
-
-
-![Relay_Installation_diagram](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Installation_diagram.jpg)
-*Graphic: Victoria Mikhaylova*
-<br>
-<br>
-
-Some of the relays were used to control the logic gate of a CD4093 oscillator configuration. Other relays were powered on and off simultaneously by another relay to synchronize or gate them. Other relays were just switched by simple logic circuits (CD4093). When connecting with a CMOS chip, a pull down resistor is needed. Cascading relays and forming various connections between these systems allowed to explore the sound creation possibilities. Dedicated circuit points were defined and coupled with 4 loudspeakers in total via two mixing desks. The general idea of the setup was to research the combination of the clicking sounds of a number of relays together with amplified switching signals played back via loudspeakers.
-
-
-![Relay_Installation](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Installation.jpg)
-*Photo: Victoria Mikhaylova*
-<br>
-<br>
-
-
-Since each relay functioned as a physical sound generator, together with the 4-channel loudspeaker setup, an experimental sound field had been created. The result showed us that the setup produced has a dark and rich noise or drone sound and can be even better represented in some dark environment or on a dark stage. An abandoned factory or some industrial area could be an appropriate location for the performance. The setup should be organized in a way to be easily reached to improvise during the performance.
-
-
-
-
-![Relay_Installation_front-view](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Installation_front-view.jpg)
-*Photo: Victoria Mikhaylova*
-<br>
-<br>
-[Watch the video](https://youtu.be/OkDDaWhSzgk "Relay Oscillators") 
-<br>
-<br>
-
-<!-- Table of Contents
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Wireless Sound Modules](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#wireless-sound-modules)\
--->
-
-<!--
-### Wireless Sound Modules
-![Wireless_Sound_Module_02](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Wireless_Sound_Module_02.JPG)
-*Wireless sound modules and audio circuits*
-<br>
-<br>
-This sound art installation involves musical interaction between a performer and a number of smaller “sound objects“, also called modules. The setup consists of a table or pedestal on which the modules are placed. The modules are operated through wireless power transfer (WPT). A multichannel sound field can be easily generated and modulated by placing several sound objects in proximity to the induction coils.
-![WMS_Installation_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/WMS_Installation_01.jpg)
-*Sound art installation. Photo: Vivian Reuter*
-<br>
-<br>
-Alterations in sound are caused by repositioning, moving or grouping the sound modules. Although the objects are not physically linked to each other, they start interacting electro-acoustically when they share the same magnetic field. The sound modules contain electronic sound generators and loudspeakers, and therefore work independently from a sound studio situation. The sound synthesis is carried out by CMOS ICs. Each object functions as a sealed chamber for a single dynamic loudspeaker. We used 3D printing as an effective method to create various shapes, tailored to the needs of our application.
-![Simplified_WPT_Diagramm](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Simplified_WPT_Diagramm.jpg)
-*Simplified WPT diagramm*
-<br>
-<br>
-When the objects are placed into the magnetic field of the current-carrying induction coils, which are integrated into a table, the circuits are put into operation and produce sound which is played back via the built-in loudspeakers. The direct relation between the physical parameters of the induction field and the sound gives the user an audible feedback. Here, to play with the sound, the objects can be tilted or even held above the magnetic field, which works up to a distance of approximately 2,5". For example, the frequency of the oscillators rises with distance while the amplitude decays. If several Objects are placed into the same magnetic field, the chips start colluding and "battling" about the available power.
--->
-
-
-### Experimental Oscillators
-
-
-![Organic_Synthesizer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Organic_Synthesizer.jpg)
-*Photos: Jihye Jang, Huiyeon Yun*
-<br>
-<br>
-
- 
-<!--
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Diagram_Sketch.jpg">
--->
-
- 
-### Crackle Circuits
-
-In addition to sensors or other control elements like potentiometers, force-sensing resistors, or similar components, touching directly dedicated connection points in a circuit will also affect its behavior. The human body can add various parameters like resistance or capacitance. The conductivity of the human skin introduced into a circuit varies greatly just like the capacitance of the human body. Moisture (sweat), pressure or even the surroundings define the actual electrical values and make it difficult to predict their effect on a circuit. In this context, the crackle box should be mentioned as a remarkable example.
-
-
-
-![Crackle_Box](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Box.jpg)
-*Crackle Box. Photo: Till Kniola*
-<br>
-<br>
-
- 
-The crackle box is a touch-controlled electronic instrument, developed in the 70s by Michel Waisvisz (\*1949 Leiden † 2008 Amsterdam) at STEIM in Amsterdam. Its beginnings date back to the 60s. It's a battery operated small wooden case (14 x 8 x 3 cm), like a cigar box, a visible circuitboard with six distinctive touch points, ~1cm<sup>2</sup> each, and an on/off switch. Underneath the touch surface is a built-in loudspeaker. The vibrating air can pass through a number of holes in the PCB between the touch surface. The instruments produces random noise, clicks and plops or oscillates when touched with fingers. The circuit inside is just an op amp in an inverting configuration, while many circuit points and most pins of the op amp are made available on the outside of the device as conductive touch pads.
- 
-
-![LM709_TO-5](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM709_TO-5.jpg)
-*LM709 TO-5 metal can packages*
-<br>
-<br>
-
-
-
- 
-The device makes use of the LM709/μA709 op-amp (originally National Semiconductor, then Texas Instruments), one of the earliest monolithic operational amplifiers, created by [Robert Widlar](https://en.wikipedia.org/wiki/Bob_Widlar "Bob Widlar"). Its design concept and performance were already surpassed by its successor LM741. While the ladder is still in production, the LM709 has been discontinued. Compared with modern op-amps, it lacked of an output buffer stage. This means it is not short circuit proof. Furthermore, the LM709 did not have an internal frequency compensation. External components need to be added to limit the op-amps bandwidth to prevent unwanted oscillation. Richard Kaußler made a detailed analysis of the LM709, which can be found [here](https://www.richis-lab.de/Opamp20.htm "LM709"). His [website](https://www.richis-lab.de/ "Richi´s Lab") (in German) is a good resource for in-depth information about the internal structure of various ICs.
-
-
-
-![LM709_Die](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM709_Die.jpg)
-*Die of an LM709 op-amp. Photo: Richard Kaußler*
-<br>
-<br>
-
-
- 
-The image on the left shows the [die](https://en.wikipedia.org/wiki/Die_(integrated_circuit)) of the LM709, embedded in a TO-5 package. On the right is a close up of the die. The die is called the integrated circuit made of silicon. The design of the crackle box focuses on the imperfections of the LM709 and its special features, particularly its external frequency compensation. Michel Waisvisz’s Crackle box is therefore an early example of circuit bending and unconventional use of electronic components. The crackle box had been reissued over the past decades as assembly kits and can still be ordered from STEIM on request.
-
-
-![Crackle_Box_Circuit](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Box_Circuit.jpg)
-*LM709 pin out and schematic of Michel Waisvisz’s crackle box*
-<br>
-<br>
-
-
-<br>
-<br>
-
-As mentioned above, the LM709 is out of production and most modern op amps are internally frequency compensated and achieve a high stability during performance. For the crackle box, the LM709 can't be substituted with other op amps. Which means it also addresses the problem of obsolescence in the field of historical electronic instruments. One approach to circumvent this problem is to look closer into the LM709. The internal schematic can be found in its data-sheet.
-
-
-![Crackle_Discrete](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Discrete.jpg)
-*Schematic with LM709 equivalent internal circuit*
-<br>
-<br>
-
-
-
-For most applications, building an integrated circuit with discrete parts leads to a significant degradation of its performance. Because the dedicated parts within an IC are produced precisely to the needs of the circuit. 
-
-
-![Crackle_Circuit_Prototype](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Circuit_Prototype.jpg)
-*Breadboard with discrete components substituting the LM709*
-<br>
-<br>
-
-
-
-Since the crackle box doesn't rely on a precise operation but on randomness, standard transistors can be used. Both schematics presented here omit the push-pull speaker driver using two complementary pairs of transistors. Substituting the obsolete LM709 with discrete components, specifically transistors and resistors, brings an equivalent crackle circuit into being.
-
-![Crackle_Circuit_Prototype](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Board.jpg)
-*Crackle board*
-<br>
-<br>
-
-
-Download BOM [here](https://github.com/SCLW/Projects/tree/main/BOMs "BOM Crackle Circuit")
-
-Download Gerber files [here](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/Gerber "Crackle Circuit Gerber Files")
-
-
-
-### Pi Day
-
-
-![Pi_Day_2021](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Pi_Day_2021.jpg)
-*Torta della Nonna*
-<br>
-<br>
-
-
-**For the shortcrust:**
-* 450 g all-purpose flour
-* 1 pinch of salt
-* 200 g cold butter, cubed
-* 2 eggs
-* 150 g sugar
-* Zest of 1 organic lemon
-
-**For the Crema Pasticcera:**
-* 1 L milk
-* 250 g sugar
-* 6 egg yolks
-* 80 g cornstarch
-* Zest of 1 organic lemon
-* 60 g butter
-* 2 vanilla beans
-* 50 g pine nuts
-* powdered sugar for the Pi
-
-
-
-<!--
-### NSynth Super
-
-NSynth Super is an open source hardware synthesizer, based on Magenta’s NSynth algorithm. It uses the open-source software library TensorFlow and the OpenFrameworks toolkit. All information is avilable on Github. It is not an official Google product, but most software components are Google developments and based on research by Google Brain. The project is a very good example for analysing concepts of embedded instruments and interface design. Single parts can be recontextualize or modified for other projects. The board's schematics and layout files are available for KiCad EDA (free software) as well as the generated gerber files.
-
-
-![NSynth_HDF_Case](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/NSynth_HDF_Case.jpg)
-*Open hardware project NSynth with HDF casing*
-<br>
-<br>
-
-
-<br>
-<br>
-
-
-NSynth is able to combine sounds, like a bass and flute, into a new, hybrid bass-flute sound. This experiment lets anyone explore these sounds and make music with them. NSynth is built using Tensorflow, Tone.js and a [WaveNet-style autoencoder](https://arxiv.org/pdf/1704.01279.pdf "Neural Audio Synthesis of Musical Notes with WaveNet Autoencoders")
-
-
-![NSynth_Board_Bottom](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/NSynth_Board_Bottom_01.jpg)
-*NSynth bottom view*
-<br>
-<br>
-
-<br>
-<br>
-
-
-The WaveNet-style autoencoder is extracting temporal features from a dataset, interpolating linearly and decoding into new sounds
-The NSynth (Neural audio synthesis) is a deep neural network that learns the characteristics of a sound (embedding) and is creating new sounds based on these characteristics.
-
-For this, the Open NSynth dataset is available. It is an open-source sound library with:
-* 305,979 musical notes
-* 1,006 different instruments
-* ~ 65,4 pitches per instrument
-* Five different velocities
-* Monophonic
-* Four seconds each
-* 16 kilohertz, 16 Bit
-
-The Open NSynth physical interface has 4 different sounds in each corner, accessible through an X/Y-pad. The Open NSynth Super application runs on a Raspberry Pi (Raspberry Pi 3 Mod. B+) using OpenFrameworks. The Raspberry Pi is also communicating with the NSynth PCB mainboard.
-The user inputs are four rotary encoders in the corners of an X/Y pad as instrument sound selectors. The central X/Y touch interface provides the sound interpolation. Six potentiometers along the bottom edge of the PCB are used for envelope and sample control. Pitch and velocity are introduces via MIDI Keyboard.
-
-![NSynth_Board_Top_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/NSynth_Board_Top_01.jpg)
-*NSynth top view*
-<br>
-<br>
-
-
-<br>
-<br>
-
-NSynth PCB mainboard and chipset:
-* AT42QT2120-XU touch sensor IC
-* stm32f030k6 lqfp32 MCU ARM Cortex-M0
-* PCM512X audio DAC (PCM5122PW)
-* Adafruit 1.3" OLED display
-* 5-pin DIN MIDI input jack
-* 3.5mm Audio output
-* Micro USB power inlet
-
- 
-The Raspberry Pi communicates via I²C with the monochrome 1.3" 128x64 OLED graphic display (Adafruit) and the STM32f030k6 microcontroller (Arm Cortex M0 32-bit) which reads the touch sensor, encoder, and potentiometer values. The Audio stereo DAC is the PCM512X (Texas Instruments) and controlled via I²S
-
-Open NSynth Super Device provisioning:
-* Create the SD card (cross-platform)
-* Prepare the OS
-* Copy audio files
-* Set up the firmware
-* Set up the application
-
-
-We found that the sound of the NSynth is quite distinct. Some reconstructed sounds also seem to fluctuate in fundamental frequency, which is described as frequency wobble by google. In addition the spectral resolution seems to be limited. The Input source is 16 bit, 16 kHz. Although the morphing is based on computed sound files generated by a neural algorithm, what remains is just a sample player with a X/Y-touch field. 
--->
-<br>
-<br>
 
 
 # Electronic Components
@@ -1110,6 +732,389 @@ Depending on the desired operation, other applicable devices may be CD4094, CD40
 Changing the supply voltage will have different effects on a signal, depending on the actual circuit and the used components. Bypassing capacitors will mitigate these effects. For instance, the hysteresis thresholds in Schmitt trigger elements vary with the supply voltage. Lowering the supply voltage affects the frequency and the signal amplitude of Schmitt trigger oscillators. 
 
 When working with an adjustable power supply or an according circuit, the impacts of limited current and voltage levels around or below the minimum requirements of an IC can be examined. A similar performance can be simulated with a simple series resistor in the power rail. 500Ω - 10kΩ potentiometers may be worth experimenting with to create odd sounds.
+
+# Works
+
+The artistic range of applications for electronic projects in the fields of experimental sound, interactive music and sound art is quite large. The next sections feature works made in the context of this seminar.
+
+
+### Live Electronic Music
+
+The simplicity of CMOS-circuits for sound production makes them a good fit for building customized sound generators. In 2020, on Valentine's Day, the concert performance MK Ultra Sound for eight loudspeakers with self-built circuits took place in the halls of the HfG. Interactive visuals were projected on two perpendicularly placed walls.
+
+
+![Concert_2020_MK-Ultra-Sound_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_2020_MK-Ultra-Sound_01.jpg)
+*MK Ultra Sound setup. Photos: Jonas Piroth et al.*
+<br>
+<br>
+
+
+
+
+![Concert_2020_MK-Ultra-Sound_02_edit](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_2020_MK-Ultra-Sound_02_edit.JPG)
+*Photo: Jihye Jang*
+<br>
+<br>
+
+ 
+ 
+Each performer tried out various circuits and chose a combination of CMOS building blocks to create specific sound effects such as drones, glitchy rhythms, noise etc. While rehearsing, we played with various sequences of players playing together or playing one by one, depending on the contributed sound material. During the show we spatialized each performer's signal to a ring of eight loudspeakers through a mixing desk with 8 inputs and 8 outputs.
+
+
+[Watch the video](https://www.youtube.com/watch?v=N06RBw-_2Q8 "MK Ultra Sound") 
+
+Another group live performance was given in July as an open-air concert between the HfG and the Federal Prosecutor's office as part of the Roundabout 2020, the Media Art Sound semester presentation. For this event, we developed individual printed circuit boards (PCBs) for sound synthesis, including a concept for music interfaces with potentiometers, switches, and sensors that allowed for musical expression.
+
+![Concert_CBS_Roundabout2020](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_CBS_Roundabout2020.jpg)
+*Group live performance in summer 2020. Photo: Su Lu*
+<br>
+<br>
+
+<!--
+<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_CBS_Roundabout2020.jpg">
+ <p align=center> Photos: Susu Lu
+<br>
+<br>
+-->
+
+<!--
+![]()
+*Caption*
+<br>
+<br>
+-->
+
+[Watch the video](https://youtu.be/eHiamumLI-0 "Roundabout") 
+ 
+### CMOS Experimenter Boards
+
+The motivation behind this project was to produce a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. The idea of providing a CMOS experimenter board was initiated particularly with regard to today's availability of PCB manufacturers and affordable prizes. PCB prototyping and production is now completely based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities.
+
+<!--
+| ![Experimenter_Board](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Board_03.jpg) | 
+|:--:| 
+| *Photos: Su Lu* |
+-->
+
+![Experimenter_Board_03](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Board_03.jpg)
+*Rehearsal with DIY CMOS synthesizer. Photo: Su Lu*
+<br>
+<br>
+
+
+Each PCB is designed around individual standard CMOS chips and their particular functions in order to create sound. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and wiring alternative external circuitry. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points.
+
+
+![CMOS_Synthesizer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg)
+*Experimenter boards*
+<br>
+<br>
+
+
+
+
+It simplified prototyping and made customized configurations highly flexible. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions. By combining several boards with different logic functions, complex switching performance can be achieved, ranging from modulated frequencies and interesting audio spectra to slow, rhythmic pulses or tone sequences. Audio and control signals are exchanged between boards via jumper cables or wires. A wide range of circuit examples with CMOS chips can be found on DIY websites and are widely discussed in various internet forums. These circuits can be a good basis for experimenting with CMOS chips. In addition, it is recommendable to use data sheets for all active components used in electronic projects. Power supply for the boards should comply with the power ratings of the used ICs, which is typically between 3V - 18V DC. LED series resistors need to be calculated accordingly. For the experimenter console, 9V power supply for guitar effects work well.
+
+
+![Experimenter_Modules](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg)
+*Detail of CMOS synthesizer*
+<br>
+<br>
+
+
+<br>
+<br>
+
+Furthermore, the project includes laser-cutting files for a desktop console on which the boards can be mounted with screws. A power supply can be connected through the frame via banana connectors and distributed to each board.
+
+
+
+![acrylic_transparent](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg)
+*3D Model: Zhen Bian*
+<br>
+<br>
+
+
+
+
+
+## Relay Oscillators
+
+
+[Relays](https://en.wikipedia.org/wiki/Relay "Relay") are voltage controlled switches that operate electromechanically. One common type of relay uses an electromagnet to move an armature which makes or breaks a contact in a circuit. An electromagnet consists of a coil wound around a ferromagnetic material which generates a magnetic field when an electric current is applied to the coil. Therefore, the magnetic field can be controlled electronically. The movable armature is pulled back to the initial position by a spring force. The two positions of the armature define the on-state (contact closed) and off-state (contact opened) of the switch. A SPDT (single-pole, double-throw) switch allows a common terminal connecting to either of two other terminals. The term NO (normally open) refers to the open contact that will close and conduct electricity when the device is energized. NC (normally closed) will open and stop conducting electricity when the device is energized. In either case, applying an electric current to the electromagnet will change their state. Relays are generally used to switch high currents in one circuit with another low voltage circuit, which is also a form of galvanic isolation.
+
+
+![Relay_Oscillator](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Oscillator.jpg)
+*Relay oscillator configurations*
+<br>
+<br>
+
+
+
+A SPDT relay has usually 5 terminals as the figure on the left shows. One common terminal, the NC and NO terminal and the two control terminals. When controlled by an additional circuit (microcontroller or control logic), a SPDT comes with 6 terminals. In addition to the SPDT switch, the control circuit consists of a power connection (terminal + and -/GND) and the control pin (s).
+
+
+![Relay_Oscillator_setup](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Oscillator_setup.jpg)
+*Photo: Victoria Mikhaylova*
+<br>
+<br>
+ 
+The experiment was designed to employ the clicking sound of an electromagnetic relay for a sound installation and performance. Some relays were modified with capacitors, resistors, and light sensors in order to built astable multivibrators. When a capacitor is connected in series with the NO, and a power source is connected to the common terminal, an astable multivibrator can be built. An additional resistor in series can vary the frequency (RC component).
+
+
+![Relay_Installation_diagram](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Installation_diagram.jpg)
+*Graphic: Victoria Mikhaylova*
+<br>
+<br>
+
+Some of the relays were used to control the logic gate of a CD4093 oscillator configuration. Other relays were powered on and off simultaneously by another relay to synchronize or gate them. Other relays were just switched by simple logic circuits (CD4093). When connecting with a CMOS chip, a pull down resistor is needed. Cascading relays and forming various connections between these systems allowed to explore the sound creation possibilities. Dedicated circuit points were defined and coupled with 4 loudspeakers in total via two mixing desks. The general idea of the setup was to research the combination of the clicking sounds of a number of relays together with amplified switching signals played back via loudspeakers.
+
+
+![Relay_Installation](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Installation.jpg)
+*Photo: Victoria Mikhaylova*
+<br>
+<br>
+
+
+Since each relay functioned as a physical sound generator, together with the 4-channel loudspeaker setup, an experimental sound field had been created. The result showed us that the setup produced has a dark and rich noise or drone sound and can be even better represented in some dark environment or on a dark stage. An abandoned factory or some industrial area could be an appropriate location for the performance. The setup should be organized in a way to be easily reached to improvise during the performance.
+
+
+
+
+![Relay_Installation_front-view](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Installation_front-view.jpg)
+*Photo: Victoria Mikhaylova*
+<br>
+<br>
+[Watch the video](https://youtu.be/OkDDaWhSzgk "Relay Oscillators") 
+<br>
+<br>
+
+<!-- Table of Contents
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Wireless Sound Modules](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#wireless-sound-modules)\
+-->
+
+<!--
+### Wireless Sound Modules
+![Wireless_Sound_Module_02](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Wireless_Sound_Module_02.JPG)
+*Wireless sound modules and audio circuits*
+<br>
+<br>
+This sound art installation involves musical interaction between a performer and a number of smaller “sound objects“, also called modules. The setup consists of a table or pedestal on which the modules are placed. The modules are operated through wireless power transfer (WPT). A multichannel sound field can be easily generated and modulated by placing several sound objects in proximity to the induction coils.
+![WMS_Installation_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/WMS_Installation_01.jpg)
+*Sound art installation. Photo: Vivian Reuter*
+<br>
+<br>
+Alterations in sound are caused by repositioning, moving or grouping the sound modules. Although the objects are not physically linked to each other, they start interacting electro-acoustically when they share the same magnetic field. The sound modules contain electronic sound generators and loudspeakers, and therefore work independently from a sound studio situation. The sound synthesis is carried out by CMOS ICs. Each object functions as a sealed chamber for a single dynamic loudspeaker. We used 3D printing as an effective method to create various shapes, tailored to the needs of our application.
+![Simplified_WPT_Diagramm](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Simplified_WPT_Diagramm.jpg)
+*Simplified WPT diagramm*
+<br>
+<br>
+When the objects are placed into the magnetic field of the current-carrying induction coils, which are integrated into a table, the circuits are put into operation and produce sound which is played back via the built-in loudspeakers. The direct relation between the physical parameters of the induction field and the sound gives the user an audible feedback. Here, to play with the sound, the objects can be tilted or even held above the magnetic field, which works up to a distance of approximately 2,5". For example, the frequency of the oscillators rises with distance while the amplitude decays. If several Objects are placed into the same magnetic field, the chips start colluding and "battling" about the available power.
+-->
+
+
+### Experimental Oscillators
+
+
+![Organic_Synthesizer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Organic_Synthesizer.jpg)
+*Photos: Jihye Jang, Huiyeon Yun*
+<br>
+<br>
+
+ 
+<!--
+<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Diagram_Sketch.jpg">
+-->
+
+ 
+### Crackle Circuits
+
+In addition to sensors or other control elements like potentiometers, force-sensing resistors, or similar components, touching directly dedicated connection points in a circuit will also affect its behavior. The human body can add various parameters like resistance or capacitance. The conductivity of the human skin introduced into a circuit varies greatly just like the capacitance of the human body. Moisture (sweat), pressure or even the surroundings define the actual electrical values and make it difficult to predict their effect on a circuit. In this context, the crackle box should be mentioned as a remarkable example.
+
+
+
+![Crackle_Box](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Box.jpg)
+*Crackle Box. Photo: Till Kniola*
+<br>
+<br>
+
+ 
+The crackle box is a touch-controlled electronic instrument, developed in the 70s by Michel Waisvisz (\*1949 Leiden † 2008 Amsterdam) at STEIM in Amsterdam. Its beginnings date back to the 60s. It's a battery operated small wooden case (14 x 8 x 3 cm), like a cigar box, a visible circuitboard with six distinctive touch points, ~1cm<sup>2</sup> each, and an on/off switch. Underneath the touch surface is a built-in loudspeaker. The vibrating air can pass through a number of holes in the PCB between the touch surface. The instruments produces random noise, clicks and plops or oscillates when touched with fingers. The circuit inside is just an op amp in an inverting configuration, while many circuit points and most pins of the op amp are made available on the outside of the device as conductive touch pads.
+ 
+
+![LM709_TO-5](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM709_TO-5.jpg)
+*LM709 TO-5 metal can packages*
+<br>
+<br>
+
+
+
+ 
+The device makes use of the LM709/μA709 op-amp (originally National Semiconductor, then Texas Instruments), one of the earliest monolithic operational amplifiers, created by [Robert Widlar](https://en.wikipedia.org/wiki/Bob_Widlar "Bob Widlar"). Its design concept and performance were already surpassed by its successor LM741. While the ladder is still in production, the LM709 has been discontinued. Compared with modern op-amps, it lacked of an output buffer stage. This means it is not short circuit proof. Furthermore, the LM709 did not have an internal frequency compensation. External components need to be added to limit the op-amps bandwidth to prevent unwanted oscillation. Richard Kaußler made a detailed analysis of the LM709, which can be found [here](https://www.richis-lab.de/Opamp20.htm "LM709"). His [website](https://www.richis-lab.de/ "Richi´s Lab") (in German) is a good resource for in-depth information about the internal structure of various ICs.
+
+
+
+![LM709_Die](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM709_Die.jpg)
+*Die of an LM709 op-amp. Photo: Richard Kaußler*
+<br>
+<br>
+
+
+ 
+The image on the left shows the [die](https://en.wikipedia.org/wiki/Die_(integrated_circuit)) of the LM709, embedded in a TO-5 package. On the right is a close up of the die. The die is called the integrated circuit made of silicon. The design of the crackle box focuses on the imperfections of the LM709 and its special features, particularly its external frequency compensation. Michel Waisvisz’s Crackle box is therefore an early example of circuit bending and unconventional use of electronic components. The crackle box had been reissued over the past decades as assembly kits and can still be ordered from STEIM on request.
+
+
+![Crackle_Box_Circuit](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Box_Circuit.jpg)
+*LM709 pin out and schematic of Michel Waisvisz’s crackle box*
+<br>
+<br>
+
+
+<br>
+<br>
+
+As mentioned above, the LM709 is out of production and most modern op amps are internally frequency compensated and achieve a high stability during performance. For the crackle box, the LM709 can't be substituted with other op amps. Which means it also addresses the problem of obsolescence in the field of historical electronic instruments. One approach to circumvent this problem is to look closer into the LM709. The internal schematic can be found in its data-sheet.
+
+
+![Crackle_Discrete](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Discrete.jpg)
+*Schematic with LM709 equivalent internal circuit*
+<br>
+<br>
+
+
+
+For most applications, building an integrated circuit with discrete parts leads to a significant degradation of its performance. Because the dedicated parts within an IC are produced precisely to the needs of the circuit. 
+
+
+![Crackle_Circuit_Prototype](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Circuit_Prototype.jpg)
+*Breadboard with discrete components substituting the LM709*
+<br>
+<br>
+
+
+
+Since the crackle box doesn't rely on a precise operation but on randomness, standard transistors can be used. Both schematics presented here omit the push-pull speaker driver using two complementary pairs of transistors. Substituting the obsolete LM709 with discrete components, specifically transistors and resistors, brings an equivalent crackle circuit into being.
+
+![Crackle_Circuit_Prototype](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Crackle_Board.jpg)
+*Crackle board*
+<br>
+<br>
+
+
+Download BOM [here](https://github.com/SCLW/Projects/tree/main/BOMs "BOM Crackle Circuit")
+
+Download Gerber files [here](https://github.com/SCLW/Circuitry-Based-Sound/tree/master/Gerber "Crackle Circuit Gerber Files")
+
+
+
+### Pi Day
+
+
+![Pi_Day_2021](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Pi_Day_2021.jpg)
+*Torta della Nonna*
+<br>
+<br>
+
+
+**For the shortcrust:**
+* 450 g all-purpose flour
+* 1 pinch of salt
+* 200 g cold butter, cubed
+* 2 eggs
+* 150 g sugar
+* Zest of 1 organic lemon
+
+**For the Crema Pasticcera:**
+* 1 L milk
+* 250 g sugar
+* 6 egg yolks
+* 80 g cornstarch
+* Zest of 1 organic lemon
+* 60 g butter
+* 2 vanilla beans
+* 50 g pine nuts
+* powdered sugar for the Pi
+
+
+
+<!--
+### NSynth Super
+
+NSynth Super is an open source hardware synthesizer, based on Magenta’s NSynth algorithm. It uses the open-source software library TensorFlow and the OpenFrameworks toolkit. All information is avilable on Github. It is not an official Google product, but most software components are Google developments and based on research by Google Brain. The project is a very good example for analysing concepts of embedded instruments and interface design. Single parts can be recontextualize or modified for other projects. The board's schematics and layout files are available for KiCad EDA (free software) as well as the generated gerber files.
+
+
+![NSynth_HDF_Case](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/NSynth_HDF_Case.jpg)
+*Open hardware project NSynth with HDF casing*
+<br>
+<br>
+
+
+<br>
+<br>
+
+
+NSynth is able to combine sounds, like a bass and flute, into a new, hybrid bass-flute sound. This experiment lets anyone explore these sounds and make music with them. NSynth is built using Tensorflow, Tone.js and a [WaveNet-style autoencoder](https://arxiv.org/pdf/1704.01279.pdf "Neural Audio Synthesis of Musical Notes with WaveNet Autoencoders")
+
+
+![NSynth_Board_Bottom](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/NSynth_Board_Bottom_01.jpg)
+*NSynth bottom view*
+<br>
+<br>
+
+<br>
+<br>
+
+
+The WaveNet-style autoencoder is extracting temporal features from a dataset, interpolating linearly and decoding into new sounds
+The NSynth (Neural audio synthesis) is a deep neural network that learns the characteristics of a sound (embedding) and is creating new sounds based on these characteristics.
+
+For this, the Open NSynth dataset is available. It is an open-source sound library with:
+* 305,979 musical notes
+* 1,006 different instruments
+* ~ 65,4 pitches per instrument
+* Five different velocities
+* Monophonic
+* Four seconds each
+* 16 kilohertz, 16 Bit
+
+The Open NSynth physical interface has 4 different sounds in each corner, accessible through an X/Y-pad. The Open NSynth Super application runs on a Raspberry Pi (Raspberry Pi 3 Mod. B+) using OpenFrameworks. The Raspberry Pi is also communicating with the NSynth PCB mainboard.
+The user inputs are four rotary encoders in the corners of an X/Y pad as instrument sound selectors. The central X/Y touch interface provides the sound interpolation. Six potentiometers along the bottom edge of the PCB are used for envelope and sample control. Pitch and velocity are introduces via MIDI Keyboard.
+
+![NSynth_Board_Top_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/NSynth_Board_Top_01.jpg)
+*NSynth top view*
+<br>
+<br>
+
+
+<br>
+<br>
+
+NSynth PCB mainboard and chipset:
+* AT42QT2120-XU touch sensor IC
+* stm32f030k6 lqfp32 MCU ARM Cortex-M0
+* PCM512X audio DAC (PCM5122PW)
+* Adafruit 1.3" OLED display
+* 5-pin DIN MIDI input jack
+* 3.5mm Audio output
+* Micro USB power inlet
+
+ 
+The Raspberry Pi communicates via I²C with the monochrome 1.3" 128x64 OLED graphic display (Adafruit) and the STM32f030k6 microcontroller (Arm Cortex M0 32-bit) which reads the touch sensor, encoder, and potentiometer values. The Audio stereo DAC is the PCM512X (Texas Instruments) and controlled via I²S
+
+Open NSynth Super Device provisioning:
+* Create the SD card (cross-platform)
+* Prepare the OS
+* Copy audio files
+* Set up the firmware
+* Set up the application
+
+
+We found that the sound of the NSynth is quite distinct. Some reconstructed sounds also seem to fluctuate in fundamental frequency, which is described as frequency wobble by google. In addition the spectral resolution seems to be limited. The Input source is 16 bit, 16 kHz. Although the morphing is based on computed sound files generated by a neural algorithm, what remains is just a sample player with a X/Y-touch field. 
+-->
+<br>
+<br>
+
+
 
 # Materials
 
