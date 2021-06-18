@@ -729,6 +729,11 @@ Depending on the desired operation, other applicable devices may be CD4094, CD40
 
 ## Step Sequencer
 
+The circuit makes use of the built-in voltage controlled oscillator (VCO) of the CD4046 Phase-Locked Loop. The voltage levels of the output pulses of the CD4022 counter can be changed by the potentiometers and are mixed together via the diodes D1-D8. The CD4046’s voltage controlled oscillator is then generating its frequency according to the input voltage levels. Therefore, each step of the CD4022 can be used to produce a single tone. The two resistors R4 and R5 determine the frequency range of the VCO. Good values are 1M for R5 and 1K for R4. A logical high on the 'Clock Inhibit' stops the counter advancement and hence the sequence. A logical high on the 'Reset' input restarts the counter. Connecting one of the outputs of the counter to the 'Reset' pin shortens the length of the sequence by one in regard to the number of the used output.
+(Step length = Qx-1, if Qx is connected to 'Reset').
+'Inhibit' pin 5 of the CD4046 must be set to a logical low for operation.
+A clock source is needed for triggering the CD4022.
+
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Schematic_Step-Sequencer.jpg>
 
 ## Voltage Starve
