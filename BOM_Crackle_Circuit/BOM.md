@@ -1,4 +1,8 @@
+
+
+
 Item #|Designator| Qty.|Value|Description |Package|Mouser No|Mfr. No
+| --- | --- | --- |--- | --- | --- |--- | --- |
 1|R12|1|1 K|Metal Film Resistor||603-MFR-25FBF52-1K|MFR-25FBF52-1K
 2|R15|1|75R|Metal Film Resistor||603-MFR-25FTE52-75R|MFR-25FTE52-75R
 3|R2, R8, R10, R11, R13|5|10 K|Metal Film Resistor||756-MFR3-10KFC|MFR3-10KFC
