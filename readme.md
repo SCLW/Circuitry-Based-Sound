@@ -49,6 +49,7 @@ The following is a documentation of the seminar's study materials and findings.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Touch Circuits](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#touch-circuits)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pull-up and Pull-down Resistors](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pull-up-and-pull-down-resistors)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linear Feedback Shift Register](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#linear-feedback-shift-register)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step Sequencer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#Step Sequencer)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Voltage Starve](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#voltage-starve)
 <br>
 
@@ -65,6 +66,7 @@ The following is a documentation of the seminar's study materials and findings.
 <br>
 [**SELECTED CMOS CHIPS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#understanding-cmos-chips)\
 -->
+<br>
 
 ***
 [**MATERIALS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#Materials)\
@@ -724,6 +726,10 @@ The Xilinx application note XAPP210 (V1.3) shows a table for maximum length sequ
 
 Depending on the desired operation, other applicable devices may be CD4094, CD4014, CD4021 which are all 8-stage shift registers.
  
+
+## Step Sequencer
+
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Schematic_Step-Sequencer.jpg>
 
 ## Voltage Starve
 
