@@ -860,7 +860,7 @@ Furthermore, the project includes laser-cutting files for a desktop console on w
 
 
 
-A SPDT relay has usually 5 terminals as the figure on the left shows. One common terminal, the NC and NO terminal and the two control terminals. When controlled by an additional circuit (microcontroller or control logic), a SPDT comes with 6 terminals. In addition to the SPDT switch, the control circuit consists of a power connection (terminal + and -/GND) and the control pin (s).
+A SPDT relay has usually 5 terminals as the figure on the left shows. One common terminal, the NC and NO terminal and the two control terminals. If the SPDT is controllable by an additional circuit (microcontroller or control logic), it comes with 6 terminals. In addition to the SPDT switch, the control circuit consists of a power connection (terminal + and -/GND) and the control pin (s).
 
 
 ![Relay_Oscillator_setup](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Oscillator_setup.jpg)
