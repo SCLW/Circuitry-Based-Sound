@@ -573,6 +573,13 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer.jpg>
 
 <!---
+info about
+http://semiconductormuseum.com/Transistors/LectureHall/Camenzind/Camenzind_Index.htm
+http://www.adrianfreed.com/content/555-timer-resources
+
+
+low power 555
+https://www.jameco.com/z/CSS555-ID-Custom-Silicon-Solutions-IC-CSS555-Micropower-Version-of-555-Timer-Low-Power-current-under-5uA-supply-voltage-1-2V-_2146433.html
 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Astable_Operation.jpg>
