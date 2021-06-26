@@ -572,6 +572,17 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer.jpg>
 
+|Pin|Function|
+|----|----|
+|1|Ground|
+|2|I Start of timing input. TRIG < ½ CONT sets output high and discharge open|
+|3|High current timer output signal|
+|4|Active low reset input forces output and discharge low.|
+|5|Controls comparator thresholds, Outputs 2/3 VCC, allows bypass capacitor connection.|
+|6|End of timing input. THRES > CONT sets output low and discharge low|
+|7|Open collector output to discharge timing capacitor|
+|8|Input supply voltage, 4.5 V to 16 V.|
+
 <!---
 info about
 http://semiconductormuseum.com/Transistors/LectureHall/Camenzind/Camenzind_Index.htm
