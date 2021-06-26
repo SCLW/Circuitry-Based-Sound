@@ -574,13 +574,13 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 
 |Pin|Function|
 |----|----|
-|1|Ground|
-|2|I Start of timing input. TRIG < ½ CONT sets output high and discharge open|
-|3|High current timer output signal|
+|1|Ground.|
+|2|Start of timing input. TRIG < ½ CONT sets output high and discharge open.|
+|3|High current timer output signal.|
 |4|Active low reset input forces output and discharge low.|
 |5|Controls comparator thresholds, Outputs 2/3 VCC, allows bypass capacitor connection.|
-|6|End of timing input. THRES > CONT sets output low and discharge low|
-|7|Open collector output to discharge timing capacitor|
+|6|End of timing input. THRES > CONT sets output low and discharge low.|
+|7|Open collector output to discharge timing capacitor.|
 |8|Input supply voltage, 4.5 V to 16 V.|
 
 <!---
@@ -588,6 +588,8 @@ info about
 http://semiconductormuseum.com/Transistors/LectureHall/Camenzind/Camenzind_Index.htm
 http://www.adrianfreed.com/content/555-timer-resources
 
+Tutorial
+https://www.jameco.com/Jameco/workshop/TechTip/555-timer-tutorial.html
 
 low power 555
 https://www.jameco.com/z/CSS555-ID-Custom-Silicon-Solutions-IC-CSS555-Micropower-Version-of-555-Timer-Low-Power-current-under-5uA-supply-voltage-1-2V-_2146433.html
