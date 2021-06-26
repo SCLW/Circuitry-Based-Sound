@@ -580,12 +580,12 @@ http://www.adrianfreed.com/content/555-timer-resources
 
 low power 555
 https://www.jameco.com/z/CSS555-ID-Custom-Silicon-Solutions-IC-CSS555-Micropower-Version-of-555-Timer-Low-Power-current-under-5uA-supply-voltage-1-2V-_2146433.html
-
+-->
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Astable_Operation.jpg>
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Bistable_Operation.jpg>
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Monostable_Operation.jpg>
--->
+
 
 [LMC555 Data Sheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf?ts=1609974121158&ref_url=https%253A%252F%252Fwww.google.com%252F "LMC555")
 <br>
