@@ -586,6 +586,7 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 info about
 http://semiconductormuseum.com/Transistors/LectureHall/Camenzind/Camenzind_Index.htm
 http://www.adrianfreed.com/content/555-timer-resources
+http://www.555-timer-circuits.com/operating-modes.html
 
 Tutorial
 https://www.jameco.com/Jameco/workshop/TechTip/555-timer-tutorial.html
