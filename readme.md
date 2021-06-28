@@ -533,7 +533,7 @@ Divide by 2: **/Q1** connected to input Data
 *Applications:*
 * Divide by 10, 8, 6, 4, 2
 * Divide by 9, 7, 5, 3
-* Chord Generator
+* Rhythm/Chord Generator
 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4018.jpg>
