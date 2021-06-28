@@ -451,7 +451,7 @@ control logic 0 = switch off
 
 ### CD4060
 
-14 stage ripple-carry binary counter/divider and oscillator. Q1, Q2, Q3 and Q11 are not connected to the outside of the package.
+14 stage ripple-carry binary counter/divider and oscillator. Q1, Q2, Q3 and Q11 are not connected to the outside of the package. A high level on input pin 12 resets the counter and disables the oscillator.
 
 
 
