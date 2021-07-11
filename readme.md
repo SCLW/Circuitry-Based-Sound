@@ -753,7 +753,7 @@ This circuit for a step sequencer is shown in N. Collins book 'Handmade Electron
 
 
 ![Step_Sequencer_Waveform](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Step_Sequencer_Waveform_DSO.jpg)
-*Input voltage (yellow graph) at CD4046 pin 9 and output VCO frequency (blue graph) at pin 4.*
+*Input voltage (blue graph) and VCO frequency (yellow graph) of the CD4046.*
 <br>
 <br>
 
