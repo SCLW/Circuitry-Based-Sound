@@ -1218,7 +1218,7 @@ Ruoyi Qiu
 Bob Reinert  
 Vivian Reuter  
 Arno Schlipf  
-Florian Schwarz
+Florian Schwarz  
 Yifan Su  
 Christina Vinke  
 Julian Vollmert  
