@@ -752,7 +752,7 @@ Depending on the desired operation, other applicable devices may be CD4094, CD40
 This circuit for a step sequencer is shown in N. Collins book 'Handmade Electronic Music'. It makes use of the built-in voltage controlled oscillator (VCO) of the [CD4046](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4046 "CD4046") Phase-Locked Loop. The voltage levels of the output pulses of the [CD4022](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4022 "CD4022") counter can be scaled down by the potentiometer voltage dividers and are mixed together via the diodes D1-D8 (1N4148). The CD4046’s voltage controlled oscillator is then generating a frequency according to the input voltage level. Therefore, each step Q0-Q7 of the CD4022 can be used to produce a single tone.
 
 
-![Concert_2020_MK-Ultra-Sound_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Step_Sequencer_Waveform_DSO.jpg)
+![Step_Sequencer_Waveform](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Step_Sequencer_Waveform_DSO.jpg)
 *Input voltage (yellow graph) at CD4046 pin 9 and output VCO frequency (blue graph) at pin 4.*
 <br>
 <br>
@@ -762,8 +762,7 @@ A logical high on the 'Clock Inhibit' of the CD4022 stops the counter advancemen
 
 A clock source is needed for triggering the CD4022. When the clock is set to an audio frequency, the step sequencer works as a wave shaper. 
 
-Pin 5 (Inhibit) of the CD4046 must be set to a logical low for operation. The two resistors R4 and R5 determine the frequency range of the VCO. Good values are 1M for R5 and 1K for R4.
-
+Pin 5 (Inhibit) of the CD4046 must be set to a logical low for operation. The two resistors R4 and R5 determine the frequency range of the VCO.
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Schematic_Step-Sequencer.jpg>
 
