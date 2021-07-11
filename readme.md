@@ -1198,9 +1198,7 @@ All parts can be substituted with alternative components and equivalent foot pri
 
 ## Authors
 
-<!--
 Marc Bendt  
--->
 Zhen Bian  
 Yinxuan Chen  
 Hangyan Chen  
@@ -1217,21 +1215,15 @@ Su Lu
 Victoria Mikhaylova  
 Jiun-You Ou  
 Ruoyi Qiu  
-<!--
 Bob Reinert  
--->
 Vivian Reuter  
 Arno Schlipf  
 Florian Schwarz
-<!--
 Yifan Su  
--->
 Christina Vinke  
 Julian Vollmert  
 Dakang Wang  
-<!--
 Siting Wang  
--->
 Huiyeon Yun  
 Rui Zhang  
 Yunfei Zhang  
