@@ -751,6 +751,13 @@ Depending on the desired operation, other applicable devices may be CD4094, CD40
 
 This circuit for a step sequencer is shown in N. Collins book 'Handmade Electronic Music'. It makes use of the built-in voltage controlled oscillator (VCO) of the [CD4046](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4046 "CD4046") Phase-Locked Loop. The voltage levels of the output pulses of the [CD4022](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4022 "CD4022") counter can be scaled down by the potentiometer voltage dividers and are mixed together via the diodes D1-D8 (1N4148). The CD4046’s voltage controlled oscillator is then generating a frequency according to the input voltage level. Therefore, each step Q0-Q7 of the CD4022 can be used to produce a single tone.
 
+
+![Concert_2020_MK-Ultra-Sound_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Step_Sequencer_Waveform_DSO.jpg)
+*Input voltage (yellow graph) at CD4046 pin 9 and output VCO frequency (blue graph) at pin 4.*
+<br>
+<br>
+
+
 A logical high on the 'Clock Inhibit' of the CD4022 stops the counter advancement and hence the sequence. A manual push button switch with a pull down resistor to GND or a control logic circuit can be used to pause the sequence for rhythmic effects. A logical high on the 'Reset' input restarts the counter. Connecting one of the outputs of the counter to the 'Reset' pin shortens the length of the sequence by one in regard to the number of the used output. (Step length = Qx-1, if Qx is connected to 'Reset'). More complex patterns can be created when the reset and the inhibit functionality is dynamically controlled by logic circuits.
 
 A clock source is needed for triggering the CD4022. When the clock is set to an audio frequency, the step sequencer works as a wave shaper. 
