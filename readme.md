@@ -232,7 +232,7 @@ It acts as a square wave oscillator when the inputs are connected to form an inv
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093.jpg>
 
-Oscillators built with 2 input NAND Schmitt triggers can be switched on and off manually by using a push button. The next image shows how to set up a normally open push button as an ON switch. A [pull down resistor](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pull-up-and-pull-down-resistors) defines the logic state at the input when the push button is open. When the push button is closed, the power supply produces a logical high and the NAND gate oscillates.
+Oscillators built with 2 input NAND Schmitt triggers can be switched on and off manually by using a push button. The next image shows how to set up a normally open push button as an ON switch to control the sound. A [pull down resistor](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pull-up-and-pull-down-resistors) defines the logic state at the input when the push button is open. When the push button is closed, the power supply produces a logical high and the NAND gate oscillates.
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093_Push_Button.jpg>
 
