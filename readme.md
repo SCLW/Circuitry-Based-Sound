@@ -236,6 +236,7 @@ Oscillators built with 2 input NAND Schmitt triggers can be switched on and off 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093_Push_Button.jpg>
 
+Please note: If the push button is not pressed (normally open) the logical low at the second input will always cause a logical hight at the output, no matter which state is present at the other input.
 
 
 
