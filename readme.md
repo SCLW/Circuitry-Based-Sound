@@ -1152,15 +1152,19 @@ Yinxuan Chen
 Hangyan Chen  
 Siting Chen  
 Haram Choi  
+Qianqian	Feng   
+Zufilkar	Filandra   
 Hongyu Guo  
 Jeongmin Han  
 Anna Helsen  
 Jihye Jang  
 Minsu Kim  
+Florian	Knöbl   
 Jung Eun Lee  
 Sangyi Lee  
 Xingchen Liu  
 Su Lu  
+Daniel	Lythgoe   
 Victoria Mikhaylova  
 Jiun-You Ou  
 Ruoyi Qiu  
@@ -1169,27 +1173,21 @@ Vivian Reuter
 Arno Schlipf  
 Florian Schwarz  
 Yifan Su  
+Eveline	Vervliet   
 Christina Vinke  
 Julian Vollmert  
 Dakang Wang  
 Siting Wang  
+Yudong	Wang   
+Lutz Ben	Wesch   
+Eunchae	Won   
 Huiyeon Yun  
 Rui Zhang  
 Yunfei Zhang  
 Xinyi Zhao  
 Pei Zhou  
 
-<!--
-Siting	Chen
-Qianqian	Feng
-Zufilkar	Filandra
-Florian	Knöbl
-Daniel	Lythgoe
-Eveline	Vervliet
-Yudong	Wang
-Lutz Ben	Wesch
-Eunchae	Won
--->
+
 
 
 
