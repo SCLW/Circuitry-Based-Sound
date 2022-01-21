@@ -173,7 +173,7 @@ In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/
 <br>
 <br>
 
-
+The [square wave](https://en.wikipedia.org/wiki/Square_wave "Square wave") contains only overtones with odd numbered harmonics (⅓, ⅕, ⅐, etc). The relative amplitudes of the harmonics are equal to 1/harmonic number n.
 
 # Electronic Components
 
