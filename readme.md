@@ -435,7 +435,7 @@ Truth table for the CD4051
 Truth Table FOR CD4053B
 
 |INHIBIT|C|B|A|ON CHANNEL(S)|
-|:---::---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|
 |0|X|X|0|ax|
 |0|X|X|1|ay|
 |0|X|0|X|bx|
@@ -444,7 +444,7 @@ Truth Table FOR CD4053B
 |0|1|X|X|cy|
 |1|X|X|X|None|
 
-(1) X = Don't Care
+X = Don't Care
 
 
 <br>
