@@ -429,6 +429,24 @@ Truth table for the CD4051
 [CD4051 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4051b.pdf?ts=1599079621658&ref_url=https%253A%252F%252Fwww.google.com%252F "CD405xB")
 
 
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4053.jpg>
+
+
+Truth Table FOR CD4053B
+
+|INHIBIT|C|B|A|ON CHANNEL(S)|
+|:---::---:|:---:|:---:|:---:|
+|0|X|X|0|ax|
+|0|X|X|1|ay|
+|0|X|0|X|bx|
+|0|X|1|X|by|
+|0|0|X|X|cx|
+|0|1|X|X|cy|
+|1|X|X|X|None|
+
+(1) X = Don't Care
+
+
 <br>
 <br>
 
