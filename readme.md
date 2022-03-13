@@ -187,7 +187,7 @@ The following is a list of CMOS chips and other integrated circuits for sound cr
 [CD4022](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4022)\
 [CD4040](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4040)\
 [CD4046](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4046)\
-[CD4051](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4051)\
+[CD405x](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd405x)\
 [CD4066](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4066)\
 [CD4060](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4060)\
 [CD4013](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4013)\
@@ -400,7 +400,7 @@ Phase locked loop
 <br>
 <br>
 
-### CD4051
+### CD405x
 
 CD405x Multiplexer/Demultiplexer series comes in a 16 DIP package and is useful for switching and routing analog or digital signals.
 CD4051 is a switch in a single pole octal throw configuration with three binary control inputs for setting the contacts. CD4052 can be used for multiplexing one differential channel in a double-pole quad-throw configuration and has two binary control inputs. CD4053 offers individual control over 3 channels in a single-pole double-throw configuration with an independent binary control input for each channel.
@@ -426,13 +426,13 @@ Truth table for the CD4051
 |1|1|0|6|
 |1|1|1|7|
 
-[CD4051 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4051b.pdf?ts=1599079621658&ref_url=https%253A%252F%252Fwww.google.com%252F "CD405xB")
+
 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4053.jpg>
 
 
-Truth Table FOR CD4053B
+Truth table for the CD4053
 
 |INHIBIT|C|B|A|ON CHANNEL(S)|
 |:---:|:---:|:---:|:---:|:---:|
@@ -446,6 +446,7 @@ Truth Table FOR CD4053B
 
 X = Don't Care
 
+[CD405x Data Sheet](https://www.ti.com/lit/ds/symlink/cd4051b.pdf?ts=1599079621658&ref_url=https%253A%252F%252Fwww.google.com%252F "CD405xB")
 
 <br>
 <br>
