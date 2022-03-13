@@ -1177,6 +1177,7 @@ All parts can be substituted with alternative components and equivalent foot pri
 ## Authors
 
 Marc Bendt  
+Bent van den Berg  
 Zhen Bian  
 Yinxuan Chen  
 Hangyan Chen  
