@@ -409,11 +409,11 @@ CD4051 is a switch in a single pole octal throw configuration with three binary 
 When the control signal is less than 1/3 V<sub>DD</sub>, z is connected to x0. When the control signal is more than 2/3 V<sub>DD</sub>, z is connected to y1.
  -->
 
-All channels are off when inhibit input is set to "high" (active low).
-
 The resistance R<sub>ON</sub> of a CMOS switch in the closed position depends on the input voltage. For the CD405x types this on-resistance is approximately in the range of 120Ω - 200Ω or more ohms and can distort the input signal in some cases.
 
- 
+All channels are off when inhibit input is set to "high" (active low).
+
+V<sub>EE</sub> (Pin 7) is for dual supply operation. It is tied to ground in single supply mode.
 
 
 *Applications:*
