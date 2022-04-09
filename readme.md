@@ -440,7 +440,7 @@ Truth table for the CD4051
 Truth table for the CD4052  
 
 |INHIBIT|B|A|ON CHANNEL(S)|
-|:---::---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|
 |0|0|0|0x, 0y|
 |0|0|1|1x, 1y|
 |0|1|0|2x, 2y|
