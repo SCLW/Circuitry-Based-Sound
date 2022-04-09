@@ -418,9 +418,11 @@ V<sub>EE</sub> (Pin 7) is for dual supply operation. It is tied to ground in sin
 * Signal Routing
 * controlling LEDs
 
+#### CD4051
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_animated.gif>
 
-Truth table for the CD4051
+Truth table for the CD4051  
+
 |C|B|A|ON CHANNEL(S)|
 |----|----|----|:----:|
 |0|0|0|0|
@@ -432,6 +434,21 @@ Truth table for the CD4051
 |1|1|0|6|
 |1|1|1|7|
 
+#### CD4052
+
+Truth table for the CD4052  
+
+|INHIBIT|B|A|ON CHANNEL(S)|
+|:---::---:|:---:|:---:|
+|0|0|0|0x, 0y|
+|0|0|1|1x, 1y|
+|0|1|0|2x, 2y|
+|0|1|1|3x, 3y|
+|1|X|X|None|
+
+(1) X = Don't Care
+
+#### CD4053
 
 CD4053 offers individual control over 3 channels in a single-pole double-throw configuration with an independent binary control input for each channel. If any of the control pins of the CD4052 are not used, it must be connected to GND or V<sub>DD</sub>. 
 
@@ -443,7 +460,7 @@ When the control signal is less than 1/3 V<sub>DD</sub>, z is connected to x0. W
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4053.jpg>
 
 
-Truth table for the CD4053
+Truth table for the CD4053  
 
 |INHIBIT|C|B|A|ON CHANNEL(S)|
 |:---:|:---:|:---:|:---:|:---:|
