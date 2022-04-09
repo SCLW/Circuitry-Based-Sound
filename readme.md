@@ -419,6 +419,7 @@ V<sub>EE</sub> (Pin 7) is for dual supply operation. It is tied to ground in sin
 * controlling LEDs
 
 #### CD4051
+
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_animated.gif>
 
 Truth table for the CD4051  
@@ -439,7 +440,7 @@ Truth table for the CD4051
 Truth table for the CD4052  
 
 |INHIBIT|B|A|ON CHANNEL(S)|
-|:---::---:|:---:|:---:|
+|:---::---:|:---:|:---:|:---:|
 |0|0|0|0x, 0y|
 |0|0|1|1x, 1y|
 |0|1|0|2x, 2y|
