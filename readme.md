@@ -402,8 +402,9 @@ Phase locked loop
 
 ### CD405x
 
-CD405x Multiplexer/Demultiplexer series comes in a 16 DIP package and is useful for switching and routing analog or digital signals. 
-CD4051 is a switch in a single pole octal throw configuration with three binary control inputs for setting the contacts. CD4052 can be used for multiplexing one differential channel in a double-pole quad-throw configuration and has two binary control inputs. 
+CD405x Multiplexer/Demultiplexer series comes in a 16 DIP package and is useful for switching and routing analog or digital signals.  
+
+If any of the control pins of the CD405x are not used, it must be connected to GND or V<sub>DD</sub>.
 
 The resistance R<sub>ON</sub> of a CMOS switch in the closed position depends on the input voltage. For the CD405x types this on-resistance is approximately in the range of 120Ω - 200Ω or more ohms and can distort the input signal in some cases.
 
@@ -419,6 +420,8 @@ V<sub>EE</sub> (Pin 7) is for dual supply operation. It is tied to ground in sin
 * controlling LEDs
 
 #### CD4051
+
+CD4051 is a switch in a single pole octal throw configuration with three binary control inputs for setting the contacts. 
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_animated.gif>
 
@@ -437,6 +440,8 @@ Truth table for the CD4051
 
 #### CD4052
 
+CD4052 can be used for multiplexing one differential channel in a double-pole quad-throw configuration and has two binary control inputs.
+
 Truth table for the CD4052  
 
 |INHIBIT|B|A|ON CHANNEL(S)|
@@ -451,7 +456,7 @@ Truth table for the CD4052
 
 #### CD4053
 
-CD4053 offers individual control over 3 channels in a single-pole double-throw configuration with an independent binary control input for each channel. If any of the control pins of the CD4052 are not used, it must be connected to GND or V<sub>DD</sub>. 
+CD4053 offers individual control over 3 channels in a single-pole double-throw configuration with an independent binary control input for each channel.  
 
 <!--
 When the control signal is less than 1/3 V<sub>DD</sub>, z is connected to x0. When the control signal is more than 2/3 V<sub>DD</sub>, z is connected to y1.
