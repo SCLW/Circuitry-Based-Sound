@@ -428,16 +428,19 @@ CD4051 is a switch in a single pole octal throw configuration with three binary 
 
 Truth table for the CD4051  
 
-|C|B|A|ON CHANNEL(S)|
-|----|----|----|:----:|
-|0|0|0|0|
-|0|0|1|1|
-|0|1|0|2|
-|0|1|1|3|
-|1|0|0|4|
-|1|0|1|5|
-|1|1|0|6|
-|1|1|1|7|
+|INHIBIT|C|B|A|ON CHANNEL(S)|
+|:---:|:---:|:---:|:---:|
+|0|0|0|0|0|
+|0|0|0|1|1|
+|0|0|1|0|2|
+|0|0|1|1|3|
+|0|1|0|0|4|
+|0|1|0|1|5|
+|0|1|1|0|6|
+|0|1|1|1|7|
+|1|X|X|X|None|  
+
+X = Don't Care
 
 #### CD4052
 
@@ -456,7 +459,7 @@ Truth table for the CD4052
 |0|1|1|3x, 3y|
 |1|X|X|None|
 
-(1) X = Don't Care
+X = Don't Care
 
 #### CD4053
 
