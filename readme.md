@@ -499,6 +499,8 @@ Quad Bilateral Switch
 IC CD4066 includes four identical digitally controlled switches for analog or digital signals.
 Inputs and outputs are interchangeable as with conventional switches. Each switch can be controlled independently by a control input.
 
+On-state resistance is between few hundred ohms to one thousands ohms.
+
 control logic 1 = switch on  
 control logic 0 = switch off
 
