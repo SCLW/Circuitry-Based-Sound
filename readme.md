@@ -404,8 +404,7 @@ Phase locked loop
 
 CD405x Multiplexer/Demultiplexer series comes in a 16 DIP package and is useful for switching and routing analog or digital signals.  
 
-The resistance R<sub>ON</sub> of a CMOS switch in the closed position depends on the input voltage. For the CD405x types this on-resistance is approximately in the range of 120Ω - 200Ω or more ohms and can distort the input signal in some cases.
-
+The contact resistance (R<sub>ON</sub>) of a CMOS switch in the closed position depends on the input voltage, power supply voltage, and temperature. For the CD405x types this on-resistance is approximately in the range of 120Ω - 200Ω or more ohms and can distort the input signal in some cases. This value is quite low and negligible for the field of applications described in this article.
 
 If any of the control pins of the CD405x are not used, it must be connected to GND or V<sub>DD</sub>.
 
