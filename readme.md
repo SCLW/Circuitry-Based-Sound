@@ -167,11 +167,24 @@ A logic gate is a single input - output device, designed to carry out a specific
 
 In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/wiki/Binary_number "binary number") are represented by two defined voltage levels that are specified by the used technology and circuit. Everything below a certain voltage threshold level is recognized as 0 and everything above a certain threshold level is recognized as 1. A voltage level in between the two thresholds is not defined or forbdden and will produce false output triggers. CMOS digital inputs have a high impedance and pick up thermal noise voltages if left floating. Unused inputs should be tied to a defined voltage. Other input configurations (e.g. taster, toggle switches,) require [pull-up or pull-down resistors](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pull-up-and-pull-down-resistors "pull-up or pull-down"). The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF". 
 
+![Logic_Signal](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Logic_Signal.jpg)
+*Common CMOS input voltage level with and without hysteresis*
+<br>
+<br>
+<br>
+
+
+V<sub>IH</sub> is the minimum input voltage that will be interpreted as a logical high, while V<sub>IL</sub> is the maximum input voltage that will be interpreted as a logical low. The region in between is undefined and may trigger unpredictable highs or lows.  A Schmitt trigger implementation solves this problem with different threshold voltage levels for input signals, Depending on whether the input signal is changing from high to low (V<sub>N</sub> negative-going voltage) or low to high (V<sub>P</sub> positive-going voltage). When the input is between the two thresholds the output retains its value.
+
+
+
 ![Square-Wave](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Square-Wave.jpg)
 *Analytical description of a square wave logic signal*
 <br>
 <br>
 <br>
+
+
 
 The [square wave](https://en.wikipedia.org/wiki/Square_wave "Square wave") contains only overtones with odd numbered harmonics (⅓, ⅕, ⅐, etc). The relative amplitudes of the harmonics are equal to 1/harmonic number n.
 
