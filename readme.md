@@ -681,6 +681,7 @@ https://www.jameco.com/z/CSS555-ID-Custom-Silicon-Solutions-IC-CSS555-Micropower
 
 
 [LMC555 Data Sheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf?ts=1609974121158&ref_url=https%253A%252F%252Fwww.google.com%252F "LMC555")
+[TLC555 Data Sheet](https://www.ti.com/lit/ds/symlink/tlc555.pdf "TLC555")
 <br>
 <br>
 
