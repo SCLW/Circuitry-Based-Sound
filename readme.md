@@ -115,7 +115,7 @@ Another concept of creating sound with electronics derived from techniques like 
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Switching-Circuit.jpg">
 
-Logical operations can be implemented as switching circuits with a single pole single throw switch representing the input and the LED the output. The switch and the LED can have two distinct states: on and off. The open switch corresponds to a logical 0 and the closed position stands for a logical 1. A lit LED means 1 and a non-lit 0.
+Logical operations can be implemented as switching circuits with single pole single throw switches representing the input and an LED indicating the result. The switch and the LED can have two distinct states: on and off. The open switch corresponds to a logical 0 and the closed position stands for a logical 1. A lit LED means 1 and a non-lit 0.
 
 
 
