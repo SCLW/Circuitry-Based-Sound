@@ -760,7 +760,7 @@ By adding voltage dividers or potentiometers, it allows for gain control over ev
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Summing_Inverting_Formula.jpg>
 
-It should be underlined that the example shown is a single supply based circuit, which is uncommon for audio mixing, because it has several drawbacks. It is important to create a reference voltage of 1/2 V<sub>CC</sub> at the non-inverting input, to prevent the op amp from outputing a negative voltage. When working with logic circuits, the signals are almost at the supply levels. Even with rail-to-rail op amps caution is required to keep the summed signals below the working range of the op amp.
+It should be underlined that the example shown is a single supply based circuit, which is uncommon for audio mixing where usually symmetrical dual supply voltages are used. It is important therefore to create a reference voltage of 1/2 V<sub>CC</sub> at the non-inverting input. When working with logic circuits, the signals are almost at the supply levels. Even with rail-to-rail op amps caution is required to keep the summed signals below the working range of the op amp.
 
 
 
