@@ -1268,10 +1268,13 @@ Qianqian	Feng
 Zufilkar	Filandra   
 Hongyu Guo  
 Jeongmin Han  
+Juhee Han  
 Anna Helsen  
 Jihye Jang  
+Hoin Ji  
 Minsu Kim  
 Florian	Knöbl   
+Yang Le  
 Jung Eun Lee  
 Sangyi Lee  
 Xingchen Liu  
@@ -1279,6 +1282,7 @@ Su Lu
 Daniel	Lythgoe   
 Victoria Mikhaylova  
 Jiun-You Ou  
+Xosé Lois Piñeira  
 Ruoyi Qiu  
 Bob Reinert  
 Vivian Reuter  
