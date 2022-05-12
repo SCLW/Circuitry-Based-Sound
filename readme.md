@@ -1,7 +1,12 @@
 
 # Circuitry-Based Sound
 
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg">
+
+![Circuitry_Based_Sound_Foto_Yunfei_Zhang](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg)
+*Photo: Yunfei Zhang*
+<br>
+<br>
+
 
 
 <!--
