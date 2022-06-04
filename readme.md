@@ -533,12 +533,12 @@ X = Don't Care
 
 ### CD4066
 
-Quad Bilateral Switch
+Quad Bilateral Single Pole Single Throw Switch
 
 IC CD4066 includes four identical digitally controlled switches for analog or digital signals.
 Inputs and outputs are interchangeable as with conventional switches. Each switch can be controlled independently by a control input.
 
-On-state resistance is between few hundred ohms to one thousands ohms, depending on V<sub>DD</sub>.
+On-state resistance is between few hundred ohms to one thousands ohms, depending on V<sub>DD</sub>. Absolute maximum current into any input is 10mA.
 
 control logic 1 = switch on  
 control logic 0 = switch off
@@ -551,7 +551,7 @@ control logic 0 = switch off
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4066_anim.gif>
 
-The following example shows a single pole double throw (SPDT) configuration built with two bilateral switches of the CD4066 (lower section, SW2 and SW3). SW1 is set up to do logic and acts as an inverter. A high at the control input makes a connection to ground and "pulls" the output node down, while a logical low opens the switch and the pull-up resistor ensures a high at the same node. The non-inverted and the inverted control signals are then connected to the respective control inputs of the remaining switches SW2 and SW3. If one switch is open, the other is closed and vice versa. A common signal will be routed to either one of the outputs. This setup can be used for ping-pong stereo effects. Interchanging the input and output in this SPDT example makes a signal selector. The CD4053 contains already three SPDT switches.
+The following example shows a single pole double throw (SPDT) configuration built with two bilateral switches of the CD4066 (lower section, SW2 and SW3). SW1 is set up to do logic and acts as an inverter: A high at the control input makes a connection to ground and "pulls" the output node down, while a logical low opens the switch and the pull-up resistor ensures a high at the same node. The non-inverted and the inverted control signals are then connected to the respective control inputs of the remaining switches SW2 and SW3. If one switch is open, the other is closed and vice versa. A common signal will be routed to either one of the outputs. This setup can be used for ping-pong stereo effects. Interchanging the input and output in this SPDT example makes a signal selector. The CD4053 contains already three SPDT switches.
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4066_Ping-pong_Stereo.jpg>
 
@@ -707,7 +707,9 @@ https://www.jameco.com/z/CSS555-ID-Custom-Silicon-Solutions-IC-CSS555-Micropower
 -->
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Astable_Operation.jpg>
+<!---
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Bistable_Operation.jpg>
+-->
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Monostable_Operation.jpg>
 
 
