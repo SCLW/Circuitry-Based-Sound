@@ -740,7 +740,7 @@ Although not part of the CMOS logic family this ubiquitous power op amp is a ver
 |7|Bypass decoupling path|
 |8|Gain setting pin|
 
-|Pin|min Voltage|max Voltage|
+|  |min Voltage|max Voltage|
 |----|----|----|
 |Supply Voltage|4V|12V|
 |Analog input voltage|-0.4V|0.4V|
