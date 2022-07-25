@@ -1203,8 +1203,7 @@ Anna Helsen
 Jihye Jang  
 Hoin Ji  
 Minsu Kim  
-Florian	Knöbl   
-Yang Le  
+Florian	Knöbl    
 Jung Eun Lee  
 Sangyi Lee  
 Xingchen Liu  
@@ -1212,7 +1211,6 @@ Su Lu
 Daniel	Lythgoe   
 Victoria Mikhaylova  
 Jiun-You Ou  
-Xosé Lois Piñeira  
 Ruoyi Qiu  
 Bob Reinert  
 Vivian Reuter  
@@ -1227,6 +1225,7 @@ Siting Wang
 Yudong	Wang   
 Lutz Ben	Wesch   
 Eunchae	Won   
+Le Yang
 Huiyeon Yun  
 Rui Zhang  
 Yunfei Zhang  
