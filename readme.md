@@ -9,14 +9,6 @@
 
 
 
-<!--
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Header.jpg">
--->
-
-<!--
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Bread_Board.jpg">
--->
-
 "Circuitry-Based Sound" is an ongoing seminar at [University of Arts and Design Karlsruhe](https://www.hfg-karlsruhe.de/ "University of Arts and Design Karlsruhe"). It focuses on electronic sound synthesis and parametric interfacing. It's examining musical characteristics of electronic instruments and comparing different approaches on how to design electronic sound modules. Due to the measures against the coronavirus spread in 2020, the seminar’s workflow had been adapted to the restrictions and is partially held online.
 
 The course is covering electrical and electronic basics, computer aided circuit design and professional printed circuit board (PCB) manufacturing processes with the aim of building custom-made instruments. The emphasis is on studies of logic chips for sound creation and its musical applications. Participants are guided to use the latest technology, production chain and global logistics to develop, design and produce circuit boards for musical use. This allows the participants to easily create circuit boards with more variable features and adjustable parameters than hand soldered protoboards or solderless breadboards.
@@ -84,13 +76,7 @@ The following is a documentation of the seminar's study materials and findings.
 
 ***
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[License](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#license)
-<!--
-[Disclaimer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#disclaimer)\
-[License](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#license)\
-[Acknowledgment](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#acknowledgment)\
-[References](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#references)\
-[Links](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#links)
--->
+
 
 <br>
 
@@ -162,11 +148,7 @@ An inverting Schmitt trigger is an active electronic component whose output stat
 
 
 ![Schmitt_Trigger_Oscillator](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Schmitt_Trigger_Oscillator.gif)
-<!--
-*Caption*
-<br>
-<br>
--->
+
 
 <br>
 <br>
@@ -176,12 +158,6 @@ The frequency can be roughly calculated with this formula, where V<sub>P</sub> i
 <div align="center">
 
 ![Formula](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Formula.jpg)
-</div>
-<!--
-*Caption*
-<br>
-<br>
--->
 
 <br>
 <br>
@@ -693,23 +669,10 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 |7|Open collector output to discharge timing capacitor.|
 |8|Input supply voltage, 4.5 V to 16 V.|
 
-<!---
-info about
-http://semiconductormuseum.com/Transistors/LectureHall/Camenzind/Camenzind_Index.htm
-http://www.adrianfreed.com/content/555-timer-resources
-http://www.555-timer-circuits.com/operating-modes.html
 
-Tutorial
-https://www.jameco.com/Jameco/workshop/TechTip/555-timer-tutorial.html
-
-low power 555
-https://www.jameco.com/z/CSS555-ID-Custom-Silicon-Solutions-IC-CSS555-Micropower-Version-of-555-Timer-Low-Power-current-under-5uA-supply-voltage-1-2V-_2146433.html
--->
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Astable_Operation.jpg>
-<!---
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Bistable_Operation.jpg>
--->
+
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Monostable_Operation.jpg>
 
 
@@ -819,9 +782,7 @@ Most voltage comparators use open-collector output stages. If the inverting inpu
 
 For many applications, the rather short voltage spike of a pizeo element needs to be transformed into a pulse with a determined on-time period. This can be done with a  monostabile multivibrator. It remains in this state for a time determined by the circuitry, then it flips back to its initial state. In this case, the comparator circuit of the 555 Timer can be used instead of a regular comparator. 
 
-<!-- The next picture shows such a circuit:
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Piezo_Trigger_555.jpg">
--->
+
 
 Another approach for sensing a touch or the proximity of human fingers or hands is based on capacitance. In CMOS circuits it can be used for controlling pitch. This method of touch control uses the parasitic capacitance between two conductive areas (electrodes) within a circuit. When a high frequency is applied to the two conductive areas, they create an electric field that stores opposite electric charges and act like plates of a capacitor. The electrodes are placed in parallel to a capacitor that forms an RC network together with a resistor. The RC network in turn defines the time constant of an astable multivibrator. When a finger or stylus is brought in close proximity to the electric field, it changes the capacitance and therefore the frequency of the multivibrator. When the electrodes are touched, the finger or stylus changes the dielectric constant. The dielectric is the material between the electrodes. The alterations of capacitance is linear to the force of the touch. The electrodes should be insulated with conformal coating or a thin adhesive strip.
 
@@ -917,228 +878,6 @@ When working with an adjustable power supply or an according circuit, the impact
 # Works
 
 The artistic range of applications for electronic projects in the fields of experimental sound, interactive music and sound art is quite large. The next sections feature works made in the context of this seminar.
-
-
-### Live Electronic Music
-
-The simplicity of CMOS-circuits for sound production makes them a good fit for building customized sound generators. In 2020, on Valentine's Day, the concert performance MK Ultra Sound for eight loudspeakers with self-built circuits took place in the halls of the HfG. Interactive visuals were projected on two perpendicularly placed walls.
-
-
-![Concert_2020_MK-Ultra-Sound_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_2020_MK-Ultra-Sound_01.jpg)
-*MK Ultra Sound setup. Photos: Jonas Piroth et al.*
-<br>
-<br>
-
-
-
-
-![Concert_2020_MK-Ultra-Sound_02_edit](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_2020_MK-Ultra-Sound_02_edit.JPG)
-*Photo: Jihye Jang*
-<br>
-<br>
-
- 
- 
-Each performer tried out various circuits and chose a combination of CMOS building blocks to create specific sound effects such as drones, glitchy rhythms, noise etc. While rehearsing, we played with various sequences of players playing together or playing one by one, depending on the contributed sound material. During the show we spatialized each performer's signal to a ring of eight loudspeakers through a mixing desk with 8 inputs and 8 outputs.
-
-
-[Watch the video](https://www.youtube.com/watch?v=N06RBw-_2Q8 "MK Ultra Sound") 
-
-Another group live performance was given in July as an open-air concert between the HfG and the Federal Prosecutor's office as part of the Roundabout 2020, the Media Art Sound semester presentation. For this event, we developed individual printed circuit boards (PCBs) for sound synthesis, including a concept for music interfaces with potentiometers, switches, and sensors that allowed for musical expression.
-
-![Concert_CBS_Roundabout2020](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_CBS_Roundabout2020.jpg)
-*Group live performance in summer 2020. Photo: Su Lu*
-<br>
-<br>
-
-<!--
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Concert_CBS_Roundabout2020.jpg">
- <p align=center> Photos: Susu Lu
-<br>
-<br>
--->
-
-<!--
-![]()
-*Caption*
-<br>
-<br>
--->
-
-[Watch the video](https://youtu.be/eHiamumLI-0 "Roundabout") 
- 
-### CMOS Experimenter Boards
-
-The motivation behind this project was to produce a set of PCBs to evaluate logic ICs for sound creation and composition in artistic and educational fields. The idea of providing a CMOS experimenter board was initiated particularly with regard to today's availability of PCB manufacturers and affordable prizes. PCB prototyping and production is now completely based on computer aided electronic design (EDA) while manufacturers offer professional quality at very low costs, even for small board quantities.
-
-<!--
-| ![Experimenter_Board](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Board_03.jpg) | 
-|:--:| 
-| *Photos: Su Lu* |
--->
-
-![Experimenter_Board_03](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Board_03.jpg)
-*Rehearsal with DIY CMOS synthesizer. Photo: Su Lu*
-<br>
-<br>
-
-
-Each PCB is designed around individual standard CMOS chips and their particular functions in order to create sound. The boards provide inlets and outlets, testing points, sockets, vias and pads for changing values of electronic parts and wiring alternative external circuitry. The modules can be easily extended and interconnected. This allows the user to manipulate circuit points with potentiometers, buttons, switches or sensors and to apply control voltages at appropriate input points.
-
-
-![CMOS_Synthesizer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS_Synthesizer.jpg)
-*Experimenter boards*
-<br>
-<br>
-
-
-
-
-It simplified prototyping and made customized configurations highly flexible. The experimenter boards can serve as sound modules for interactive music in live performance or installative environments as well as for algorithmic compositions. By combining several boards with different logic functions, complex switching performance can be achieved, ranging from modulated frequencies and interesting audio spectra to slow, rhythmic pulses or tone sequences. Audio and control signals are exchanged between boards via jumper cables or wires. A wide range of circuit examples with CMOS chips can be found on DIY websites and are widely discussed in various internet forums. These circuits can be a good basis for experimenting with CMOS chips. In addition, it is recommendable to use data sheets for all active components used in electronic projects. Power supply for the boards should comply with the power ratings of the used ICs, which is typically between 3V - 18V DC. LED series resistors need to be calculated accordingly. For the experimenter console, 9V power supply for guitar effects work well.
-
-
-![Experimenter_Modules](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Experimenter_Modules.jpg)
-*Detail of CMOS synthesizer*
-<br>
-<br>
-
-
-<br>
-<br>
-
-Furthermore, the project includes laser-cutting files for a desktop console on which the boards can be mounted with screws. A power supply can be connected through the frame via banana connectors and distributed to each board.
-
-
-
-![acrylic_transparent](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/acrylic_transparent.jpg)
-*3D Model: Zhen Bian*
-<br>
-<br>
-
-
-
-
-
-## Relay Oscillators
-
-
-[Relays](https://en.wikipedia.org/wiki/Relay "Relay") are voltage controlled switches that operate electromechanically. One common type of relay uses an electromagnet to move an armature which makes or breaks a contact in a circuit. An electromagnet consists of a coil wound around a ferromagnetic material which generates a magnetic field when an electric current is applied to the coil. Therefore, the magnetic field can be controlled electronically. The movable armature is pulled back to the initial position by a spring force. The two positions of the armature define the on-state (contact closed) and off-state (contact opened) of the switch. A SPDT (single-pole, double-throw) switch allows a common terminal connecting to either of two other terminals. The term NO (normally open) refers to the open contact that will close and conduct electricity when the device is energized. NC (normally closed) will open and stop conducting electricity when the device is energized. In either case, applying an electric current to the electromagnet will change their state. Relays are generally used to switch high currents in one circuit with another low voltage circuit, which is also a form of galvanic isolation.
-
-
-![Relay_Oscillator](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Oscillator.jpg)
-*Relay oscillator configurations*
-<br>
-<br>
-
-
-
-A SPDT relay has usually 5 terminals as the figure on the left shows. One common terminal, the NC and NO terminal and the two control terminals. If the SPDT is controllable by an additional circuit (microcontroller or control logic), it comes with 6 terminals. In addition to the SPDT switch, the control circuit consists of a power connection (terminal + and -/GND) and the control pin (s).
-
-
-![Relay_Oscillator_setup](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Oscillator_setup.jpg)
-*Photo: Victoria Mikhaylova*
-<br>
-<br>
- 
-The experiment was designed to employ the clicking sound of an electromagnetic relay for a sound installation and performance. Some relays were modified with capacitors, resistors, and light sensors in order to built astable multivibrators. When a capacitor is connected in series with the NO, and a power source is connected to the common terminal, an astable multivibrator can be built. An additional resistor in series can vary the frequency (RC component).
-
-
-![Relay_Installation_diagram](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Installation_diagram.jpg)
-*Graphic: Victoria Mikhaylova*
-<br>
-<br>
-
-Some of the relays were used to control the logic gate of a CD4093 oscillator configuration. Other relays were powered on and off simultaneously by another relay to synchronize or gate them. Other relays were just switched by simple logic circuits (CD4093). When connecting with a CMOS chip, a pull down resistor is needed. Cascading relays and forming various connections between these systems allowed to explore the sound creation possibilities. Dedicated circuit points were defined and coupled with 4 loudspeakers in total via two mixing desks. The general idea of the setup was to research the combination of the clicking sounds of a number of relays together with amplified switching signals played back via loudspeakers.
-
-
-![Relay_Installation](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Installation.jpg)
-*Photo: Victoria Mikhaylova*
-<br>
-<br>
-
-
-Since each relay functioned as a physical sound generator, together with the 4-channel loudspeaker setup, an experimental sound field had been created. The result showed us that the setup produced has a dark and rich noise or drone sound and can be even better represented in some dark environment or on a dark stage. An abandoned factory or some industrial area could be an appropriate location for the performance. The setup should be organized in a way to be easily reached to improvise during the performance.
-
-
-
-
-![Relay_Installation_front-view](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Relay_Installation_front-view.jpg)
-*Photo: Victoria Mikhaylova*
-<br>
-<br>
-[Watch the video](https://youtu.be/OkDDaWhSzgk "Relay Oscillators") 
-<br>
-<br>
-
-<!-- Table of Contents
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Wireless Sound Modules](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#wireless-sound-modules)\
--->
-
-<!--
-### Wireless Sound Modules
-![Wireless_Sound_Module_02](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Wireless_Sound_Module_02.JPG)
-*Wireless sound modules and audio circuits*
-<br>
-<br>
-This sound art installation involves musical interaction between a performer and a number of smaller “sound objects“, also called modules. The setup consists of a table or pedestal on which the modules are placed. The modules are operated through wireless power transfer (WPT). A multichannel sound field can be easily generated and modulated by placing several sound objects in proximity to the induction coils.
-![WMS_Installation_01](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/WMS_Installation_01.jpg)
-*Sound art installation. Photo: Vivian Reuter*
-<br>
-<br>
-Alterations in sound are caused by repositioning, moving or grouping the sound modules. Although the objects are not physically linked to each other, they start interacting electro-acoustically when they share the same magnetic field. The sound modules contain electronic sound generators and loudspeakers, and therefore work independently from a sound studio situation. The sound synthesis is carried out by CMOS ICs. Each object functions as a sealed chamber for a single dynamic loudspeaker. We used 3D printing as an effective method to create various shapes, tailored to the needs of our application.
-![Simplified_WPT_Diagramm](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Simplified_WPT_Diagramm.jpg)
-*Simplified WPT diagramm*
-<br>
-<br>
-When the objects are placed into the magnetic field of the current-carrying induction coils, which are integrated into a table, the circuits are put into operation and produce sound which is played back via the built-in loudspeakers. The direct relation between the physical parameters of the induction field and the sound gives the user an audible feedback. Here, to play with the sound, the objects can be tilted or even held above the magnetic field, which works up to a distance of approximately 2,5". For example, the frequency of the oscillators rises with distance while the amplitude decays. If several Objects are placed into the same magnetic field, the chips start colluding and "battling" about the available power.
--->
-
-
-### Experimental Oscillators
-
-
-![Organic_Synthesizer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Organic_Synthesizer.jpg)
-*Photos: Jihye Jang, Huiyeon Yun*
-<br>
-<br>
-
- 
-<!--
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Diagram_Sketch.jpg">
--->
-
- 
-
-
-### Pi Day
-
-
-![Pi_Day_2021](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Pi_Day_2021.jpg)
-*Torta della Nonna*
-<br>
-<br>
-
-
-**For the shortcrust:**
-* 450 g all-purpose flour
-* 1 pinch of salt
-* 200 g cold butter, cubed
-* 2 eggs
-* 150 g sugar
-* Zest of 1 organic lemon
-
-**For the Crema Pasticcera:**
-* 1 L milk
-* 250 g sugar
-* 6 egg yolks
-* 80 g cornstarch
-* Zest of 1 organic lemon
-* 60 g butter
-* 2 vanilla beans
-* 50 g pine nuts
-* powdered sugar for the Pi
-
-
 
 
 
