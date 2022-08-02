@@ -180,7 +180,7 @@ V<sub>IH</sub> is the minimum input voltage that will be interpreted as a logica
 
 
 
-![Square-Wave](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Square-Wave.jpg)
+![Square-Wave](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Square_Wave.svg)
 *Analytical description of a square wave logic signal*
 <br>
 <br>
