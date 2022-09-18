@@ -155,6 +155,7 @@ An inverting Schmitt trigger is an active electronic component whose output stat
 
 The frequency can be roughly calculated with this formula, where V<sub>P</sub> is the positive trigger threshold voltage and V<sub>N</sub> the negative trigger threshold voltage:
 
+$f=\frac{1}{T}=\frac{1}{RC ln [(\frac{V_P}{V_N})(\frac{V_{DD}-V_N}{V_{DD}-V_P})]}$
 
 
 ![Formula](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Formula.jpg)
