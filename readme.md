@@ -153,12 +153,11 @@ An inverting Schmitt trigger is an active electronic component whose output stat
 <br>
 <br>
 
-The frequency can be roughly calculated with this formula, where V<sub>P</sub> is the positive trigger threshold voltage and V<sub>N</sub> the negative trigger threshold voltage:
-
-$f=\frac{1}{T}=\frac{1}{RC ln [(\frac{V_P}{V_N})(\frac{V_{DD}-V_N}{V_{DD}-V_P})]}$
+The frequency can be roughly calculated with this formula $f=\frac{1}{T}=\frac{1}{RC ln [(\frac{V_P}{V_N})(\frac{V_{DD}-V_N}{V_{DD}-V_P})]}$, where V<sub>P</sub> is the positive trigger threshold voltage and V<sub>N</sub> the negative trigger threshold voltage.
 
 
-![Formula](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Formula.jpg)
+
+
 
 <br>
 <br>
@@ -172,6 +171,14 @@ A logic gate is a single input - output device, designed to carry out a specific
 
 
 In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/wiki/Binary_number "binary number") are represented by two defined voltage levels that are specified by the used technology and circuit. Everything below a certain voltage threshold level is recognized as 0 and everything above a certain threshold level is recognized as 1. A voltage level in between the two thresholds is not defined or forbdden and will produce false output triggers. CMOS digital inputs have a high impedance and pick up thermal noise voltages if left floating. Unused inputs should be tied to a defined voltage. Other input configurations (e.g. taster, toggle switches,) require [pull-up or pull-down resistors](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pull-up-and-pull-down-resistors "pull-up or pull-down"). The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF". 
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/PRNG/blob/main/img/dark_Logic_Signal.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/PRNG/blob/main/img/light_Logic_Signal.svg">
+  <img alt="Common CMOS input voltage levels without and with Schmitt trigger implementation." src="https://github.com/SCLW/PRNG/blob/main/img/light_Logic_Signal.svg">
+</picture>
+
 
 ![Logic_Signal](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Logic_Signal.jpg)
 *Common CMOS input voltage levels without and with Schmitt trigger implementation*
