@@ -174,9 +174,9 @@ In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/PRNG/blob/main/img/dark_Logic_Signal.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/PRNG/blob/main/img/light_Logic_Signal.svg">
-  <img alt="Common CMOS input voltage levels without and with Schmitt trigger implementation." src="https://github.com/SCLW/PRNG/blob/main/img/light_Logic_Signal.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/dark_Logic_Signal.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/light_Logic_Signal.svg">
+  <img alt="Common CMOS input voltage levels without and with Schmitt trigger implementation." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/light_Logic_Signal.svg">
 </picture>
 
 
