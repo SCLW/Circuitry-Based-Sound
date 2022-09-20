@@ -148,11 +148,21 @@ Due to its simplicity, CMOS chips can be used for educational reasons, since mos
 
 ### Basic Example
 
+
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Breadboard_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Breadboard_LIGHT.svg">
+  <img alt="Simplified depiction of a Schmitt trigger oscillator on a breadboard." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Breadboard_LIGHT.svg">
+</picture>
+
+<!--
 ![CD40106_Fritzing](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_Fritzing.jpg)
 *Simplified depiction of a Schmitt trigger oscillator on a breadboard*
 <br>
 <br>
-
+-->
 
 The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the picture above. It shows a [square wave](https://en.wikipedia.org/wiki/Square_wave "square wave") sound generator that can be built with only three components, jumper wires and a power supply:
 * inverting [Schmitt trigger](https://en.wikipedia.org/wiki/Schmitt_trigger "Schmitt trigger") IC, e.g. CD40106
