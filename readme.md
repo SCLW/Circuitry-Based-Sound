@@ -121,6 +121,15 @@ Another concept of creating sound with electronics derived from techniques like 
 Logical operations can be implemented as switching circuits with single pole single throw switches representing the input and an LED indicating the result. The switch and the LED can have two distinct states: on and off. The open switch corresponds to a logical 0 and the closed position stands for a logical 1. A lit LED means 1 and a non-lit 0.
 
 
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Logic_Gates_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Logic_Gates_LIGHT.svg">
+  <img alt="Illustration of electronic logic gate symbols." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Logic_Gates_LIGHT.svg">
+</picture>
+
+
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Logic_Gates_Symbols.jpg">
 
