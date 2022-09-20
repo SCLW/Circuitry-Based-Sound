@@ -311,8 +311,16 @@ It acts as a square wave oscillator when the inputs are connected to form an inv
 Oscillators built with 2 input NAND Schmitt triggers can be switched on and off manually by using a push button. If the push button is not pressed (normally open) the logical low at the second input will always cause a logical hight at the output, no matter which state is present at the other input (see NAND truth table). The image above shows how to set up a normally open push button as an ON switch to control the sound. A [pull down resistor](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pull-up-and-pull-down-resistors) defines the logic state at the input when the push button is open. When the push button is closed, the power supply produces a logical high and the NAND gate oscillates. This way, the second input acts as a control input for gating the oscillator. Instead of a manually controlled push button, a logic signal can be applied to the second input.
 
 
+<!-- IMAGE -->
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093.jpg>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093_Gated_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093_Gated_LIGHT.svg">
+  <img alt="Schematic of a gated oscillator." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093_Gated_LIGHT.svg">
+</picture>
+
+
+
 
 
 
