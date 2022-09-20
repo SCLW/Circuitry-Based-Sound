@@ -1033,7 +1033,7 @@ Siting Wang
 Yudong	Wang   
 Lutz Ben	Wesch   
 Eunchae	Won   
-Le Yang
+Le Yang  
 Huiyeon Yun  
 Rui Zhang  
 Yunfei Zhang  
