@@ -205,13 +205,21 @@ In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/
 V<sub>IH</sub> is the minimum input voltage that will be interpreted as a logical high, while V<sub>IL</sub> is the maximum input voltage that will be interpreted as a logical low. The region in between is undefined and may trigger unpredictable highs or lows (chattering). This problem is solved by implementing a Schmitt trigger with different thresholds for negative-going and positive-going input voltages, depending on whether the input signal is changing from high to low (V<sub>N</sub>) or low to high (V<sub>P</sub>). When the input is between the two thresholds the output retains its value.
 
 
+<!-- IMAGE -->
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Square Wave_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Square Wave_LIGHT.svg">
+  <img alt="Analytical description of a square wave logic signal." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Square Wave_LIGHT.svg">
+</picture>
+
+<!--
 ![Square-Wave](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Square_Wave.svg)
 *Analytical description of a square wave logic signal*
 <br>
 <br>
 <br>
-
+-->
 
 
 The [square wave](https://en.wikipedia.org/wiki/Square_wave "Square wave") contains only overtones with odd numbered harmonics (⅓, ⅕, ⅐, etc). The relative amplitudes of the harmonics are equal to 1/harmonic number n.
