@@ -271,7 +271,7 @@ The inverter is a basic part in digital electronics and performs the logic opera
   <img alt="CD40106 hex Schmitt trigger inverter." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_LIGHT.svg">
 </picture>
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
+
 
 Truth table for NOT
 |Inputs|Outputs|
