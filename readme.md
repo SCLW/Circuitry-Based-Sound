@@ -262,6 +262,15 @@ The inverter is a basic part in digital electronics and performs the logic opera
 * Inverting Buffer
 
 
+
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_LIGHT.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_LIGHT.svg">
+  <img alt="CD40106 hex Schmitt trigger inverter." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_LIGHT.svg">
+</picture>
+
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106.jpg>
 
 Truth table for NOT
