@@ -131,8 +131,6 @@ Logical operations can be implemented as switching circuits with single pole sin
 
 
 
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Logic_Gates_Symbols.jpg">
-
 A truth table is used in Boolean algebra to show all possible values of a logical expression. 
 
 Output comparison of 2-input logic gates:
