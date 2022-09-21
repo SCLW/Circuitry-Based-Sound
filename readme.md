@@ -403,6 +403,13 @@ A shift register is built of a series of interconnected [flip-flops](https://en.
 * Noise Generator
 * Linear-feedback Shift Register ([LFSR](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#linear-feedback-shift-register "LFSR"))
 
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4015_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4015_LIGHT.svg">
+  <img alt="CD4015 four stage shift register." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4015_LIGHT.svg">
+</picture>
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4015.jpg>
 
