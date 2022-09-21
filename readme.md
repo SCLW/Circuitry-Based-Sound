@@ -494,6 +494,15 @@ Control input "reset" triggers all output stages to "low". For continuous freque
 * Sub Octave Generator
 * Representation of Binary Numbers
 
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_LIGHT.svg">
+  <img alt="CD4040 frequency divider." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_LIGHT.svg">
+</picture>
+
+
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040.jpg>
 
 
@@ -501,6 +510,16 @@ In terms of generating sound, each output producing one octave lower than its pr
 
 
 The timing diagram shows the relation of voltage levels between all outputs of the CD4024 IC, a 7-output stage version:
+
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_Outputs_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_Outputs_LIGHT.svg">
+  <img alt="CD4040 timing diagram." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_Outputs_LIGHT.svg">
+</picture>
+
+
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_Timing_Diagram.jpg>
 
 [CD4040 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4040b.pdf?ts=1600261370155&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4040B "CD4040")
