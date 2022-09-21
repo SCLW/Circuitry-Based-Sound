@@ -961,6 +961,17 @@ The [CD4060](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md
 
 When external circuits or devices are added to a logic input, care must be taken to keep the inputs in a defined state. When switches or transistors are used to control a logic gate, they can physically disconnect the inputs. For example, when a normally-open push button is in its default position, the high impedance input is open. This causes the pin to act like an antenna that is very susceptible to electromagnetic noise and forces the output to do unwanted operations like generating random highs or lows. This is called "floating" and introduces undesired effects.
 
+
+
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/pull-up_pull-down_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/pull-up_pull-down_LIGHT.svg">
+  <img alt="Schematic of pull-up and pull-down resistors with logic gate inputs." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/pull-up_pull-down_LIGHT.svg">
+</picture>
+
+
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/pull-up_pull-down.jpg">
 
 To avoid this unpredicted behavior, a resistor should be connected to ground or to the high voltage, so that the input pin will see a defined state even when nothing else is connected, for example when a switch is opened. The pin will be able to accept an input signal when the switch is closed. A connection to V<sub>CC</sub> is called "pull-up" and a connection to ground "pull-down". For CMOS-logic, the resistor values can be several thousand ohms.
