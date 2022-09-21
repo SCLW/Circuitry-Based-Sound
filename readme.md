@@ -365,7 +365,7 @@ CD4077 is the Exclusive-NOR version.
 </picture>
 
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070.jpg>
+
 
 Truth table for XOR (CD4070)
 
