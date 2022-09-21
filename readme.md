@@ -952,11 +952,13 @@ For many applications, the rather short voltage spike of a pizeo element needs t
 Another approach for sensing a touch or the proximity of human fingers or hands is based on capacitance. In CMOS circuits it can be used for controlling pitch. This method of touch control uses the parasitic capacitance between two conductive areas (electrodes) within a circuit. When a high frequency is applied to the two conductive areas, they create an electric field that stores opposite electric charges and act like plates of a capacitor. The electrodes are placed in parallel to a capacitor that forms an RC network together with a resistor. The RC network in turn defines the time constant of an astable multivibrator. When a finger or stylus is brought in close proximity to the electric field, it changes the capacitance and therefore the frequency of the multivibrator. When the electrodes are touched, the finger or stylus changes the dielectric constant. The dielectric is the material between the electrodes. The alterations of capacitance is linear to the force of the touch. The electrodes should be insulated with conformal coating or a thin adhesive strip.
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Capacitive_Touch_02_edit.JPG">
--->
+
 
 The [CD4060](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4060 "CD4060") has a built-in oscillator configuration that can be used to generate such a high frequency that is applied to, for example, two copper areas. The output is then fed into the binary counter function for frequency division to generate an audio signal. Various forms of electrodes had been tested using thin copper strips using a cutting plotter.
 
 <img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Touch-Sensing_Diagram.jpg">
+
+-->
 
 
 ### Pull-up and Pull-down Resistors
