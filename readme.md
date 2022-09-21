@@ -972,7 +972,7 @@ When external circuits or devices are added to a logic input, care must be taken
 </picture>
 
 
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/pull-up_pull-down.jpg">
+
 
 To avoid this unpredicted behavior, a resistor should be connected to ground or to the high voltage, so that the input pin will see a defined state even when nothing else is connected, for example when a switch is opened. The pin will be able to accept an input signal when the switch is closed. A connection to V<sub>CC</sub> is called "pull-up" and a connection to ground "pull-down". For CMOS-logic, the resistor values can be several thousand ohms.
 
