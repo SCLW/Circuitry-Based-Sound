@@ -1000,7 +1000,17 @@ A logical high on the 'Clock Inhibit' of the CD4022 stops the counter advancemen
 A clock source is needed for triggering the CD4022. When the clock is set to an audio frequency, the step sequencer works as a wave shaper.
 Pin 5 (Inhibit) of the CD4046 must be set to a logical low for operation. The two resistors R4 and R5 together with the capacitor C1 determine the frequency range of the VCO. A potentiometer and a fixed resitor at pin 11 allow to change the oscillators overall frequency range.
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Schematic_Step-Sequencer.jpg>
+
+
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Step-Sequencer_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Step-Sequencer_LIGHT.svg">
+  <img alt="CMOS step sequencer after N. Collins." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Step-Sequencer_LIGHT.svg">
+</picture>
+
+
 
 ## Voltage Starve
 
