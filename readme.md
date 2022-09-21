@@ -361,7 +361,7 @@ CD4077 is the Exclusive-NOR version.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070_DARK.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070_LIGHT.svg">
-  <img alt="Digital frequency mixing." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070_LIGHT.svg">
+  <img alt="Digital frequency mixing with CD4070." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070_LIGHT.svg">
 </picture>
 
 
@@ -445,9 +445,9 @@ CD4022 and CD4017 ICs implement a binary counter/divider function with 8 outputs
   <img alt="Digital frequency mixing." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070_LIGHT.svg">
 </picture>
 
-
+<!--
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_anim.gif>
-
+-->
 
 *Applications:*
 * Sequencer
@@ -462,9 +462,9 @@ CD4022 and CD4017 ICs implement a binary counter/divider function with 8 outputs
   <img alt="CD4022 binary counter/divider." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_LIGHT.svg">
 </picture>
 
-
+<!--
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_animated.gif>
-
+-->
 
 
 <!-- IMAGE -->
@@ -476,7 +476,7 @@ CD4022 and CD4017 ICs implement a binary counter/divider function with 8 outputs
 </picture>
 
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_Timing_Diagram.jpg>
+
 
 [CD4022 Data Sheet](https://www.ti.com/lit/ds/schs027c/schs027c.pdf?ts=1599062824246&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4022")
 <br>
