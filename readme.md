@@ -356,6 +356,14 @@ CD4077 is the Exclusive-NOR version.
 * Frequency Doubler
 
 
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070_LIGHT.svg">
+  <img alt="Digital frequency mixing." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070_LIGHT.svg">
+</picture>
+
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070.jpg>
 
