@@ -971,7 +971,16 @@ Even unused logic gates can cause problems since coupled-in interference voltage
 
 A linear feedback shift register (LFSR) can be used for generating deterministic pseudorandomness. In terms of electronic sound production it can be used to build a noise source. An LFSR consists of n numbers of flip-flops which are connected in series to form a shift register as described for the [CD4015](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4015). This shift register is controlled by a clock that triggers the shift process. Two junctions at a specific position within that chain of flip-flops are directed into an XOR logic gate. The resulting value is fed back into the first register. The number of stages can be extended by connecting multiple devices. The produced values are determined by the shift register's current states and total length. Since the states are finite it will repeat after a certain number of steps. The goal is to choose those taps that form the longest possible sequence of zeros and ones before they repeat. Other implementations of an LFSR exist and work similarly. To activate an LFSR each stage needs to be loaded with an initial value. This is called the seed. By using an XOR function for the feedback, having the value 0 in all flip-flops is forbidden. By using an XNOR function it is forbidden to set all flip-flops to 1. A maximum-length sequence is therefor 2<sup>n</sup> - 1. Additional operations can be introduced to produce a length of 2<sup>n</sup>. No matter if XOR or XNOR functions are used, the sequences will have the same length, while the succession of values differs. The duration of one cycle is determined by the clock frequency. When looked at a shift register from the viewpoint of a musician, the long LFSR arrangements will create white and pink noise when controlled with a high frequency (several ten thousands of hertz). Shorter cycles produce grainy tones, stuttering textures or short noise loops.
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LFSR.jpg>
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/basic_LFSR_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/basic_LFSR_LIGHT.svg">
+  <img alt="Simplified schematic of an LFSR." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/basic_LFSR_LIGHT.svg">
+</picture>
+
+
+
 
 The Xilinx application note [XAPP210](https://www.xilinx.com/support/documentation/application_notes/xapp210.pdf "Xilinx application note XAPP210") (V1.3) and the Maxim Integrated (now Analog Devices) application note [APP4400](https://pdfserv.maximintegrated.com/en/an/AN4400.pdf "application note APP4400") (Jun 30, 2010) show tables for maximum length sequences, which are presented here for up to 32 bits:
 
