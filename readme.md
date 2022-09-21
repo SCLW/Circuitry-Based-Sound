@@ -723,9 +723,13 @@ The following example shows a single pole double throw (SPDT) configuration buil
 
 
 
+<!-- IMAGE -->
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4060.jpg>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4060_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4060_LIGHT.svg">
+  <img alt="Schematic of CD4060, 14 stage binary counter/divider and oscillator." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4060_LIGHT.svg">
+</picture>
 
 
 [CD4060 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4060b.pdf "CD4060")
