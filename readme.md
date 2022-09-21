@@ -536,7 +536,15 @@ Phase locked loop
 * Voltage Controlled Square Wave Generator
 
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4046.jpg>
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4046_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4046_LIGHT.svg">
+  <img alt="CD4046 phase locked loop." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4046_LIGHT.svg">
+</picture>
+
+
 
 [CD4046 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4046b.pdf?ts=1599062962750&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4046")
 
