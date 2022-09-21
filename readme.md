@@ -574,7 +574,22 @@ V<sub>EE</sub> (Pin 7) is for dual supply operation. It is tied to ground in sin
 
 CD4051 is a switch in a single pole octal throw configuration with three binary control inputs for setting the contacts. 
 
+
+
+
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_LIGHT.svg">
+  <img alt="Schematic of CD4051 single pole octal throw CMOS switch." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_LIGHT.svg">
+</picture>
+
+
+<!--
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_animated.gif>
+-->
+
 
 Truth table for the CD4051  
 
@@ -596,7 +611,13 @@ X = Don't Care
 
 CD4052 can be used for multiplexing one differential channel in a double-pole quad-throw configuration and has two binary control inputs.
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4052.jpg>
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4052_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4052_LIGHT.svg">
+  <img alt="Schematic of CD4052 double-pole quad-throw CMOS switch." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4052_LIGHT.svg">
+</picture>
 
 
 Truth table for the CD4052  
@@ -620,8 +641,13 @@ When the control signal is less than 1/3 V<sub>DD</sub>, z is connected to x0. W
  -->
 
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4053.jpg>
+<!-- IMAGE -->
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4053_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4053_LIGHT.svg">
+  <img alt="Schematic of CD4053, containing three single-pole double-throw CMOS switches." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4053_LIGHT.svg">
+</picture>
 
 Truth table for the CD4053  
 
