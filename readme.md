@@ -47,8 +47,6 @@ The following is a documentation of the seminar's study materials and findings.
 [**BASIC PRINCIPLES AND APPLICATIONS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#basic-principles-and-applications)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Signal Mixing](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#mixing)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Passive Filters](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#passive-filters)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Potentiometers](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#potentiometers)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Touch Circuits](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#touch-circuits)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pull-up and Pull-down Resistors](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pull-up-and-pull-down-resistors)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linear Feedback Shift Register](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#linear-feedback-shift-register)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step Sequencer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#step-sequencer-under-construction)\
@@ -57,16 +55,6 @@ The following is a documentation of the seminar's study materials and findings.
 
 ***
 [**WORKS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#works)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Live Electronic Music](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#live-electronic-music)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CMOS Experimenter Boards](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cmos-experimenter-boards)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Relay Oscillators](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#relay-oscillators)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Experimental Oscillators](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#experimental-oscillators)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pi Day](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pi-day)
-<!--
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[NSynth Super](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#nsynth-super)
-<br>
-[**SELECTED CMOS CHIPS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#understanding-cmos-chips)\
--->
 <br>
 
 ***
