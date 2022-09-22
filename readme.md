@@ -811,7 +811,16 @@ Divide by 2: **/Q1** connected to input Data
 * Rhythm/Chord Generator
 
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4018.jpg>
+
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4018_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4018_LIGHT.svg">
+  <img alt="Schematic of CD4018, Divide-By-'N' Counter." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4018_LIGHT.svg">
+</picture>
+
+
 
 FUNCTIONAL TRUTH TABLE FOR CD4018
 
