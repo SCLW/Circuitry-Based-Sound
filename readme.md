@@ -853,7 +853,14 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 * Square Wave Generator
 * Pulse Width Modulator
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer.jpg>
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer_LIGHT.svg">
+  <img alt="Functional diagram of the 555 timer." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer_LIGHT.svg">
+</picture>
+
 
 |Pin|Function|
 |----|----|
