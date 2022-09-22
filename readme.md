@@ -713,7 +713,9 @@ control logic 0 = switch off
 
 The following example shows a single pole double throw (SPDT) configuration built with two bilateral switches of the CD4066 (lower section, SW2 and SW3). SW1 is set up to do logic and acts as an inverter: A high at the control input makes a connection to ground and "pulls" the output node down, while a logical low opens the switch and the pull-up resistor ensures a high at the same node. The non-inverted and the inverted control signals are then connected to the respective control inputs of the remaining switches SW2 and SW3. If one switch is open, the other is closed and vice versa. A common signal will be routed to either one of the outputs. This setup can be used for ping-pong stereo effects. Interchanging the input and output in this SPDT example makes a signal selector. The CD4053 contains already three SPDT switches.
 
+<!--
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4066_Ping-pong_Stereo.jpg>
+-->
 
 [CD4066 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4066b.pdf?ts=1608449210166&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4066")
 
@@ -747,6 +749,7 @@ The following example shows a single pole double throw (SPDT) configuration buil
 <br>
 <br>
 
+<!--
 ### CD4013
  
 The CD4013 IC flip-flop is called a D flip-flop type to characterize its behavior, while D stands for "data" or "delay". It contains two identical D flip-flop arrangements. The device stores a digital state 0 or 1, which is accessible at the output **Q**. The second output **/Q** presents the inverse of **Q**. The control input **Clock** transfers the input state **D** to the output **Q** respectively **/Q**. The CD4013 is positive-edge-triggered, which means that the positive-going transition of a clock impulse triggers the device to hold the state that is present at the input and provides it at the output until the next positive-going clock signal. The additional control inputs **Set** and **Reset** have priority over the clock. With a high level on the **Set** input, the output follows its state and goes low with a high level on the **Reset** input, ignoring **D** and **Clock**.
@@ -782,6 +785,7 @@ X   = Don't Care
 
 <br>
 <br>
+-->
 
 ### CD4018 (under construction)
 
