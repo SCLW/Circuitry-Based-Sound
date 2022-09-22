@@ -885,8 +885,15 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 </picture>
 
 
+<!-- IMAGE -->
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Monostable_Operation.jpg>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Mono_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Mono_LIGHT.svg">
+  <img alt="Monostable operation." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Mono_LIGHT.svg">
+</picture>
+
+
 
 
 [LMC555 Data Sheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf?ts=1609974121158&ref_url=https%253A%252F%252Fwww.google.com%252F "LMC555")  
