@@ -907,7 +907,15 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 
 Although not part of the CMOS logic family this ubiquitous power op amp is a very versatile component when it comes to amplification or driving small speakers.
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM386.jpg>
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM386_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM386_LIGHT.svg">
+  <img alt="LM386 - Power Operational Amplifier." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM386_LIGHT.svg">
+</picture>
+
+
 
 [LM386 Data Sheet](https://www.ti.com/lit/ds/symlink/lm386.pdf?ts=1613028335418&ref_url=https%253A%252F%252Fwww.google.com%252F "LM386")
 <br>
