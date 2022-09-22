@@ -875,7 +875,16 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 
 
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Astable_Operation.jpg>
+
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Astable_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Astable_LIGHT.svg">
+  <img alt="Astable operation." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Astable_LIGHT.svg">
+</picture>
+
+
 
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Monostable_Operation.jpg>
 
