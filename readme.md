@@ -131,9 +131,10 @@ Output comparison of 2-input logic gates:
 | `0` | `1` | 0 | 1 | 1 | 0 | 1 | 0 |
 | `1` | `0` | 0 | 1 | 1 | 0 | 1 | 0 |
 | `1` | `1` | 1 | 0 | 1 | 0 | 0 | 1 |
-
  
 </div>
+<br>
+<br>
 
 Due to its simplicity, CMOS chips can be used for educational reasons, since most of its technical operations can easily be understood and relate to basic electronic knowledge. This subject is also a matter of various publications, most notably [Nicolas Collins'](https://en.wikipedia.org/wiki/Nicolas_Collins "Collins") „Handmade Electronic Music, The Art of Hardware Hacking" (2006). American Composer [David Tudor](https://de.wikipedia.org/wiki/David_Tudor "David Tudor") (1926 - 1996) is considered a pioneer of self-made electronic circuits and instruments, which he used for his compositions. Stanley Lunetta (1937 - 2016), avant-garde composer and artist, incorporated in the 70s digital electronics into his compositions and sound art sculptures and shared his techniques with other artists. In the experimental music community, CMOS synthesizers are therefore often referred to as "Lunettas".
 
