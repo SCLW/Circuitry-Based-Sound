@@ -124,7 +124,7 @@ Output comparison of 2-input logic gates:
 
 
 <div align="center">
- 
+<br>
 | INPUT A | INPUT B | AND | NAND | OR | NOR | XOR | XNOR |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | `0` | `0` | 0 | 1 | 0 | 1 | 0 | 1 |
