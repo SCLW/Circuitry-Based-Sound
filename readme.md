@@ -141,9 +141,9 @@ Due to its simplicity, CMOS chips can be used for educational reasons, since mos
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Breadboard_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Breadboard_LIGHT.svg">
-  <img alt="Simplified depiction of a Schmitt trigger oscillator on a breadboard." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Breadboard_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS_Oscillator_Breadboard_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS_Oscillator_Breadboard_LIGHT.svg">
+  <img alt="Simplified depiction of a Schmitt trigger oscillator on a breadboard." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS_Oscillator_Breadboard_LIGHT.svg">
 </picture>
 
 <!--
