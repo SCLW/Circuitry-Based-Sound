@@ -437,17 +437,8 @@ X   = Don't Care Case
 
 CD4022 and CD4017 ICs implement a binary counter/divider function with 8 outputs in the CD4022 and 10 outputs in the CD4017. The positive edge of an incoming square wave, usually referred to as "clock signal", triggers successively the outputs. "Carry out" is outputting one cycle over 8 (CD4022) respectively 10 (CD4017) clock pulses. A logical high at "clock inhibit" pauses the counting process. A logical high at the "reset" pin sets the counter pulse back to the first output.
 
-<!-- IMAGE -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070_LIGHT.svg">
-  <img alt="Digital frequency mixing." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070_LIGHT.svg">
-</picture>
 
-<!--
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_anim.gif>
--->
 
 *Applications:*
 * Sequencer
@@ -456,11 +447,16 @@ CD4022 and CD4017 ICs implement a binary counter/divider function with 8 outputs
 
 <!-- IMAGE -->
 
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_DARK.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_LIGHT.svg">
-  <img alt="CD4022 binary counter/divider." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_LIGHT.svg">
+  <img alt="Digital frequency mixing." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_LIGHT.svg">
 </picture>
+
+<!--
+<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_anim.gif>
+-->
 
 <!--
 <img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_animated.gif>
