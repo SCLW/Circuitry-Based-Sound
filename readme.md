@@ -325,11 +325,6 @@ Oscillators built with 2 input NAND Schmitt triggers can be switched on and off 
 
 
 
-
-
-
-
-
 Truth table for NAND
 
 |A|B|J=A NAND B|
@@ -380,6 +375,7 @@ Truth table for XOR (CD4070)
 |1|0|1|
 |1|1|0|
 
+<!-- 
 Truth table for XNOR (CD4077)
 
 |A|B|Y = A XNOR B|
@@ -388,7 +384,7 @@ Truth table for XNOR (CD4077)
 |0|1|0|
 |1|0|0|
 |1|1|1|
-
+-->
 
 [CD4070 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4077b.pdf?ts=1606308007892&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4070")
 <br>
