@@ -122,9 +122,9 @@ A truth table is used in Boolean algebra to show all possible values of a logica
 
 Output comparison of 2-input logic gates:
 
-
-<div align="center">
 <br>
+<div align="center">
+
 | INPUT A | INPUT B | AND | NAND | OR | NOR | XOR | XNOR |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | `0` | `0` | 0 | 1 | 0 | 1 | 0 | 1 |
