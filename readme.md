@@ -10,9 +10,7 @@
 
 
 
-"Circuitry-Based Sound" is an ongoing seminar at [University of Arts and Design Karlsruhe](https://www.hfg-karlsruhe.de/ "University of Arts and Design Karlsruhe"). It focuses on electronic sound synthesis and parametric interfacing. It's examining musical characteristics of electronic instruments and comparing different approaches on how to design electronic sound modules. Due to the measures against the coronavirus spread in 2020, the seminar’s workflow had been adapted to the restrictions and is partially held online.
-
-The course is covering electrical and electronic basics, computer aided circuit design and professional printed circuit board (PCB) manufacturing processes with the aim of building custom-made instruments. The emphasis is on studies of logic chips for sound creation and its musical applications. Participants are guided to use the latest technology, production chain and global logistics to develop, design and produce circuit boards for musical use. This allows the participants to easily create circuit boards with more variable features and adjustable parameters than hand soldered protoboards or solderless breadboards.
+"Circuitry-Based Sound" is an ongoing seminar at [University of Arts and Design Karlsruhe](https://www.hfg-karlsruhe.de/ "University of Arts and Design Karlsruhe"). This course equips musicians with practical hands-on skills for building their own musical circuitry or modifying existing audio hardware. It offers practical knowledge of electronics useful for sound creation, noise making and music interaction. Participants are introduced to soldering and assembling audio circuits on breadboards or perfboards in the context of audio, composition, live performance and sound art. A major portion of the course will be devoted to hardware prototyping, including test and fault finding sessions. The emphasis will be upon the designing of electronic instruments as well as interfacing transducers and developing alternative controllers. Artistic and practical use of the circuits will also be explored and discussed.
 
 
 The following is a documentation of the seminar's study materials and findings.
@@ -124,6 +122,9 @@ A truth table is used in Boolean algebra to show all possible values of a logica
 
 Output comparison of 2-input logic gates:
 
+
+<div align="center">
+ 
 | INPUT A | INPUT B | AND | NAND | OR | NOR | XOR | XNOR |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | `0` | `0` | 0 | 1 | 0 | 1 | 0 | 1 |
@@ -131,6 +132,8 @@ Output comparison of 2-input logic gates:
 | `1` | `0` | 0 | 1 | 1 | 0 | 1 | 0 |
 | `1` | `1` | 1 | 0 | 1 | 0 | 0 | 1 |
 
+ 
+</div>
 
 Due to its simplicity, CMOS chips can be used for educational reasons, since most of its technical operations can easily be understood and relate to basic electronic knowledge. This subject is also a matter of various publications, most notably [Nicolas Collins'](https://en.wikipedia.org/wiki/Nicolas_Collins "Collins") „Handmade Electronic Music, The Art of Hardware Hacking" (2006). American Composer [David Tudor](https://de.wikipedia.org/wiki/David_Tudor "David Tudor") (1926 - 1996) is considered a pioneer of self-made electronic circuits and instruments, which he used for his compositions. Stanley Lunetta (1937 - 2016), avant-garde composer and artist, incorporated in the 70s digital electronics into his compositions and sound art sculptures and shared his techniques with other artists. In the experimental music community, CMOS synthesizers are therefore often referred to as "Lunettas".
 
