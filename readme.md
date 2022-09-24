@@ -834,7 +834,7 @@ X   = Don't Care
 
 ### 555 Timer (under construction)
 
-Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the same pinout and are exchangeable. The CMOS version consumes significantly less power. Its name derives from the three 5kΩ resistors that form a voltage divider network.
+Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the same pinout and are exchangeable. The CMOS version consumes significantly less power. Its name derives from the three 5kΩ resistors that form a voltage divider network. This IC generates output pulses for precision timing or works as an oscillator with adjustable duty cycle. The timing function can be configured with just a few external components.
 
 *Applications:*
 * Frequency Divider
@@ -874,6 +874,8 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
   <img alt="Astable operation." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Astable_LIGHT.svg">
 </picture>
 
+In the astable configuration or multivibrator mode, the circuit generates a string of pulses by retriggering itself. Different values for $R_A$ and $R_B$ allow for changing the ratio of the high time and the low time. A low at reset pin 4 stops the oscillation.
+The time to complete one cycle (high and low) can be calculated with $f= 1 \frac {1}{(R_A + 2R_B)C ln(2)}$.
 
 <!-- IMAGE -->
 
@@ -884,7 +886,7 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 </picture>
 
 
-
+For mono stable operation, a negative going pulse at the trigger input causes the output to go high for a defined amount of time (one shot). A second pulse within that time period has no effect on the output pulse and will be ignored. This circuit can be used for debouncing switches. The time the output stays high is set through the RC circuit and can be calculated with $T_H = RC ln(3) \approx 1.1 R_1 C_1$.
 
 [LMC555 Data Sheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf?ts=1609974121158&ref_url=https%253A%252F%252Fwww.google.com%252F "LMC555")  
 [TLC555 Data Sheet](https://www.ti.com/lit/ds/symlink/tlc555.pdf "TLC555")
