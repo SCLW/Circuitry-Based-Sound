@@ -1099,20 +1099,6 @@ The Xilinx application note [XAPP210](https://www.xilinx.com/support/documentati
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Depending on the desired operation, other applicable devices may be CD4094, CD4014, CD4021 which are all 8-stage shift registers.
  
 
