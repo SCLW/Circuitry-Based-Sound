@@ -37,8 +37,7 @@ The following is a documentation of the seminar's study materials and findings.
 
 ***
 [**ELECTRONIC COMPONENTS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#electronic-components)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Numerical Index of CMOS Chips](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#numerical-index)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Additional ICs](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#additional-ics)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Numerical Index](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#numerical-index)
 <br>
 
 ***
