@@ -874,7 +874,7 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
   <img alt="Astable operation." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Astable_LIGHT.svg">
 </picture>
 
-In the astable configuration or multivibrator mode, the circuit generates a string of pulses by retriggering itself. Different values for $R_A$ and $R_B$ allow for changing the ratio of the high time and the low time. A low at reset pin 4 stops the oscillation.
+In the astable configuration or multivibrator mode, the circuit generates a string of pulses by retriggering itself. Different values for $R_A$ and $R_B$ allow for changing the ratio the high time and the low time. A low at reset pin 4 stops the oscillation.
 The time to complete one cycle (high and low) can be calculated with $f=  \frac {1}{(R_A + 2R_B)C \cdot ln(2)}$.
 
 <!-- IMAGE -->
