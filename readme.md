@@ -734,7 +734,7 @@ The following example shows a single pole double throw (SPDT) configuration buil
 <br>
 <br>
 
-<!--
+
 ### CD4013
  
 The CD4013 IC flip-flop is called a D flip-flop type to characterize its behavior, while D stands for "data" or "delay". It contains two identical D flip-flop arrangements. The device stores a digital state 0 or 1, which is accessible at the output **Q**. The second output **/Q** presents the inverse of **Q**. The control input **Clock** transfers the input state **D** to the output **Q** respectively **/Q**. The CD4013 is positive-edge-triggered, which means that the positive-going transition of a clock impulse triggers the device to hold the state that is present at the input and provides it at the output until the next positive-going clock signal. The additional control inputs **Set** and **Reset** have priority over the clock. With a high level on the **Set** input, the output follows its state and goes low with a high level on the **Reset** input, ignoring **D** and **Clock**.
@@ -746,7 +746,14 @@ The CD4013 IC flip-flop is called a D flip-flop type to characterize its behavio
 * Counter
 * Toggle Switch
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4013.jpg>
+
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4013_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4013_LIGHT.svg">
+  <img alt="Schematic of CD4013 IC flip-flop." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4013_LIGHT.svg">
+</picture>
 
 
 D flip-flop truth table
@@ -770,7 +777,7 @@ X   = Don't Care
 
 <br>
 <br>
--->
+
 
 ### CD4018 (under construction)
 
