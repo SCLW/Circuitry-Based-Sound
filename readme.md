@@ -1288,4 +1288,3 @@ The content of this documentation is licensed under the [Creative Commons Attrib
 <br>
 <br>
 
-![image](https://user-images.githubusercontent.com/51890764/192118064-ab213175-089d-42b8-bd3b-a0fc4acbea99.png)
