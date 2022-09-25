@@ -935,7 +935,7 @@ Although not part of the CMOS logic family this ubiquitous power op amp is a ver
 
 ## Mixing
 
-There are various ways of mixing signals together. Using CMOS chips like the XOR CD4070 works for digital signals. If more than two signals need to be mixed together, several logic gates can be chained together. Even though the resulting signal is not the sum of the source signals but some modulated result, the output signal is still compatible with digital electronics. This is not the case with active and passive mixing. Active mixing involves components, such as operational amplifiers, that need a power supply. Passive mixing works without an additional power supply, but introduces a voltage drop.
+There are various ways of mixing signals together. Using CMOS chips like the XOR CD4070 works for digital signals. If more than two signals should be mixed or merged, several logic gates can be chained together. Even though the resulting signal is not the sum of the source signals but some modulated result, the output signal is still compatible with digital electronics. This is not the case with active and passive mixing, which alters the amplitude of the output. Active mixing involves components, such as operational amplifiers, that need a power supply. Passive mixing works without an additional power supply, but introduces a voltage drop.
 
 ### Passive Mixing
 
