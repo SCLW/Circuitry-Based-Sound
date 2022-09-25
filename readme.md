@@ -250,6 +250,7 @@ The following is a list of CMOS chips and other integrated circuits for sound cr
 [CD405x](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd405x)\
 [CD4066](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4066)\
 [CD4060](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4060)\
+[CD4013](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4013)\
 [CD4018](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4018-under-construction)\
 [555 Timer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#555-timer-under-construction)\
 [LM386](https://github.com/SCLW/Circuitry-Based-Sound#lm386---power-operational-amplifier-under-construction)
