@@ -1139,7 +1139,7 @@ Pin 5 (Inhibit) of the CD4046 must be set to a logical low for operation. The tw
 
 Bill of Material:  
 
-| Designator  | Typ | Value |
+| Designator  | Description | Value |
 | ------------- | ------------- | ------------- |
 | D1, D2, D3, D4, D5, (for each step)| Diode | 1N4148  |
 | VR | Potentiometer | 100K |
@@ -1149,10 +1149,10 @@ Bill of Material:
 | R4 | Resistor  |10K |
 | R5 | Resistor | |
 | C1 | Capacitor | 100nF |
-|SW1, SW2 (optional) |push button or toggle switch| on - off |
+| SW1, SW2 (optional) |push button or toggle switch| on - off |
 | CD4022 | Counter | |
 | CD4046 | PLL | |
-| Clock Generator (eg. 40106 etc) | | |
+| Clock |  Clock Generator (eg. CD40106) | |
 
 ## Voltage Starve
 
