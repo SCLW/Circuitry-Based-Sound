@@ -1141,9 +1141,9 @@ Bill of Material:
 
 | Designator  | Description | Value |
 | ------------- | ------------- | ------------- |
-| D1, D2, D3, D4, D5, (for each step)| Diode | 1N4148  |
+| D1, D2, ... (for each step)| Diode | 1N4148  |
 | VR | Potentiometer | 100K |
-| VR1, VR2, VR3, (for each step)| Potentiometer | 100K |
+| VR1, VR2, ... (for each step)| Potentiometer | 100K |
 | R1*, R2* | Resistor |1K - 10K |
 | R3 | Resistor  | 100K |
 | R4 | Resistor  |10K |
