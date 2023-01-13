@@ -1120,6 +1120,8 @@ This circuit for a step sequencer is shown in N. Collins book 'Handmade Electron
 <br>
 
 
+
+
 A logical high on the 'Clock Inhibit' of the CD4022 stops the counter advancement and hence the sequence. A manual push button switch with a pull down resistor to GND or a control logic circuit can be used to pause the sequence for rhythmic effects. A logical high on the 'Reset' input restarts the counter. Connecting one of the outputs of the counter to the 'Reset' pin shortens the length of the sequence by one in regard to the number of the used output. (Step length = Qx-1, if Qx is connected to 'Reset'). More complex patterns can be created when the reset and the inhibit functionality is dynamically controlled by logic circuits.
 
 A clock source is needed for triggering the CD4022. When the clock is set to an audio frequency, the step sequencer works as a wave shaper.
@@ -1135,7 +1137,22 @@ Pin 5 (Inhibit) of the CD4046 must be set to a logical low for operation. The tw
   <img alt="CMOS step sequencer after N. Collins." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Step-Sequencer_LIGHT.svg">
 </picture>
 
+Bill of Material:  
 
+| Designator  | Typ | Value |
+| ------------- | ------------- | ------------- |
+| D1, D2, D3, D4, D5, (for each step)| Diode | 1N4148  |
+| VR | Potentiometer | 100K |
+| VR1, VR2, VR3, (for each step)| Potentiometer | 100K |
+| R1*, R2* | Resistor |1K - 10K |
+| R3 | Resistor  | 100K |
+| R4 | Resistor  |10K |
+| R5 | Resistor | |
+| C1 | Capacitor | 100nF |
+|SW1, SW2 (optional) |push button or toggle switch| on - off |
+| CD4022 | Counter | |
+| CD4046 | PLL | |
+| Clock Generator (eg. 40106 etc) | | |
 
 ## Voltage Starve
 
