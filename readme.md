@@ -1213,6 +1213,7 @@ All parts can be substituted with alternative components and equivalent foot pri
 
 ## Authors
 
+Lutz Ben Wesch  
 Marc Bendt  
 Bent van den Berg  
 Zhen Bian  
@@ -1220,43 +1221,52 @@ Yinxuan Chen
 Hangyan Chen  
 Siting Chen  
 Haram Choi  
-Qianqian	Feng   
-Zufilkar	Filandra   
+Mark Damian  
+Jung Eun Lee  
+Bi Fangchao  
+Qianqian Feng  
+Zufilkar Filandra  
 Hongyu Guo  
 Jeongmin Han  
 Juhee Han  
-Anna Helsen  
+Anna-Lina Helsen  
 Jihye Jang  
 Hoin Ji  
 Minsu Kim  
-Florian	Knöbl    
-Jung Eun Lee  
+Florian Knöbl  
+László Kőrösi  
 Sangyi Lee  
 Xingchen Liu  
 Su Lu  
-Daniel	Lythgoe   
+Daniel Lythgoe  
 Victoria Mikhaylova  
 Jiun-You Ou  
+Pavel Polenz  
 Ruoyi Qiu  
 Bob Reinert  
 Vivian Reuter  
 Arno Schlipf  
 Florian Schwarz  
 Yifan Su  
-Eveline	Vervliet   
+Anna Szilágyi  
+Eveline Vervliet  
 Christina Vinke  
 Julian Vollmert  
+Aaron Wagner  
+Niklas Wallbaum  
 Dakang Wang  
 Siting Wang  
-Yudong	Wang   
-Lutz Ben	Wesch   
-Eunchae	Won   
+Yudong Wang  
+Eunchae Won  
 Le Yang  
+Sayuki Yoneda   
 Huiyeon Yun  
 Rui Zhang  
 Yunfei Zhang  
 Xinyi Zhao  
+Yange Zheng  
 Pei Zhou  
+
 
 
 
