@@ -1290,7 +1290,6 @@ Thanks to Holger Förterer and Dr. Paul Modler
 
 ## Literature
 
-
 Anderton, Craig. Electronic Projects for musicians. Amsco, New York, 1980.
 
 Brindley, Keith. Starting Electronics. Newnes, 4th ed., Oxford, 2011.
@@ -1299,7 +1298,7 @@ Collins, Nicolas. Handmade Electronic Music: The Art of Hardware Hacking. 2nd ed
 
 Horowitz, Paul. Hill, Winfield. The art of electronics. 3rd ed., Cambridge University Press, New York, 2021.
 
-Lancaster Don. Das CMOS-Kochbuch. 1. Auflage, IWT-Verlag, Vaterstetten, 1980.
+Lancaster, Don. Das CMOS-Kochbuch. 1. Auflage, IWT-Verlag, Vaterstetten, 1980.
 
 Maxfield, Clive. Bebop to the Boolean Boogie: An Unconventional Guide to Electronics. 2nd ed., Newnes, London, 2003.
 
