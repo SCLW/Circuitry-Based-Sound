@@ -61,7 +61,7 @@ The following is a documentation of the seminar's study materials and findings.
 <br>
 
 ***
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[License](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#literature)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Literature](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#literature)
 <br>
 
 ***
