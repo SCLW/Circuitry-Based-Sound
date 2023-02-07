@@ -1216,6 +1216,7 @@ All parts can be substituted with alternative components and equivalent foot pri
 Lutz Ben Wesch  
 Marc Bendt  
 Bent van den Berg  
+Fangchao Bi    
 Zhen Bian  
 Yinxuan Chen  
 Hangyan Chen  
@@ -1223,7 +1224,6 @@ Siting Chen
 Haram Choi  
 Mark Damian  
 Jung Eun Lee  
-Bi Fangchao  
 Qianqian Feng  
 Zufilkar Filandra  
 Hongyu Guo  
