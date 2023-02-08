@@ -1303,7 +1303,7 @@ Thanks to Holger Förterer and Dr. Paul Modler
 
 Anderton, Craig. Electronic Projects for musicians. Amsco, New York, 1980.
 
-Brindley, Keith. Starting Electronics. Newnes, 4th ed., Oxford, 2011.
+Brindley, Keith. Starting Electronics. 4th ed., Newnes, Oxford, 2011.
 
 Collins, Nicolas. Handmade Electronic Music: The Art of Hardware Hacking. 2nd ed., Taylor & Francis, New York, 2009.
 
