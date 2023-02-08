@@ -1119,8 +1119,8 @@ This circuit for a step sequencer is shown in N. Collins book 'Handmade Electron
 
 The frequency range of the VCO can be set via the two resistors Rx and Rx (Rx1 and Rx2)
 
-$f_{min} = - \frac{1} {{R_2}(C_1 * 32 pF)}$
-$f_{min} = - \frac{1} {{R_2}(C_1 * 32 pF)}$
+$f_{min} = - \frac{1} {{R_2}(C_1 + 32 pF)}$  
+$f_{max} = - \frac{1} {{R_1}(C_1 + 32 pF)} + f_{min}$
 
 ![Step_Sequencer_Waveform](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Step_Sequencer_Waveform_DSO.jpg)
 *Input voltage (blue graph) and VCO frequency (yellow graph) of the CD4046.*
