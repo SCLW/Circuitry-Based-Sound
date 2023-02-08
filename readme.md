@@ -1313,7 +1313,7 @@ Lancaster, Don. Das CMOS-Kochbuch. 1. Auflage, IWT-Verlag, Vaterstetten, 1980.
 
 Maxfield, Clive. Bebop to the Boolean Boogie: An Unconventional Guide to Electronics. 2nd ed., Newnes, London, 2003.
 
-Roads, Curtis. Computer Music Tutorial. 1st ed., The MIT Press, Cambridge, Massachusetts, 1996.
+Roads, Curtis. Computer Music Tutorial. 1st ed., The MIT Press, Cambridge, MA, 1996.
 
 Self, Douglas. Small Signal Audio Design, 3rd ed., Focal Press, New York, 2020.
 
