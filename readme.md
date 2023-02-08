@@ -1152,12 +1152,12 @@ Bill of Material:
 | Designator  | Description | Value |
 | ------------- | ------------- | ------------- |
 | D1, D2, ... (for each step)| Diode | 1N4148  |
-| VR | Potentiometer | 100K |
+| VR | Potentiometer §f_{max}§ | 100K |
 | VR1, VR2, ... (for each step)| Potentiometer | 100K |
 | R1*, R2* | Resistor |1K - 10K |
 | R3 | Resistor  | 100K |
-| R4 | Resistor  |10K |
-| R5 | Resistor | |
+| R4 | Resistor $f_{max}$  |10K |
+| R5 | Resistor $f_{min}$ | |
 | C1 | Capacitor | 100nF |
 | SW1, SW2 (optional) |push button or toggle switch| on - off |
 | CD4022 | Counter | |
