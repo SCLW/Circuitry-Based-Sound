@@ -1117,6 +1117,10 @@ Depending on the desired operation, other applicable devices may be CD4094, CD40
 
 This circuit for a step sequencer is shown in N. Collins book 'Handmade Electronic Music'. It makes use of the built-in voltage controlled oscillator (VCO) of the [CD4046](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4046 "CD4046") Phase-Locked Loop. The voltage levels of the output pulses of the [CD4022](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4022 "CD4022") counter can be scaled down by the potentiometer voltage dividers and are mixed together via the [diodes](https://en.wikipedia.org/wiki/Diode "Diode") D1-D8 (1N4148). The CD4046’s voltage controlled oscillator is then generating a frequency according to the input voltage level. Therefore, each step Q0-Q7 of the CD4022 can be used to produce a single tone.
 
+The frequency range of the VCO can be set via the two resistors Rx and Rx (Rx1 and Rx2)
+
+$f_{min} = - \frac{1} {{R_2}(C_1 * 32 pF)}$
+$f_{min} = - \frac{1} {{R_2}(C_1 * 32 pF)}$
 
 ![Step_Sequencer_Waveform](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Step_Sequencer_Waveform_DSO.jpg)
 *Input voltage (blue graph) and VCO frequency (yellow graph) of the CD4046.*
