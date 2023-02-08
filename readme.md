@@ -1130,9 +1130,7 @@ This circuit for a step sequencer is shown in N. Collins book 'Handmade Electron
 A logical high on the 'Clock Inhibit' of the CD4022 stops the counter advancement and hence the sequence. A manual push button switch with a pull down resistor to GND or a control logic circuit can be used to pause the sequence for rhythmic effects. A logical high on the 'Reset' input restarts the counter. Connecting one of the outputs of the counter to the 'Reset' pin shortens the length of the sequence by one in regard to the number of the used output. (Step length = Qx-1, if Qx is connected to 'Reset'). More complex patterns can be created when the reset and the inhibit functionality is dynamically controlled by logic circuits.
 
 A clock source is needed for triggering the CD4022. When the clock is set to an audio frequency, the step sequencer works as a wave shaper.
-Pin 5 (Inhibit) of the CD4046 must be set to a logical low for operation. The two resistors R4 and R5 together with the capacitor C1 determine the frequency range of the VCO. A potentiometer and a fixed resistor at pin 11 allow to change the oscillators overall frequency range.
-
-The frequency range of the CD4046 VCO can be set via the two resistors connected between pin 12 and ground and pin 11 and ground. According to the schematic above, a rough approximation can be calculated with the following formula:
+Pin 5 (Inhibit) of the CD4046 must be set to a logical low for operation. The frequency range of the CD4046 VCO can be set via the two resistors connected between pin 12 and ground and pin 11 and ground. According to the schematic above, a rough approximation can be calculated with the following formula:
 
 $f_{min} = - \frac{1} {{R_5}(C_1 + 32 pF)}$  
 $f_{max} = - \frac{1} {({R_4}+VR)(C_1 + 32 pF)} + f_{min}$  
