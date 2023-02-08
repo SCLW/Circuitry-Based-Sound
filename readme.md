@@ -1132,8 +1132,8 @@ A logical high on the 'Clock Inhibit' of the CD4022 stops the counter advancemen
 A clock source is needed for triggering the CD4022. When the clock is set to an audio frequency, the step sequencer works as a wave shaper.
 Pin 5 (Inhibit) of the CD4046 must be set to a logical low for operation. The frequency range of the CD4046 VCO can be set via the two resistors connected between pin 12 and ground and pin 11 and ground. According to the schematic above, a rough approximation can be calculated with the following formula:
 
-$f_{min} = - \frac{1} {{R_5}(C_1 + 32 pF)}$  
-$f_{max} = - \frac{1} {({R_4}+VR)(C_1 + 32 pF)} + f_{min}$  
+$f_{min} =  \frac{1} {{R_5}(C_1 + 32 pF)}$  
+$f_{max} =  \frac{1} {({R_4}+VR)(C_1 + 32 pF)} + f_{min}$  
 
 The output of the VCO can be gated with the clock source through a CMOS switch, e.g. CD4066. 
 
