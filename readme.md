@@ -2,7 +2,7 @@
 # Circuitry-Based Sound
 
 
-![Technical Setup with self built audio electronics, laboratory power supply, mixing desk, and loudspeaker](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg)
+![Technical Setup with self built audio electronics, laboratory power supply, mixing desk, and loudspeaker](/img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg)
 *Photo: Yunfei Zhang*
 <br>
 <br>
@@ -90,7 +90,7 @@ Another concept of creating sound with electronics derived from techniques like 
 ### CMOS Chips for Sound Creation
 
 
-![CMOS-chips](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS-chips.jpg)
+![Various CMOS-chips in SMD and through-hole technology and with different foot prints](/img/CMOS-chips.jpg)
 *Various CMOS chips*
 <br>
 <br>
@@ -113,9 +113,8 @@ Logical operations can be implemented as switching circuits with single pole sin
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Logic_Gates_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Logic_Gates_LIGHT.svg">
-  <img alt="Illustration of electronic logic gate symbols." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Logic_Gates_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/Logic_Gates_DARK.svg">
+  <img alt="Illustration of electronic logic gate symbols." src="/img/Logic_Gates_LIGHT.svg">
 </picture>
 
 
@@ -147,17 +146,11 @@ Due to its simplicity, CMOS chips can be used for educational reasons, since mos
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS_Oscillator_Breadboard_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS_Oscillator_Breadboard_LIGHT.svg">
-  <img alt="Simplified depiction of a Schmitt trigger oscillator on a breadboard." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CMOS_Oscillator_Breadboard_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CMOS_Oscillator_Breadboard_DARK.svg">
+  <img alt="Simplified depiction of a Schmitt trigger oscillator on a breadboard." src="/img/CMOS_Oscillator_Breadboard_LIGHT.svg">
 </picture>
 
-<!--
-![CD40106_Fritzing](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_Fritzing.jpg)
-*Simplified depiction of a Schmitt trigger oscillator on a breadboard*
-<br>
-<br>
--->
+
 
 The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the picture above. It shows a [square wave](https://en.wikipedia.org/wiki/Square_wave "square wave") sound generator that can be built with only three components, jumper wires and a power supply:
 * inverting [Schmitt trigger](https://en.wikipedia.org/wiki/Schmitt_trigger "Schmitt trigger") IC, e.g. CD40106
@@ -170,14 +163,10 @@ An inverting Schmitt trigger is an active electronic component whose output stat
 <!-- ANIMATED GIF -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Schmitt_Trigger_DARK.gif">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Schmitt_Trigger_LIGHT.gif">
-  <img alt="Animated iIllustration of a Schmitt trigger oscillator and its waveforms." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Schmitt_Trigger_LIGHT.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/Schmitt_Trigger_DARK.gif">
+  <img alt="Animated iIllustration of a Schmitt trigger oscillator and its waveforms." src="/img/Schmitt_Trigger_LIGHT.gif">
 </picture>
 
-<!--
-![Schmitt_Trigger_Oscillator](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Schmitt_Trigger_DARK.gif)
--->
 
 <br>
 <br>
@@ -205,16 +194,11 @@ In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Logic_Signal_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Logic_Signal_LIGHT.svg">
-  <img alt="Common CMOS input voltage levels without and with Schmitt trigger implementation." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Logic_Signal_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/Logic_Signal_DARK.svg">
+  <img alt="Common CMOS input voltage levels without and with Schmitt trigger implementation." src="/img/Logic_Signal_LIGHT.svg">
 </picture>
 
-<!-- 
-![Logic_Signal](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Logic_Signal.jpg)
-*Common CMOS input voltage levels without and with Schmitt trigger implementation*
-<br>
--->
+
 
 V<sub>IH</sub> is the minimum input voltage that will be interpreted as a logical high, while V<sub>IL</sub> is the maximum input voltage that will be interpreted as a logical low. The region in between is undefined and may trigger unpredictable highs or lows (chattering). This problem is solved by implementing a Schmitt trigger with different thresholds for negative-going and positive-going input voltages, depending on whether the input signal is changing from high to low (V<sub>N</sub>) or low to high (V<sub>P</sub>). When the input is between the two thresholds the output retains its value.
 
@@ -222,18 +206,10 @@ V<sub>IH</sub> is the minimum input voltage that will be interpreted as a logica
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Square_Wave_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Square_Wave_LIGHT.svg">
-  <img alt="Analytical description of a square wave logic signal." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Square_Wave_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/Square_Wave_DARK.svg">
+  <img alt="Analytical description of a square wave logic signal." src="/img/Square_Wave_LIGHT.svg">
 </picture>
 
-<!--
-![Square-Wave](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Square_Wave.svg)
-*Analytical description of a square wave logic signal*
-<br>
-<br>
-<br>
--->
 
 
 The [square wave](https://en.wikipedia.org/wiki/Square_wave "Square wave") contains only overtones with odd numbered harmonics (⅓, ⅕, ⅐, etc). The relative amplitudes of the harmonics are equal to 1/harmonic number n.
