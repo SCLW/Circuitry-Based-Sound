@@ -59,11 +59,10 @@ The following is a documentation of the seminar's study materials and findings.
   - [Literature](/readme.md#literature)
   - [License](/readme.md#license)
 
-
-<br>
-
 ---
 
+
+<br>
 
 # Disclaimer
 
