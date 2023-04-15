@@ -101,9 +101,9 @@ Another concept of creating sound with electronics derived from techniques like 
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Switching_Circuit_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Switching_Circuit_LIGHT.svg">
-  <img alt="Boolean logic as switching circuit." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Switching_Circuit_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/Switching_Circuit_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/Switching_Circuit_LIGHT.svg">
+  <img alt="Boolean logic as switching circuit." src="/img/Switching_Circuit_LIGHT.svg">
 </picture>
 
  
