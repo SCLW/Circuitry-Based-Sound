@@ -37,35 +37,35 @@ The following is a documentation of the seminar's study materials and findings.
 
 ***
 [**ELECTRONIC COMPONENTS**](/readme.md#electronic-components)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Numerical Index](/readme.md#numerical-index)
+  - [Numerical Index](/readme.md#numerical-index)
 <br>
 
 ***
-[**BASIC PRINCIPLES AND APPLICATIONS**](/readme.md#basic-principles-and-applications)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Signal Mixing](/readme.md#mixing)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Passive Filters](/readme.md#passive-filters)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pull-up and Pull-down Resistors](/readme.md#pull-up-and-pull-down-resistors)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linear Feedback Shift Register](/readme.md#linear-feedback-shift-register)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step Sequencer](/readme.md#step-sequencer-under-construction)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Voltage Starve](/readme.md#voltage-starve)
+[**BASIC PRINCIPLES AND APPLICATIONS**](/readme.md#basic-principles-and-applications)
+  - [Signal Mixing](/readme.md#mixing)
+  - [Passive Filters](/readme.md#passive-filters)
+  - [Pull-up and Pull-down Resistors](/readme.md#pull-up-and-pull-down-resistors)
+  - [Linear Feedback Shift Register](/readme.md#linear-feedback-shift-register)
+  - [Step Sequencer](/readme.md#step-sequencer-under-construction)
+  - [Voltage Starve](/readme.md#voltage-starve)
 <br>
 
 ***
-[**WORKS**](/readme.md#works)\
+[**WORKS**](/readme.md#works)
 <br>
 
 ***
-[**MATERIALS**](/readme.md#Materials)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Requirements](/readme.md#requirements)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bill of Materials](/readme.md#bill-of-materials)
+[**MATERIALS**](/readme.md#Materials)
+  - [Requirements](/readme.md#requirements)
+  - [Bill of Materials](/readme.md#bill-of-materials)
 <br>
 
 ***
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Literature](/readme.md#literature)
+  - [Literature](/readme.md#literature)
 <br>
 
 ***
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[License](/readme.md#license)
+  - [License](/readme.md#license)
 
 
 <br>
