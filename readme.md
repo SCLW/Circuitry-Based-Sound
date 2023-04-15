@@ -1163,7 +1163,7 @@ All parts can be substituted with alternative components and equivalent foot pri
 
 ## Authors
 
-Lutz Ben Wesch  
+
 Marc Bendt  
 Bent van den Berg  
 Fangchao Bi    
@@ -1207,6 +1207,7 @@ Niklas Wallbaum
 Dakang Wang  
 Siting Wang  
 Yudong Wang  
+Lutz Ben Wesch  
 Eunchae Won  
 Le Yang  
 Sayuki Yoneda   
