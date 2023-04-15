@@ -1259,13 +1259,24 @@ Self, Douglas. Small Signal Audio Design, 3rd ed., Focal Press, New York, 2020.
 
 # Links
 
+Below are a few links to resources from across the internet on topics of relevance to audio electronic and Synth DIY as well as inspiring websites from artists and researchers:
 
-Below are links to resources, bringing together information from across the internet on topics of relevance to audio electronic and Synth DIY as well as inspiring websites from artists and researchers:
+**Nicolas Collins** - Sound artist, composer and performer of electronic music.  
+https://www.nicolascollins.com 
+
+**Handmade Electronic Music** - Hands-on guide to DIY electronic instruments by Nicolas Collins.  
+www.HandmadeElectronicMusic.com  
+
+**Eberhard Sengpiel** - Sound engineer, musician, lecturer. Sound studio and audio calculations, audio and acoustics conversions.  
+http://www.sengpielaudio.com
+
+**John Richards** - British musician and artist. Self-made instruments, installations and sound projects with electronics.  
+https://www.dirtyelectronics.org/about.html
 
 **audiodiwhy** - DIY music technology, programming.  
 https://audiodiwhy.blogspot.com/  
 
-**Electric Druid** About audio electronics and analogue synthesizers.  
+**Electric Druid** - About audio electronics and analogue synthesizers.  
 https://electricdruid.net
 
 **Synthesizer DIY website of René Schmitz**  
@@ -1273,9 +1284,6 @@ https://www.schmitzbits.de
 
 **Elliott Sound Products** - Professional results for the Do-It-Yourself enthusiast.  
 https://sound-au.com
-
-**Eberhard Sengpiel** - Sound engineer, musician, lecturer. Sound studio and audio calculations, audio and acoustics conversions.  
-http://www.sengpielaudio.com
 
 **The Institute of Sonology** - About electronics in music technology.  
 https://electronics.koncon.nl
@@ -1292,10 +1300,6 @@ https://electro-music.com
 
 **modwiggler forum** - Source of information about modular synthesizers and DIY analog circuits.  
 https://www.modwiggler.com
-
-**John Richards** - British musician and artist. Self-made instruments, installations and sound projects with electronics.  
-https://www.dirtyelectronics.org/about.html
-
 <br>
 <br>
 
