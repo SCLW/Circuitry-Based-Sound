@@ -27,10 +27,10 @@ The following is a documentation of the seminar's study materials and findings.
 
 ***
 [**INTRODUCTION**](/readme.md#introduction)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Unconventional Electronic Sound](/readme.md#unconventional-electronic-sound)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [CMOS Chips for Sound Creation](/readme.md#cmos-chips-for-sound-creation)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Basic Example](/readme.md#basic-example)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Logic Control](/readme.md#logic-control)
+  - [Unconventional Electronic Sound](/readme.md#unconventional-electronic-sound)\
+  - [CMOS Chips for Sound Creation](/readme.md#cmos-chips-for-sound-creation)\
+  - [Basic Example](/readme.md#basic-example)\
+  - [Logic Control](/readme.md#logic-control)
 <br>
 
 
