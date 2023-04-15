@@ -24,8 +24,6 @@ The following is a documentation of the seminar's study materials and findings.
 [**TABLE OF CONTENTS**](/readme.md#table-of-contents)
 </div>
 
-
-***
 [**INTRODUCTION**](/readme.md#introduction)
   - [Unconventional Electronic Sound](/readme.md#unconventional-electronic-sound)
   - [CMOS Chips for Sound Creation](/readme.md#cmos-chips-for-sound-creation)
@@ -33,14 +31,10 @@ The following is a documentation of the seminar's study materials and findings.
   - [Logic Control](/readme.md#logic-control)
 <br>
 
-
-
-***
 [**ELECTRONIC COMPONENTS**](/readme.md#electronic-components)
   - [Numerical Index](/readme.md#numerical-index)
 <br>
 
-***
 [**BASIC PRINCIPLES AND APPLICATIONS**](/readme.md#basic-principles-and-applications)
   - [Signal Mixing](/readme.md#mixing)
   - [Passive Filters](/readme.md#passive-filters)
@@ -50,21 +44,13 @@ The following is a documentation of the seminar's study materials and findings.
   - [Voltage Starve](/readme.md#voltage-starve)
 <br>
 
-***
 [**WORKS**](/readme.md#works)
 <br>
 
-***
 [**MATERIALS**](/readme.md#Materials)
   - [Requirements](/readme.md#requirements)
   - [Bill of Materials](/readme.md#bill-of-materials)
-<br>
-
-***
   - [Literature](/readme.md#literature)
-<br>
-
-***
   - [License](/readme.md#license)
 
 
