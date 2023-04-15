@@ -2,7 +2,7 @@
 # Circuitry-Based Sound
 
 
-![Technical Setup with self built audio electronics, mixing desk, and loudspeaker](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg)
+![Technical Setup with self built audio electronics, laboratory power supply, mixing desk, and loudspeaker](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg)
 *Photo: Yunfei Zhang*
 <br>
 <br>
