@@ -1256,32 +1256,45 @@ Roads, Curtis. Computer Music Tutorial. 1st ed., The MIT Press, Cambridge, MA, 1
 
 Self, Douglas. Small Signal Audio Design, 3rd ed., Focal Press, New York, 2020.
 
-<!--
-# References
-
-
-B. Lojek. History of semiconductor engineering, 2007.\
-N. Collins. Handmade Electronic Music: The Art of Hardware Hacking, 2009.\
-A. Hamilton. Pianos, Toys, Music and Noise: Conversations with Steve Beresford, 2021.\
-F. Schuiling. The Instant Composers Pool and Improvisation Beyond Jazz, 2018.\
-R. Ghazala. Circuit-Bending: Build Your Own Alien Instruments, 2005.\
-D. Lancaster. CMOS Cookbook, 1997.\
-R. Baker. CMOS: Circuit Design, Layout, and Simulation, 2010.\
-C. Maxfield. Bebop to the Boolean Boogie: An Unconventional Guide to Electronics, 2003.\
-C. Roads. Composing Electronic Music: A New Aesthetic, 2015.
-<br>
-<br>
-<br>
-
 # Links
-https://sound-au.com/articles/logic.htm<br>
-https://electricdruid.net/a-study-of-sub-oscillators/<br>
-https://en.wikipedia.org/wiki/Resistor_ladder<br>
-https://electronics.koncon.nl/oscillators/<br>
-https://electro-music.com/forum/forum-160.html<br>
-http://nomni.com/<br>
 
--->
+
+Below are links to resources, bringing together information from across the internet on topics of relevance to audio electronic and Synth DIY as well as inspiring websites from artists and researchers:
+
+**audiodiwhy** - DIY music technology, programming.  
+https://audiodiwhy.blogspot.com/  
+
+**Electric Druid** About audio electronics and analogue synthesizers.  
+https://electricdruid.net
+
+**Synthesizer DIY website of René Schmitz**  
+https://www.schmitzbits.de
+
+**Elliott Sound Products** - Professional results for the Do-It-Yourself enthusiast.  
+https://sound-au.com
+
+**Eberhard Sengpiel** - Sound engineer, musician, lecturer. Sound studio and audio calculations, audio and acoustics conversions.  
+http://www.sengpielaudio.com
+
+**The Institute of Sonology** - About electronics in music technology.  
+https://electronics.koncon.nl
+
+**Adrian Freed** - Former Research Director of UC Berkeley's Center for New Music and Audio Technologies (CNMAT).  
+Ideas, projects, examples regarding creative and artistic use of electronics in sound and music.  
+http://www.adrianfreed.com/
+
+**diyaudio forum** - DIY audio community forum for learning and sharing knowledge about music technology and audio electronics.  
+https://www.diyaudio.com
+
+**electro-music forum** - Dedicated to experimental electro-acoustic and electronic music.  
+https://electro-music.com
+
+**modwiggler forum** - Source of information about modular synthesizers and DIY analog circuits.  
+https://www.modwiggler.com
+
+**John Richards** - British musician and artist. Self-made instruments, installations and sound projects with electronics.  
+https://www.dirtyelectronics.org/about.html
+
 <br>
 <br>
 
