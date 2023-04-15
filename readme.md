@@ -44,8 +44,10 @@ The following is a documentation of the seminar's study materials and findings.
   - [Voltage Starve](/readme.md#voltage-starve)
 <br>
 
+<!-- needs further editing
 [**WORKS**](/readme.md#works)
 <br>
+-->
 
 [**MATERIALS**](/readme.md#Materials)
   - [Requirements](/readme.md#requirements)
