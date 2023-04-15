@@ -1262,44 +1262,44 @@ Self, Douglas. Small Signal Audio Design, 3rd ed., Focal Press, New York, 2020.
 Below are a few links to resources from across the internet on topics of relevance to audio electronic and Synth DIY as well as inspiring websites from artists and researchers:
 
 **Nicolas Collins** - Sound artist, composer and performer of electronic music.  
-https://www.nicolascollins.com 
+https://www.nicolascollins.com  
 
 **Handmade Electronic Music** - Hands-on guide to DIY electronic instruments by Nicolas Collins.  
 www.HandmadeElectronicMusic.com  
 
 **Eberhard Sengpiel** - Sound engineer, musician, lecturer. Sound studio and audio calculations, audio and acoustics conversions.  
-http://www.sengpielaudio.com
+http://www.sengpielaudio.com  
 
 **John Richards** - British musician and artist. Self-made instruments, installations and sound projects with electronics.  
-https://www.dirtyelectronics.org/about.html
+https://www.dirtyelectronics.org/about.html  
 
 **audiodiwhy** - DIY music technology, programming.  
-https://audiodiwhy.blogspot.com/  
+https://audiodiwhy.blogspot.com  
 
 **Electric Druid** - About audio electronics and analogue synthesizers.  
-https://electricdruid.net
+https://electricdruid.net  
 
 **Synthesizer DIY website of René Schmitz**  
-https://www.schmitzbits.de
+https://www.schmitzbits.de  
 
 **Elliott Sound Products** - Professional results for the Do-It-Yourself enthusiast.  
-https://sound-au.com
+https://sound-au.com  
 
 **The Institute of Sonology** - About electronics in music technology.  
-https://electronics.koncon.nl
+https://electronics.koncon.nl  
 
 **Adrian Freed** - Former Research Director of UC Berkeley's Center for New Music and Audio Technologies (CNMAT).  
 Ideas, projects, examples regarding creative and artistic use of electronics in sound and music.  
-http://www.adrianfreed.com/
+http://www.adrianfreed.com  
 
 **diyaudio forum** - DIY audio community forum for learning and sharing knowledge about music technology and audio electronics.  
-https://www.diyaudio.com
+https://www.diyaudio.com  
 
 **electro-music forum** - Dedicated to experimental electro-acoustic and electronic music.  
-https://electro-music.com
+https://electro-music.com  
 
 **modwiggler forum** - Source of information about modular synthesizers and DIY analog circuits.  
-https://www.modwiggler.com
+https://www.modwiggler.com  
 <br>
 <br>
 
