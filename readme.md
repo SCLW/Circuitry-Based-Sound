@@ -23,7 +23,9 @@ The following is a documentation of the seminar's study materials and findings.
  
 [**TABLE OF CONTENTS**](/readme.md#table-of-contents)
 </div>
+
 ---
+
 [**INTRODUCTION**](/readme.md#introduction)
   - [Unconventional Electronic Sound](/readme.md#unconventional-electronic-sound)
   - [CMOS Chips for Sound Creation](/readme.md#cmos-chips-for-sound-creation)
@@ -59,6 +61,7 @@ The following is a documentation of the seminar's study materials and findings.
 
 
 <br>
+
 ---
 
 
