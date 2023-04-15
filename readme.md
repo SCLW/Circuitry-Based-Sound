@@ -26,10 +26,10 @@ The following is a documentation of the seminar's study materials and findings.
 
 
 ***
-[**INTRODUCTION**](/readme.md#introduction)\
-  - [Unconventional Electronic Sound](/readme.md#unconventional-electronic-sound)\
-  - [CMOS Chips for Sound Creation](/readme.md#cmos-chips-for-sound-creation)\
-  - [Basic Example](/readme.md#basic-example)\
+[**INTRODUCTION**](/readme.md#introduction)
+  - [Unconventional Electronic Sound](/readme.md#unconventional-electronic-sound)
+  - [CMOS Chips for Sound Creation](/readme.md#cmos-chips-for-sound-creation)
+  - [Basic Example](/readme.md#basic-example)
   - [Logic Control](/readme.md#logic-control)
 <br>
 
@@ -41,12 +41,12 @@ The following is a documentation of the seminar's study materials and findings.
 <br>
 
 ***
-[**BASIC PRINCIPLES AND APPLICATIONS**](/readme.md#basic-principles-and-applications)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Signal Mixing](/readme.md#mixing)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Passive Filters](/readme.md#passive-filters)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pull-up and Pull-down Resistors](/readme.md#pull-up-and-pull-down-resistors)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linear Feedback Shift Register](/readme.md#linear-feedback-shift-register)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step Sequencer](/readme.md#step-sequencer-under-construction)
+[**BASIC PRINCIPLES AND APPLICATIONS**](/readme.md#basic-principles-and-applications)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Signal Mixing](/readme.md#mixing)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Passive Filters](/readme.md#passive-filters)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pull-up and Pull-down Resistors](/readme.md#pull-up-and-pull-down-resistors)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linear Feedback Shift Register](/readme.md#linear-feedback-shift-register)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step Sequencer](/readme.md#step-sequencer-under-construction)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Voltage Starve](/readme.md#voltage-starve)
 <br>
 
