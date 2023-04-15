@@ -1257,7 +1257,7 @@ Roads, Curtis. Computer Music Tutorial. 1st ed., The MIT Press, Cambridge, MA, 1
 
 Self, Douglas. Small Signal Audio Design, 3rd ed., Focal Press, New York, 2020.
 
-# Links
+## Links
 
 Below are a few links to resources from across the internet on topics of relevance to audio electronic and Synth DIY as well as inspiring websites from artists and researchers:
 
