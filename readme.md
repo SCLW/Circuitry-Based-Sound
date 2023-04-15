@@ -29,11 +29,9 @@ The following is a documentation of the seminar's study materials and findings.
   - [CMOS Chips for Sound Creation](/readme.md#cmos-chips-for-sound-creation)
   - [Basic Example](/readme.md#basic-example)
   - [Logic Control](/readme.md#logic-control)
-<br>
 
 [**ELECTRONIC COMPONENTS**](/readme.md#electronic-components)
   - [Numerical Index](/readme.md#numerical-index)
-<br>
 
 [**BASIC PRINCIPLES AND APPLICATIONS**](/readme.md#basic-principles-and-applications)
   - [Signal Mixing](/readme.md#mixing)
@@ -42,8 +40,6 @@ The following is a documentation of the seminar's study materials and findings.
   - [Linear Feedback Shift Register](/readme.md#linear-feedback-shift-register)
   - [Step Sequencer](/readme.md#step-sequencer-under-construction)
   - [Voltage Starve](/readme.md#voltage-starve)
-<br>
-
 <!-- needs further editing
 [**WORKS**](/readme.md#works)
 <br>
