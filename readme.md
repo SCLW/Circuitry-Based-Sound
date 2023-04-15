@@ -36,17 +36,17 @@ The following is a documentation of the seminar's study materials and findings.
 
 
 ***
-[**ELECTRONIC COMPONENTS**](/readme.md#electronic-components)\
+[**ELECTRONIC COMPONENTS**](/readme.md#electronic-components)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Numerical Index](/readme.md#numerical-index)
 <br>
 
 ***
-[**BASIC PRINCIPLES AND APPLICATIONS**](/readme.md#basic-principles-and-applications)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Signal Mixing](/readme.md#mixing)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Passive Filters](/readme.md#passive-filters)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pull-up and Pull-down Resistors](/readme.md#pull-up-and-pull-down-resistors)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linear Feedback Shift Register](/readme.md#linear-feedback-shift-register)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step Sequencer](/readme.md#step-sequencer-under-construction)\
+[**BASIC PRINCIPLES AND APPLICATIONS**](/readme.md#basic-principles-and-applications)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Signal Mixing](/readme.md#mixing)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Passive Filters](/readme.md#passive-filters)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pull-up and Pull-down Resistors](/readme.md#pull-up-and-pull-down-resistors)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linear Feedback Shift Register](/readme.md#linear-feedback-shift-register)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step Sequencer](/readme.md#step-sequencer-under-construction)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Voltage Starve](/readme.md#voltage-starve)
 <br>
 
