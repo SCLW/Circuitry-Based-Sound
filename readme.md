@@ -1151,12 +1151,9 @@ Helpful tools and useful materials:
 
 
 
-## Bill of Materials
+## Bill of Materials (BoM)
 
-A list with parts that can be used for this project, is available in the folder [BOM](/BOM/Readme.md#bill-of-material "Bill of Material")
-All parts can be substituted with alternative components and equivalent foot prints.
-
-
+This [BOM](/BOM/Readme.md#bill-of-material "Bill of Material") helps to source necessary components for electronic art projects and self-built instrument.
 
 
 
@@ -1285,7 +1282,7 @@ https://www.schmitzbits.de
 **Elliott Sound Products** - Professional results for the Do-It-Yourself enthusiast.  
 https://sound-au.com  
 
-**The Institute of Sonology** - About electronics in music technology.  
+**The Institute of Sonology** - Informational website from the Royal Conservatoire in Den Haag about electronics for art and education.  
 https://electronics.koncon.nl  
 
 **Adrian Freed** - Former Research Director of UC Berkeley's Center for New Music and Audio Technologies (CNMAT).  
