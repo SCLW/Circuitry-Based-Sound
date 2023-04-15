@@ -284,7 +284,7 @@ It acts as a square wave oscillator when the inputs are connected to form an inv
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4093_Button_DARK.svg">
-  <img alt="Schematic of an oscillator controlled by a push button." src="/img/CD4093_Button_LIGHT.svg">
+  <img alt="Pinout of the CD4093 IC and a schematic of an oscillator built with a CD4093 CMOS chip and controllable by a push button." src="/img/CD4093_Button_LIGHT.svg">
 </picture>
 
 
@@ -296,8 +296,7 @@ Oscillators built with 2 input NAND Schmitt triggers can be switched on and off 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4093_Gated_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4093_Gated_LIGHT.svg">
-  <img alt="Schematic of a gated oscillator." src="/img/CD4093_Gated_LIGHT.svg">
+  <img alt="Pinout of the CD4093 IC and a schematic of an oscillator built with a CD4093 CMOS chip which in turn is controlled by a second oscillator configuration of the same chip. This is called a gated oscillator." src="/img/CD4093_Gated_LIGHT.svg">
 </picture>
 
 
@@ -336,8 +335,7 @@ CD4077 is the Exclusive-NOR version.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4070_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4070_LIGHT.svg">
-  <img alt="Digital frequency mixing with CD4070." src="/img/CD4070_LIGHT.svg">
+  <img alt="Pinout of the CD4070 IC and a schematic that shows sigital frequency mixing with the said chip." src="/img/CD4070_LIGHT.svg">
 </picture>
 
 
@@ -384,8 +382,7 @@ A shift register is built of a series of interconnected [flip-flops](https://en.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4015_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4015_LIGHT.svg">
-  <img alt="CD4015 four stage shift register." src="/img/CD4015_LIGHT.svg">
+  <img alt="Pinout of the CD4015 IC and a schematic symbol describing the functions of the two 4-stage shift registers included in one chip." src="/img/CD4015_LIGHT.svg">
 </picture>
 
 
@@ -427,24 +424,15 @@ CD4022 and CD4017 ICs implement a binary counter/divider function with 8 outputs
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4022_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4022_LIGHT.svg">
-  <img alt="Digital frequency mixing." src="/img/CD4022_LIGHT.svg">
+  <img alt="Pinout of the CD4022 IC and a schematic symbol describing the functions of the counter/divider." src="/img/CD4022_LIGHT.svg">
 </picture>
 
-<!--
-<img src=/img/CD4022_anim.gif>
--->
-
-<!--
-<img src=/img/CD4022_animated.gif>
--->
 
 
 <!-- IMAGE -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4022_Outputs_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4022_Outputs_LIGHT.svg">
   <img alt="CD4022 timing diagram." src="/img/CD4022_Outputs_LIGHT.svg">
 </picture>
 
@@ -471,8 +459,7 @@ Control input "reset" triggers all output stages to "low". For continuous freque
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4040_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4040_LIGHT.svg">
-  <img alt="CD4040 frequency divider." src="/img/CD4040_LIGHT.svg">
+  <img alt="Pinout of the CD4040 IC and a schematic symbol describing the functions of the frequency divider." src="/img/CD4040_LIGHT.svg">
 </picture>
 
 
@@ -487,7 +474,6 @@ The timing diagram shows the relation of voltage levels between all outputs of t
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4040_Outputs_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4040_Outputs_LIGHT.svg">
   <img alt="CD4040 timing diagram." src="/img/CD4040_Outputs_LIGHT.svg">
 </picture>
 
@@ -513,8 +499,7 @@ Phase locked loop
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4046_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4046_LIGHT.svg">
-  <img alt="CD4046 phase locked loop." src="/img/CD4046_LIGHT.svg">
+  <img alt="Pinout of the CD4046 IC and a schematic of the phase locked loop circuit built with the CD4046." src="/img/CD4046_LIGHT.svg">
 </picture>
 
 
@@ -554,8 +539,7 @@ CD4051 is a switch in a single pole octal throw configuration with three binary 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4051_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4051_LIGHT.svg">
-  <img alt="Schematic of CD4051 single pole octal throw CMOS switch." src="/img/CD4051_LIGHT.svg">
+  <img alt="Pinout of the CD4051 IC and a schematic symbol representing the digitally controlled single pole octal throw function." src="/img/CD4051_LIGHT.svg">
 </picture>
 
 
@@ -588,8 +572,7 @@ CD4052 can be used for multiplexing one differential channel in a double-pole qu
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4052_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4052_LIGHT.svg">
-  <img alt="Schematic of CD4052 double-pole quad-throw CMOS switch." src="/img/CD4052_LIGHT.svg">
+  <img alt="Pinout of the CD4052 IC and a schematic symbol representing the digitally controlled double-pole quad-throw function." src="/img/CD4052_LIGHT.svg">
 </picture>
 
 
@@ -618,8 +601,7 @@ When the control signal is less than 1/3 V<sub>DD</sub>, z is connected to x0. W
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4053_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4053_LIGHT.svg">
-  <img alt="Schematic of CD4053, containing three single-pole double-throw CMOS switches." src="/img/CD4053_LIGHT.svg">
+  <img alt="Pinout of the CD4053 IC and a schematic symbol representing the digitally controlled CMOS chip, containing three single-pole double-throw CMOS switches." src="/img/CD4053_LIGHT.svg">
 </picture>
 
 Truth table for the CD4053  
@@ -665,13 +647,10 @@ control logic 0 = switch off
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4066_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4066_LIGHT.svg">
-  <img alt="Schematic of CD4066, containing four single-pole single-throw CMOS switches." src="/img/CD4066_LIGHT.svg">
+  <img alt="Pinout of the CD4066 IC and a schematic symbol representing the digitally controlled CMOS chip, containing four single-pole single-throw switches." src="/img/CD4066_LIGHT.svg">
 </picture>
 
-<!--
-<img src=/img/CD4066_anim.gif>
--->
+
 
 <!--
 The following example shows a single pole double throw (SPDT) configuration built with two bilateral switches of the CD4066 (lower section, SW2 and SW3). SW1 is set up to do logic and acts as an inverter: A high at the control input makes a connection to ground and "pulls" the output node down, while a logical low opens the switch and the pull-up resistor ensures a high at the same node. The non-inverted and the inverted control signals are then connected to the respective control inputs of the remaining switches SW2 and SW3. If one switch is open, the other is closed and vice versa. A common signal will be routed to either one of the outputs. This setup can be used for ping-pong stereo effects. Interchanging the input and output in this SPDT example makes a signal selector. The CD4053 contains already three SPDT switches.
@@ -703,8 +682,7 @@ The following example shows a single pole double throw (SPDT) configuration buil
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4060_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4060_LIGHT.svg">
-  <img alt="Schematic of CD4060, 14 stage binary counter/divider and oscillator." src="/img/CD4060_LIGHT.svg">
+  <img alt="Pinout of the CD4060 IC (on the left) and a schematic symbol representing the individual gates of the frequency divider (middle section). On the right is a circuit schematic of the RC oscillator circuit built with the CD4060." src="/img/CD4060_LIGHT.svg">
 </picture>
 
 
@@ -730,8 +708,7 @@ The CD4013 IC flip-flop is called a D flip-flop type to characterize its behavio
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4013_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4013_LIGHT.svg">
-  <img alt="Schematic of CD4013 IC flip-flop." src="/img/CD4013_LIGHT.svg">
+  <img alt="Pinout of the CD4013 IC (on the left) and a schematic symbol representing the individual gates of the CD4013 IC flip-flop (right side)." src="/img/CD4013_LIGHT.svg">
 </picture>
 
 
@@ -791,8 +768,7 @@ Divide by 2: **/Q1** connected to input Data
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/CD4018_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/CD4018_LIGHT.svg">
-  <img alt="Schematic of CD4018, Divide-By-'N' Counter." src="/img/CD4018_LIGHT.svg">
+  <img alt="On the left: Pinout of the CD4018 IC. In the middle: a schematic symbol representing the individual gates of the divide-by-'N' counter. On the right: Circuit configuration for building a divide-by-3 counter." src="/img/CD4018_LIGHT.svg">
 </picture>
 
 
@@ -832,8 +808,7 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/555_Timer_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/555_Timer_LIGHT.svg">
-  <img alt="Functional diagram of the 555 timer." src="/img/555_Timer_LIGHT.svg">
+  <img alt="On the left: Pinout of the 555 timer. On the right: Functional diagram of the internal circuit of the 555 timer." src="/img/555_Timer_LIGHT.svg">
 </picture>
 
 
@@ -855,8 +830,7 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/555_Astable_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/555_Astable_LIGHT.svg">
-  <img alt="Astable operation." src="/img/555_Astable_LIGHT.svg">
+  <img alt="Schematic of the 555 timer IC connected as an astable multivibrator." src="/img/555_Astable_LIGHT.svg">
 </picture>
 
 In the astable configuration or multivibrator mode, the circuit generates a string of pulses by retriggering itself. Different values for $R_A$ and $R_B$ allow for changing the ratio of the high time and the low time. A low at reset pin 4 stops the oscillation.
@@ -866,8 +840,7 @@ The time to complete one cycle (high and low) can be calculated with $T=  ln(2) 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/555_Mono_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/555_Mono_LIGHT.svg">
-  <img alt="Monostable operation." src="/img/555_Mono_LIGHT.svg">
+  <img alt="Schematic of the 555 timer IC for monostable operation." src="/img/555_Mono_LIGHT.svg">
 </picture>
 
 
@@ -887,8 +860,7 @@ Although not part of the CMOS logic family this ubiquitous power op amp is a ver
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/LM386_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/LM386_LIGHT.svg">
-  <img alt="LM386 - Power Operational Amplifier." src="/img/LM386_LIGHT.svg">
+  <img alt="On the left: Pinout of the LM386 - Power Operational Amplifier IC. On the right: Circuit diagram showing the external configuration of the LM386 with a amplification factor of 200" src="/img/LM386_LIGHT.svg">
 </picture>
 
 
@@ -931,8 +903,7 @@ Passive mixing is a very simple method that can be accomplished by using resisto
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/passive_mixing_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/passive_mixing_LIGHT.svg">
-  <img alt="Passive mixer." src="/img/passive_mixing_LIGHT.svg">
+  <img alt="On the left: Schematic diagram of a passive mixer with resistors. On the right: The formula to calculate the output voltage according to Millman's theorem." src="/img/passive_mixing_LIGHT.svg">
 </picture>
 
 
@@ -945,8 +916,7 @@ For most audio applications it is desired to control the portion of each input s
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/Active_Mixing_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/Active_Mixing_LIGHT.svg">
-  <img alt="Single supply active mixing." src="/img/Active_Mixing_LIGHT.svg">
+  <img alt="On the left: Pinout of the LM 358 operational amplifier. On the right: Schematic for a single supply active mixer." src="/img/Active_Mixing_LIGHT.svg">
 </picture>
 
 
@@ -971,8 +941,7 @@ Tone control, modifying the frequency spectrum of a signal or creative equalizat
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/Passive_Filter_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/Passive_Filter_LIGHT.svg">
-  <img alt="Passive Filter." src="/img/Passive_Filter_LIGHT.svg">
+  <img alt="On the upper left side: schematic of a passive low-pass filter. On the upper right side: Diagram showing the frequency response of an analog, passive low-pass filter. On the bottom left side: schematic of a passive high-pass filter. On the bottom right side: Diagram showing the frequency response of an analog, passive hight-pass filter" src="/img/Passive_Filter_LIGHT.svg">
 </picture>
 
 
@@ -1036,8 +1005,7 @@ When external circuits or devices are added to a logic input, care must be taken
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/pull-up_pull-down_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/pull-up_pull-down_LIGHT.svg">
-  <img alt="Schematic of pull-up and pull-down resistors with logic gate inputs." src="/img/pull-up_pull-down_LIGHT.svg">
+  <img alt="Schematic of pull-up and pull-down resistors with logic gate inputs. Left: Pull-up configuration. Right: Pull-down configuration." src="/img/pull-up_pull-down_LIGHT.svg">
 </picture>
 
 
@@ -1055,7 +1023,6 @@ A linear feedback shift register (LFSR) can be used for generating deterministic
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/basic_LFSR_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/basic_LFSR_LIGHT.svg">
   <img alt="Simplified schematic of an LFSR." src="/img/basic_LFSR_LIGHT.svg">
 </picture>
 
@@ -1092,7 +1059,7 @@ This circuit for a step sequencer is shown in N. Collins book 'Handmade Electron
 
 
 
-![Step_Sequencer_Waveform](/img/Step_Sequencer_Waveform_DSO.jpg)
+![Step_Sequencer Waveform](/img/Step_Sequencer_Waveform_DSO.jpg)
 *Input voltage (blue graph) and VCO frequency (yellow graph) of the CD4046.*
 <br>
 <br>
@@ -1115,8 +1082,7 @@ The output of the VCO can be gated with the clock source through a CMOS switch, 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/Step-Sequencer_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/Step-Sequencer_LIGHT.svg">
-  <img alt="CMOS step sequencer after N. Collins." src="/img/Step-Sequencer_LIGHT.svg">
+  <img alt="Schematic of a CMOS step sequencer after N. Collins." src="/img/Step-Sequencer_LIGHT.svg">
 </picture>
 
 
