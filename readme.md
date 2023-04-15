@@ -21,51 +21,51 @@ The following is a documentation of the seminar's study materials and findings.
 
 <div align="center">
  
-[**TABLE OF CONTENTS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#table-of-contents)
+[**TABLE OF CONTENTS**](/readme.md#table-of-contents)
 </div>
 
 
 ***
-[**INTRODUCTION**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#introduction)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Unconventional Electronic Sound](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#unconventional-electronic-sound)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CMOS Chips for Sound Creation](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cmos-chips-for-sound-creation)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Basic Example](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#basic-example)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Logic Control](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#logic-control)
+[**INTRODUCTION**](/readme.md#introduction)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Unconventional Electronic Sound](/readme.md#unconventional-electronic-sound)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CMOS Chips for Sound Creation](/readme.md#cmos-chips-for-sound-creation)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Basic Example](/readme.md#basic-example)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Logic Control](/readme.md#logic-control)
 <br>
 
 
 
 ***
-[**ELECTRONIC COMPONENTS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#electronic-components)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Numerical Index](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#numerical-index)
+[**ELECTRONIC COMPONENTS**](/readme.md#electronic-components)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Numerical Index](/readme.md#numerical-index)
 <br>
 
 ***
-[**BASIC PRINCIPLES AND APPLICATIONS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#basic-principles-and-applications)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Signal Mixing](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#mixing)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Passive Filters](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#passive-filters)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pull-up and Pull-down Resistors](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pull-up-and-pull-down-resistors)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linear Feedback Shift Register](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#linear-feedback-shift-register)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step Sequencer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#step-sequencer-under-construction)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Voltage Starve](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#voltage-starve)
+[**BASIC PRINCIPLES AND APPLICATIONS**](/readme.md#basic-principles-and-applications)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Signal Mixing](/readme.md#mixing)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Passive Filters](/readme.md#passive-filters)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pull-up and Pull-down Resistors](/readme.md#pull-up-and-pull-down-resistors)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linear Feedback Shift Register](/readme.md#linear-feedback-shift-register)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step Sequencer](/readme.md#step-sequencer-under-construction)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Voltage Starve](/readme.md#voltage-starve)
 <br>
 
 ***
-[**WORKS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#works)\
+[**WORKS**](/readme.md#works)\
 <br>
 
 ***
-[**MATERIALS**](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#Materials)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Requirements](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#requirements)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bill of Materials](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#bill-of-materials)
+[**MATERIALS**](/readme.md#Materials)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Requirements](/readme.md#requirements)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bill of Materials](/readme.md#bill-of-materials)
 <br>
 
 ***
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Literature](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#literature)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Literature](/readme.md#literature)
 <br>
 
 ***
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[License](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#license)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[License](/readme.md#license)
 
 
 <br>
@@ -188,7 +188,7 @@ However, manufacturing tolerances of all involved parts make it difficult to ach
 A logic gate is a single input - output device, designed to carry out a specific [Boolean operation](https://en.wikipedia.org/wiki/Boolean_algebra "Boolean algebra"), mapped to two voltage levels. Over time, the two alternating voltage levels may form a periodic rectangular waveform and the speed of switching between the two levels is perceived as pitch. Aperiodic switching will produce other sonic qualities such as noise or all kinds of texturized sounds. The ratio between the on- and off-states is by default close to 1:1, a 50% [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle "duty cycle"). Further circuitry is needed to change this ratio, which alters the ratio of the amplitudes of the harmonic components to the fundamental.
 
 
-In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/wiki/Binary_number "binary number") are represented by two defined voltage levels that are specified by the used technology and circuit. Everything below a certain voltage threshold level is recognized as 0 and everything above a certain threshold level is recognized as 1. A voltage level in between the two thresholds is not defined or forbidden and will produce false output triggers. CMOS digital inputs have a high impedance and pick up thermal noise voltages if left floating. Unused inputs should be tied to a defined voltage. Other input configurations (e.g. taster, toggle switches,) require [pull-up or pull-down resistors](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pull-up-and-pull-down-resistors "pull-up or pull-down"). The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF". 
+In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/wiki/Binary_number "binary number") are represented by two defined voltage levels that are specified by the used technology and circuit. Everything below a certain voltage threshold level is recognized as 0 and everything above a certain threshold level is recognized as 1. A voltage level in between the two thresholds is not defined or forbidden and will produce false output triggers. CMOS digital inputs have a high impedance and pick up thermal noise voltages if left floating. Unused inputs should be tied to a defined voltage. Other input configurations (e.g. taster, toggle switches,) require [pull-up or pull-down resistors](/readme.md#pull-up-and-pull-down-resistors "pull-up or pull-down"). The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF". 
 
 
 <!-- IMAGE -->
@@ -219,19 +219,19 @@ The [square wave](https://en.wikipedia.org/wiki/Square_wave "Square wave") conta
 The following is a list of CMOS chips and other integrated circuits for sound creation and processing. This list will be constantly extended during the seminar. It outlines for each chip its main applications and gives a short explanation. Pinout, functional diagram, truth tables and some basic example circuits are also shown. However, the overview is not completed with these examples and the main approach is to find variations, modifications or new creative combinations for experimental sound and music. Please refer to the manufacturer's technical data sheet for more detailed information.
 
 ## Numerical Index
-[CD40106](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd40106)\
-[CD4093](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4093)\
-[CD4070](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4070)\
-[CD4015](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4015)\
-[CD4022](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4022)\
-[CD4040](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4040)\
-[CD4046](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4046)\
-[CD405x](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd405x)\
-[CD4066](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4066)\
-[CD4060](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4060)\
-[CD4013](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4013)\
-[CD4018](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4018-under-construction)\
-[555 Timer](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#555-timer-under-construction)\
+[CD40106](/readme.md#cd40106)\
+[CD4093](/readme.md#cd4093)\
+[CD4070](/readme.md#cd4070)\
+[CD4015](/readme.md#cd4015)\
+[CD4022](/readme.md#cd4022)\
+[CD4040](/readme.md#cd4040)\
+[CD4046](/readme.md#cd4046)\
+[CD405x](/readme.md#cd405x)\
+[CD4066](/readme.md#cd4066)\
+[CD4060](/readme.md#cd4060)\
+[CD4013](/readme.md#cd4013)\
+[CD4018](/readme.md#cd4018-under-construction)\
+[555 Timer](/readme.md#555-timer-under-construction)\
 [LM386](https://github.com/SCLW/Circuitry-Based-Sound#lm386---power-operational-amplifier-under-construction)
 
 
@@ -249,9 +249,8 @@ The inverter is a basic part in digital electronics and performs the logic opera
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_LIGHT.svg">
-  <img alt="CD40106 hex Schmitt trigger inverter." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD40106_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD40106_DARK.svg">
+  <img alt="Pinout of the CD40106 IC and a schematic of a CMOS oscillator built with CD40106 hex Schmitt trigger inverter." src="/img/CD40106_LIGHT.svg">
 </picture>
 
 
@@ -284,22 +283,21 @@ It acts as a square wave oscillator when the inputs are connected to form an inv
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093_Button_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093_Button_LIGHT.svg">
-  <img alt="Schematic of an oscillator controlled by a push button." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093_Button_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4093_Button_DARK.svg">
+  <img alt="Schematic of an oscillator controlled by a push button." src="/img/CD4093_Button_LIGHT.svg">
 </picture>
 
 
 
-Oscillators built with 2 input NAND Schmitt triggers can be switched on and off manually by using a push button. If the push button is not pressed (normally open) the logical low at the second input will always cause a logical high at the output, no matter which state is present at the other input (see NAND truth table). The image above shows how to set up a normally open push button as an ON switch to control the sound. A [pull down resistor](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#pull-up-and-pull-down-resistors) defines the logic state at the input when the push button is open. When the push button is closed, the power supply produces a logical high and the NAND gate oscillates. This way, the second input acts as a control input for gating the oscillator. Instead of a manually controlled push button, a logic signal can be applied to the second input.
+Oscillators built with 2 input NAND Schmitt triggers can be switched on and off manually by using a push button. If the push button is not pressed (normally open) the logical low at the second input will always cause a logical high at the output, no matter which state is present at the other input (see NAND truth table). The image above shows how to set up a normally open push button as an ON switch to control the sound. A [pull down resistor](/readme.md#pull-up-and-pull-down-resistors) defines the logic state at the input when the push button is open. When the push button is closed, the power supply produces a logical high and the NAND gate oscillates. This way, the second input acts as a control input for gating the oscillator. Instead of a manually controlled push button, a logic signal can be applied to the second input.
 
 
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093_Gated_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093_Gated_LIGHT.svg">
-  <img alt="Schematic of a gated oscillator." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4093_Gated_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4093_Gated_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4093_Gated_LIGHT.svg">
+  <img alt="Schematic of a gated oscillator." src="/img/CD4093_Gated_LIGHT.svg">
 </picture>
 
 
@@ -337,9 +335,9 @@ CD4077 is the Exclusive-NOR version.
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070_LIGHT.svg">
-  <img alt="Digital frequency mixing with CD4070." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4070_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4070_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4070_LIGHT.svg">
+  <img alt="Digital frequency mixing with CD4070." src="/img/CD4070_LIGHT.svg">
 </picture>
 
 
@@ -380,14 +378,14 @@ A shift register is built of a series of interconnected [flip-flops](https://en.
 *Applications:*
 * Sequencer
 * Noise Generator
-* Linear-feedback Shift Register ([LFSR](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#linear-feedback-shift-register "LFSR"))
+* Linear-feedback Shift Register ([LFSR](/readme.md#linear-feedback-shift-register "LFSR"))
 
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4015_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4015_LIGHT.svg">
-  <img alt="CD4015 four stage shift register." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4015_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4015_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4015_LIGHT.svg">
+  <img alt="CD4015 four stage shift register." src="/img/CD4015_LIGHT.svg">
 </picture>
 
 
@@ -428,26 +426,26 @@ CD4022 and CD4017 ICs implement a binary counter/divider function with 8 outputs
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_LIGHT.svg">
-  <img alt="Digital frequency mixing." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4022_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4022_LIGHT.svg">
+  <img alt="Digital frequency mixing." src="/img/CD4022_LIGHT.svg">
 </picture>
 
 <!--
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_anim.gif>
+<img src=/img/CD4022_anim.gif>
 -->
 
 <!--
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_animated.gif>
+<img src=/img/CD4022_animated.gif>
 -->
 
 
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_Outputs_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_Outputs_LIGHT.svg">
-  <img alt="CD4022 timing diagram." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4022_Outputs_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4022_Outputs_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4022_Outputs_LIGHT.svg">
+  <img alt="CD4022 timing diagram." src="/img/CD4022_Outputs_LIGHT.svg">
 </picture>
 
 
@@ -472,9 +470,9 @@ Control input "reset" triggers all output stages to "low". For continuous freque
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_LIGHT.svg">
-  <img alt="CD4040 frequency divider." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4040_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4040_LIGHT.svg">
+  <img alt="CD4040 frequency divider." src="/img/CD4040_LIGHT.svg">
 </picture>
 
 
@@ -488,9 +486,9 @@ The timing diagram shows the relation of voltage levels between all outputs of t
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_Outputs_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_Outputs_LIGHT.svg">
-  <img alt="CD4040 timing diagram." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4040_Outputs_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4040_Outputs_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4040_Outputs_LIGHT.svg">
+  <img alt="CD4040 timing diagram." src="/img/CD4040_Outputs_LIGHT.svg">
 </picture>
 
 
@@ -514,9 +512,9 @@ Phase locked loop
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4046_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4046_LIGHT.svg">
-  <img alt="CD4046 phase locked loop." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4046_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4046_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4046_LIGHT.svg">
+  <img alt="CD4046 phase locked loop." src="/img/CD4046_LIGHT.svg">
 </picture>
 
 
@@ -555,14 +553,14 @@ CD4051 is a switch in a single pole octal throw configuration with three binary 
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_LIGHT.svg">
-  <img alt="Schematic of CD4051 single pole octal throw CMOS switch." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4051_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4051_LIGHT.svg">
+  <img alt="Schematic of CD4051 single pole octal throw CMOS switch." src="/img/CD4051_LIGHT.svg">
 </picture>
 
 
 <!--
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4051_animated.gif>
+<img src=/img/CD4051_animated.gif>
 -->
 
 
@@ -589,9 +587,9 @@ CD4052 can be used for multiplexing one differential channel in a double-pole qu
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4052_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4052_LIGHT.svg">
-  <img alt="Schematic of CD4052 double-pole quad-throw CMOS switch." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4052_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4052_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4052_LIGHT.svg">
+  <img alt="Schematic of CD4052 double-pole quad-throw CMOS switch." src="/img/CD4052_LIGHT.svg">
 </picture>
 
 
@@ -619,9 +617,9 @@ When the control signal is less than 1/3 V<sub>DD</sub>, z is connected to x0. W
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4053_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4053_LIGHT.svg">
-  <img alt="Schematic of CD4053, containing three single-pole double-throw CMOS switches." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4053_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4053_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4053_LIGHT.svg">
+  <img alt="Schematic of CD4053, containing three single-pole double-throw CMOS switches." src="/img/CD4053_LIGHT.svg">
 </picture>
 
 Truth table for the CD4053  
@@ -666,13 +664,13 @@ control logic 0 = switch off
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4066_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4066_LIGHT.svg">
-  <img alt="Schematic of CD4066, containing four single-pole single-throw CMOS switches." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4066_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4066_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4066_LIGHT.svg">
+  <img alt="Schematic of CD4066, containing four single-pole single-throw CMOS switches." src="/img/CD4066_LIGHT.svg">
 </picture>
 
 <!--
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4066_anim.gif>
+<img src=/img/CD4066_anim.gif>
 -->
 
 <!--
@@ -680,7 +678,7 @@ The following example shows a single pole double throw (SPDT) configuration buil
 -->
 
 <!--
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4066_Ping-pong_Stereo.jpg>
+<img src=/img/CD4066_Ping-pong_Stereo.jpg>
 -->
 
 [CD4066 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4066b.pdf?ts=1608449210166&ref_url=https%253A%252F%252Fwww.google.com%252F "CD4066")
@@ -704,9 +702,9 @@ The following example shows a single pole double throw (SPDT) configuration buil
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4060_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4060_LIGHT.svg">
-  <img alt="Schematic of CD4060, 14 stage binary counter/divider and oscillator." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4060_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4060_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4060_LIGHT.svg">
+  <img alt="Schematic of CD4060, 14 stage binary counter/divider and oscillator." src="/img/CD4060_LIGHT.svg">
 </picture>
 
 
@@ -731,9 +729,9 @@ The CD4013 IC flip-flop is called a D flip-flop type to characterize its behavio
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4013_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4013_LIGHT.svg">
-  <img alt="Schematic of CD4013 IC flip-flop." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4013_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4013_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4013_LIGHT.svg">
+  <img alt="Schematic of CD4013 IC flip-flop." src="/img/CD4013_LIGHT.svg">
 </picture>
 
 
@@ -792,9 +790,9 @@ Divide by 2: **/Q1** connected to input Data
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4018_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4018_LIGHT.svg">
-  <img alt="Schematic of CD4018, Divide-By-'N' Counter." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/CD4018_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/CD4018_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/CD4018_LIGHT.svg">
+  <img alt="Schematic of CD4018, Divide-By-'N' Counter." src="/img/CD4018_LIGHT.svg">
 </picture>
 
 
@@ -833,9 +831,9 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer_LIGHT.svg">
-  <img alt="Functional diagram of the 555 timer." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Timer_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/555_Timer_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/555_Timer_LIGHT.svg">
+  <img alt="Functional diagram of the 555 timer." src="/img/555_Timer_LIGHT.svg">
 </picture>
 
 
@@ -856,9 +854,9 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Astable_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Astable_LIGHT.svg">
-  <img alt="Astable operation." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Astable_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/555_Astable_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/555_Astable_LIGHT.svg">
+  <img alt="Astable operation." src="/img/555_Astable_LIGHT.svg">
 </picture>
 
 In the astable configuration or multivibrator mode, the circuit generates a string of pulses by retriggering itself. Different values for $R_A$ and $R_B$ allow for changing the ratio of the high time and the low time. A low at reset pin 4 stops the oscillation.
@@ -867,9 +865,9 @@ The time to complete one cycle (high and low) can be calculated with $T=  ln(2) 
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Mono_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Mono_LIGHT.svg">
-  <img alt="Monostable operation." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/555_Mono_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/555_Mono_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/555_Mono_LIGHT.svg">
+  <img alt="Monostable operation." src="/img/555_Mono_LIGHT.svg">
 </picture>
 
 
@@ -888,9 +886,9 @@ Although not part of the CMOS logic family this ubiquitous power op amp is a ver
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM386_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM386_LIGHT.svg">
-  <img alt="LM386 - Power Operational Amplifier." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/LM386_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/LM386_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/LM386_LIGHT.svg">
+  <img alt="LM386 - Power Operational Amplifier." src="/img/LM386_LIGHT.svg">
 </picture>
 
 
@@ -932,9 +930,9 @@ Passive mixing is a very simple method that can be accomplished by using resisto
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/passive_mixing_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/passive_mixing_LIGHT.svg">
-  <img alt="Passive mixer." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/passive_mixing_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/passive_mixing_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/passive_mixing_LIGHT.svg">
+  <img alt="Passive mixer." src="/img/passive_mixing_LIGHT.svg">
 </picture>
 
 
@@ -946,9 +944,9 @@ For most audio applications it is desired to control the portion of each input s
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Active_Mixing_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Active_Mixing_LIGHT.svg">
-  <img alt="Single supply active mixing." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Active_Mixing_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/Active_Mixing_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/Active_Mixing_LIGHT.svg">
+  <img alt="Single supply active mixing." src="/img/Active_Mixing_LIGHT.svg">
 </picture>
 
 
@@ -972,9 +970,9 @@ Tone control, modifying the frequency spectrum of a signal or creative equalizat
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Passive_Filter_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Passive_Filter_LIGHT.svg">
-  <img alt="Passive Filter." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Passive_Filter_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/Passive_Filter_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/Passive_Filter_LIGHT.svg">
+  <img alt="Passive Filter." src="/img/Passive_Filter_LIGHT.svg">
 </picture>
 
 
@@ -983,16 +981,16 @@ Tone control, modifying the frequency spectrum of a signal or creative equalizat
 
 A potentiometer is a passive, mechanical component inside a housing. It consists of a resistive track and a movable contact, called wiper, whose position along the resistive element can be set with an actuator. The two ends of the resistive element and the end of the wiper can be accessed from outside the housing. The total resistance between the end terminals can be gradually divided into two resistance values between the respective ends of the element and the wiper.
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Potentiometer_Actuator.jpg>
+<img src=/img/Potentiometer_Actuator.jpg>
 a) housing, b) terminals, c) actuator, d) resistive track, e) wiper
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Potentiometer_Equivalent.jpg>
+<img src=/img/Potentiometer_Equivalent.jpg>
 
 
 If one end and the wiper are used, the potentiometer forms a variable resistor.
 A variable voltage divider circuit can be configured by connecting a voltage (supply voltage or signal) to one of the outside pins, while the remaining outside pin is connected to GND. A voltage can be tapped at the middle pin that can be adjusted by setting the actuator. For instance, from one end point location to the other, the input voltage can be scaled from minimum to maximum. This can be used for volume control.
 
-<img src=https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Volume_Control_Variable.jpg>
+<img src=/img/Volume_Control_Variable.jpg>
 -->
 
 <!--
@@ -1001,13 +999,13 @@ A variable voltage divider circuit can be configured by connecting a voltage (su
 Most approaches for touch-sensitive circuits make use of the resistance or conductivity of the human skin to alter the voltage of one section within a circuit compared to a defined voltage reference. A simple touch switch is based on a NAND logic gate with one of the inputs connected to V<sub>DD</sub> and the other connected in a pull-up configuration via a high value resistor (several MΩ) to V<sub>DD</sub> . A layout for a touch point consists of two conductive areas, electrically separated but close together, where one part is connected to the pulled-up input and the second part is connected to ground. Without touching the conductive area, both logic inputs are high. When a finger is shorting the touch point, the finger's resistance forms a voltage divider together with the pull-up resistor. The resistance of the human skin varies greatly depending on conditions like humidity. Values from several thousands to more than 100kΩ can be assumed. The resulting voltage at the respective input is fairly low and equates a logical 0. In a NAND gate, this condition forces the output to go high, as long as both inputs are different.
 
 
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Resistive_Touch.jpg">
+<img src="/img/Resistive_Touch.jpg">
 
 
 
 The piezo electric effect describes that a voltage is generated when a mechanical strain is applied to specific crystalline or ceramic materials. They are commercially manufactured as small discs for various shock/impact sensing applications and loudspeakers, since the inverse piezo electric effect is causing the material to vibrate when an electrical audio signal is applied. A comparator can compare the voltage of the piezo with a reference threshold voltage level. If the voltage level generated by the piezo disc exceeds or falls below the reference threshold, the comparator circuit outputs either a high or a low. 
 
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Piezo_Trigger_Comparator.jpg">
+<img src="/img/Piezo_Trigger_Comparator.jpg">
 
 Most voltage comparators use open-collector output stages. If the inverting input has a higher potential than the non-inverting input, the output transistor is open and together with the pull-up resistor, a dedicated trigger impulse is generated.
 
@@ -1018,12 +1016,12 @@ For many applications, the rather short voltage spike of a piezo element needs t
 
 Another approach for sensing a touch or the proximity of human fingers or hands is based on capacitance. In CMOS circuits it can be used for controlling pitch. This method of touch control uses the parasitic capacitance between two conductive areas (electrodes) within a circuit. When a high frequency is applied to the two conductive areas, they create an electric field that stores opposite electric charges and act like plates of a capacitor. The electrodes are placed in parallel to a capacitor that forms an RC network together with a resistor. The RC network in turn defines the time constant of an astable multivibrator. When a finger or stylus is brought in close proximity to the electric field, it changes the capacitance and therefore the frequency of the multivibrator. When the electrodes are touched, the finger or stylus changes the dielectric constant. The dielectric is the material between the electrodes. The alterations of capacitance is linear to the force of the touch. The electrodes should be insulated with conformal coating or a thin adhesive strip.
 
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Capacitive_Touch_02_edit.JPG">
+<img src="/img/Capacitive_Touch_02_edit.JPG">
 
 
-The [CD4060](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4060 "CD4060") has a built-in oscillator configuration that can be used to generate such a high frequency that is applied to, for example, two copper areas. The output is then fed into the binary counter function for frequency division to generate an audio signal. Various forms of electrodes had been tested using thin copper strips using a cutting plotter.
+The [CD4060](/readme.md#cd4060 "CD4060") has a built-in oscillator configuration that can be used to generate such a high frequency that is applied to, for example, two copper areas. The output is then fed into the binary counter function for frequency division to generate an audio signal. Various forms of electrodes had been tested using thin copper strips using a cutting plotter.
 
-<img src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Touch-Sensing_Diagram.jpg">
+<img src="/img/Touch-Sensing_Diagram.jpg">
 
 -->
 
@@ -1037,9 +1035,9 @@ When external circuits or devices are added to a logic input, care must be taken
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/pull-up_pull-down_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/pull-up_pull-down_LIGHT.svg">
-  <img alt="Schematic of pull-up and pull-down resistors with logic gate inputs." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/pull-up_pull-down_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/pull-up_pull-down_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/pull-up_pull-down_LIGHT.svg">
+  <img alt="Schematic of pull-up and pull-down resistors with logic gate inputs." src="/img/pull-up_pull-down_LIGHT.svg">
 </picture>
 
 
@@ -1051,14 +1049,14 @@ Even unused logic gates can cause problems since coupled-in interference voltage
 
 ### Linear Feedback Shift Register
 
-A linear feedback shift register (LFSR) can be used for generating deterministic pseudorandomness. In terms of electronic sound production it can be used to build a noise source. An LFSR consists of n numbers of flip-flops which are connected in series to form a shift register as described for the [CD4015](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4015). This shift register is controlled by a clock that triggers the shift process. Two junctions at a specific position within that chain of flip-flops are directed into an XOR logic gate. The resulting value is fed back into the first register. The number of stages can be extended by connecting multiple devices. The produced values are determined by the shift register's current states and total length. Since the states are finite it will repeat after a certain number of steps. The goal is to choose those taps that form the longest possible sequence of zeros and ones before they repeat. Other implementations of an LFSR exist and work similarly. To activate an LFSR each stage needs to be loaded with an initial value. This is called the seed. By using an XOR function for the feedback, having the value 0 in all flip-flops is forbidden. By using an XNOR function it is forbidden to set all flip-flops to 1. A maximum-length sequence is therefore 2<sup>n</sup> - 1. No matter if XOR or XNOR functions are used, the sequences will have the same length. The duration of one cycle is determined by the clock frequency. When looked at a shift register from the viewpoint of a musician, the long LFSR arrangements will create white and pink noise when controlled with a high frequency (several ten thousands of hertz). Shorter cycles produce grainy tones, stuttering textures or short noise loops.
+A linear feedback shift register (LFSR) can be used for generating deterministic pseudorandomness. In terms of electronic sound production it can be used to build a noise source. An LFSR consists of n numbers of flip-flops which are connected in series to form a shift register as described for the [CD4015](/readme.md#cd4015). This shift register is controlled by a clock that triggers the shift process. Two junctions at a specific position within that chain of flip-flops are directed into an XOR logic gate. The resulting value is fed back into the first register. The number of stages can be extended by connecting multiple devices. The produced values are determined by the shift register's current states and total length. Since the states are finite it will repeat after a certain number of steps. The goal is to choose those taps that form the longest possible sequence of zeros and ones before they repeat. Other implementations of an LFSR exist and work similarly. To activate an LFSR each stage needs to be loaded with an initial value. This is called the seed. By using an XOR function for the feedback, having the value 0 in all flip-flops is forbidden. By using an XNOR function it is forbidden to set all flip-flops to 1. A maximum-length sequence is therefore 2<sup>n</sup> - 1. No matter if XOR or XNOR functions are used, the sequences will have the same length. The duration of one cycle is determined by the clock frequency. When looked at a shift register from the viewpoint of a musician, the long LFSR arrangements will create white and pink noise when controlled with a high frequency (several ten thousands of hertz). Shorter cycles produce grainy tones, stuttering textures or short noise loops.
 
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/basic_LFSR_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/basic_LFSR_LIGHT.svg">
-  <img alt="Simplified schematic of an LFSR." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/basic_LFSR_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/basic_LFSR_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/basic_LFSR_LIGHT.svg">
+  <img alt="Simplified schematic of an LFSR." src="/img/basic_LFSR_LIGHT.svg">
 </picture>
 
 
@@ -1090,11 +1088,11 @@ Depending on the desired operation, other applicable devices may be CD4094, CD40
 
 ## Step Sequencer (under construction)
 
-This circuit for a step sequencer is shown in N. Collins book 'Handmade Electronic Music'. It makes use of the built-in voltage controlled oscillator (VCO) of the [CD4046](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4046 "CD4046") Phase-Locked Loop. The voltage levels of the output pulses of the [CD4022](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/readme.md#cd4022 "CD4022") counter can be scaled down by the potentiometer voltage dividers and are mixed together via the [diodes](https://en.wikipedia.org/wiki/Diode "Diode") D1-D8 (1N4148). The CD4046’s voltage controlled oscillator is then generating a frequency according to the input voltage level. Therefore, each step Q0-Q7 of the CD4022 can be used to produce a single tone.
+This circuit for a step sequencer is shown in N. Collins book 'Handmade Electronic Music'. It makes use of the built-in voltage controlled oscillator (VCO) of the [CD4046](/readme.md#cd4046 "CD4046") Phase-Locked Loop. The voltage levels of the output pulses of the [CD4022](/readme.md#cd4022 "CD4022") counter can be scaled down by the potentiometer voltage dividers and are mixed together via the [diodes](https://en.wikipedia.org/wiki/Diode "Diode") D1-D8 (1N4148). The CD4046’s voltage controlled oscillator is then generating a frequency according to the input voltage level. Therefore, each step Q0-Q7 of the CD4022 can be used to produce a single tone.
 
 
 
-![Step_Sequencer_Waveform](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Step_Sequencer_Waveform_DSO.jpg)
+![Step_Sequencer_Waveform](/img/Step_Sequencer_Waveform_DSO.jpg)
 *Input voltage (blue graph) and VCO frequency (yellow graph) of the CD4046.*
 <br>
 <br>
@@ -1116,9 +1114,9 @@ The output of the VCO can be gated with the clock source through a CMOS switch, 
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Step-Sequencer_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Step-Sequencer_LIGHT.svg">
-  <img alt="CMOS step sequencer after N. Collins." src="https://github.com/SCLW/Circuitry-Based-Sound/blob/master/img/Step-Sequencer_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/img/Step-Sequencer_DARK.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/img/Step-Sequencer_LIGHT.svg">
+  <img alt="CMOS step sequencer after N. Collins." src="/img/Step-Sequencer_LIGHT.svg">
 </picture>
 
 
@@ -1189,7 +1187,7 @@ Helpful tools and useful materials:
 
 ## Bill of Materials
 
-A list with parts that can be used for this project, is available in the folder [BOM](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/BOM/Readme.md#bill-of-material "Bill of Material")
+A list with parts that can be used for this project, is available in the folder [BOM](/BOM/Readme.md#bill-of-material "Bill of Material")
 All parts can be substituted with alternative components and equivalent foot prints.
 
 
@@ -1323,7 +1321,7 @@ http://nomni.com/<br>
 
 ## License
 
-The content of this documentation is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/ "CC BY 3.0"), software is licensed under the MIT License - see the [LICENSE.md](https://github.com/SCLW/Circuitry-Based-Sound/blob/master/MIT%20License.md) file for details. Copyright remains with the author(s)
+The content of this documentation is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/ "CC BY 3.0"), software is licensed under the MIT License - see the [LICENSE.md](/MIT%20License.md) file for details. Copyright remains with the author(s)
 <br>
 <br>
 <br>
