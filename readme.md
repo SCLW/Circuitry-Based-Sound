@@ -209,20 +209,20 @@ The [square wave](https://en.wikipedia.org/wiki/Square_wave "Square wave") conta
 The following is a list of CMOS chips and other integrated circuits for sound creation and processing. This list will be constantly extended during the seminar. It outlines for each chip its main applications and gives a short explanation. Pinout, functional diagram, truth tables and some basic example circuits are also shown. However, the overview is not completed with these examples and the main approach is to find variations, modifications or new creative combinations for experimental sound and music. Please refer to the manufacturer's technical data sheet for more detailed information.
 
 ## Numerical Index
-[CD40106](/readme.md#cd40106)\
-[CD4093](/readme.md#cd4093)\
-[CD4070](/readme.md#cd4070)\
-[CD4015](/readme.md#cd4015)\
-[CD4022](/readme.md#cd4022)\
-[CD4040](/readme.md#cd4040)\
-[CD4046](/readme.md#cd4046)\
-[CD405x](/readme.md#cd405x)\
-[CD4066](/readme.md#cd4066)\
-[CD4060](/readme.md#cd4060)\
-[CD4013](/readme.md#cd4013)\
-[CD4018](/readme.md#cd4018-under-construction)\
-[555 Timer](/readme.md#555-timer-under-construction)\
-[LM386](https://github.com/SCLW/Circuitry-Based-Sound#lm386---power-operational-amplifier-under-construction)
+- [CD40106](/readme.md#cd40106)
+- [CD4093](/readme.md#cd4093)
+- [CD4070](/readme.md#cd4070)
+- [CD4015](/readme.md#cd4015)
+- [CD4022](/readme.md#cd4022)
+- [CD4040](/readme.md#cd4040)
+- [CD4046](/readme.md#cd4046)
+- [CD405x](/readme.md#cd405x)
+- [CD4066](/readme.md#cd4066)
+- [CD4060](/readme.md#cd4060)
+- [CD4013](/readme.md#cd4013)
+- [CD4018](/readme.md#cd4018-under-construction)
+- [555 Timer](/readme.md#555-timer-under-construction)
+- [LM386](https://github.com/SCLW/Circuitry-Based-Sound#lm386---power-operational-amplifier-under-construction)
 
 
 
