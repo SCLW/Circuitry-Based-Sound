@@ -94,7 +94,6 @@ Another concept of creating sound with electronics derived from techniques like 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/img/Switching_Circuit_DARK.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/img/Switching_Circuit_LIGHT.svg">
   <img alt="Boolean logic as switching circuit." src="/img/Switching_Circuit_LIGHT.svg">
 </picture>
 
