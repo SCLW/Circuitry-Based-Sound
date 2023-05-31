@@ -822,8 +822,8 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/555_Astable_DARK.svg">
-  <img alt="Schematic of the 555 timer IC connected as an astable multivibrator." src="/Img/555_Astable_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/Img/555_Mono_Timing_DARK.svg">
+  <img alt="Schematic of the 555 timer IC connected as an astable multivibrator." src="/Img/555_Mono_Timing_LIGHT.svg">
 </picture>
 
 In the astable configuration or multivibrator mode, the circuit generates a string of pulses by retriggering itself. Different values for $R_A$ and $R_B$ allow for changing the ratio of the high time and the low time. A low at reset pin 4 stops the oscillation.
@@ -833,16 +833,9 @@ The time to complete one cycle (high and low) can be calculated with $T=  ln(2) 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/Img/555_Mono_DARK.svg">
-  <img alt="Schematic of the 555 timer IC for monostable operation." src="/Img/555_Mono_LIGHT.svg">
+  <img alt="Schematic of the 555 timer IC for monostable operation including timing diagram." src="/Img/555_Mono_LIGHT.svg">
 </picture>
 
-
-<!-- IMAGE -->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/555_Timing_Diagram_DARK.svg">
-  <img alt="Timing Diagram of the 555 timer IC for monostable operation." src="/Img/555_Timing_Diagram_LIGHT.svg">
-</picture>
 
 
 
