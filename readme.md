@@ -837,6 +837,15 @@ The time to complete one cycle (high and low) can be calculated with $T=  ln(2) 
 </picture>
 
 
+<!-- IMAGE -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/Img/555_Timing_Diagram_DARK.svg">
+  <img alt="Timing Diagram of the 555 timer IC for monostable operation." src="/Img/555_Timing_Diagram_LIGHT.svg">
+</picture>
+
+
+
 For mono stable operation, a negative going pulse at the trigger input causes the output to go high for a defined amount of time (one shot). A second pulse within that time period has no effect on the output pulse and will be ignored. This circuit can be used for debouncing switches. The time the output stays high is set through the RC circuit and can be calculated with $T_H = ln(3) \cdot R_1C_1  \approx 1.1 \cdot R_1 C_1$.
 
 [LMC555 Data Sheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf?ts=1609974121158&ref_url=https%253A%252F%252Fwww.google.com%252F "LMC555")  
