@@ -846,6 +846,13 @@ For mono stable operation, a negative going pulse at the trigger input causes th
 <br>
 <br>
 
+<!-- 
+
+this link shows a circuit for an edge triggered monostable multivibrator by Jim Keith  
+the duration of the output pulse is independent of the duration of the trigger pulse  
+https://www.electroschematics.com/edge-triggered-555-monostable-multivibrator/ 
+
+-->
 
 ### LM386 - Power Operational Amplifier (under construction)
 
