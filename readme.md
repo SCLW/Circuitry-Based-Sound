@@ -1166,14 +1166,17 @@ This [BOM](/BOM/Readme.md#bill-of-material "Bill of Material") helps to source n
 
 Marc Bendt  
 Bent van den Berg  
-Fangchao Bi    
+Fangchao Bi  
 Zhen Bian  
 Yinxuan Chen  
 Hangyan Chen  
 Siting Chen  
 Haram Choi  
 Mark Damian  
+Tobias Ehrhardt  
 Jung Eun Lee  
+Damiana Facen  
+Bi Fangchao  
 Qianqian Feng  
 Zufilkar Filandra  
 Hongyu Guo  
@@ -1191,11 +1194,14 @@ Su Lu
 Daniel Lythgoe  
 Victoria Mikhaylova  
 Jiun-You Ou  
+Isabella Panigada  
 Pavel Polenz  
+Max Pospiech  
 Ruoyi Qiu  
 Bob Reinert  
 Vivian Reuter  
 Arno Schlipf  
+Dario Schmid  
 Florian Schwarz  
 Yifan Su  
 Anna Szilágyi  
@@ -1205,20 +1211,18 @@ Julian Vollmert
 Aaron Wagner  
 Niklas Wallbaum  
 Dakang Wang  
-Siting Wang  
 Yudong Wang  
 Lutz Ben Wesch  
 Eunchae Won  
 Le Yang  
 Sayuki Yoneda   
+Jiahui Yong  
 Huiyeon Yun  
 Rui Zhang  
 Yunfei Zhang  
 Xinyi Zhao  
 Yange Zheng  
 Pei Zhou  
-
-
 
 
 
