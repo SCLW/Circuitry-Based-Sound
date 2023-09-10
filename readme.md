@@ -1114,13 +1114,13 @@ Changing the supply voltage will have different effects on a signal, depending o
 
 When working with an adjustable power supply or an according circuit, the impacts of limited current and voltage levels around or below the minimum requirements of an IC can be examined. A similar performance can be simulated with a simple series resistor in the power rail. 500Ω - 10kΩ potentiometers may be worth experimenting with to create odd modulation effects.
 
-<!-- the content of this sections needs to be edited
-# Works
 
+# Works
+<!-- the content of this sections needs to be edited
 The artistic range of applications for electronic projects in the fields of experimental sound, interactive music and sound art is quite large. The next sections feature works made in the context of this seminar.
 -->
 
-
+![Circuitry-Based Sound](/img/CBS2023_ZKM_Jihye-Jang_sm.jpg)
 
 
 
