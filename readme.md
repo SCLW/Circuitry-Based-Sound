@@ -3,7 +3,7 @@
 
 
 ![Circuitry-Based Sound ZKM 2023](/Img/CBS2023_ZKM_Jihye-Jang_sm.jpg)
-
+*Group live performance at the ZKM*
 
 <br>
 <br>
