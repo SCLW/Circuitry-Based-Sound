@@ -87,6 +87,11 @@ Aside from the established way of using electronics to generate and process soun
 
 Another concept of creating sound with electronics derived from techniques like hardware hacking and circuit bending. In particular the use of digital integrated logic circuits outside of their typical field of application is a remarkable approach to build customized instruments for artistic sound production and interactive music. The required components are easy to source and low cost. What makes these types of chips even more handy is that they don't need much external components and wiring. They can be used for generating and processing sound without large expenditure.
 
+![Technical Setup with self built audio electronics, laboratory power supply, mixing desk, and loudspeaker](/Img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg)
+*Photo: Yunfei Zhang*
+<br>
+<br>
+
 ### CMOS Chips for Sound Creation
 
 
