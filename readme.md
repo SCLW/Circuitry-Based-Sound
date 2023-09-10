@@ -1258,7 +1258,7 @@ Thanks to Holger Förterer and Dr. Paul Modler
 
 ## Literature
 
-Anderton, Craig. Electronic Projects for musicians. Amsco, New York, 1980.
+Anderton, Craig. Electronic Projects for Musicians. Amsco, New York, 1980.
 
 Brindley, Keith. Starting Electronics. 4th ed., Newnes, Oxford, 2011.
 
