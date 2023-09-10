@@ -78,14 +78,16 @@ The authors accept no responsibility for damages that are caused by or in connec
 <br>
 <br>
 
-![Technical Setup with self built audio electronics, laboratory power supply, mixing desk, and loudspeaker](/Img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg)
-*Photo: Yunfei Zhang*
-<br>
-<br>
+
 
 # Introduction
 
 Aside from the established way of using electronics to generate and process sound, which can be found in analog synthesizers, there are also unconventional applications of electronics to create sound or experimental music, which will be introduced below. Analog synthesizers apply techniques like [subtractive synthesis](https://en.wikipedia.org/wiki/Subtractive_synthesis "subtractive synthesis") to produce sound. A common concept of the analog signal flow is filtering the output of an oscillator and shaping the overall volume. Variations of this concept can be found in most synthesizers, both analog and digital. Parameters can be altered through control signals. This offers a wide range of musical expression, like tuning oscillators in a 12-tone musical scale or key triggered [envelopes](https://en.wikipedia.org/wiki/Envelope_(music) "envelope") for amplifiers, filters or other effect processors. To obtain these functionalities, circuits of analog synthesizers are relatively complex, involve a high part count and often require precision components.
+
+![Technical Setup with self built audio electronics, laboratory power supply, mixing desk, and loudspeaker](/Img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg)
+*Photo: Yunfei Zhang*
+<br>
+<br>
 
 ### Unconventional Electronic Sound
 
