@@ -1072,6 +1072,12 @@ The Xilinx application note [XAPP210](https://www.xilinx.com/support/documentati
 Depending on the desired operation, other applicable devices may be CD4094, CD4014, CD4021 which are all 8-stage shift registers.
  
 
+This video displays an excerpt of a maximum sequence length of 2147483647 bits, generated with a 31 bit long shift register and the 28th tap. The clock rate is 5 Hz. 
+
+
+https://user-images.githubusercontent.com/51890764/189487840-25b4df7e-0781-4b38-9449-823852433f3b.mp4
+
+
 ## Step Sequencer (under construction)
 
 This circuit for a step sequencer is shown in N. Collins book 'Handmade Electronic Music'. It makes use of the built-in voltage controlled oscillator (VCO) of the [CD4046](/readme.md#cd4046 "CD4046") Phase-Locked Loop. The voltage levels of the output pulses of the [CD4022](/readme.md#cd4022 "CD4022") counter can be scaled down by the potentiometer voltage dividers and are mixed together via the [diodes](https://en.wikipedia.org/wiki/Diode "Diode") D1-D8 (1N4148). The CD4046’s voltage controlled oscillator is then generating a frequency according to the input voltage level. Therefore, each step Q0-Q7 of the CD4022 can be used to produce a single tone.
