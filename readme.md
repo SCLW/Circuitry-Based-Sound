@@ -1075,7 +1075,10 @@ Depending on the desired operation, other applicable devices may be CD4094, CD40
 This video displays an excerpt of a maximum sequence length of 2147483647 bits, generated with a 31 bit long shift register and the 28th tap. The clock rate is 5 Hz. 
 
 
-https://user-images.githubusercontent.com/51890764/189487840-25b4df7e-0781-4b38-9449-823852433f3b.mp4
+
+https://github.com/SCLW/Circuitry-Based-Sound/assets/51890764/fa4ba6e8-b892-4d65-845a-6749760b0387
+
+
 
 
 ## Step Sequencer (under construction)
