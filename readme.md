@@ -1299,8 +1299,8 @@ https://www.nicolascollins.com
 **Handmade Electronic Music** - Hands-on guide to DIY electronic instruments by Nicolas Collins.  
 www.HandmadeElectronicMusic.com  
 
-**Klarenz Barlow** - Composer and Media Artist.   
-http://clarlow.org/texts/   
+**Klarenz Barlow** -  Pioneer and celebrated composer in the field of computer music and influential teacher.   
+http://clarlow.org/texts   
 
 **Eberhard Sengpiel** - Sound engineer, musician, lecturer. Sound studio and audio calculations, audio and acoustics conversions.  
 http://www.sengpielaudio.com  
