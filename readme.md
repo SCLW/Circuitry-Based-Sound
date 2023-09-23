@@ -1273,6 +1273,8 @@ Thanks to Holger Förterer and Dr. Paul Modler
 
 Anderton, Craig. Electronic Projects for Musicians. Amsco, New York, 1980.
 
+Barlow, Klarenz. On Musiquantics. Bereich Musikinformatik, Musikwissenschaftliches Institut, Johannes Gutenberg-Universität Mainz, 2012.   
+
 Brindley, Keith. Starting Electronics. 4th ed., Newnes, Oxford, 2011.
 
 Collins, Nicolas. Handmade Electronic Music: The Art of Hardware Hacking. 2nd ed., Taylor & Francis, New York, 2009.
@@ -1296,6 +1298,9 @@ https://www.nicolascollins.com
 
 **Handmade Electronic Music** - Hands-on guide to DIY electronic instruments by Nicolas Collins.  
 www.HandmadeElectronicMusic.com  
+
+**Klarenz Barlow** - Composer and Media Artist.   
+http://clarlow.org/texts/   
 
 **Eberhard Sengpiel** - Sound engineer, musician, lecturer. Sound studio and audio calculations, audio and acoustics conversions.  
 http://www.sengpielaudio.com  
