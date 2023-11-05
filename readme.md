@@ -1271,23 +1271,23 @@ Thanks to Holger Förterer and Dr. Paul Modler
 
 ## Literature
 
-Anderton, Craig. Electronic Projects for Musicians. Amsco, New York, 1980.
+Anderton, Craig. *Electronic Projects for Musicians.* Amsco, 1980.
 
-Barlow, Klarenz. On Musiquantics. Bereich Musikinformatik, Musikwissenschaftliches Institut, Johannes Gutenberg-Universität Mainz, 2012.   
+Barlow, Klarenz. *On Musiquantics.* Bereich Musikinformatik, Musikwissenschaftliches Institut, Johannes Gutenberg-Universität Mainz, 2012.   
 
-Brindley, Keith. Starting Electronics. 4th ed., Newnes, Oxford, 2011.
+Brindley, Keith. *Starting Electronics.* Newnes, 2011.
 
-Collins, Nicolas. Handmade Electronic Music: The Art of Hardware Hacking. 2nd ed., Taylor & Francis, New York, 2009.
+Collins, Nicolas. *Handmade Electronic Music: The Art of Hardware Hacking.* Taylor & Francis, 2009.
 
-Horowitz, Paul. Hill, Winfield. The art of electronics. 3rd ed., Cambridge University Press, New York, 2021.
+Horowitz, Paul and Winfield Hill. *The art of electronics.* Cambridge University Press, 2021.
 
-Lancaster, Don. Das CMOS-Kochbuch. 1. Auflage, IWT-Verlag, Vaterstetten, 1980.
+Lancaster, Don. *Das CMOS-Kochbuch.* IWT-Verlag, 1980.
 
-Maxfield, Clive. Bebop to the Boolean Boogie: An Unconventional Guide to Electronics. 2nd ed., Newnes, London, 2003.
+Maxfield, Clive. *Bebop to the Boolean Boogie: An Unconventional Guide to Electronics.* Newnes, 2003.
 
-Roads, Curtis. Computer Music Tutorial. 1st ed., The MIT Press, Cambridge, MA, 1996.
+Roads, Curtis. *Computer Music Tutorial.* The MIT Press, 1996.
 
-Self, Douglas. Small Signal Audio Design, 3rd ed., Focal Press, New York, 2020.
+Self, Douglas. *Small Signal Audio Design.* Focal Press, 2020.
 
 ## Links
 
