@@ -1155,6 +1155,12 @@ The artistic range of applications for electronic projects in the fields of expe
 ![Circuitry-Based Sound !Khwa ttu 2024 2024](/Img/!Khwa_ttu_2024.jpg)
 *Hybrid group performance, integrating traditional African instruments at !Khwa ttu (ZA) 2024*
 
+<br>
+
+![Circuitry-Based Sound !Khwa ttu 2024 2024](/Img/Yunfei_ZKM_2024.jpg)
+*Live electronics with DIY synthesizer at ZKM 2024*
+
+
 
 # Materials
 
