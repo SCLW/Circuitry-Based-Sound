@@ -1289,7 +1289,7 @@ Pei Zhou<br>
 
 ## Acknowledgment
 
-Thanks to Holger Förterer and Dr. Paul Modler
+Thanks to Dr. Paul Modler, Dizu Plaatjies, Theo Herbst, and Holger Förterer.
 <br>
 <br>
 <br>
