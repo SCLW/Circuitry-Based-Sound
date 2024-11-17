@@ -1151,7 +1151,8 @@ The artistic range of applications for electronic projects in the fields of expe
 *Workshop preparations at Langa, Cape Town (ZA) 2024*
 
 <br>
-![Circuitry-Based Sound Langa 2024](/Img/!Khwa_ttu_2024.jpg)
+
+![Circuitry-Based Sound !Khwa ttu 2024 2024](/Img/!Khwa_ttu_2024.jpg)
 *Hybrid group performance, integrating traditional African instruments at !Khwa ttu (ZA) 2024*
 
 
