@@ -1190,65 +1190,68 @@ This [BOM](/BOM/Readme.md#bill-of-material "Bill of Material") helps to source n
 ## Authors
 
 
-Marc Bendt  
-Bent van den Berg  
-Fangchao Bi  
-Zhen Bian  
-Yinxuan Chen  
-Hangyan Chen  
-Siting Chen  
-Haram Choi  
-Mark Damian  
-Tobias Ehrhardt  
-Jung Eun Lee  
-Damiana Facen  
-Bi Fangchao  
-Qianqian Feng  
-Zufilkar Filandra  
-Hongyu Guo  
-Jeongmin Han  
-Juhee Han  
-Anna-Lina Helsen  
-Jihye Jang  
-Hoin Ji  
-Minsu Kim  
-Florian Knöbl  
-László Kőrösi  
-Sangyi Lee  
-Xingchen Liu  
-Su Lu  
-Daniel Lythgoe  
-Victoria Mikhaylova  
-Jiun-You Ou  
-Isabella Panigada  
-Pavel Polenz  
-Max Pospiech  
-Ruoyi Qiu  
-Bob Reinert  
-Vivian Reuter  
-Arno Schlipf  
-Dario Schmid  
-Florian Schwarz  
-Yifan Su  
-Anna Szilágyi  
-Eveline Vervliet  
-Christina Vinke  
-Julian Vollmert  
-Aaron Wagner  
-Niklas Wallbaum  
-Dakang Wang  
-Yudong Wang  
-Lutz Ben Wesch  
-Eunchae Won  
-Le Yang  
-Sayuki Yoneda   
-Jiahui Yong  
-Huiyeon Yun  
-Rui Zhang  
-Yunfei Zhang  
-Xinyi Zhao  
-Yange Zheng  
-Pei Zhou  
+Marc Bendt<br>
+Bent van den Berg<br>
+Fangchao Bi<br>
+Zhen Bian<br>
+Yinxuan Chen<br>
+Hangyan Chen<br>
+Siting Chen<br>
+Haram Choi<br>
+Mark Damian<br>
+Tobias Ehrhardt<br>
+Jung Eun Lee<br>
+Damiana Facen<br>
+Bi Fangchao<br>
+Qianqian Feng<br>
+Zufilkar Filandra<br>
+Hongyu Guo<br>
+Jeongmin Han<br>
+Juhee Han<br>
+Anna-Lina Helsen<br>
+Keita Hori<br>
+Jihye Jang<br>
+Hoin Ji<br>
+Minsu Kim<br>
+Florian Knöbl<br>
+László Kőrösi<br>
+Sangyi Lee<br>
+Xingchen Liu<br>
+Su Lu<br>
+Daniel Lythgoe<br>
+Ziyang Ma<br>
+Jason Mendiola<br>
+Victoria Mikhaylova<br>
+Jiun-You Ou<br>
+Isabella Panigada<br>
+Pavel Polenz<br>
+Max Pospiech<br>
+Ruoyi Qiu<br>
+Bob Reinert<br>
+Vivian Reuter<br>
+Arno Schlipf<br>
+Dario Schmid<br>
+Florian Schwarz<br>
+Yifan Su<br>
+Anna Szilágyi<br>
+Eveline Vervliet<br>
+Christina Vinke<br>
+Julian Vollmert<br>
+Aaron Wagner<br>
+Niklas Wallbaum<br>
+Dakang Wang<br>
+Yudong Wang<br>
+Lutz Ben Wesch<br>
+Eunchae Won<br>
+Le Yang<br>
+Sayuki Yoneda <br>
+Jiahui Yong<br>
+Huiyeon Yun<br>
+Rui Zhang<br>
+Yunfei Zhang<br>
+Xinyi Zhao<br>
+Yange Zheng<br>
+Pei Zhou<br>
 
 
 
