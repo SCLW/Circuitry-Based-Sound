@@ -57,9 +57,9 @@ Below is a documentation of the workshop's study materials and findings.
 <br>
 <br>
 
-[**PICTURES**](/readme.md#pictures)
+[**PHOTOS**](/readme.md#photos)
 <br>
-
+<br>
 
 [**MATERIALS**](/readme.md#Materials)
   - [Requirements](/readme.md#requirements)
@@ -1141,9 +1141,9 @@ Changing the supply voltage will have different effects on a signal, depending o
 When working with an adjustable power supply or an according circuit, the impacts of limited current and voltage levels around or below the minimum requirements of an IC can be examined. A similar performance can be simulated with a simple series resistor in the power rail. 500Ω - 10kΩ potentiometers may be worth experimenting with to create odd modulation effects.
 
 <!-- the content of this sections needs to be edited-->
-# Pictures
+# Photos
 
-The artistic range of applications for electronic projects in the fields of experimental sound, interactive music and sound art is quite large. The next sections feature works made in the context of this seminar.
+The artistic range of applications for electronic projects in the fields of experimental sound, interactive music and sound art is quite large. This section gives some impressions of the works made in the context of this seminar.
 
 <br>
 
@@ -1153,7 +1153,7 @@ The artistic range of applications for electronic projects in the fields of expe
 <br>
 
 ![Circuitry-Based Sound !Khwa ttu 2024 2024](/Img/!Khwa_ttu_2024.jpg)
-*Hybrid group performance, integrating traditional African instruments at !Khwa ttu (ZA) 2024*
+*Hybrid electronic group performance, integrating traditional African instruments at !Khwa ttu (ZA) 2024*
 
 <br>
 
@@ -1167,9 +1167,10 @@ The artistic range of applications for electronic projects in the fields of expe
 
 <br>
 
+<!--
 ![Circuitry-Based Sound](/Img/CBS.jpg)
 *Photo: Yunfei Zhang*
-
+-->
 
 # Materials
 
