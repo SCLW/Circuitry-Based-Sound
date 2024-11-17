@@ -1157,9 +1157,18 @@ The artistic range of applications for electronic projects in the fields of expe
 
 <br>
 
-![Circuitry-Based Sound !Khwa ttu 2024 2024](/Img/Yunfei_ZKM_2024.jpg)
+![Live electronics with DIY synthesizer at ZKM 2024](/Img/Yunfei_ZKM_2024.jpg)
 *Live electronics with DIY synthesizer at ZKM 2024*
 
+<br>
+
+![Self-built CMOS synthesizer](/Img/Yunfei_Setup_Kinemathek_2022.jpg)
+*Self-built CMOS synthesizer at Kinemathek Karlsruhe 2022*
+
+<br>
+
+![Circuitry-Based Sound](/Img/CBS.jpg)
+*Photo: Yunfei Zhang*
 
 
 # Materials
