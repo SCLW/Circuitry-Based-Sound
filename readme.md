@@ -1145,10 +1145,13 @@ When working with an adjustable power supply or an according circuit, the impact
 
 The artistic range of applications for electronic projects in the fields of experimental sound, interactive music and sound art is quite large. This section gives some impressions of the works made in the context of this seminar.
 
+<!--
 <br>
 
 ![Circuitry-Based Sound Langa 2024](/Img/Workshop_Langa_2024.jpg)
 *Workshop preparations at Langa, Cape Town (ZA) 2024*
+
+-->
 
 <br>
 
