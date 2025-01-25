@@ -1224,6 +1224,8 @@ Hangyan Chen<br>
 Siting Chen<br>
 Haram Choi<br>
 Mark Damian<br>
+Thabisa Dinga<br>
+Kurt Diedericks<br>
 Tobias Ehrhardt<br>
 Jung Eun Lee<br>
 Damiana Facen<br>
@@ -1245,10 +1247,15 @@ Xingchen Liu<br>
 Su Lu<br>
 Daniel Lythgoe<br>
 Ziyang Ma<br>
+Mqhorhana Magqaza<br>
+Simphiwe Matole<br>
 Jason Mendiola<br>
 Victoria Mikhaylova<br>
+Lakheni Ntsodo<br>
 Jiun-You Ou<br>
 Isabella Panigada<br>
+Azile Plaatjies<br>
+Ukwanda Plaatjies<br>
 Pavel Polenz<br>
 Max Pospiech<br>
 Ruoyi Qiu<br>
@@ -1292,7 +1299,7 @@ Pei Zhou<br>
 
 ## Acknowledgment
 
-Thanks to Dr. Paul Modler, Dizu Plaatjies, Theo Herbst, and Holger Förterer.
+Thanks to Dr. Paul Modler, Dizu Plaatjies, John Richards, Theo Herbst, Paul Rommelaere, and Holger Förterer.
 <br>
 <br>
 <br>
