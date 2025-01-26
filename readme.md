@@ -1299,7 +1299,7 @@ Pei Zhou<br>
 
 ## Acknowledgment
 
-Thanks to Dr. Paul Modler, Dizu Plaatjies, John Richards, Theo Herbst, Paul Rommelaere, and Holger Förterer.
+Thanks to Dr. Paul Modler, Dizu Plaatjies, Dr. John Richards, Theo Herbst, Dr. Paul Rommelaere, and Holger Förterer.
 <br>
 <br>
 <br>
