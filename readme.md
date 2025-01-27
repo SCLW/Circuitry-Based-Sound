@@ -18,7 +18,7 @@
 
 
 
-"Circuitry-Based Sound" is an artistic workshop at the intersection of electronic music, sound art, and performance. The course provides hands-on skills for building custom musical circuits and modifying existing audio hardware. Participants gain practical knowledge of electronics for sound creation, noise making, and music interaction. The workshop covers soldering, assembling circuits on breadboards and perfboards, and explores applications in audio composition, live performance, and sound art.
+"Circuitry-Based Sound" is an artistic workshop at the intersection of electronic music, sound art, and performance. The course provides hands-on skills for building custom musical circuits and modifying existing audio hardware. Participants gain practical knowledge of electronics for sound creation, noise making, and music interaction. The workshop covers soldering, assembling circuits on breadboards and perfboards, and explores applications in audio composition, structured improvisation, live performance, and sound art.
 
 A major focus is on hardware prototyping, including testing and fault finding, with an emphasis on designing electronic instruments, interfacing transducers, and developing alternative controllers. The artistic and practical use of the circuits is also explored and discussed.
 
