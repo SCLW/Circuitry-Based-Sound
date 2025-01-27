@@ -18,8 +18,9 @@
 
 
 
-"Circuitry-Based Sound" is an artistic workshop in the fields of electronic music, sound art, and performance. This project equips artists with practical hands-on skills for building their own musical circuitry or modifying existing audio hardware. It offers practical knowledge of electronics useful for sound creation, noise making and music interaction. Participants are introduced to soldering and assembling audio circuits on breadboards or perfboards in the context of audio, composition, live performance and sound art. A major portion of the project will be devoted to hardware prototyping, including test and fault finding sessions. The emphasis will be upon the designing of electronic instruments as well as interfacing transducers and developing alternative controllers. Artistic and practical use of the circuits will also be explored and discussed.
+"Circuitry-Based Sound" is an artistic workshop at the intersection of electronic music, sound art, and performance. The course provides hands-on skills for building custom musical circuits and modifying existing audio hardware. Participants gain practical knowledge of electronics for sound creation, noise making, and music interaction. The workshop covers soldering, assembling circuits on breadboards and perfboards, and explores applications in audio composition, live performance, and sound art.
 
+A major focus is on hardware prototyping, including testing and fault finding, with an emphasis on designing electronic instruments, interfacing transducers, and developing alternative controllers. The artistic and practical use of the circuits is also explored and discussed.
 
 Below is a documentation of the workshop's study materials and findings.
 <br>
@@ -74,7 +75,7 @@ Below is a documentation of the workshop's study materials and findings.
 
 # Disclaimer
 
-The authors accept no responsibility for damages that are caused by or in connection with the use of the information shown on this website. We are committed to ensure that the content provided is complete and accurate. However, unintended errors may occur. We urge the respective user to cross-check and verify the content before use.
+The authors accept no responsibility for any damages arising from or in connection with the use of the information provided on this website. While we strive to ensure that all content is accurate and complete, unintended errors may occur. Users are encouraged to cross-check and verify the information before applying it.
 <br>
 <br>
 
@@ -89,6 +90,16 @@ The authors accept no responsibility for damages that are caused by or in connec
 
 Aside from the established way of using electronics to generate and process sound, which can be found in analog synthesizers, there are also unconventional applications of electronics to create sound or experimental music, which will be introduced below. Analog synthesizers apply techniques like [subtractive synthesis](https://en.wikipedia.org/wiki/Subtractive_synthesis "subtractive synthesis") to produce sound. A common concept of the analog signal flow is filtering the output of an oscillator and shaping the overall volume. Variations of this concept can be found in most synthesizers, both analog and digital. Parameters can be altered through control signals. This offers a wide range of musical expression, like tuning oscillators in a 12-tone musical scale or key triggered [envelopes](https://en.wikipedia.org/wiki/Envelope_(music) "envelope") for amplifiers, filters or other effect processors. To obtain these functionalities, circuits of analog synthesizers are relatively complex, involve a high part count and often require precision components.
 
+<!--
+
+
+Your introduction is informative and provides a solid foundation for the topic, but it could benefit from slight refinements for clarity, conciseness, and flow. Here’s a polished version:
+
+Aside from the conventional use of electronics in analog synthesizers to generate and process sound, there are also unconventional applications for creating experimental music and sound, which will be introduced below. Analog synthesizers commonly use techniques like subtractive synthesis, where the signal flow involves filtering the output of an oscillator and shaping its volume.
+
+This concept, with variations, is found in most synthesizers, both analog and digital. Parameters are altered using control signals, enabling a wide range of musical expression, such as tuning oscillators to a 12-tone scale or triggering envelopes for amplifiers, filters, and effects processors. However, achieving these functionalities requires relatively complex circuits, high component counts, and precision parts in analog synthesizers.
+
+-->
 
 ### Unconventional Electronic Sound
 
