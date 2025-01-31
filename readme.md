@@ -93,8 +93,6 @@ Aside from the established way of using electronics to generate and process soun
 <!--
 
 
-Your introduction is informative and provides a solid foundation for the topic, but it could benefit from slight refinements for clarity, conciseness, and flow. Here’s a polished version:
-
 Aside from the conventional use of electronics in analog synthesizers to generate and process sound, there are also unconventional applications for creating experimental music and sound, which will be introduced below. Analog synthesizers commonly use techniques like subtractive synthesis, where the signal flow involves filtering the output of an oscillator and shaping its volume.
 
 This concept, with variations, is found in most synthesizers, both analog and digital. Parameters are altered using control signals, enabling a wide range of musical expression, such as tuning oscillators to a 12-tone scale or triggering envelopes for amplifiers, filters, and effects processors. However, achieving these functionalities requires relatively complex circuits, high component counts, and precision parts in analog synthesizers.
@@ -157,7 +155,7 @@ Output comparison of 2-input logic gates:
 <br>
 <br>
 
-Due to its simplicity, CMOS chips can be used for educational reasons, since most of its technical operations can easily be understood and relate to basic electronic knowledge. This subject is also a matter of various publications, most notably [Nicolas Collins'](https://en.wikipedia.org/wiki/Nicolas_Collins "Collins") „Handmade Electronic Music, The Art of Hardware Hacking" (2006). American Composer [David Tudor](https://de.wikipedia.org/wiki/David_Tudor "David Tudor") (1926 - 1996) is considered a pioneer of self-made electronic circuits and instruments, which he used for his compositions. Stanley Lunetta (1937 - 2016), avant-garde composer and artist, incorporated in the 70s digital electronics into his compositions and sound art sculptures and shared his techniques with other artists. In the experimental music community, CMOS synthesizers are therefore often referred to as "Lunettas".
+Due to its simplicity, CMOS chips can be used for educational reasons, since most of its technical operations can easily be understood and relate to basic electronic knowledge. This subject is also a matter of various publications, most notably [Nicolas Collins'](https://en.wikipedia.org/wiki/Nicolas_Collins "Collins") „Handmade Electronic Music, The Art of Hardware Hacking" (2006). American Composer [David Tudor](https://de.wikipedia.org/wiki/David_Tudor "David Tudor") (1926 - 1996) is considered a pioneer of self-made electronic circuits and instruments, which he used for his compositions. Stanley Lunetta (1937 - 2016), avant-garde composer and artist, incorporated in the 1970s digital electronics into his compositions and sound art sculptures and shared his techniques with other artists. In the experimental music community, CMOS synthesizers are therefore often referred to as "Lunettas".
 
 
 ### Basic Example
