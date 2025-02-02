@@ -1017,6 +1017,21 @@ For example, as the wiper moves from one end to the other, the output voltage sc
 
 <img src=/Img/Volume_Control_Variable.jpg>
 
+# Reading a Datasheet and Identifying IC Pins
+
+In an IC datasheet, the pinout diagram explains the function of each pin (or terminal).
+
+For Dual In-Line Packages (DIL or DIP ICs), the pins are numbered sequentially. When looking at a DIP IC from above, there is typically a marking or notch on one of the shorter sides of the package, which serves as an orientation guide.
+
+To correctly identify the pin numbering:
+
+- Align the IC so that the notch or marking is at the top.
+- Start counting from the first pin on the left side of the notch (Pin 1).
+- Continue numbering counterclockwise around the IC.
+
+This standard numbering convention helps ensure correct connections when integrating the IC into a circuit.
+
+
 <!--
 ## Touch Circuits
 
