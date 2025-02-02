@@ -232,6 +232,26 @@ V<sub>IH</sub> is the minimum input voltage that will be interpreted as a logica
 
 The [square wave](https://en.wikipedia.org/wiki/Square_wave "Square wave") contains only overtones with odd numbered harmonics (⅓, ⅕, ⅐, etc). The relative amplitudes of the harmonics are equal to 1/harmonic number n.
 
+# Building Circuits with Breadboards
+
+Since assembling an electronic circuit on a breadboard does not require soldering (unlike working with printed circuit boards) it allows for quick prototyping and easy modifications. This makes breadboards particularly useful for testing and developing preliminary functional versions of circuit designs, which can then be used to verify circuit behavior and operating points. They serve as temporary platforms for functional verification and feasibility testing, while their flexibility and reusability make troubleshooting easier.
+
+Typically, circuits built on breadboards are not suitable as permanent solutions, as the connections rely solely on spring contacts. These contacts can corrode over time or become loose, leading to unreliable connections. This is especially problematic during transport, as components may detach.
+
+Nevertheless, breadboards are highly effective for DIY electronic music projects, as they allow for rapid prototyping and easy circuit adjustments to match sonic preferences. They can also be expanded with control elements, enabling intuitive sound manipulation and music interaction.
+
+
+Breadboards are made of plastic and feature a standardized hole grid with metal spring contacts. The grid spacing is 2.54 mm (0.1 inch), making it compatible with most standard electronic components and allowing for easy insertion and interconnection.
+
+A typical breadboard consists of three main sections:
+
+- **Power Rails:** Located along the outer edges, these two continuous strips are internally connected and typically used to distribute power across the board (usually indicated with the symbols + and - and/or the colors red and blue).
+- **DIP Support:** A central gap that separates the two sides of the breadboard, designed to accommodate dual in-line package (DIP) components, such as integrated circuits (ICs).
+- **Terminal Strips:** Arranged perpendicularly to the power rails, these rows of interconnected holes on either side of the centerline provide access to the pins of DIP components, enabling circuit connections.
+
+
+
+
 # Electronic Components
 
 The following is a list of CMOS chips and other integrated circuits for sound creation and processing. This list will be constantly extended during the seminar. It outlines for each chip its main applications and gives a short explanation. Pinout, functional diagram, truth tables and some basic example circuits are also shown. However, the overview is not completed with these examples and the main approach is to find variations, modifications or new creative combinations for experimental sound and music. Please refer to the manufacturer's technical data sheet for more detailed information.
