@@ -1248,7 +1248,7 @@ This [BOM](/BOM/Readme.md#bill-of-material "Bill of Material") helps to source n
 
 
 
-## Authors
+## Circuitry-Based Sound are:
 
 
 Marc Bendt<br>
