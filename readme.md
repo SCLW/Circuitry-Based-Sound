@@ -1031,6 +1031,7 @@ To correctly identify the pin numbering:
 
 This standard numbering convention helps ensure correct connections when integrating the IC into a circuit.
 
+For CMOS chips, the bottom-left pin is typically connected to ground (GND or Vss), while the top-right pin (the last pin) is connected to the positive supply voltage (VDD).
 
 <!--
 ## Touch Circuits
