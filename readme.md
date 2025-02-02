@@ -1000,6 +1000,7 @@ The three terminals of a potentiometer provide access to:
 
 - The two ends of the resistive element (fixed resistance between them)
 - The wiper, which moves along the resistive track to divide the total resistance into two separate resistance values
+  
 Potentiometer Structure
 <img src=/Img/Potentiometer_Actuator.jpg>
 
