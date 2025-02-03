@@ -267,7 +267,28 @@ A typical breadboard consists of three main sections:
 - **DIP Support:** A central gap that separates the two sides of the breadboard, designed to accommodate dual in-line package (DIP) components, such as integrated circuits (ICs).
 - **Terminal Strips:** Arranged perpendicularly to the power rails, these rows of interconnected holes on either side of the centerline provide access to the pins of DIP components, enabling circuit connections.
 
+# Identifying IC Pins
 
+Manufacturers provide documentation for integrated circuits (ICs) and other electronic components in so-called datasheets, which describe the components' characteristics and functions. In an IC datasheet, the pinout diagram explains the function of each pin (or terminal) while also providing important information about operating conditions and supply voltage. When using ICs, it is important and highly recommended to have the datasheet readily available to ensure proper implementation of the component.
+
+For Dual In-Line Packages (DIL or DIP ICs), the pins are numbered sequentially. When looking at a DIP IC from above, there is typically a marking or notch on one of the shorter sides of the package, which serves as an orientation guide.
+
+To correctly identify the pin numbering:
+
+- Align the IC so that the notch or marking is at the top.
+- Start counting from the first pin on the left side of the notch (Pin 1).
+- Continue numbering counterclockwise around the IC.
+
+This standard numbering convention helps ensure correct connections when integrating the IC into a circuit.
+
+CMOS chips often have 14, 16, or 18 pins.
+With only few exceptions, the bottom-left pin is typically connected to ground (GND or Vss), while the top-right pin (the last pin) is connected to the positive supply voltage (VDD).
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/Img/GH_IC_Pinout_DARK.svg">
+  <img alt="A diagram illustrating how to identify the pinout of an IC and showing the typical power connections of a CMOS chip" src="/Img/GH_IC_Pinout_LIGHT.svg">
+</picture>
 
 
 # Electronic Components
@@ -1042,28 +1063,7 @@ For example, as the wiper moves from one end to the other, the output voltage sc
 
 <img src=/Img/Volume_Control_Variable.jpg>
 
-# Identifying IC Pins
 
-Manufacturers provide documentation for integrated circuits (ICs) and other electronic components in so-called datasheets, which describe the components' characteristics and functions. In an IC datasheet, the pinout diagram explains the function of each pin (or terminal) while also providing important information about operating conditions and supply voltage. When using ICs, it is important and highly recommended to have the datasheet readily available to ensure proper implementation of the component.
-
-For Dual In-Line Packages (DIL or DIP ICs), the pins are numbered sequentially. When looking at a DIP IC from above, there is typically a marking or notch on one of the shorter sides of the package, which serves as an orientation guide.
-
-To correctly identify the pin numbering:
-
-- Align the IC so that the notch or marking is at the top.
-- Start counting from the first pin on the left side of the notch (Pin 1).
-- Continue numbering counterclockwise around the IC.
-
-This standard numbering convention helps ensure correct connections when integrating the IC into a circuit.
-
-CMOS chips often have 14, 16, or 18 pins.
-With only few exceptions, the bottom-left pin is typically connected to ground (GND or Vss), while the top-right pin (the last pin) is connected to the positive supply voltage (VDD).
-
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/GH_IC_Pinout_DARK.svg">
-  <img alt="A diagram illustrating how to identify the pinout of an IC and showing the typical power connections of a CMOS chip" src="/Img/GH_IC_Pinout_LIGHT.svg">
-</picture>
 
 
 <!--
