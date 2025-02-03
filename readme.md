@@ -293,11 +293,10 @@ With only few exceptions, the bottom-left pin is typically connected to ground (
 
 # Electronic Components
 
-The following is a list of CMOS chips and other integrated circuits for sound creation and processing. This list will be constantly extended during the seminar. It outlines for each chip its main applications and gives a short explanation. Pinout, functional diagram, truth tables and some basic example circuits are also shown. However, the overview is not completed with these examples and the main approach is to find variations, modifications or new creative combinations for experimental sound and music. Please refer to the manufacturer's technical data sheet for more detailed information.
+The following is a list of CMOS chips and other integrated circuits used for sound creation and processing. This list will be continuously expanded throughout the seminar. Each chip’s primary applications are outlined, along with a brief explanation. Pinouts, functional diagrams, truth tables, and basic example circuits are also provided. However, these examples do not represent a comprehensive guide. The main objective is to explore variations, modifications, and new creative combinations for experimental sound and music. For detailed specifications, please refer to the manufacturer’s datasheet.
 
 ## Numerical Index
 
-Below is a list of CMOS chips, analog switches, multiplexers, and operational amplifiers (Op-Amps) that are well-suited for hands-on projects for experimental music synthesis and sound projects.
 
 - [CD40106](/readme.md#cd40106)
 - [CD4093](/readme.md#cd4093)
