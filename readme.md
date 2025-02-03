@@ -1035,6 +1035,13 @@ This standard numbering convention helps ensure correct connections when integra
 CMOS chips often have 14, 16, or 18 pins.
 With only few exceptions, the bottom-left pin is typically connected to ground (GND or Vss), while the top-right pin (the last pin) is connected to the positive supply voltage (VDD).
 
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/Img/GH_IC_Pinout_DARK.svg">
+  <img alt="A diagram illustrating how to identify the pinout of an IC and showing the typical power connections of a CMOS chip" src="/Img/GH_IC_Pinout_LIGHT.svg">
+</picture>
+
+
 <!--
 ## Touch Circuits
 
