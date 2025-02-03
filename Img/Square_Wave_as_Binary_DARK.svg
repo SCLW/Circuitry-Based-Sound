@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Signal_Flow" data-name="Signal Flow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1079.03 599.34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #c9d1d8;
+        stroke-miterlimit: 10;
+        stroke-width: 1.42px;
+      }
+
+      .cls-2 {
+        fill: #c9d1d9;
+        font-family: Roboto-Regular, Roboto;
+        font-size: 18px;
+      }
+
+      .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <polyline class="cls-1" points="54.14 306.97 89.92 306.97 89.92 234.97 125.69 234.97 125.69 306.97 161.47 306.97 161.47 234.97 197.24 234.97 197.24 306.97 233.02 306.97 233.02 234.97 268.79 234.97 268.79 306.97 304.57 306.97 304.57 234.97 340.34 234.97 340.34 306.97 376.12 306.97 376.12 234.97 411.89 234.97 411.89 306.97 447.67 306.97 447.67 234.97 483.44 234.97 483.44 306.97 519.22 306.97 519.22 234.97 554.99 234.97 554.99 306.97 590.77 306.97 590.77 234.97 626.54 234.97 626.54 306.97 662.32 306.97 662.32 234.97 698.09 234.97 698.09 306.97 733.87 306.97 733.87 234.97 769.64 234.97 769.64 306.97 805.42 306.97 805.42 234.97 841.19 234.97 841.19 306.97 876.97 306.97 876.97 234.97 912.74 234.97 912.74 306.97 948.52 306.97 948.52 234.97 984.29 234.97 984.29 306.97 1020.07 306.97"/>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(64.94 339.37)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(100.94 339.37)"><tspan x="0" y="0">1</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(136.94 339.37)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(172.94 339.37)"><tspan x="0" y="0">1</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(208.94 339.37)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(244.94 339.37)"><tspan x="0" y="0">1</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(280.94 339.37)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(316.94 339.37)"><tspan x="0" y="0">1</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(352.94 339.37)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(388.94 339.37)"><tspan x="0" y="0">1</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(424.94 339.37)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(460.94 339.37)"><tspan x="0" y="0">1</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(496.94 339.37)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(532.94 339.37)"><tspan x="0" y="0">1</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(568.94 339.37)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(604.94 339.37)"><tspan x="0" y="0">1</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(640.94 339.37)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(676.94 339.37)"><tspan x="0" y="0">1</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(712.94 339.37)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(748.94 339.37)"><tspan x="0" y="0">1</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(784.94 339.37)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(820.94 339.37)"><tspan x="0" y="0">1</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(856.94 339.37)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(892.94 339.37)"><tspan x="0" y="0">1</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(928.94 339.37)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(964.94 339.37)"><tspan x="0" y="0">1</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(1000.94 339.37)"><tspan x="0" y="0">0</tspan></text>
+  </g>
+</svg>
