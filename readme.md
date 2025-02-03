@@ -439,10 +439,7 @@ X   = Don't Care Case
 /   = Rising Edge  
 ⧹   = Falling Edge  
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Divide_by_odd_DARK.svg">
-  <img alt="Timing diagram of the CD4018 CMOS counter/divider demonstrating odd division ratios (÷3, ÷5, ÷7)." src="/Img/Divide_by_odd_LIGHT.svg">
-</picture>
+
 
 
 
@@ -832,6 +829,10 @@ X   = Don't Care
 /   = Rising Edge  
 ⧹   = Falling Edge  
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/Img/Divide_by_odd_DARK.svg">
+  <img alt="Timing diagram of the CD4018 CMOS counter/divider demonstrating odd division ratios (÷3, ÷5, ÷7)." src="/Img/Divide_by_odd_LIGHT.svg">
+</picture>
 
 [CD4018 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4018b.pdf?ts=1610571153497&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4018B "CD4018")
 <br>
