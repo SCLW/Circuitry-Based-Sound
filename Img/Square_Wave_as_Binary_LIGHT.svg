@@ -1,105 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Signal_Flow" data-name="Signal Flow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1079.03 599.34">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-        stroke: #0D1117;
-        stroke-miterlimit: 10;
-        stroke-width: 1.42px;
-      }
-
-      .cls-2 {
-        fill: #0D1117;
-        font-family: Roboto-Regular, Roboto;
-        font-size: 18px;
-      }
-
-      .cls-2, .cls-3 {
-        isolation: isolate;
-      }
-    </style>
-  </defs>
-  <polyline class="cls-1" points="54.14 306.97 89.92 306.97 89.92 234.97 125.69 234.97 125.69 306.97 161.47 306.97 161.47 234.97 197.24 234.97 197.24 306.97 233.02 306.97 233.02 234.97 268.79 234.97 268.79 306.97 304.57 306.97 304.57 234.97 340.34 234.97 340.34 306.97 376.12 306.97 376.12 234.97 411.89 234.97 411.89 306.97 447.67 306.97 447.67 234.97 483.44 234.97 483.44 306.97 519.22 306.97 519.22 234.97 554.99 234.97 554.99 306.97 590.77 306.97 590.77 234.97 626.54 234.97 626.54 306.97 662.32 306.97 662.32 234.97 698.09 234.97 698.09 306.97 733.87 306.97 733.87 234.97 769.64 234.97 769.64 306.97 805.42 306.97 805.42 234.97 841.19 234.97 841.19 306.97 876.97 306.97 876.97 234.97 912.74 234.97 912.74 306.97 948.52 306.97 948.52 234.97 984.29 234.97 984.29 306.97 1020.07 306.97"/>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(64.94 339.37)"><tspan x="0" y="0">0</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(100.94 339.37)"><tspan x="0" y="0">1</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(136.94 339.37)"><tspan x="0" y="0">0</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(172.94 339.37)"><tspan x="0" y="0">1</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(208.94 339.37)"><tspan x="0" y="0">0</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(244.94 339.37)"><tspan x="0" y="0">1</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(280.94 339.37)"><tspan x="0" y="0">0</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(316.94 339.37)"><tspan x="0" y="0">1</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(352.94 339.37)"><tspan x="0" y="0">0</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(388.94 339.37)"><tspan x="0" y="0">1</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(424.94 339.37)"><tspan x="0" y="0">0</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(460.94 339.37)"><tspan x="0" y="0">1</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(496.94 339.37)"><tspan x="0" y="0">0</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(532.94 339.37)"><tspan x="0" y="0">1</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(568.94 339.37)"><tspan x="0" y="0">0</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(604.94 339.37)"><tspan x="0" y="0">1</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(640.94 339.37)"><tspan x="0" y="0">0</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(676.94 339.37)"><tspan x="0" y="0">1</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(712.94 339.37)"><tspan x="0" y="0">0</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(748.94 339.37)"><tspan x="0" y="0">1</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(784.94 339.37)"><tspan x="0" y="0">0</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(820.94 339.37)"><tspan x="0" y="0">1</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(856.94 339.37)"><tspan x="0" y="0">0</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(892.94 339.37)"><tspan x="0" y="0">1</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(928.94 339.37)"><tspan x="0" y="0">0</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(964.94 339.37)"><tspan x="0" y="0">1</tspan></text>
-  </g>
-  <g class="cls-3">
-    <text class="cls-2" transform="translate(1000.94 339.37)"><tspan x="0" y="0">0</tspan></text>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Signal_Flow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 1079 111.6" style="enable-background:new 0 0 1079 111.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#0D1117;stroke-width:1.42;stroke-miterlimit:10;}
+	.st1{fill:#0D1117;}
+	.st2{font-family:'Roboto-Regular';}
+	.st3{font-size:18px;}
+</style>
+<polyline class="st0" points="54.1,74.8 89.9,74.8 89.9,2.8 125.7,2.8 125.7,74.8 161.5,74.8 161.5,2.8 197.2,2.8 197.2,74.8 
+	233,74.8 233,2.8 268.8,2.8 268.8,74.8 304.6,74.8 304.6,2.8 340.3,2.8 340.3,74.8 376.1,74.8 376.1,2.8 411.9,2.8 411.9,74.8 
+	447.7,74.8 447.7,2.8 483.4,2.8 483.4,74.8 519.2,74.8 519.2,2.8 555,2.8 555,74.8 590.8,74.8 590.8,2.8 626.5,2.8 626.5,74.8 
+	662.3,74.8 662.3,2.8 698.1,2.8 698.1,74.8 733.9,74.8 733.9,2.8 769.6,2.8 769.6,74.8 805.4,74.8 805.4,2.8 841.2,2.8 841.2,74.8 
+	877,74.8 877,2.8 912.7,2.8 912.7,74.8 948.5,74.8 948.5,2.8 984.3,2.8 984.3,74.8 1020.1,74.8 "/>
+<g>
+	<text transform="matrix(1 0 0 1 64.94 107.23)" class="st1 st2 st3">0</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 100.94 107.23)" class="st1 st2 st3">1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 136.94 107.23)" class="st1 st2 st3">0</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 172.94 107.23)" class="st1 st2 st3">1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 208.94 107.23)" class="st1 st2 st3">0</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 244.94 107.23)" class="st1 st2 st3">1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 280.94 107.23)" class="st1 st2 st3">0</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 316.94 107.23)" class="st1 st2 st3">1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 352.94 107.23)" class="st1 st2 st3">0</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 388.94 107.23)" class="st1 st2 st3">1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 424.94 107.23)" class="st1 st2 st3">0</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 460.94 107.23)" class="st1 st2 st3">1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 496.94 107.23)" class="st1 st2 st3">0</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 532.94 107.23)" class="st1 st2 st3">1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 568.94 107.23)" class="st1 st2 st3">0</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 604.94 107.23)" class="st1 st2 st3">1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 640.9399 107.23)" class="st1 st2 st3">0</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 676.9399 107.23)" class="st1 st2 st3">1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 712.9399 107.23)" class="st1 st2 st3">0</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 748.9399 107.23)" class="st1 st2 st3">1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 784.9399 107.23)" class="st1 st2 st3">0</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 820.9399 107.23)" class="st1 st2 st3">1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 856.9399 107.23)" class="st1 st2 st3">0</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 892.9399 107.23)" class="st1 st2 st3">1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 928.9399 107.23)" class="st1 st2 st3">0</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 964.9399 107.23)" class="st1 st2 st3">1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 1000.9399 107.23)" class="st1 st2 st3">0</text>
+</g>
 </svg>
