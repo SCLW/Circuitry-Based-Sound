@@ -1297,8 +1297,9 @@ This [BOM](/BOM/Readme.md#bill-of-material "Bill of Material") helps to source n
 
 
 
-## Circuitry-Based Sound are:
+## Artists
 
+Circuitry-Based Sound are:
 
 Marc Bendt<br>
 Bent van den Berg<br>
