@@ -235,6 +235,12 @@ V<sub>IH</sub> is the minimum input voltage that will be interpreted as a logica
 </picture>
 
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/Img/Gated_Oscillator_DARK.svg">
+  <img alt="Schematic of a gated square wave oscillator with the CD4093, showing input control and output waveform." src="/Img/Gated_Oscillator_LIGHT.svg">
+</picture>
+
+
 
 The [square wave](https://en.wikipedia.org/wiki/Square_wave "Square wave") contains only overtones with odd numbered harmonics (⅓, ⅕, ⅐, etc). The relative amplitudes of the harmonics are equal to 1/harmonic number n.
 
