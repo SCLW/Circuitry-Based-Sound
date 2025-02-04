@@ -112,8 +112,7 @@ Another approach to electronic sound creation emerges from hardware hacking and 
 
 [CMOS chips](https://en.wikipedia.org/wiki/4000-series_integrated_circuits/ "4000-series integrated circuits") are designed to execute Boolean functions. Complementary metal–oxide–semiconductor (CMOS) technology utilizes p-type and n-type MOSFETs to construct logic gates, where voltage levels represent binary states (0 and 1). Produced as integrated circuits, individual CMOS components implement basic logic functions such as [NOT](https://en.wikipedia.org/wiki/Inverter_(logic_gate) "Inverter"), [AND](https://en.wikipedia.org/wiki/AND_gate "AND gate"), [OR](https://en.wikipedia.org/wiki/OR_gate "Or gate"), [NAND](https://en.wikipedia.org/wiki/NAND_gate "NAND gate"), [XOR](https://en.wikipedia.org/wiki/XOR_gate "XOR gate"), [XNOR](https://en.wikipedia.org/wiki/XNOR_gate "XNOR gate"). More complex chips provide functions like  [multiplexers](https://en.wikipedia.org/wiki/Multiplexer "multiplexer"), [counters](https://en.wikipedia.org/wiki/Counter_(digital) "counter"), dividers, [flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics) "flip-flop") and [registers](https://en.wikipedia.org/wiki/Shift_register "shift register").
 
-A binary logic signal, which encodes 0 and 1 as two distinct voltage levels, can be represented as a square wave. A logic signal that continuously switches between these two voltage states can therefore be interpreted as a square wave—and thus as sound. Certain logic gates can be repurposed as oscillators in this way. In digital systems, this principle is used to generate clock signals, which are essential for synchronizing processes. Logic gates with two inputs compare the signals at their inputs and generate an output based on the corresponding logic function, enabling signal processing and modification. Other logic gates can count sequential square wave pulses, outputting a single pulse per cycle. Some function as frequency dividers, halving the input signal’s frequency. Additionally, various CMOS chips can act as binary-controlled switches. These and many other functions can be considered as modulation effects, which transform or modify the incoming audio signal.
-
+A binary logic signal, which encodes 0 and 1 as two distinct voltage levels, can be represented as a square wave. A logic signal that continuously switches between these two voltage states can therefore be interpreted as a square wave—and thus as sound. 
 
 The following diagram illustrates the waveform of a square wave and assigns the values 0 and 1 to its two voltage states.
 <br>
@@ -224,9 +223,6 @@ However, manufacturing tolerances of all involved parts make it difficult to ach
 
 ### Logic Control
 
-A logic gate is a single input - output device, designed to carry out a specific [Boolean operation](https://en.wikipedia.org/wiki/Boolean_algebra "Boolean algebra"), mapped to two voltage levels. Over time, the two alternating voltage levels may form a periodic rectangular waveform and the speed of switching between the two levels is perceived as pitch. Aperiodic switching will produce other sonic qualities such as noise or all kinds of texturized sounds. The ratio between the on- and off-states is by default close to 1:1, a 50% [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle "duty cycle"). Further circuitry is needed to change this ratio, which alters the ratio of the amplitudes of the harmonic components to the fundamental.
-
-
 In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/wiki/Binary_number "binary number") are represented by two defined voltage levels that are specified by the used technology and circuit. Everything below a certain voltage threshold level is recognized as 0 and everything above a certain threshold level is recognized as 1. A voltage level in between the two thresholds is not defined or forbidden and will produce false output triggers. CMOS digital inputs have a high impedance and pick up thermal noise voltages if left floating. Unused inputs should be tied to a defined voltage. Other input configurations (e.g. taster, toggle switches,) require [pull-up or pull-down resistors](/readme.md#pull-up-and-pull-down-resistors "pull-up or pull-down"). The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF". 
 
 
@@ -242,12 +238,15 @@ In digital electronics 2-level logic, [binary numbers](https://en.wikipedia.org/
 V<sub>IH</sub> is the minimum input voltage that will be interpreted as a logical high, while V<sub>IL</sub> is the maximum input voltage that will be interpreted as a logical low. The region in between is undefined and may trigger unpredictable highs or lows (chattering). This problem is solved by implementing a Schmitt trigger with different thresholds for negative-going and positive-going input voltages, depending on whether the input signal is changing from high to low (V<sub>N</sub>) or low to high (V<sub>P</sub>). When the input is between the two thresholds the output retains its value.
 
 
+
 <!-- IMAGE -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/Img/Square_Wave_DARK.svg">
   <img alt="Analytical description of a square wave logic signal." src="/Img/Square_Wave_LIGHT.svg">
 </picture>
+
+A logic gate is a single input - output device, designed to carry out a specific [Boolean operation](https://en.wikipedia.org/wiki/Boolean_algebra "Boolean algebra"), mapped to two voltage levels. Over time, the two alternating voltage levels may form a periodic rectangular waveform and the speed of switching between the two levels is perceived as pitch. Certain logic gates can be repurposed as oscillators in this way. In digital systems, this principle is used to generate clock signals, which are essential for synchronizing processes. Logic gates with two inputs compare the signals at their inputs and generate an output based on the corresponding logic function, enabling signal processing and modification. Other logic gates can count sequential square wave pulses, outputting a single pulse per cycle. Some function as frequency dividers, halving the input signal’s frequency. Additionally, various CMOS chips can act as binary-controlled switches. These and many other functions can be considered as modulation effects, which transform or modify the incoming audio signal. Aperiodic switching will produce other sonic qualities such as noise or all kinds of texturized sounds. The ratio between the on- and off-states is by default close to 1:1, a 50% [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle "duty cycle"). Further circuitry is needed to change this ratio, which alters the ratio of the amplitudes of the harmonic components to the fundamental.
 
 
 <picture>
