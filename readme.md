@@ -1436,7 +1436,7 @@ Self, Douglas. *Small Signal Audio Design.* Focal Press, 2020.
 
 ## Links
 
-Below are a few links to resources from across the internet on topics of relevance to audio electronic and Synth DIY as well as inspiring websites from artists and researchers:
+Below are links to various online resources related to audio electronics and Synth DIY, as well as inspiring websites from artists and researchers:
 
 **Nicolas Collins** - Sound artist, composer and performer of electronic music.  
 https://www.nicolascollins.com  
