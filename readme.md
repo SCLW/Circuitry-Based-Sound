@@ -261,6 +261,13 @@ Nevertheless, breadboards are highly effective for DIY electronic music projects
 
 Breadboards are made of plastic and feature a standardized hole grid with metal spring contacts. The grid spacing is 2.54 mm (0.1 inch), making it compatible with most standard electronic components and allowing for easy insertion and interconnection.
 
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/Img/Breadboard_DARK.svg">
+  <img alt="How a Breadboard Works: Functional Sections and Internal Wiring" src="/Img/Breadboard_LIGHT.svg">
+</picture>
+
+
 A typical breadboard consists of three main sections:
 
 - **Power Rails:** Located along the outer edges, these two continuous strips are internally connected and typically used to distribute power across the board (usually indicated with the symbols + and - and/or the colors red and blue).
