@@ -426,7 +426,10 @@ CD4077 is the Exclusive-NOR version.
 </picture>
 
 
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/Img/XOR_DARK.svg">
+  <img alt="Timing diagram of the CD4070 XOR gate with two suqare waves as inputs, showing the resulting output waveform" src="/Img/XOR_LIGHT.svg">
+</picture>
 
 Truth table for XOR (CD4070)
 
