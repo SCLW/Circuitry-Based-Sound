@@ -168,7 +168,7 @@ Output comparison of 2-input logic gates:
 <br>
 <br>
 
-Due to their simplicity and accessibility, CMOS chips are widely used for artistic and educational purposes, as their technical operations are easy to understand and closely related to basic electronics concepts. This topic has been explored in various publications, most notably in [Nicolas Collins'](https://en.wikipedia.org/wiki/Nicolas_Collins "Collins") *Handmade Electronic Music: The Art of Hardware Hacking (2006)*. American composer [David Tudor](https://de.wikipedia.org/wiki/David_Tudor "David Tudor") (1926–1996) is regarded as a pioneer of self-built electronic circuits and instruments, which he integrated into his compositions. Similarly, avant-garde composer and artist Stanley Lunetta (1937–2016) began incorporating digital electronics into his compositions and sound art sculptures in the 1970s, sharing his techniques with fellow artists. As a result, in the experimental music community, CMOS-based synthesizers are often referred to as “Lunettas”, honoring Lunetta’s contributions to DIY electronic music.
+Due to their simplicity and accessibility, CMOS chips are widely used for artistic and educational purposes, as their technical operations are easy to understand and closely related to basic electronics concepts. This topic has been explored in various publications, most notably in [Nicolas Collins'](https://en.wikipedia.org/wiki/Nicolas_Collins "Collins") *Handmade Electronic Music: The Art of Hardware Hacking* (2006). American composer [David Tudor](https://de.wikipedia.org/wiki/David_Tudor "David Tudor") (1926–1996) is regarded as a pioneer of self-built electronic circuits and instruments, which he integrated into his compositions. Similarly, avant-garde composer and artist Stanley Lunetta (1937–2016) began incorporating digital electronics into his compositions and sound art sculptures in the 1970s, sharing his techniques with fellow artists. As a result, in the experimental music community, CMOS-based synthesizers are often referred to as “Lunettas”, honoring Lunetta’s contributions to DIY electronic music.
 
 
 
@@ -185,14 +185,14 @@ Due to their simplicity and accessibility, CMOS chips are widely used for artist
 </picture>
 
 
+The “Hello World” of CMOS synthesizers, illustrating how easily sound can be generated, is shown in the diagram above. It depicts a [square wave](https://en.wikipedia.org/wiki/Square_wave "square wave") sound generator that requires only three components, jumper wires, and a power supply:
 
-The „hello world“ of CMOS-Synthesizers as a measure of how simple it is to produce sound is illustrated through the picture above. It shows a [square wave](https://en.wikipedia.org/wiki/Square_wave "square wave") sound generator that can be built with only three components, jumper wires and a power supply:
-* inverting [Schmitt trigger](https://en.wikipedia.org/wiki/Schmitt_trigger "Schmitt trigger") IC, e.g. CD40106
-* capacitor C
-* resistor R
+- An inverting [Schmitt trigger](https://en.wikipedia.org/wiki/Schmitt_trigger "Schmitt trigger") IC (e.g., CD40106)
+- A capacitor (C)
+- A resistor (R)
+An inverting Schmitt trigger is an active electronic component whose output state toggles complementarily in response to an input signal, with distinct positive and negative trigger thresholds—a property known as hysteresis
 
-An inverting Schmitt trigger is an active electronic component whose output state can be triggered complementarily through an input signal, while the positive trigger threshold differs from the negative one, which is called hysteresis. Feeding the output back to its input via a resistor R and connecting a capacitor C between the input and ground, known as RC circuit, creates a relaxation oscillator or [astable multivibrator](https://en.wikipedia.org/wiki/Multivibrator#Astable_multivibrator "astable multivibrator"). The resistor limits the current for charging the capacitor and both together determine the [charging time](https://en.wikipedia.org/wiki/RC_time_constant "RC time constant").
-
+By feeding the output back to the input via a resistor (R) and connecting a capacitor (C) between the input and ground, a circuit known as an RC oscillator is formed. This configuration, commonly referred to as a relaxation oscillator or [astable multivibrator](https://en.wikipedia.org/wiki/Multivibrator#Astable_multivibrator "astable multivibrator"), generates a continuous square wave signal. The resistor limits the charging current, while the capacitor and resistor together determine the [RC time constant](https://en.wikipedia.org/wiki/RC_time_constant "RC time constant"), which sets the oscillator's frequency.
 
 <!-- ANIMATED GIF -->
 
