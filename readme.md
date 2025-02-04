@@ -134,7 +134,9 @@ The following diagram illustrates the waveform of a square wave and assigns the 
 
  
 
-Logical operations can be implemented as switching circuits with single pole single throw switches representing the input and an LED indicating the result. The switch and the LED can have two distinct states: on and off. The open switch corresponds to a logical 0 and the closed position stands for a logical 1. A lit LED means 1 and a non-lit 0.
+Logical operations can be implemented as switching circuits, where single-pole single-throw (SPST) switches represent inputs, and an LED indicates the output result. Both the switch and the LED have two distinct states: on and off.
+- An open switch corresponds to logical 0, while a closed switch represents logical 1.
+- A lit LED indicates 1, whereas an unlit LED represents 0.
 
 
 <!-- IMAGE -->
