@@ -1062,7 +1062,7 @@ Tone control, modifying the frequency spectrum of a signal or creative equalizat
 </picture>
 
 
-# Potentiometers
+## Potentiometers
 A potentiometer is a passive, mechanical component enclosed in a housing. It consists of a resistive track and a movable contact called the wiper. The wiper’s position along the resistive track can be adjusted using an actuator.
 
 The three terminals of a potentiometer provide access to:
