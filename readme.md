@@ -116,7 +116,7 @@ Another concept of creating sound with electronics derived from techniques like 
 A binary logic signal, which encodes 0 and 1 as two distinct voltage levels, can be represented as a square wave. A logic signal that continuously switches between these two voltage states can therefore be interpreted as a square wave—and thus as sound. Certain logic gates can be repurposed as oscillators in this way. In digital systems, this principle is used to generate clock signals, which are essential for synchronizing processes. Logic gates with two inputs compare the signals at their inputs and generate an output based on the corresponding logic function, enabling signal processing and modification. Other logic gates can count sequential square wave pulses, outputting a single pulse per cycle. Some function as frequency dividers, halving the input signal’s frequency. Additionally, various CMOS chips can act as binary-controlled switches. These and many other functions can be understood as modulation effects, which transform or modify the incoming audio signal—represented as a square wave.
 
 
-The following diagram illustrates the waveform of a square wave and assigns the values 0 and 1 to its two states.
+The following diagram illustrates the waveform of a square wave and assigns the values 0 and 1 to its two voltage states.
 <br>
 <br>
 <picture>
