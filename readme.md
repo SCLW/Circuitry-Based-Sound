@@ -148,7 +148,7 @@ Logical operations can be implemented as switching circuits, where single-pole s
 
 
 
-A truth table is used in Boolean algebra to show all possible values of a logical expression. 
+A truth table is used in Boolean algebra to display all possible input and output values of a logical expression.
 
 Output comparison of 2-input logic gates:
 
