@@ -288,8 +288,7 @@ To correctly identify the pin numbering:
 
 This standard numbering convention helps ensure correct connections when integrating the IC into a circuit.
 
-CMOS chips often have 14, 16, or 18 pins.
-With only few exceptions, the bottom-left pin is typically connected to ground (GND or Vss), while the top-right pin (the last pin) is connected to the positive supply voltage (VDD).
+
 
 
 <picture>
@@ -297,6 +296,8 @@ With only few exceptions, the bottom-left pin is typically connected to ground (
   <img alt="A diagram illustrating how to identify the pinout of an IC and showing the typical power connections of a CMOS chip" src="/Img/GH_IC_Pinout_LIGHT.svg">
 </picture>
 
+CMOS chips often have 14, 16, or 18 pins.
+With only few exceptions, the bottom-left pin is typically connected to ground (GND or Vss), while the top-right pin (the last pin) is connected to the positive supply voltage (VDD).
 
 # Electronic Components
 
