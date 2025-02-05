@@ -337,7 +337,7 @@ The following is a list of CMOS chips and other integrated circuits used for sou
 
 ### CD40106
 
-The inverter is a basic part in digital electronics and performs the logic operation of negation. When the input is connected to ground, the output is pulled to V<sub>DD</sub> and vice versa. The CD40106 hex Schmitt trigger inverter offers six separate inverters in one chip. The Schmitt trigger action permits unlimited rise and fall times on the input. The chip can be wired externally to build one or more square wave oscillators (see illustration). When using a potentiometer for frequency control, a resistor should be placed in series in order to prevent too low resistance between output and input.
+The inverter is a fundamental component in digital electronics, performing the logic operation of negation. When the input is connected to ground, the output is pulled to V<sub>DD</sub>, and vice versa. The CD40106 Hex Schmitt Trigger Inverter contains six independent inverters in a single chip. Unlike standard inverters, its Schmitt trigger action provides hysteresis, allowing for unlimited rise and fall times on the input, making it highly robust against noise. This chip can be externally wired to function as one or more square wave oscillators (see illustration). When using a potentiometer for frequency control, a series resistor should be added to prevent excessively low resistance between the output and input, which could interfere with proper circuit operation.
 
 *Applications:*
 * Square Wave Generator
@@ -370,9 +370,7 @@ Truth table for NOT
 
 ### CD4093
 
-The CD4093 contains 4 NAND Schmitt triggers, each providing 2 inputs and 1 output.
-
-It acts as a square wave oscillator when the inputs are connected to form an inverter. The last two rows of the truth table indicate that one input has to be set to a logical high in order to attain inversion of the signal being present at the other input. When one of the inputs is wired like the CD40106 in the previous example, while the remaining input is set to high, the CD4093 generates square waves too.
+The CD4093 contains four NAND Schmitt triggers, each with two inputs and one output. When configured as an inverter, it can function as a square wave oscillator. The last two rows of the truth table show that one input must be set to a logical high for the gate to act as an inverter, allowing the second input to control the output. By wiring one input like the CD40106 oscillator in the previous example and keeping the other input high, the CD4093 can also generate square waves.
 
 *Applications:*
 * Square Wave Generator
@@ -387,9 +385,7 @@ It acts as a square wave oscillator when the inputs are connected to form an inv
 </picture>
 
 
-
-Oscillators built with 2 input NAND Schmitt triggers can be switched on and off manually by using a push button. If the push button is not pressed (normally open) the logical low at the second input will always cause a logical high at the output, no matter which state is present at the other input (see NAND truth table). The image above shows how to set up a normally open push button as an ON switch to control the sound. A [pull down resistor](/readme.md#pull-up-and-pull-down-resistors) defines the logic state at the input when the push button is open. When the push button is closed, the power supply produces a logical high and the NAND gate oscillates. This way, the second input acts as a control input for gating the oscillator. Instead of a manually controlled push button, a logic signal can be applied to the second input.
-
+Oscillators built with 2-input NAND Schmitt triggers can be manually switched on and off using a push button. When the push button is not pressed (normally open), the logical low at the second input forces the output high, regardless of the state of the first input (see NAND truth table). The image above illustrates how to configure a normally open push button as an ON switch to control the sound. A [pull down resistor](/readme.md#pull-up-and-pull-down-resistors) ensures the input remains at a defined logic low when the push button is open. When the push button is closed, the power supply applies a logical high, allowing the NAND gate to oscillate. In this setup, the second input serves as a control input for gating the oscillator. Instead of a manually operated push button, a logic signal can be applied to the second input for automated control.
 
 <!-- IMAGE -->
 
