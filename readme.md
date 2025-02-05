@@ -1270,12 +1270,12 @@ The artistic range of applications for electronic projects in the fields of expe
 <br>
 
 ![Live electronics with DIY synthesizer at ZKM 2024](/Img/Yunfei_ZKM_2024.jpg)
-*Live electronics with DIY synthesizer at ZKM 2024*
+*Live electronics with DIY synthesizer at ZKM 2024 (Photo: Jihye Jang)*
 
 <br>
 
 ![Self-built CMOS synthesizer](/Img/Yunfei_Setup_Kinemathek_2022.jpg)
-*Self-built CMOS synthesizer at Kinemathek Karlsruhe 2022*
+*Self-built CMOS synthesizer at Kinemathek Karlsruhe 2022 (Photo: Jihye Jang)*
 
 <br>
 
