@@ -1004,6 +1004,10 @@ Although not part of the CMOS logic family this ubiquitous power op amp is a ver
 
 # Basic Principles and Applications
 
+## Electronic-hydraulic analogy
+
+The electronic-hydraulic analogy compares the flow of electrical current to water moving through pipes. In this model, voltage corresponds to water pressure, while current is analogous to the rate of water flow. Resistance is similar to the narrowing of a pipe, limiting the flow. Capacitors can be thought of as storage tanks or buckets that temporarily hold and release water.
+
 ## Mixing
 
 There are various ways of mixing signals together. Using CMOS chips like the XOR CD4070 works for digital signals. If more than two signals should be mixed or merged, several logic gates can be chained together. Even though the resulting signal is not the sum of the source signals but some modulated result, the output signal is still compatible with digital electronics. This is not the case with active and passive mixing, which alters the amplitude of the output. Active mixing involves components, such as operational amplifiers, that need a power supply. Passive mixing works without an additional power supply, but introduces a voltage drop.
