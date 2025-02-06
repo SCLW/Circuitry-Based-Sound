@@ -1441,6 +1441,9 @@ Below are links to various online resources related to audio electronics and Syn
 **Nicolas Collins** - Sound artist, composer and performer of electronic music.  
 https://www.nicolascollins.com  
 
+**John Richards** - British musician and artist. Self-made instruments, installations and sound projects with electronics.  
+https://www.dirtyelectronics.org/about.html  
+
 **Handmade Electronic Music** - Hands-on guide to DIY electronic instruments by Nicolas Collins.  
 www.HandmadeElectronicMusic.com  
 
@@ -1449,9 +1452,6 @@ http://clarlow.org/texts
 
 **Eberhard Sengpiel** - Sound engineer, musician, lecturer. Sound studio and audio calculations, audio and acoustics conversions.  
 http://www.sengpielaudio.com  
-
-**John Richards** - British musician and artist. Self-made instruments, installations and sound projects with electronics.  
-https://www.dirtyelectronics.org/about.html  
 
 **audiodiwhy** - DIY music technology, programming.  
 https://audiodiwhy.blogspot.com  
