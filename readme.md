@@ -308,7 +308,7 @@ This standard numbering convention helps ensure correct connections when integra
 </picture>
 
 Most CMOS chips have 14 or 16 pins.
-With only few exceptions, the bottom-left pin is typically connected to ground (GND or Vss), while the top-right pin (the last pin) is connected to the positive supply voltage (VDD).
+With only few exceptions (e.g., CD4049UB and CD4050B), the bottom-left pin is typically connected to ground (GND or Vss), while the top-right pin (the last pin) is connected to the positive supply voltage (VDD).
 
 # Electronic Components
 
