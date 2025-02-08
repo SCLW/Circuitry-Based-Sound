@@ -1123,7 +1123,9 @@ The [CD4060](/readme.md#cd4060 "CD4060") has a built-in oscillator configuration
 <img src="/Img/Touch-Sensing_Diagram.jpg">
 
 -->
+### LDRs (light-dependent resistors)
 
+A photoresistor (also known as a light-dependent resistor, LDR) is a two-terminal electronic component whose resistance varies based on the amount of light hitting it (photoconductivity). The brighter the light, the lower its resistance, and vice versa. This makes it an effective light sensor that can be used to control sound. For example, if you place a photoresistor in the feedback loop of a CMOS oscillator, moving your hand over it to cast a shadow changes its resistance, which in turn alters the oscillator’s frequency (pitch). In this scenario, lower light levels produce a deeper pitch, while brighter light raises the pitch.
 
 ### Pull-up and Pull-down Resistors
 
