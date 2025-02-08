@@ -285,6 +285,8 @@ A typical breadboard consists of three main sections:
 - **DIP Support:** A central gap that separates the two sides of the breadboard, designed to accommodate dual in-line package (DIP) components, such as integrated circuits (ICs).
 - **Terminal Strips:** Arranged perpendicularly to the power rails, these rows of interconnected holes on either side of the centerline provide access to the pins of DIP components, enabling circuit connections.
 
+In most circuits, the majority of connections go to ground or a supply voltage. For convenience, it’s best to connect the power rails on both sides of the breadboard so you can easily access ground or the supply at any point across the entire board.
+
 # Identifying IC Pins
 
 Manufacturers provide documentation for integrated circuits (ICs) and other electronic components in so-called datasheets, which describe the components' characteristics and functions. In an IC datasheet, the pinout diagram explains the function of each pin (or terminal) while also providing important information about operating conditions and supply voltage. When using ICs, it is important and highly recommended to have the datasheet readily available to ensure proper implementation of the component.
