@@ -1249,11 +1249,13 @@ Bill of Material:
 
 ## Voltage Starve
 
-"Voltage starve" or "voltage sag" can be used as an unconventional modulation technique for experimental music. It describes the effect that low supply voltage and limited current have on a circuit's behavior. Especially battery powered guitar pedals create unique dynamic distortion when the battery's voltage and current delivering capacity is unstable due to aging factors.
 
-Changing the supply voltage will have different effects on a signal, depending on the actual circuit and the used components. Bypassing capacitors will mitigate these effects. For instance, the hysteresis thresholds in Schmitt trigger elements vary with the supply voltage. Lowering the supply voltage affects the frequency and the signal amplitude of Schmitt trigger oscillators. 
+“Voltage starve” or “voltage sag” can be used as an unconventional modulation technique in experimental music, describing the effect of a low supply voltage and limited current on a circuit’s behavior. In particular, battery-powered guitar pedals can exhibit unique dynamic distortion when the battery’s voltage and current delivery capacity deteriorates over time.
 
-When working with an adjustable power supply or an according circuit, the impacts of limited current and voltage levels around or below the minimum requirements of an IC can be examined. A similar performance can be simulated with a simple series resistor in the power rail. 500Ω - 10kΩ potentiometers may be worth experimenting with to create odd modulation effects.
+Changing the supply voltage has different effects depending on the circuit topology and component choices. Bypass capacitors help stabilize the power rail, but for instance, the hysteresis thresholds in Schmitt trigger elements vary with supply voltage. Consequently, lowering the supply voltage alters both the frequency and amplitude of Schmitt trigger oscillators.
+
+When using an adjustable power supply or a custom-built circuit, you can explore how limited current and reduced voltage—especially near or below an IC’s minimum requirements—impact performance. A similar effect can be reproduced simply by placing a series resistor in the power rail. Experimenting with potentiometers ranging from 500 Ω to 10 kΩ can yield a variety of unusual modulation effects.
+
 
 <!-- the content of this sections needs to be edited-->
 # Photos
