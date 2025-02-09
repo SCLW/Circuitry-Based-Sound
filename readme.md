@@ -962,7 +962,14 @@ For mono stable operation, a negative going pulse at the trigger input causes th
   <img alt="Schematic of the 'Stepped-Tone Generator' (also known as Atari Punk Console) by Forrest M. Mims III." src="/Img/Stepped-Tone_Generator_LIGHT.svg">
 </picture>
 
+The stepped-tone generator is built using two 555 timer chips. By varying the resistor-capacitor (RC) values, this circuit can produce a wide range of interesting sounds.
 
+
+| Designator  | Description   | Value   |
+| ----------- | ------------- | ------- |
+| VR1, VR2    | Potentiometer | 500k    |
+| C1          | Capacitor     | 0,01uF  |
+| C2          | Capacitor     | 0,1uF   |
 
 [LMC555 Data Sheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf?ts=1609974121158&ref_url=https%253A%252F%252Fwww.google.com%252F "LMC555")  
 [TLC555 Data Sheet](https://www.ti.com/lit/ds/symlink/tlc555.pdf "TLC555")
