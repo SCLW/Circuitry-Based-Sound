@@ -1289,6 +1289,17 @@ Bill of Material:
 | CD4046 | PLL | |
 | Clock |  Clock Generator (eg. CD40106) | |
 
+## Melody Generator
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/Img/Melody_Generator_DARK.svg">
+  <img alt="Schematic of Slacker's Melody Generator—a CMOS sound generator using a CD4017 counter and a CD4051 multiplexer to produce evolving, semi-random melodic sequences." src="/Img/Melody_Generator_LIGHT.svg">
+</picture>
+
+Schematic of Slacker's Melody Generator—a CMOS sound generator using a CD4017 counter and a CD4051 multiplexer to produce evolving, semi-random melodic sequences.
+
+
 ## Voltage Starve
 
 
