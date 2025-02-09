@@ -1092,7 +1092,12 @@ The three terminals of a potentiometer provide access to:
 - The wiper, which moves along the resistive track to divide the total resistance into two separate resistance values
   
 Potentiometer Structure
-<img src=/Img/Potentiometer_Actuator.jpg>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/Img/Potentiometer_DARK.svg">
+  <img alt=" Diagram of a potentiometer and a slider, labeling key components: (a) Housing, (b) Terminals, (c) Actuator, (d) Resistive track, and (e) Wiper." src="/Img/Potentiometer_LIGHT.svg">
+</picture>
+
 
 a) Housing, b) Terminals, c) Actuator, d) Resistive track, e) Wiper
 
