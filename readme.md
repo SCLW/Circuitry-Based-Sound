@@ -1521,6 +1521,10 @@ Roads, Curtis. *Computer Music Tutorial.* The MIT Press, 1996.
 
 Self, Douglas. *Small Signal Audio Design.* Focal Press, 2020.
 
+Tate, Timothy, et al. „Hand Turned Synthesis: A One Chip Exploration of CMOS Electronics“. Proceedings of the International Conference on New Interfaces for Musical Expression, Zenodo, 2024, S. 612--621, doi:10.5281/zenodo.13904971.
+
+
+
 ## Links
 
 Below are links to various online resources related to audio electronics and Synth DIY, as well as inspiring websites from artists and researchers:
