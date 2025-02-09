@@ -84,7 +84,6 @@ Below is a documentation of the workshop’s study materials and findings.
   - [Acknowledgment](/readme.md#acknowledgment)
   - [Literature](/readme.md#literature)
   - [Links](/readme.md#links)
-  - [Literature](/readme.md#literature)
   - [License](/readme.md#license)
 
 ---
