@@ -266,7 +266,7 @@ Aperiodic switching will produce other sonic qualities such as noise or all kind
 
 
 
-# Building Circuits with Breadboards
+### Building Circuits with Breadboards
 
 Since assembling an electronic circuit on a breadboard does not require soldering (unlike working with printed circuit boards) it allows for quick prototyping and easy modifications. This makes breadboards particularly useful for testing and developing preliminary functional versions of circuit designs, which can then be used to verify circuit behavior and operating points. They serve as temporary platforms for functional verification and feasibility testing, while their flexibility and reusability make troubleshooting easier.
 
@@ -292,7 +292,7 @@ A typical breadboard consists of three main sections:
 
 In most circuits, the majority of connections go to ground or a supply voltage. For convenience, it’s best to connect the power rails on both sides of the breadboard so you can easily access ground or the supply at any point across the entire board.
 
-# Identifying IC Pins
+### Identifying IC Pins
 
 Manufacturers provide documentation for integrated circuits (ICs) and other electronic components in so-called datasheets, which describe the components' characteristics and functions. In an IC datasheet, the pinout diagram explains the function of each pin (or terminal) while also providing important information about operating conditions and supply voltage. When using ICs, it is important and highly recommended to have the datasheet readily available to ensure proper implementation of the component.
 
