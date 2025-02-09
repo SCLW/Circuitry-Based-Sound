@@ -143,8 +143,6 @@
     <text class="cls-5" transform="translate(306.69 254.88)"><tspan x="0" y="0">4</tspan></text>
     <text class="cls-5" transform="translate(306.69 388.08)"><tspan x="0" y="0">2</tspan></text>
     <text class="cls-5" transform="translate(306.69 352.08)"><tspan x="0" y="0">6</tspan></text>
-    <text class="cls-5" transform="translate(391.26 193.5)"><tspan x="0" y="0">R</tspan></text>
-    <text class="cls-5" transform="translate(402.35 199.49) scale(.58)"><tspan x="0" y="0">1</tspan></text>
     <text class="cls-5" transform="translate(341.55 401.58)"><tspan x="0" y="0">GND</tspan></text>
     <text class="cls-5" transform="translate(324 337.5)"><tspan x="0" y="0">THRES</tspan></text>
     <text class="cls-5" transform="translate(324 236.7)"><tspan x="0" y="0">RES</tspan><tspan class="cls-11" x="31.99" y="0">E</tspan><tspan class="cls-10" x="42.4" y="0">T</tspan></text>
@@ -204,5 +202,9 @@
     <text class="cls-5" transform="translate(572.4 536.22)"><tspan x="0" y="0">GND</tspan></text>
     <text class="cls-5" transform="translate(553.35 451.98)"><tspan x="0" y="0">C</tspan></text>
     <text class="cls-5" transform="translate(565.07 457.97) scale(.58)"><tspan x="0" y="0">2</tspan></text>
+    <text class="cls-5" transform="translate(388.71 310.54)"><tspan x="0" y="0">U1</tspan></text>
+    <text class="cls-5" transform="translate(737.91 310.54)"><tspan x="0" y="0">U2</tspan></text>
+    <text class="cls-5" transform="translate(320.4 193.68)"><tspan x="0" y="0">555</tspan><tspan class="cls-10" x="30.32" y="0"> </tspan><tspan x="34.43" y="0">Timer</tspan></text>
+    <text class="cls-5" transform="translate(669.6 193.68)"><tspan x="0" y="0">555</tspan><tspan class="cls-10" x="30.32" y="0"> </tspan><tspan x="34.43" y="0">Timer</tspan></text>
   </g>
 </svg>
