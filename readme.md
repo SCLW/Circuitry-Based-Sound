@@ -1106,9 +1106,10 @@ By connecting a voltage source (e.g., supply voltage or signal) to one of the ou
 For example, as the wiper moves from one end to the other, the output voltage scales continuously from minimum to maximum—making this configuration ideal for applications such as volume control.
 
 
-<img src=/Img/Volume_Control_Variable.jpg>
-
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/Img/Volume_Control_DARK.svg">
+  <img alt=" Simplified schematic illustrating how to use a potentiometer both as a voltage divider (left) and a variable resistor (right)." src="/Img/Volume_Control_LIGHT.svg">
+</picture>
 
 
 <!--
