@@ -968,6 +968,8 @@ The stepped-tone generator is built using two 555 timer chips. By varying the re
 | Designator  | Description   | Value   |
 | ----------- | ------------- | ------- |
 | VR1, VR2    | Potentiometer | 500k    |
+| U1, U2      | 555 Timer     |         |
+| R1          | Resistor      | 1k      |
 | C1          | Capacitor     | 0,01uF  |
 | C2          | Capacitor     | 0,1uF   |
 
