@@ -43,6 +43,8 @@ Below is a documentation of the workshop’s study materials and findings.
   - [CMOS Chips for Sound Creation](/readme.md#cmos-chips-for-sound-creation)
   - [Basic Example](/readme.md#basic-example)
   - [Logic Control](/readme.md#logic-control)
+  - [Logic Control](/readme.md#building-circuits-with-breadboards)
+  - [Logic Control](/readme.md#identifying-ic-pins)
 <br>
 <br>
 
