@@ -1108,9 +1108,10 @@ For example, as the wiper moves from one end to the other, the output voltage sc
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/Img/Volume_Control_DARK.svg">
-  <img alt=" Simplified schematic illustrating how to use a potentiometer both as a voltage divider (left) and a variable resistor (right)." src="/Img/Volume_Control_LIGHT.svg">
+  <img alt=" Simplified schematic illustrating how to use a potentiometer as both a variable resistor (left) and a voltage divider (right)." src="/Img/Volume_Control_LIGHT.svg">
 </picture>
 
+Simplified schematic illustrating how to use a potentiometer as both a variable resistor (left) and a voltage divider (right).
 
 <!--
 ## Touch Circuits
