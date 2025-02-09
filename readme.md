@@ -1153,6 +1153,15 @@ The [CD4060](/readme.md#cd4060 "CD4060") has a built-in oscillator configuration
 
 A photoresistor (also known as a light-dependent resistor, LDR) is a two-terminal electronic component whose resistance varies based on the amount of light hitting it (photoconductivity). The brighter the light, the lower its resistance, and vice versa. This makes it an effective light sensor that can be used to control sound. For example, if you place a photoresistor in the feedback loop of a CMOS oscillator, moving your hand over it to cast a shadow changes its resistance, which in turn alters the oscillator’s frequency (pitch). In this scenario, lower light levels produce a deeper pitch, while brighter light raises the pitch.
 
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/Img/LDR_Examples_DARK.svg">
+  <img alt=" Two circuits using an LDR: a voltage divider adjusting output voltage based on light levels (left) and a Schmitt-trigger oscillator where light controls the pitch (right)." src="/Img/LDR_Examples_LIGHT.svg">
+</picture>
+
+Two circuits using an LDR: a voltage divider adjusting output voltage based on light levels (left) and a Schmitt-trigger oscillator where light controls the pitch (right).
+
+
 ### Pull-up and Pull-down Resistors
 
 When external circuits or devices are added to a logic input, care must be taken to keep the inputs in a defined state. When switches or transistors are used to control a logic gate, they can physically disconnect the inputs. For example, when a normally-open push button is in its default position, the high impedance input is open. This causes the pin to act like an antenna that is very susceptible to electromagnetic noise and forces the output to do unwanted operations like generating random highs or lows. This is called "floating" and introduces undesired effects.
