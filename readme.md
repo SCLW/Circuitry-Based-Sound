@@ -54,16 +54,21 @@ Below is a documentation of the workshop’s study materials and findings.
 [**BASIC PRINCIPLES AND APPLICATIONS**](/readme.md#basic-principles-and-applications)
   - [Signal Mixing](/readme.md#mixing)
   - [Passive Filters](/readme.md#passive-filters)
+  - [Potentiometers](/readme.md#potentiometers)
+  - [LDRs (light-dependent resistors)](/readme.md#ldrs-(light-dependent-resistors))
   - [Pull-up and Pull-down Resistors](/readme.md#pull-up-and-pull-down-resistors)
   - [Linear Feedback Shift Register](/readme.md#linear-feedback-shift-register)
   - [Step Sequencer](/readme.md#step-sequencer-under-construction)
+  - [Melody Generator](/readme.md#melody-generator)
   - [Voltage Starve](/readme.md#voltage-starve)
 <br>
 <br>
 
+<!--
 [**PHOTOS**](/readme.md#photos)
 <br>
 <br>
+-->
 
 [**MATERIALS**](/readme.md#Materials)
   - [Requirements](/readme.md#requirements)
