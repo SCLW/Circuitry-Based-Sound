@@ -80,6 +80,10 @@ Below is a documentation of the workshop’s study materials and findings.
 [**MATERIALS**](/readme.md#Materials)
   - [Requirements](/readme.md#requirements)
   - [Bill of Materials](/readme.md#bill-of-materials)
+  - [Artists](/readme.md#artists)
+  - [Acknowledgment](/readme.md#acknowledgment)
+  - [Literature](/readme.md#literature)
+  - [Links](/readme.md#links)
   - [Literature](/readme.md#literature)
   - [License](/readme.md#license)
 
