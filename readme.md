@@ -445,7 +445,8 @@ Truth table for NAND
 
 ### CD4070
 
-The CD4070 contains four Exclusive-OR logic gates. Each gate has two inputs and one output. The output is high when only one of the inputs is high and the other is low and vice versa. If both inputs are high or low, the output is low. If two square wave signals are connected to the input, the output extracts the difference which results in a frequency mixer like output signal. Frequency doubling can be achieved if one square wave is applied directly to one input and connected via a resistor to its second input with a capacitor to ground. The rising and falling edge of an incoming square wave force the output to high, hence doubles the incoming frequency. The pulse width of the output signal depends on the chosen values and is shorter than the width of the input signal; approximately the length of the RC time constant. Shifting a tone up by an octave may only sound satisfactorily within a small value range.
+
+The CD4070 contains four Exclusive-OR (XOR) logic gates, each with two inputs and one output. The output is high (1) when only one of the inputs is high, and low (0) when both inputs are either high or low. When two square wave signals are applied to the inputs, the XOR gate acts as a frequency mixer, producing an output that represents the difference between the input signals. This creates a rich, harmonically altered waveform useful in sound synthesis. The CD4070 can also be used for frequency doubling by applying a single square wave directly to one input and feeding it to the second input through a resistor, with a capacitor to ground. In this configuration, the output is driven high on both the rising and falling edges of the input waveform, effectively doubling the frequency. The pulse width of the output depends on the resistor-capacitor (RC) time constant and is shorter than the original square wave cycle. However, when shifting a tone up by an octave using this method, the perceived effect may only be musically satisfying within a limited range of component values.
 
 CD4077 is the Exclusive-NOR version.
 
@@ -496,8 +497,7 @@ Truth table for XNOR (CD4077)
 
 CD4015 IC consists of two four stage shift registers.
 
-A shift register is built of a series of interconnected [flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics) "flip-flop"). A flip-flop or latch is a bistable multivibrator circuit. This means it has two stable states which represent either 0 or 1. The state of a flip-flop can be controlled by a clock. The value to be stored is based on the signal's input state at the transition of the clock signal. A flip-flop is used to store 1 bit. In a shift register the incoming serial input data **D** is transferred to a parallel output register **Qn**. More specifically, when a memory content is stored in the first flip-flop, it is shifted to the next one, synchronized to the rising edge of a dedicated clock signal **CL**. A logical high at the reset pin is setting all outputs to zero. The reset pin should be set to low for a continuous operation.
-
+The CD4015 is an integrated circuit containing two independent 4-stage shift registers. A shift register is a series of interconnected [flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics) "flip-flop"), which are bistable multivibrators capable of storing binary states (0 or 1). Each flip-flop stores one bit of data, and its state is controlled by a clock signal. On each clock pulse, the stored data shifts from one flip-flop to the next. In the CD4015, serial input data (D) is shifted through the register stages and appears at the parallel outputs (Qn), synchronized with the rising edge of the clock signal (CL). When a bit is stored in the first flip-flop, it moves sequentially through the register stages with each clock cycle. A logical high at the reset pin clears all stored values, setting the outputs to zero. To enable continuous operation, the reset pin should be kept low.
 
 *Applications:*
 * Sequencer
@@ -537,9 +537,7 @@ X   = Don't Care Case
 
 ### CD4022
 
-CD4022 and CD4017 ICs implement a binary counter/divider function with 8 outputs in the CD4022 and 10 outputs in the CD4017. The positive edge of an incoming square wave, usually referred to as "clock signal", triggers successively the outputs. "Carry out" is outputting one cycle over 8 (CD4022) respectively 10 (CD4017) clock pulses. A logical high at "clock inhibit" pauses the counting process. A logical high at the "reset" pin sets the counter pulse back to the first output.
-
-
+The CD4022 and CD4017 are counter/divider ICs, with the CD4022 providing 8 outputs and the CD4017 providing 10 outputs. These chips increment their output sequentially on the rising edge of an incoming clock signal. The "carry out" pin generates a pulse once every 8 clock cycles (CD4022) or 10 clock cycles (CD4017), making it useful for cascading multiple counters. A logical high at the "clock inhibit" pin pauses the counting process, preventing further increments. Similarly, a logical high at the "reset" pin resets the counter, setting it back to the first output stage.
 
 
 *Applications:*
@@ -573,10 +571,11 @@ CD4022 and CD4017 ICs implement a binary counter/divider function with 8 outputs
 
 ### CD4040
 
-This IC performs frequency division and comes with 12 outputs in the CD4020 and the CD4040 versions and 7 outputs in the CD4024 version, whereby the CD4020 is a 14-stage device. Output stages 2 and 3 (divide by 4 and 8) are not accessible. The CD4024 has 3 pins without internal connection (pin 8, 10, 13). If a square wave is applied to the input, each output creates square waves at half the frequency of its preceding output, at which the first output Q1 applies its division to the input signal and oscillates at a rate at one half, Q2 at one quarter, Q3 at one eighth Q4 at one sixteenth and so on. Several units can be cascaded for higher counting.
+The CD4040, CD4020, and CD4024 are binary counter/divider ICs that perform frequency division. The CD4040 and CD4020 provide 12 outputs, while the CD4024 has 7 outputs. The CD4020 is a 14-stage counter, but its divide-by-4 and divide-by-8 outputs (stages 2 and 3) are not accessible. The CD4024 also has three pins with no internal connection (pins 8, 10, and 13).
 
-Control input "reset" triggers all output stages to "low". For continuous frequency division it should be kept at a logical low.
+When a square wave clock signal is applied to the input, each output generates a square wave at half the frequency of the preceding stage. The first output (Q1) oscillates at half the input frequency, Q2 at one-quarter, Q3 at one-eighth, Q4 at one-sixteenth, and so on. This makes these ICs useful for octave division, subharmonic generation, and frequency scaling. Multiple counters can be cascaded for extended division.
 
+The "reset" pin sets all outputs low (0) when activated. For continuous frequency division, it should be kept at a logical low state.
 
 *Applications:*
 * Frequency Divider
