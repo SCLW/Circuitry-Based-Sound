@@ -291,6 +291,15 @@ In most circuits, the majority of connections go to ground or a supply voltage. 
 
 Manufacturers provide documentation for integrated circuits (ICs) and other electronic components in so-called datasheets, which describe the components' characteristics and functions. In an IC datasheet, the pinout diagram explains the function of each pin (or terminal) while also providing important information about operating conditions and supply voltage. When using ICs, it is important and highly recommended to have the datasheet readily available to ensure proper implementation of the component.
 
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/Img/IC_DARK.svg">
+  <img alt="Illustration of an integrated circuit (IC) and a detailed view of one functional block from its internal circuitry" src="/Img/IC_LIGHT.svg">
+</picture>
+
+Illustration of an integrated circuit (IC) and a detailed view of one functional block from its internal circuitry
+
+
 For Dual In-Line Packages (DIL or DIP ICs), the pins are numbered sequentially. When looking at a DIP IC from above, there is typically a marking or notch on one of the shorter sides of the package, which serves as an orientation guide.
 
 To correctly identify the pin numbering:
