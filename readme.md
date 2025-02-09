@@ -1299,6 +1299,9 @@ Bill of Material:
 
 Schematic of Slacker's Melody Generator—a CMOS sound generator using a CD4017 counter and a CD4051 multiplexer to produce evolving, semi-random melodic sequences.
 
+<!--
+https://electro-music.com/forum/viewtopic.php?t=27239&postorder=asc&start=50
+-->
 
 ## Voltage Starve
 
@@ -1311,17 +1314,19 @@ When using an adjustable power supply or a custom-built circuit, you can explore
 
 
 <!-- the content of this sections needs to be edited-->
+
+<!--
 # Photos
 
 The artistic range of applications for electronic projects in the fields of experimental sound, interactive music and sound art is quite large. This section gives some impressions of the works made in the context of this seminar.
 
-<!--
+
 <br>
 
 ![Circuitry-Based Sound Langa 2024](/Img/Workshop_Langa_2024.jpg)
 *Workshop preparations at Langa, Cape Town (ZA) 2024*
 
--->
+
 
 <br>
 
@@ -1339,6 +1344,7 @@ The artistic range of applications for electronic projects in the fields of expe
 *Self-built CMOS synthesizer at Kinemathek Karlsruhe 2022 (Photo: Jihye Jang)*
 
 <br>
+-->
 
 <!--
 ![Circuitry-Based Sound](/Img/CBS.jpg)
