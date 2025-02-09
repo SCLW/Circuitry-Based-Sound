@@ -592,10 +592,9 @@ The "reset" pin sets all outputs low (0) when activated. For continuous frequenc
 
 
 
-In terms of generating sound, each output producing one octave lower than its previous output, respectively input.
+For sound generation with square waves, each output produces a frequency one octave lower than the previous stage, with the input serving as the highest frequency reference.
 
-
-The timing diagram shows the relation of voltage levels between all outputs of the CD4024 IC, a 7-output stage version:
+The timing diagram below illustrates the voltage relationships between all outputs of the CD4024, the 7-stage version of this counter/divider IC:
 
 <!-- IMAGE -->
 
@@ -638,15 +637,15 @@ Phase locked loop
 
 ### CD405x
 
-CD405x Multiplexer/Demultiplexer series comes in a 16 DIP package and is useful for switching and routing analog or digital signals.  
+The CD405x series consists of CMOS analog switches available in a 16-pin DIP package, commonly used for switching and routing both analog and digital signals.
 
-The contact resistance (R<sub>ON</sub>) of a CMOS switch in the closed position depends on the input voltage, power supply voltage, and temperature. For the CD405x types this on-resistance is approximately in the range of 120Ω - 200Ω or more ohms and can distort the input signal in some cases. This value is quite low and negligible for the field of applications described in this article.
+The on-resistance (R<sub>ON</sub>) of these switches depends on the input voltage, power supply voltage, and temperature. For CD405x devices, this resistance typically ranges from 120Ω to over 200Ω, which may cause some signal distortion in certain applications. However, for the purposes of this project, this resistance is generally low enough to be negligible.
 
-If any of the control pins of the CD405x are not used, it must be connected to GND or V<sub>DD</sub>.
+Key Functional Notes:
+- Unused control pins must be connected to either GND or V<sub>DD</sub> to prevent floating inputs.
+- Inhibit input (active low): When set high, all channels are switched off.
+- V<sub>EE</sub> (Pin 7) is used for dual-supply operation. In single-supply mode, it should be tied to ground.
 
-All channels are off when inhibit input is set to "high" (active low).
-
-V<sub>EE</sub> (Pin 7) is for dual supply operation. It is tied to ground in single supply mode.
 
 
 *Applications:*
@@ -657,8 +656,7 @@ V<sub>EE</sub> (Pin 7) is for dual supply operation. It is tied to ground in sin
 
 #### CD4051
 
-CD4051 is a switch in a single pole octal throw configuration with three binary control inputs for setting the contacts. 
-
+The CD4051 is an analog switch configured as a single-pole, 8-throw (SP8T) multiplexer with three binary control inputs for selecting the active channel.
 
 
 
@@ -693,7 +691,7 @@ X = Don't Care
 
 #### CD4052
 
-CD4052 can be used for multiplexing one differential channel in a double-pole quad-throw configuration and has two binary control inputs.
+The CD4052 is an analog switch configured as a double-pole, 4-throw (DP4T) multiplexer, allowing for the selection of one of four differential signal pairs. It has two binary control inputs for channel selection.
 
 <!-- IMAGE -->
 
@@ -717,7 +715,7 @@ X = Don't Care
 
 #### CD4053
 
-CD4053 offers individual control over 3 channels in a single-pole double-throw configuration with an independent binary control input for each channel.  
+The CD4053 is a triple single-pole, double-throw (SPDT) analog switch, with each of its three channels individually controlled by an independent binary input.
 
 <!--
 When the control signal is less than 1/3 V<sub>DD</sub>, z is connected to x0. When the control signal is more than 2/3 V<sub>DD</sub>, z is connected to y1.
@@ -754,13 +752,17 @@ X = Don't Care
 
 Quad Bilateral Single Pole Single Throw Switch
 
-IC CD4066 includes four identical digitally controlled switches for analog or digital signals.
-Inputs and outputs are interchangeable as with conventional switches. Each switch can be controlled independently by a control input.
+The CD4066 is an integrated circuit containing four identical, independently controlled single-pole, single-throw (SPST) analog switches, suitable for both analog and digital signals.
 
-On-state resistance is between few hundred ohms to one thousands ohms, depending on V<sub>DD</sub>. Absolute maximum current into any input is 10mA.
+- Inputs and outputs are interchangeable, similar to conventional mechanical switches.
+- Each switch is controlled by a dedicated binary control input.
+- On-state resistance (R<sub>ON</sub>) ranges from a few hundred ohms to over one thousand ohms, depending on V<sub>DD</sub>.
+- The absolute maximum input current per pin is 10mA.
 
-control logic 1 = switch on  
-control logic 0 = switch off
+Control Logic:
+
+- Logic 1 (High) → Switch ON
+- Logic 0 (Low) → Switch OFF
 
 
 *Applications:*
