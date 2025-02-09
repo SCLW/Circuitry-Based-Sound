@@ -46,16 +46,12 @@
         stroke-width: 1px;
       }
 
-      .cls-11, .cls-12, .cls-14 {
+      .cls-11, .cls-4, .cls-12, .cls-13, .cls-14 {
         stroke: #0D1117;
       }
 
       .cls-11, .cls-3 {
         fill: #7f7f7f;
-      }
-
-      .cls-4, .cls-13 {
-        stroke: #7f7f7f;
       }
 
       .cls-5 {
@@ -1820,5 +1816,7 @@
     <line class="cls-4" x1="646.86" y1="145.19" x2="646.86" y2="550.85"/>
     <line class="cls-4" x1="884.46" y1="145.19" x2="884.46" y2="550.85"/>
     <line class="cls-4" x1="898.95" y1="145.19" x2="898.95" y2="550.85"/>
+    <rect class="cls-14" x="402.02" y="327.74" width="475.2" height="37.67" transform="translate(986.19 -293.05) rotate(90)"/>
+    <line class="cls-14" x1="765.66" y1="108.97" x2="765.66" y2="584.17"/>
   </g>
 </svg>
