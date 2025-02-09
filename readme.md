@@ -1102,10 +1102,10 @@ Potentiometer Structure
 a) Housing, b) Terminals, c) Actuator, d) Resistive track, e) Wiper
 
 
-Potentiometer as a Variable Resistor
+**Potentiometer as a Variable Resistor:**<br>
 If only one end terminal and the wiper are used, the potentiometer functions as a variable resistor, where the resistance varies based on the wiper’s position.
 
-Potentiometer as a Voltage Divider
+**Potentiometer as a Voltage Divider:**<br>
 By connecting a voltage source (e.g., supply voltage or signal) to one of the outer terminals and ground (GND) to the other outer terminal, the potentiometer acts as a variable voltage divider. The output voltage can be tapped from the middle (wiper) terminal and adjusted by turning the actuator.
 
 For example, as the wiper moves from one end to the other, the output voltage scales continuously from minimum to maximum—making this configuration ideal for applications such as volume control.
