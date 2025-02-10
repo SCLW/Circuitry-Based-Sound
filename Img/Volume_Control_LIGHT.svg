@@ -173,10 +173,10 @@
     <line class="cls-10" x1="774.72" y1="77.76" x2="774.72" y2="195.84"/>
     <line class="cls-10" x1="777.6" y1="77.76" x2="777.6" y2="195.84"/>
     <g>
-      <path class="cls-8" d="m711.36,329.76c0,41.84-111.92,102.68-19.59,127.56"/>
-      <path class="cls-11" d="m676.13,462.71c-.16-.52.14-1.08.67-1.23l14.55-4.34-10.08-11.35c-.36-.41-.33-1.04.08-1.4.41-.36,1.04-.32,1.4.08l11.12,12.51c.22.25.31.6.21.93-.09.33-.35.58-.67.68l-16.04,4.78c-.19.05-.38.05-.55,0-.31-.09-.58-.33-.68-.67Z"/>
+      <path class="cls-8" d="m754.56,329.76c0,41.84-111.92,102.68-19.59,127.56"/>
+      <path class="cls-11" d="m719.33,462.71c-.16-.52.14-1.08.67-1.23l14.55-4.34-10.08-11.35c-.36-.41-.33-1.04.08-1.4.41-.36,1.04-.32,1.4.08l11.12,12.51c.22.25.31.6.21.93-.09.33-.35.58-.67.68l-16.04,4.78c-.19.05-.38.05-.55,0-.31-.09-.58-.33-.68-.67Z"/>
     </g>
-    <path class="cls-8" d="m754.56,329.76c-19.67,55.68-33.12,76.32-30.24,162.72"/>
+    <path class="cls-8" d="m711.36,329.76c-19.67,55.68-33.12,76.32-30.24,162.72"/>
     <g>
       <path class="cls-8" d="m797.76,329.76c0,84.06-11.12,161.91-60.84,198.1"/>
       <polygon class="cls-11" points="719.02 527.39 738.34 526.78 729.68 544.06 719.02 527.39"/>
@@ -203,7 +203,7 @@
     <circle class="cls-4" cx="272.16" cy="100.8" r="8.64"/>
     <circle class="cls-8" cx="56.16" cy="388.8" r="8.64"/>
     <circle class="cls-8" cx="303.84" cy="401.76" r="8.64"/>
-    <polygon class="cls-8" points="709.92 492.48 738.72 492.48 724.32 509.76 709.92 492.48"/>
+    <polygon class="cls-8" points="666.72 492.48 695.52 492.48 681.12 509.76 666.72 492.48"/>
     <path class="cls-2" d="m823.84,243.36h-138.56c-1.5,0-2.72,1.22-2.72,2.72v60.8c0,1.5,1.22,2.72,2.72,2.72h20.32v-23.04h11.52v23.04h31.68v-23.04h11.52v23.04h31.68v-23.04h11.52v23.04h20.32c1.5,0,2.72-1.22,2.72-2.72v-60.8c0-1.5-1.22-2.72-2.72-2.72Z"/>
     <path class="cls-2" d="m276.64,243.36h-138.56c-1.5,0-2.72,1.22-2.72,2.72v60.8c0,1.5,1.22,2.72,2.72,2.72h20.32v-23.04h11.52v23.04h31.68v-23.04h11.52v23.04h31.68v-23.04h11.52v23.04h20.32c1.5,0,2.72-1.22,2.72-2.72v-60.8c0-1.5-1.22-2.72-2.72-2.72Z"/>
   </g>
@@ -216,14 +216,14 @@
     <text class="cls-12" transform="translate(461.51 93.6)"><tspan x="0" y="0">3</tspan></text>
     <text class="cls-12" transform="translate(342.82 64.8)"><tspan class="cls-13" x="0" y="0">V</tspan><tspan x="11.05" y="0">ariable Resis</tspan><tspan class="cls-15" x="113.1" y="0">t</tspan><tspan x="118.8" y="0">or</tspan></text>
     <text class="cls-12" transform="translate(861.36 64.8)"><tspan class="cls-13" x="0" y="0">V</tspan><tspan x="11.05" y="0">oltage Divider</tspan></text>
-    <text class="cls-12" transform="translate(678.32 436.32)"><tspan x="0" y="0">V</tspan></text>
-    <text class="cls-12" transform="translate(689.77 442.31) scale(.58)"><tspan x="0" y="0">OU</tspan><tspan class="cls-14" x="24.05" y="0">T</tspan></text>
+    <text class="cls-12" transform="translate(721.52 436.32)"><tspan x="0" y="0">V</tspan></text>
+    <text class="cls-12" transform="translate(732.97 442.31) scale(.58)"><tspan x="0" y="0">OU</tspan><tspan class="cls-14" x="24.05" y="0">T</tspan></text>
     <text class="cls-12" transform="translate(740.79 547.2)"><tspan x="0" y="0">V</tspan></text>
     <text class="cls-12" transform="translate(752.24 553.19) scale(.58)"><tspan x="0" y="0">IN</tspan></text>
     <text class="cls-12" transform="translate(736.55 336.96)"><tspan x="0" y="0">2</tspan></text>
     <text class="cls-12" transform="translate(694.79 336.96)"><tspan x="0" y="0">1</tspan></text>
     <text class="cls-12" transform="translate(781.19 336.96)"><tspan x="0" y="0">3</tspan></text>
-    <text class="cls-12" transform="translate(674.19 511.2)"><tspan x="0" y="0">GND</tspan></text>
+    <text class="cls-12" transform="translate(630.99 511.2)"><tspan x="0" y="0">GND</tspan></text>
     <text class="cls-12" transform="translate(941.03 188.64)"><tspan x="0" y="0">2</tspan></text>
     <text class="cls-12" transform="translate(909.35 152.64)"><tspan x="0" y="0">3</tspan></text>
     <text class="cls-12" transform="translate(909.35 263.52)"><tspan x="0" y="0">1</tspan></text>
