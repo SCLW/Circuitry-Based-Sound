@@ -1189,9 +1189,8 @@ Two circuits using an LDR: a voltage divider adjusting output voltage based on l
 
 ## Pull-up and Pull-down Resistors
 
-When external circuits or devices are added to a logic input, care must be taken to keep the inputs in a defined state. When switches or transistors are used to control a logic gate, they can physically disconnect the inputs. For example, when a normally-open push button is in its default position, the high impedance input is open. This causes the pin to act like an antenna that is very susceptible to electromagnetic noise and forces the output to do unwanted operations like generating random highs or lows. This is called "floating" and introduces undesired effects.
 
-
+When connecting external circuits or devices to a logic gate, it's important to ensure that the inputs remain in a defined state. Floating inputs (inputs that are left unconnected) can behave unpredictably due to their high impedance, making them highly susceptible to electromagnetic noise. For example, when a normally open push button is in its default position (not pressed), it effectively disconnects the input. In this state, the logic input may pick up random interference, causing the circuit to behave erratically by generating unintended high or low signals. This phenomenon is known as "floating", leading to unreliable circuit operation.
 
 <!-- IMAGE -->
 
@@ -1202,10 +1201,12 @@ When external circuits or devices are added to a logic input, care must be taken
 
 
 
+To prevent unpredictable behavior, a pull-up or pull-down resistor should be connected to either V<sub>CC</sub> (high voltage) or GND (ground). This ensures that the input remains in a defined state even when no active signal is applied, such as when a switch is open. When the switch is closed, the input can still receive a valid signal.
+- A connection to V<sub>CC</sub> is called a pull-up resistor, keeping the input high (logic 1) by default.
+- A connection to GND is called a pull-down resistor, keeping the input low (logic 0) by default.
+- For CMOS logic, typical resistor values range from several kilo-ohms (e.g., 10kΩ – 100kΩ).
 
-To avoid this unpredicted behavior, a resistor should be connected to ground or to the high voltage, so that the input pin will see a defined state even when nothing else is connected, for example when a switch is opened. The pin will be able to accept an input signal when the switch is closed. A connection to V<sub>CC</sub> is called "pull-up" and a connection to ground "pull-down". For CMOS-logic, the resistor values can be several thousand ohms.
-
-Even unused logic gates can cause problems since coupled-in interference voltages result in unwanted triggers and excess current draw. If a proper operation is desired, all unused inputs should not be left floating and connected together to GND or V<sub>CC</sub>.
+Even unused logic gates can cause issues, as they may pick up interference, leading to false triggering or increased power consumption. To ensure stable operation, all unused inputs should be tied to either GND or V<sub>CC</sub> instead of being left floating.
 
 # Exploratory Sound Circuits
 
