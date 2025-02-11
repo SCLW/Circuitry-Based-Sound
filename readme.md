@@ -1381,7 +1381,6 @@ Instructions, parts, tools, shopping lists, components, assemblies, and other ma
 
 Helpful tools and useful materials:
 
-Workspace & Basic Tools
 - Worktables.
 - Good lighting conditions.
 - Small audio mixing desk (for signal routing and monitoring).
