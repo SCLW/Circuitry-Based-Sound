@@ -1372,6 +1372,7 @@ The artistic range of applications for electronic projects in the fields of expe
 *Photo: Yunfei Zhang*
 -->
 
+
 # Materials
 
 Instructions, parts, tools, shopping lists, components, assemblies, and other materials required to create electronic projects in this field.
@@ -1380,27 +1381,26 @@ Instructions, parts, tools, shopping lists, components, assemblies, and other ma
 
 Helpful tools and useful materials:
 
-
-* Small mixing desk.
-* Active loudspeakers.
-* Worktables.
-* Pen and paper for drawing schematics.
-* Screw drivers.
-* ESD electronic diagonal cutter.
-* Precision cutter.
-* Stranded wires.
-* Crocodile clips.
-* Laboratory power supply & connectors (preferable 4mm banana laboratory connectors).
-* Jumper cables and jumper wires.
-* Digital multimeter (DVM).
-* Digital storage oscilloscope (DSO).
-* Temperature-controlled soldering station.
-* Breadboards.
-* 9V Batteries.
-* Battery clips.
-* Good light conditions.
-
-
+Workspace & Basic Tools
+- Worktables.
+- Good lighting conditions.
+- Small audio mixing desk (for signal routing and monitoring).
+- Active loudspeakers (e.g., powered studio monitor Behringer B205D).
+- Pen and paper for drawing schematics.
+- Screwdrivers (flathead & Phillips).
+- Precision knife (e.g., scalpel).
+- Electronic Components & Connections
+- Stranded wire (various gauges).
+- Crocodile clips.
+- Jumper wires (male-to-male).
+- Battery clips.
+- 9V batteries.
+- Laboratory power supply & connectors (preferably 4mm banana laboratory connectors).
+- Digital multimeter (DVM).
+- Digital storage oscilloscope (DSO).
+- Breadboards.
+- Temperature-controlled soldering station.
+- ESD electronic diagonal cutter.
 
 ## Bill of Materials (BoM)
 
