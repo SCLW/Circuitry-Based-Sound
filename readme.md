@@ -1318,7 +1318,7 @@ Bill of Material:
   <img alt="Schematic of Slacker's Melody Generator—a CMOS sound generator using a CD4017 counter and a CD4051 multiplexer to produce evolving, semi-random melodic sequences." src="/Img/Melody_Generator_LIGHT.svg">
 </picture>
 
-Schematic of Slacker's Melody Generator—a CMOS sound generator using a CD4017 counter and a CD4051 multiplexer to produce evolving, semi-random melodic sequences.
+Schematic of Slacker's Melody Generator—a CMOS sound generator using a CD4017 counter (left) and a CD4051 multiplexer (right) to produce evolving, semi-random melodic sequences.
 
 <!--
 https://electro-music.com/forum/viewtopic.php?t=27239&postorder=asc&start=50
