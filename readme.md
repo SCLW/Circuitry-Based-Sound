@@ -134,7 +134,7 @@ The following diagram illustrates the waveform of a square wave and assigns the 
 <br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/Img/Square_Wave_as_Binary_LIGHT.svg">
-  <img alt="Demonstrating the relationship between a square wave and its equivalent binary representation (0s and 1s)." src="/Img/Square_Wave_as_Binary_DARK.svg">
+  <img alt="Demonstrating the relationship between a square wave and its equivalent binary representation (0s and 1s)." src="/Img/Square_Wave_as_Binary_LIGHT.svg">
 </picture>
 
 
