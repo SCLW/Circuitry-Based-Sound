@@ -1387,7 +1387,7 @@ Helpful tools and useful materials:
 - Worktables.
 - Good lighting conditions.
 - Small audio mixing desk (for signal routing and monitoring).
-- Active loudspeakers (e.g., powered studio monitor Behringer B205D).
+- Active loudspeakers (e.g., powered monitor Behringer B205D).
 - Pen and paper for drawing schematics.
 - Screwdrivers (flathead & Phillips).
 - Precision knife (e.g., scalpel).
