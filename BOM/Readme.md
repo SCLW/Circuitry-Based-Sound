@@ -71,3 +71,62 @@ No|Description|Package|Value|Manufacturer Part Number|Mouser-Nr.
 66|Piezo Buzzers & Audio Indicators|20mm||7BB-20-3|[81-7BB-20-3](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-20-3?qs=JJeuIrkYhekHouIxq0fvsw%3D%3D "Piezo disk")||
 67|Piezo Buzzers & Audio Indicators|27mm||7BB-27-4L0|[81-7BB-27-4L0](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-27-4L0?qs=PkW2zKsTBmE%2F8VGC6sKDJA%3D%3D "Piezo disk")||
 68|Piezo Buzzers & Audio Indicators|35mm||7BB-35-3C|[81-7BB-35-3C](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-35-3C?qs=gRcAz2mAxnN1kUKNPnYYbw%3D%3D "Piezo disk")||
+
+
+
+DEBO KABELSET18 Entwicklerboards - Kabel-Set, verschiedene Längen (65er-Pack)  <br>
+Artikel-Nr.: DEBO KABELSET18 
+
+1N 4148 Schalt-Diode, 100 V, 150 mA, DO-35  <br>
+Artikel-Nr.: 1N 4148
+
+MOS 40106 Inverter, Hex, 3 ... 15 V, DIP-14<br>
+Artikel-Nr.: MOS 40106  
+
+MOS 4017 Counter, 10-Stage, 3 ... 15 V, DIP-16 <br>
+Artikel-Nr.: MOS 4017 
+
+MOS 4020 Counter, 14-Bit, 3 ... 15 V, DIP-16<br>
+Artikel-Nr.: MOS 4020  
+
+MOS 4022 Counter, 4-Bit, 3 ... 15 V, DIP-16<br>
+Artikel-Nr.: MOS 4022  
+
+MOS 4046, PLL, Micropower, 3 ... 15 V, DIP-16 <br>
+Artikel-Nr.: MOS 4046 <br>
+Hst.-Teile-Nr.: CD4046BE 
+
+MOS 4047 Monostable, CMOS, 3 ... 15 V, DIP-14 <br>
+Artikel-Nr.: MOS 4047 <br>
+
+MOS 4051, Analoger Multiplex/Demultiplex, 8-Kanal, 3 ... 15 V, DIP-16 <br>
+Artikel-Nr.: MOS 4051 <br>
+Hst.-Teile-Nr.: CD4051BE 
+
+MOS 4053, Multi-/Demultiplexer, 2-CH, 3 ... 15 V, DIP-16 <br>
+Artikel-Nr.: MOS 4053 
+
+MOS 4069, Inverter, Hex, 3 ... 15 V, DIP-14 <br>
+Artikel-Nr.: MOS 4069 <br>
+Hst.-Teile-Nr.: CD4069UB
+
+MOS 4070 XOR-Gate, 2-Input, 3 ... 20 V, DIP-14<br>
+Artikel-Nr.: MOS 4070  
+
+MOS 4093 NAND-Gate, 2-Input, 3 ... 20 V, DIP-14<br>
+Artikel-Nr.: MOS 4093  
+
+
+
+
+
+
+# Eckstein Komponente
+
+Keyestudio 3x Breadboard 830 Point Breadboard MB-102 for Arduino Solderless  
+Art.-Nr.: KS0330  
+GTIN: 4060137112430  
+
+30pcs 6Values Lichtempfindliche Wiederstände Photoresistor 5506 5516 5528 5537 5539 5549  
+Art.-Nr.: ZB58003  
+GTIN: 4060137015519  
