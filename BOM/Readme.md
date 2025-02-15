@@ -73,6 +73,8 @@ No|Description|Package|Value|Manufacturer Part Number|Mouser-Nr.
 68|Piezo Buzzers & Audio Indicators|35mm||7BB-35-3C|[81-7BB-35-3C](https://www.mouser.de/ProductDetail/Murata-Electronics/7BB-35-3C?qs=gRcAz2mAxnN1kUKNPnYYbw%3D%3D "Piezo disk")||
 
 
+# Reichelt
+https://www.reichelt.de<br>
 
 DEBO KABELSET18 Entwicklerboards - Kabel-Set, verschiedene Längen (65er-Pack)  <br>
 Artikel-Nr.: DEBO KABELSET18 
@@ -122,6 +124,8 @@ Artikel-Nr.: MOS 4093
 
 
 # Eckstein Komponente
+https://eckstein-shop.de<br>
+
 
 Keyestudio 3x Breadboard 830 Point Breadboard MB-102 for Arduino Solderless  
 Art.-Nr.: KS0330  
