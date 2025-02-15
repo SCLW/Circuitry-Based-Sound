@@ -76,6 +76,9 @@ No|Description|Package|Value|Manufacturer Part Number|Mouser-Nr.
 # Reichelt
 https://www.reichelt.de<br>
 
+Mini-Krokodilklemmen, Verbindungsleitungs-Satz, 10-teilig<br>
+Artikel-Nr.: MK 612S
+
 DEBO KABELSET18 Entwicklerboards - Kabel-Set, verschiedene Längen (65er-Pack)  <br>
 Artikel-Nr.: DEBO KABELSET18 
 
