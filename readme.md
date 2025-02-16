@@ -346,7 +346,7 @@ With only few exceptions (e.g., CD4049UB and CD4050B), the bottom-left pin is ty
 - **Update your schematic** when modifying a circuit—redraw it and clearly mark any changes.
 - **Refer to datasheets** – Always check component pinouts and electrical characteristics online before connecting parts to ensure proper functionality.
 - **Keep your workspace organized** – Remove unused cables and sort components properly to avoid mistakes and make debugging easier.
-- **Dispose of burned chips** – If a chip overheats or burns due to incorrect wiring, it is likely damaged and should be replaced rather than reused to prevent further issues.
+- **Dispose of burned chips** –  If a chip overheats or burns due to incorrect power supply connections or wiring faults, it is likely damaged and should be replaced rather than reused to prevent further issues.
   
 
 # Electronic Components
