@@ -132,6 +132,7 @@ A binary logic signal, which encodes 0 and 1 as two distinct voltage levels, can
 The following diagram illustrates the waveform of a square wave and assigns the values 0 and 1 to its two voltage states.
 <br>
 <br>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/Img/Square_Wave_as_Binary_DARK.svg">
   <img alt="Demonstrating the relationship between a square wave and its equivalent binary representation (0s and 1s)." src="/Img/Square_Wave_as_Binary_LIGHT.svg">
