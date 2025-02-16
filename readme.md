@@ -380,7 +380,7 @@ The following is a list of CMOS chips and other integrated circuits used for sou
 
 The inverter is a fundamental component in digital electronics, performing the logic operation of negation. When the input is connected to ground, the output is pulled to V<sub>DD</sub>, and vice versa. The CD40106 Hex Schmitt Trigger Inverter contains six independent inverters in a single chip. Unlike standard inverters, its Schmitt trigger action provides hysteresis, allowing for unrestricted rise and fall times on the input, which makes it especially robust against noise. This chip can be externally wired to function as one or more square-wave oscillators (see illustration).
 
-When using a potentiometer for frequency control, add a series resistor to avoid an excessively low-resistance path between the output and input, which can disrupt proper operation and force the oscillator to remain at high frequencies—even beyond the audible range.
+When using a potentiometer for frequency control, always include a series resistor to prevent an excessively low-resistance path between the output and input. Without it, the oscillator may malfunction or remain locked at very high frequencies, potentially beyond the audible range. A reliable setup consists of a **100kΩ potentiometer** in series with a **1kΩ resistor** and a **100nF capacitor**, allowing frequency tuning from approximately **100 Hz to several kilohertz**. For lower frequencies, increasing the capacitance expands the range. Using a **1µF** capacitor enables oscillations between **10 Hz and several hundred Hertz**, while even lower frequencies can be achieved with larger capacitance values.
 
 *Applications:*
 * Square Wave Generator
