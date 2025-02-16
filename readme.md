@@ -338,11 +338,12 @@ With only few exceptions (e.g., CD4049UB and CD4050B), the bottom-left pin is ty
 
 ### Practical Breadboarding Tips 
  
-- **Use a color code for wires** – Standardizing wire colors (e.g., red for power, black for ground, other colors for signals) helps with readability and troubleshooting.
+- **Use a color code for wires** – Standardizing wire colors (e.g., red for power, black or blue for ground, other colors for signals) helps with readability and troubleshooting.
 - **Document your work** – Take notes and photos of your circuit at different stages to keep track of progress and troubleshoot issues later.
 - **Update your schematic** when modifying a circuit—redraw it and clearly mark any changes.
 - **Refer to datasheets** – Always check component pinouts and electrical characteristics online before connecting parts to ensure proper functionality.
 - **Keep your workspace organized** – Remove unused cables and sort components properly to avoid mistakes and make debugging easier.
+- **Dispose of burned chips** – If a chip overheats or burns due to incorrect wiring, it is likely damaged and should be replaced rather than reused to prevent further issues.
   
 
 # Electronic Components
