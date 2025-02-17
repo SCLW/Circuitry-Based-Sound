@@ -230,7 +230,9 @@ $$
 where V<sub>P</sub> is the positive trigger threshold voltage and V<sub>N</sub> the negative trigger threshold voltage.
 
 
-
+$$
+f=\dfrac{1}{T}=\dfrac{1}{RC ln \left[\left(\dfrac{V_P}{V_N})(\dfrac{V_{DD}-V_N}{V_{DD}-V_P})\right]\right}
+$$
 
 
 <br>
