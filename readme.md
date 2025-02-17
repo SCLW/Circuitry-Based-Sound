@@ -347,15 +347,23 @@ With only few exceptions (e.g., CD4049UB and CD4050B), the bottom-left pin is ty
 - **Refer to datasheets** – Always check component pinouts and electrical characteristics online before connecting parts to ensure proper functionality.
 - **Keep your workspace organized** – Remove unused cables and sort components properly to avoid mistakes and make debugging easier.
 - **Dispose of burned chips** –  If a chip overheats or burns due to incorrect power supply connections or wiring faults, it is likely damaged and should be replaced rather than reused to prevent further issues.
+
+## How to Read a Schematic
   
+Electronic components are represented using standardized symbols in a schematic, allowing anyone familiar with these symbols to identify components and understand their function within a circuit. Below is an overview of the most common symbols related to DIY electronics for music and sound creation.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/Img/Components_DARK.svg">
   <img alt="Common Electronic Schematic Symbols" src="/Img/Components_LIGHT.svg">
 </picture>
 
-Common Electronic Schematic Symbols
+In schematics, components are typically labeled with abbreviations, such as R for resistors, C for capacitors, D for diodes, and so on. Along with these labels, a numerical value is often provided to specify the exact component used in the circuit (e.g., "R1 10kΩ").
 
+A schematic visually represents how components are connected by using lines to indicate electrical connections between their terminals. In more complex circuits, these lines, called nets, can branch, split, or form junctions. Junctions, where multiple wires connect electrically, are indicated with a dot. If wires cross without forming a connection, a small bridge should be used to clarify that they belong to separate nets.
+
+Voltage supply lines (power nets) are often not drawn explicitly throughout the schematic but are instead represented by a symbol (e.g., Vcc, Vdd, or V+) that appears at multiple locations in the circuit. Similarly, ground (GND) connections are frequently represented by a ground symbol, avoiding the need to draw individual connections for every grounded component. This makes schematics easier to read.
+
+Integrated circuits (ICs) have multiple pins, each serving a specific function. In a schematic, pin numbers are usually indicated next to the IC symbol to help identify which pin corresponds to which function.
 # Electronic Components
 
 The following is a list of CMOS chips and other integrated circuits used for sound creation and processing. This list will be continuously expanded throughout the seminar. Each chip’s primary applications are outlined, along with a brief explanation. Pinouts, functional diagrams, truth tables, and basic example circuits are also provided. However, these examples do not represent a comprehensive guide. The main objective is to explore variations, modifications, and new creative combinations for experimental sound and music. For detailed specifications, please refer to the manufacturer’s datasheet.
