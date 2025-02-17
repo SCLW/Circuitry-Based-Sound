@@ -349,16 +349,15 @@ With only few exceptions (e.g., CD4049UB and CD4050B), the bottom-left pin is ty
 - **Dispose of burned chips** –  If a chip overheats or burns due to incorrect power supply connections or wiring faults, it is likely damaged and should be replaced rather than reused to prevent further issues.
 
 ## How to Read a Schematic
-  
+
+A schematic visually represents how components are connected by using lines to indicate electrical connections between their terminals. In more complex circuits, these lines, called nets, can branch, split, or form junctions. Junctions, where multiple wires connect electrically, are indicated with a dot. If wires cross without forming a connection, a small bridge should be used to clarify that they belong to separate nets.
+
 Electronic components are represented using standardized symbols in a schematic, allowing anyone familiar with these symbols to identify components and understand their function within a circuit. Below is an overview of the most common symbols related to DIY electronics for music and sound creation.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/Img/Components_DARK.svg">
   <img alt="Common Electronic Schematic Symbols" src="/Img/Components_LIGHT.svg">
 </picture>
-
-
-A schematic visually represents how components are connected by using lines to indicate electrical connections between their terminals. In more complex circuits, these lines, called nets, can branch, split, or form junctions. Junctions, where multiple wires connect electrically, are indicated with a dot. If wires cross without forming a connection, a small bridge should be used to clarify that they belong to separate nets.
 
 Voltage supply lines (power nets) are often not drawn explicitly throughout the schematic but are instead represented by a symbol (e.g., Vcc, Vdd, or V+) that appears at multiple locations in the circuit. Similarly, ground (GND) connections are frequently represented by a ground symbol, avoiding the need to draw individual connections for every grounded component. This makes schematics easier to read.
 
