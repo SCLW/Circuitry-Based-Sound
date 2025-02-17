@@ -349,6 +349,13 @@ With only few exceptions (e.g., CD4049UB and CD4050B), the bottom-left pin is ty
 - **Dispose of burned chips** –  If a chip overheats or burns due to incorrect power supply connections or wiring faults, it is likely damaged and should be replaced rather than reused to prevent further issues.
   
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/Img/Components_DARK.svg">
+  <img alt="Common Electronic Schematic Symbols" src="/Img/Components_LIGHT.svg">
+</picture>
+
+Common Electronic Schematic Symbols
+
 # Electronic Components
 
 The following is a list of CMOS chips and other integrated circuits used for sound creation and processing. This list will be continuously expanded throughout the seminar. Each chip’s primary applications are outlined, along with a brief explanation. Pinouts, functional diagrams, truth tables, and basic example circuits are also provided. However, these examples do not represent a comprehensive guide. The main objective is to explore variations, modifications, and new creative combinations for experimental sound and music. For detailed specifications, please refer to the manufacturer’s datasheet.
