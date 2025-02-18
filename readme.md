@@ -229,6 +229,44 @@ $$
 where V<sub>P</sub> is the positive trigger threshold voltage and V<sub>N</sub> the negative trigger threshold voltage.
 
 
+For a **10V power supply**, the typical threshold voltages, according to the datasheet, are:  
+
+- $V_P \approx 5.9V$  
+- $V_N \approx 3.9V$
+
+Substituting **$V_{DD} = 10V$, $V_P = 5.9V$, and $V_N = 3.9V$**:  
+
+$$
+f = \frac{1}{RC \cdot \ln \left[\left(\frac{5.9}{3.9}\right) \left(\frac{10 - 3.9}{10 - 5.9}\right)\right]}
+$$
+
+$$
+f = \frac{1}{RC \cdot \ln (2.2508)}
+$$
+
+Since:
+
+$$
+\ln (2.2508) \approx 0.8113
+$$
+
+The final formula simplifies to:
+
+$$
+f \approx \frac{1}{RC \cdot 0.8113}
+$$
+
+The values in the table should be used as a starting point, as actual frequencies may vary due to chip manufacturing tolerances, large capacitor tolerances, and the effects of parasitic capacitance and additional resistance introduced by wiring and jumper cables
+
+|        | **0.01µF** | **0.1µF** | **0.22µF** | **0.47µF** | **1µF** | **22µF** | **47µF** |
+|--------|---------|--------|---------|---------|--------|-------|-------|
+| 1k     | 120000 Hz  | 12000 Hz  | 5600 Hz  | 2600 Hz  | 1200 Hz  | 56 Hz  | 26 Hz  |
+| 4.7k   | 26000 Hz   | 2600 Hz   | 1200 Hz  | 560 Hz   | 260 Hz   | 12 Hz  | 5.6 Hz   |
+| 10k    | 12000 Hz   | 1200 Hz   | 560 Hz   | 260 Hz   | 120 Hz   | 5.6 Hz   | 2.6 Hz   |
+| 47k    | 2600 Hz    | 260 Hz    | 120 Hz   | 56 Hz    | 26 Hz    | 1.2 Hz   | 0.56 Hz   |
+| 82k    | 1500 Hz    | 150 Hz    | 68 Hz    | 32 Hz    | 15 Hz    | 0.68 Hz   | 0.32 Hz   |
+| 100k   | 1200 Hz    | 120 Hz    | 56 Hz    | 26 Hz    | 12 Hz    | 0.56 Hz   | 0.26 Hz   |
+| 470k   | 260 Hz     | 26 Hz     | 12 Hz    | 5.6 Hz     | 2.6 Hz     | 0.12 Hz   | 0.06 Hz   |
 
 
 
