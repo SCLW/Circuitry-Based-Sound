@@ -261,7 +261,7 @@ $$
 
 The values in the table should be used as a starting point, as actual frequencies may vary due to chip manufacturing tolerances, large capacitor tolerances, and the effects of parasitic capacitance and additional resistance introduced by wiring and jumper cables
 
-|        | **0.01µF** | **0.1µF** | **0.22µF** | **0.47µF** | **1µF** | **22µF** | **47µF** |
+| @10V   | **0.01µF** | **0.1µF** | **0.22µF** | **0.47µF** | **1µF** | **22µF** | **47µF** |
 |--------|---------|--------|---------|---------|--------|-------|-------|
 | 1k     | 120000 Hz  | 12000 Hz  | 5600 Hz  | 2600 Hz  | 1200 Hz  | 56 Hz  | 26 Hz  |
 | 4.7k   | 26000 Hz   | 2600 Hz   | 1200 Hz  | 560 Hz   | 260 Hz   | 12 Hz  | 5.6 Hz   |
