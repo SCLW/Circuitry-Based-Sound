@@ -219,6 +219,9 @@ An inverting Schmitt trigger is an active electronic component whose output stat
 <br>
 <br>
 
+
+### Selecting R and C Values
+
 The frequency can be roughly calculated with this formula
 
 
