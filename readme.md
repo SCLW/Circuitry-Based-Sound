@@ -258,7 +258,7 @@ $$
 f \approx \frac{1}{RC \cdot 0.8113}
 $$
 
-The values in the table should be used as a starting point, as actual frequencies may vary due to chip manufacturing tolerances, large capacitor tolerances, and the effects of parasitic capacitance and additional resistance introduced by wiring and jumper cables
+The values in the table should be used as a starting point, as actual frequencies may vary due to chip manufacturing tolerances, large capacitor tolerances, and the effects of parasitic capacitance and additional resistance introduced by wiring and jumper cables.
 
 | @10V   | **0.01µF** | **0.1µF** | **0.22µF** | **0.47µF** | **1µF** | **22µF** | **47µF** |
 |--------|---------|--------|---------|---------|--------|-------|-------|
