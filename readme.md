@@ -232,11 +232,9 @@ $$
 where V<sub>P</sub> is the positive trigger threshold voltage and V<sub>N</sub> the negative trigger threshold voltage.
 
 
-For a **10V power supply**, the typical threshold voltages, according to the datasheet, are:  
+For a **10V power supply**, the typical threshold voltages, according to the datasheet, are $V_P \approx 5.9V$ and $V_N \approx 3.9V$.
 
-- $V_P \approx 5.9V$  
-- $V_N \approx 3.9V$
-
+<!--
 Substituting **$V_{DD} = 10V$, $V_P = 5.9V$, and $V_N = 3.9V$**:  
 
 $$
@@ -252,6 +250,7 @@ Since:
 $$
 \ln (2.2508) \approx 0.8113
 $$
+-->
 
 The final formula simplifies to:
 
