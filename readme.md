@@ -941,7 +941,11 @@ X   = Don't Care
 
 Divide-By-'N' Counter
 
-When the outputs are fed back to the input Data, divide by 10, 8, 6, 4, 2, is calculated. For odd numbers 9, 7, 5, 3, simply use CD4011 or CD4093 to NAND two corresponding output stages and feed the inverted result back into Data. By combining multiple devices, higher divide-by functions can be calculated. Preset enable will transfer Data on the input Jam to its corresponding /Q (inverted). A logical high on the reset input causes all /Q Outputs to high.
+By feeding the output stages back into the Data input, the CD4018 can divide a clock signal by 10, 8, 6, 4, or 2. For odd division factors (9, 7, 5, 3), an additional NAND gate (CD4011 or CD4093) can be used. Simply NAND two appropriate output stages and feed the inverted result back into the Data input to achieve the desired division. By cascading multiple CD4018 chips, higher divide-by-N ratios can be implemented for more complex rhythmic patterns or frequency modulation techniques.
+
+Control Functions
+- **Preset Enable:** Transfers the data from the Jam input to its corresponding /Q (inverted) output.
+- **Reset:** A logical HIGH on the Reset input forces all /Q outputs HIGH, resetting the counter.
 
 
 Divide by 9: **/Q4** & **/Q5** via 1/2 CD4011 connected to input Data  
