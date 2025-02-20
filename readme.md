@@ -338,6 +338,9 @@ Breadboards are made of plastic and feature a standardized hole grid with metal 
   <img alt="How a Breadboard Works: Functional Sections and Internal Wiring" src="/Img/Breadboard_LIGHT.svg">
 </picture>
 
+<br>
+<br>
+
 
 A typical breadboard consists of three main sections:
 
