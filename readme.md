@@ -344,9 +344,10 @@ Breadboards are made of plastic and feature a standardized hole grid with metal 
 
 A typical breadboard consists of three main sections:
 
-- **Power Rails:** Located along the outer edges, these two continuous strips are internally connected and typically used to distribute power across the board (usually indicated with the symbols + and - and/or the colors red and blue).
-- **DIP Support:** A central gap that separates the two sides of the breadboard, designed to accommodate dual in-line package (DIP) components, such as integrated circuits (ICs).
-- **Terminal Strips:** Arranged perpendicularly to the power rails, these rows of interconnected holes on either side of the centerline provide access to the pins of DIP components, enabling circuit connections.
+- Power Rails – Outer strips used for power distribution, marked with +/- or red/blue lines.
+- DIP Support – A central gap for dual in-line package (DIP) components, such as ICs.
+- Terminal Strips – Rows of interconnected holes for circuit connections and DIP pin access.
+
 
 In most circuits, the majority of connections go to ground or a supply voltage. For convenience, it’s best to connect the power rails on both sides of the breadboard so you can easily access ground or the supply at any point across the entire board.
 
