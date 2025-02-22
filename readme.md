@@ -65,7 +65,7 @@ Below is a documentation of the workshop’s study materials and findings.
 
 [**EXPLORATORY SOUND CIRCUITS**](/readme.md#exploratory-sound-circuits)
   - [Linear Feedback Shift Register](/readme.md#linear-feedback-shift-register)
-  - [Step Sequencer](/readme.md#step-sequencer-under-construction)
+  - [Step Sequencer](/readme.md#step-sequencer)
   - [Melody Generator](/readme.md#melody-generator)
   - [Voltage Starve](/readme.md#voltage-starve)
 <br>
@@ -433,10 +433,9 @@ The following is a list of CMOS chips and other integrated circuits used for sou
 - [CD4066](/readme.md#cd4066)
 - [CD4060](/readme.md#cd4060)
 - [CD4013](/readme.md#cd4013)
-- [CD4018](/readme.md#cd4018-under-construction)
-- [555 Timer](/readme.md#555-timer-under-construction)
-- [LM386](/readme.md#lm386---power-operational-amplifier-under-construction)
-
+- [CD4018](/readme.md#cd4018)
+- [555 Timer](/readme.md#555)
+- [LM386](/readme.md#lm386---power-operational-amplifier)
 
 
 
@@ -1096,7 +1095,7 @@ https://www.electroschematics.com/edge-triggered-555-monostable-multivibrator/
 
 -->
 
-### LM386 - Power Operational Amplifier (under construction)
+### LM386 - Power Operational Amplifier
 
 Although not part of the CMOS logic family this ubiquitous power op amp is a very versatile component when it comes to amplification or driving small speakers.
 
@@ -1344,7 +1343,7 @@ https://github.com/SCLW/Circuitry-Based-Sound/assets/51890764/fa4ba6e8-b892-4d65
 
 
 
-## Step Sequencer (under construction)
+## Step Sequencer
 
 This circuit for a step sequencer is shown in N. Collins book 'Handmade Electronic Music'. It makes use of the built-in voltage controlled oscillator (VCO) of the [CD4046](/readme.md#cd4046 "CD4046") Phase-Locked Loop. The voltage levels of the output pulses of the [CD4022](/readme.md#cd4022 "CD4022") counter can be scaled down by the potentiometer voltage dividers and are mixed together via the [diodes](https://en.wikipedia.org/wiki/Diode "Diode") D1-D8 (1N4148). The CD4046’s voltage controlled oscillator is then generating a frequency according to the input voltage level. Therefore, each step Q0-Q7 of the CD4022 can be used to produce a single tone.
 
