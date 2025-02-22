@@ -945,7 +945,7 @@ X   = Don't Care
 <br>
 
 
-### CD4018 (under construction)
+### CD4018
 
 Divide-By-'N' Counter
 
