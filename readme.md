@@ -71,11 +71,11 @@ Below is a documentation of the workshop’s study materials and findings.
 <br>
 <br>
 
-<!--
+
 [**PHOTOS**](/readme.md#photos)
 <br>
 <br>
--->
+
 
 [**MATERIALS**](/readme.md#Materials)
   - [Requirements](/readme.md#requirements)
@@ -1426,7 +1426,7 @@ When using an adjustable power supply or a custom-built circuit, you can explore
 
 <!-- the content of this sections needs to be edited-->
 
-<!--
+
 # Photos
 
 The artistic range of applications for electronic projects in the fields of experimental sound, interactive music and sound art is quite large. This section gives some impressions of the works made in the context of this seminar.
@@ -1455,7 +1455,7 @@ The artistic range of applications for electronic projects in the fields of expe
 *Self-built CMOS synthesizer at Kinemathek Karlsruhe 2022 (Photo: Jihye Jang)*
 
 <br>
--->
+
 
 <!--
 ![Circuitry-Based Sound](/Img/CBS.jpg)
