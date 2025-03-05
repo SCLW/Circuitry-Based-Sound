@@ -1174,7 +1174,7 @@ V_{OUT} = - [ \dfrac{R_F} {R_{IN1}} V_{IN1} + \dfrac{R_F} {R_{IN2}} V_{IN2} + \d
 $$  
 
 $$
-- V_{OUT} = \dfrac{R_F} {R_{IN}} [V_{IN1} + V_{IN2} + V_{IN3} + etc.]
+-V_{OUT} = \dfrac{R_F} {R_{IN}} [V_{IN1} + V_{IN2} + V_{IN3} + etc.]
 $$ 
 
 if all $R_{IN}$ are the same.
