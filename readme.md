@@ -1170,8 +1170,11 @@ For most audio applications it is desired to control the portion of each input s
 By adding voltage dividers or potentiometers, it allows for gain control over every individual input. Besides its function as a mixer, it can also be used to achieve the desired output gain by modifying the feedback resistor R<sub>F</sub> in relation to the input resistors R<sub>IN</sub> of each input. The minus sign in the formula indicates that the output voltage is inverted. To undo inversion, a second stage following the shown circuit can be used.
 
 $$
-V_{OUT} = - [ \dfrac{R_F} {R_{IN1}} V_{IN1} + \dfrac{R_F} {R_{IN2}} V_{IN2} + \dfrac{R_F} {R_{IN3}} V_{IN3} + etc.]$  
-$- V_{OUT} = \dfrac{R_F} {R_{IN}} [V_{IN1} + V_{IN2} + V_{IN3} + etc.]
+V_{OUT} = - [ \dfrac{R_F} {R_{IN1}} V_{IN1} + \dfrac{R_F} {R_{IN2}} V_{IN2} + \dfrac{R_F} {R_{IN3}} V_{IN3} + etc.]
+$$  
+
+$$
+- V_{OUT} = \dfrac{R_F} {R_{IN}} [V_{IN1} + V_{IN2} + V_{IN3} + etc.]
 $$ 
 
 if all $R_{IN}$ are the same.
