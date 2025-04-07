@@ -1612,6 +1612,8 @@ Horowitz, Paul and Winfield Hill. *The art of electronics.* Cambridge University
 
 Lancaster, Don. *Das CMOS-Kochbuch.* IWT-Verlag, 1980.
 
+Landy, Leigh, and John Richards. *The Music of Sounds and the Music of Things: Sonic Creativity Within Sampling and DIY Cultures.* Routledge, 2024.
+
 Maxfield, Clive. *Bebop to the Boolean Boogie: An Unconventional Guide to Electronics.* Newnes, 2003.
 
 Roads, Curtis. *Computer Music Tutorial.* The MIT Press, 1996.
