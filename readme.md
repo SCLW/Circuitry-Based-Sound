@@ -1421,6 +1421,11 @@ Schematic of Slacker's Melody Generator—a CMOS sound generator using a CD4017 
 https://electro-music.com/forum/viewtopic.php?t=27239&postorder=asc&start=50
 -->
 
+
+![Step Sequencer](/Img/Step_Sequencer.jpg)
+*CMOS-based Step Sequencer*
+
+
 ## Voltage Starve
 
 
