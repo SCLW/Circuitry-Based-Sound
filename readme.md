@@ -1407,6 +1407,11 @@ Bill of Material:
 | CD4046 | PLL | |
 | Clock |  Clock Generator (eg. CD40106) | |
 
+
+![Step Sequencer](/Img/Step_Sequencer.jpg)
+*CMOS-based Step Sequencer*
+
+
 ## Melody Generator
 
 
@@ -1422,8 +1427,6 @@ https://electro-music.com/forum/viewtopic.php?t=27239&postorder=asc&start=50
 -->
 
 
-![Step Sequencer](/Img/Step_Sequencer.jpg)
-*CMOS-based Step Sequencer*
 
 
 ## Voltage Starve
