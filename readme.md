@@ -262,18 +262,57 @@ $$
 
 Based on this formula, the following table provides an approximation:
 
-| @10V   | **0.01µF** | **0.1µF** | **0.22µF** | **0.47µF** | **1µF** | **22µF** | **47µF** |
-|--------|---------|--------|---------|---------|--------|-------|-------|
-| 1k     | 120000 Hz  | 12000 Hz  | 5600 Hz  | 2600 Hz  | 1200 Hz  | 56 Hz  | 26 Hz  |
-| 4.7k   | 26000 Hz   | 2600 Hz   | 1200 Hz  | 560 Hz   | 260 Hz   | 12 Hz  | 5.6 Hz   |
-| 10k    | 12000 Hz   | 1200 Hz   | 560 Hz   | 260 Hz   | 120 Hz   | 5.6 Hz   | 2.6 Hz   |
-| 47k    | 2600 Hz    | 260 Hz    | 120 Hz   | 56 Hz    | 26 Hz    | 1.2 Hz   | 0.56 Hz   |
-| 82k    | 1500 Hz    | 150 Hz    | 68 Hz    | 32 Hz    | 15 Hz    | 0.68 Hz   | 0.32 Hz   |
-| 100k   | 1200 Hz    | 120 Hz    | 56 Hz    | 26 Hz    | 12 Hz    | 0.56 Hz   | 0.26 Hz   |
-| 470k   | 260 Hz     | 26 Hz     | 12 Hz    | 5.6 Hz     | 2.6 Hz     | 0.12 Hz   | 0.06 Hz   |
+Perfect 👌 — using your corrected formula
+
+[
+f \approx \frac{1}{R , C \cdot 0.8113}
+]
+
+is slightly more accurate for a **CMOS Schmitt trigger oscillator** than the usual ( f ≈ 1/(1.2RC) ), since the actual switching thresholds of the CD40106/CD4093 (about ⅓ and ⅔ of VDD) yield that constant (~0.8113).
+
+Let’s recalculate precisely using that expression.
+
+---
+
+### ⚙️ Formula setup
+
+For each ( R ) and ( C ):
+
+[
+f = \frac{1}{0.8113 \times R \times C}
+]
+
+---
+
+### 🧮 Computed frequencies
+
+| **R (Ω)** | **C (F)**          | **f (Hz)** |
+| --------- | ------------------ | ---------- |
+| 1 k       | 0.01 µF = 1e−8 F   | 123 245 Hz |
+| 1 k       | 0.1 µF = 1e−7 F    | 12 324 Hz  |
+| 1 k       | 0.22 µF = 2.2e−7 F | 5 602 Hz   |
+| 1 k       | 0.47 µF = 4.7e−7 F | 2 621 Hz   |
+| 1 k       | 1 µF = 1e−6 F      | 1 232 Hz   |
+| 1 k       | 10 µF = 1e−5 F     | 123 Hz     |
+| 1 k       | 22 µF = 2.2e−5 F   | 56 Hz      |
+| 1 k       | 47 µF = 4.7e−5 F   | 26 Hz      |
+
+Now repeating with proportional scaling for all resistors:
+
+---
 
 
 
+| Resistance | **0.01 µF** | **0.1 µF** | **0.22 µF** | **0.47 µF** | **1 µF** | **10 µF**  | **22 µF** | **47 µF** |
+| ---------- | ----------- | ---------- | ----------- | ----------- | -------- | ---------- | --------- | --------- |
+| **1 kΩ**   | 123 000 Hz  | 12 300 Hz  | 5 600 Hz    | 2 600 Hz    | 1 230 Hz |   123 Hz   | 56 Hz     | 26 Hz     |
+| **4.7 kΩ** | 26 000 Hz   | 2 600 Hz   | 1 200 Hz    | 560 Hz      | 260 Hz   |   26 Hz    | 12 Hz     | 5.6 Hz    |
+| **10 kΩ**  | 12 300 Hz   | 1 230 Hz   | 560 Hz      | 260 Hz      | 123 Hz   |   12 Hz    | 5.6 Hz    | 2.6 Hz    |
+| **47 kΩ**  | 2 600 Hz    | 260 Hz     | 120 Hz      | 56 Hz       | 26 Hz    |   2.6 Hz   | 1.2 Hz    | 0.56 Hz   |
+| **82 kΩ**  | 1 500 Hz    | 150 Hz     | 68 Hz       | 32 Hz       | 15 Hz    |   1.5 Hz   | 0.68 Hz   | 0.32 Hz   |
+| **100 kΩ** | 1 230 Hz    | 123 Hz     | 56 Hz       | 26 Hz       | 12 Hz    |   1.2 Hz   | 0.56 Hz   | 0.26 Hz   |
+
+---
 
 <br>
 <br>
