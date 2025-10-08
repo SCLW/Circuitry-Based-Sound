@@ -271,12 +271,12 @@ $$
 | **82 kΩ**  | 1 500 Hz    | 150 Hz     | 68 Hz       | 32 Hz       | 15 Hz    |   1.5 Hz   | 0.68 Hz   | 0.32 Hz   |
 | **100 kΩ** | 1 230 Hz    | 123 Hz     | 56 Hz       | 26 Hz       | 12 Hz    |   1.2 Hz   | 0.56 Hz   | 0.26 Hz   |
 
----
+
 
 <br>
 <br>
 
-The values in the table should be used as a starting point, as actual frequencies may vary due to chip manufacturing tolerances, large capacitor tolerances, and the effects of parasitic capacitance and additional resistance introduced by wiring and jumper cables. Therefore it is difficult to achieve exact results based on the formula. Since the field of application is artistic sound production, circuits should be evaluated by ear. But the formula shows that bigger RC values produce lower frequencies and vice versa. The frequency is determined through the capacitor C and the resistor R. Therefore, a [potentiometer](https://en.wikipedia.org/wiki/Potentiometer "potentiometer") instead of the latter enables pitch control. Other ways of controlling the frequency may be inserting [photoresistors](https://en.wikipedia.org/wiki/Photoresistor "photoresistor"), [force-sensitive resistors](https://en.wikipedia.org/wiki/Force-sensing_resistor "FSR") (FSR) or [flex sensors](https://en.wikipedia.org/wiki/Flex_sensor "flex sensor"). Adding circuit points to alter the sound through interaction allows building customized and versatile instruments.
+The values in the table should be used as a starting point, as actual frequencies may vary due to chip manufacturing tolerances, large capacitor tolerances, temperature effects, and the effects of parasitic capacitance and additional resistance introduced by wiring and jumper cables. Therefore it is difficult to achieve exact results based on the formula. Since the field of application is artistic sound production, circuits should be evaluated by ear. But the formula shows that bigger RC values produce lower frequencies and vice versa. The frequency is determined through the capacitor C and the resistor R. Therefore, a [potentiometer](https://en.wikipedia.org/wiki/Potentiometer "potentiometer") instead of the latter enables pitch control. Other ways of controlling the frequency may be inserting [photoresistors](https://en.wikipedia.org/wiki/Photoresistor "photoresistor"), [force-sensitive resistors](https://en.wikipedia.org/wiki/Force-sensing_resistor "FSR") (FSR) or [flex sensors](https://en.wikipedia.org/wiki/Flex_sensor "flex sensor"). Adding circuit points to alter the sound through interaction allows building customized and versatile instruments.
 
 
 ### Logic Control
