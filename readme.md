@@ -260,47 +260,6 @@ $$
 
 <br>
 
-Based on this formula, the following table provides an approximation:
-
-Perfect 👌 — using your corrected formula
-
-[
-f \approx \frac{1}{R , C \cdot 0.8113}
-]
-
-is slightly more accurate for a **CMOS Schmitt trigger oscillator** than the usual ( f ≈ 1/(1.2RC) ), since the actual switching thresholds of the CD40106/CD4093 (about ⅓ and ⅔ of VDD) yield that constant (~0.8113).
-
-Let’s recalculate precisely using that expression.
-
----
-
-### ⚙️ Formula setup
-
-For each ( R ) and ( C ):
-
-[
-f = \frac{1}{0.8113 \times R \times C}
-]
-
----
-
-### 🧮 Computed frequencies
-
-| **R (Ω)** | **C (F)**          | **f (Hz)** |
-| --------- | ------------------ | ---------- |
-| 1 k       | 0.01 µF = 1e−8 F   | 123 245 Hz |
-| 1 k       | 0.1 µF = 1e−7 F    | 12 324 Hz  |
-| 1 k       | 0.22 µF = 2.2e−7 F | 5 602 Hz   |
-| 1 k       | 0.47 µF = 4.7e−7 F | 2 621 Hz   |
-| 1 k       | 1 µF = 1e−6 F      | 1 232 Hz   |
-| 1 k       | 10 µF = 1e−5 F     | 123 Hz     |
-| 1 k       | 22 µF = 2.2e−5 F   | 56 Hz      |
-| 1 k       | 47 µF = 4.7e−5 F   | 26 Hz      |
-
-Now repeating with proportional scaling for all resistors:
-
----
-
 
 
 | Resistance | **0.01 µF** | **0.1 µF** | **0.22 µF** | **0.47 µF** | **1 µF** | **10 µF**  | **22 µF** | **47 µF** |
