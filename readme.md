@@ -1514,7 +1514,6 @@ This [BOM](/BOM/Readme.md#bill-of-material "Bill of Material") helps to source n
 ## Artists
 
 Circuitry-Based Sound are:
-
 Alfea<br>
 Marc Bendt<br>
 Bent van den Berg<br>
@@ -1528,11 +1527,11 @@ Mark Damian<br>
 Thabisa Dinga<br>
 Kurt Diedericks<br>
 Tobias Ehrhardt<br>
-Jung Eun Lee<br>
 Damiana Facen<br>
 Bi Fangchao<br>
 Qianqian Feng<br>
 Zufilkar Filandra<br>
+Max Fuchs<br>
 Hongyu Guo<br>
 Jeongmin Han<br>
 Juhee Han<br>
@@ -1543,6 +1542,8 @@ Hoin Ji<br>
 Minsu Kim<br>
 Florian Knöbl<br>
 László Kőrösi<br>
+Hanjoo Lee<br>
+Jung Eun Lee<br>
 Sangyi Lee<br>
 Xingchen Liu<br>
 Su Lu<br>
@@ -1552,6 +1553,7 @@ Mqhorhana Magqaza<br>
 Simphiwe Matole<br>
 Jason Mendiola<br>
 Victoria Mikhaylova<br>
+István Molnár<br>
 Lakheni Ntsodo<br>
 Jiun-You Ou<br>
 Isabella Panigada<br>
@@ -1577,7 +1579,7 @@ Yudong Wang<br>
 Lutz Ben Wesch<br>
 Eunchae Won<br>
 Le Yang<br>
-Sayuki Yoneda <br>
+Sayuki Yoneda <br>
 Jiahui Yong<br>
 Huiyeon Yun<br>
 Rui Zhang<br>
