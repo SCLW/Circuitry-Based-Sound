@@ -1515,6 +1515,7 @@ This [BOM](/BOM/Readme.md#bill-of-material "Bill of Material") helps to source n
 
 Circuitry-Based Sound are:
 Alfea<br>
+Shane Baruth<br>
 Marc Bendt<br>
 Bent van den Berg<br>
 Fangchao Bi<br>
