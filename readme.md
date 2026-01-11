@@ -1513,7 +1513,7 @@ This [BOM](/BOM/Readme.md#bill-of-material "Bill of Material") helps to source n
 
 ## Artists
 
-Circuitry-Based Sound are:
+Circuitry-Based Sound are:<br>
 Alfea<br>
 Shane Baruth<br>
 Marc Bendt<br>
