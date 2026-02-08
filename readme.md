@@ -1683,10 +1683,10 @@ https://www.modwiggler.com
 <br>
 <br>
 
+
 ## License
 
-The content of this documentation is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/ "CC BY 3.0"), software is licensed under the MIT License - see the [LICENSE.md](/MIT%20License.md) file for details. Copyright remains with the author(s)
-<br>
+The content of this documentation is licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/ "CC BY 4.0"), software is licensed under the MIT License - see the [LICENSE.md](/MIT%20License.md) file for details. Copyright remains with the author(s).<br>
 <br>
 <br>
 
