@@ -6,18 +6,17 @@
 
 
 
-![Circuitry-Based Sound ZKM 2023](/Img/cbs1.png)
+![CMOS-breadboard circuit during live performance](assets/img/cbs1.jpg)
 *CMOS-breadboard circuit during live performance. © Mustafa Emin Büyükcoşkun*
 
-
-![Circuitry-Based Sound ZKM 2023](/Img/CBS2023_ZKM_Jihye-Jang_sm.jpg)
-*Group live performance at the ZKM*
+![Group live performance at the ZKM](assets/img/cbs2023-zkm-jihye-jang-sm.jpg)
+*Group live performance at the ZKM, Karlsruhe, 2023*
 
 <br>
 <br>
 
 <!--
-![Technical Setup with self-built audio electronics, laboratory power supply, mixing desk, and loudspeaker](/Img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg)
+![Technical Setup with self-built audio electronics, laboratory power supply, mixing desk, and loudspeaker](assets/img/circuitry-based-sound-foto-yunfei-zhang.jpg)
 *Photo: Yunfei Zhang*
 <br>
 <br>
@@ -107,7 +106,7 @@ The authors accept no responsibility for any damages arising from or in connecti
 
 # Introduction
 
-![Technical Setup with self-built audio electronics, laboratory power supply, mixing desk, and loudspeaker](/Img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg)
+![Technical Setup with self-built audio electronics, laboratory power supply, mixing desk, and loudspeaker](assets/img/circuitry-based-sound-foto-yunfei-zhang.jpg)
 *Photo: Yunfei Zhang*
 <br>
 <br>
@@ -126,7 +125,7 @@ Another approach to electronic sound creation emerges from hardware hacking and 
 ### CMOS Chips for Sound Creation
 
 
-![Various CMOS-chips in SMD and through-hole technology and with different foot prints](/Img/CMOS-chips.jpg)
+![Various CMOS-chips in SMD and through-hole technology and with different foot prints](assets/img/cmos-chips.jpg)
 *Various CMOS chips*
 <br>
 <br>
@@ -140,8 +139,8 @@ The following diagram illustrates the waveform of a square wave and assigns the 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Square_Wave_as_Binary_DARK.svg">
-  <img alt="Demonstrating the relationship between a square wave and its equivalent binary representation (0s and 1s)." src="/Img/Square_Wave_as_Binary_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/square-wave-as-binary-dark.svg">
+  <img alt="Demonstrating the relationship between a square wave and its equivalent binary representation (0s and 1s)." src="assets/img/square-wave-as-binary-light.svg">
 </picture>
 
 
@@ -151,8 +150,8 @@ When the relationship between logic operations, voltage, and sound is understood
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Switching_Circuit_DARK.svg">
-  <img alt="Boolean logic as switching circuit." src="/Img/Switching_Circuit_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/switching-circuit-dark.svg">
+  <img alt="Boolean logic as switching circuit." src="assets/img/switching-circuit-light.svg">
 </picture>
 
  
@@ -165,8 +164,8 @@ Logical operations can be implemented as switching circuits, where single-pole s
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Logic_Gates_DARK.svg">
-  <img alt="Illustration of electronic logic gate symbols." src="/Img/Logic_Gates_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/logic-gates-dark.svg">
+  <img alt="Illustration of electronic logic gate symbols." src="assets/img/logic-gates-light.svg">
 </picture>
 
 
@@ -201,8 +200,8 @@ Due to their simplicity and accessibility, CMOS chips are widely used for artist
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CMOS_Oscillator_Breadboard_DARK.svg">
-  <img alt="Simplified depiction of a Schmitt trigger oscillator on a breadboard." src="/Img/CMOS_Oscillator_Breadboard_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cmos-oscillator-breadboard-dark.svg">
+  <img alt="Simplified depiction of a Schmitt trigger oscillator on a breadboard." src="assets/img/cmos-oscillator-breadboard-light.svg">
 </picture>
 
 
@@ -217,8 +216,8 @@ An inverting Schmitt trigger is an active electronic component whose output stat
 <!-- ANIMATED GIF -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Schmitt_Trigger_DARK.gif">
-  <img alt="Animated illustration of a Schmitt trigger oscillator and its waveforms." src="/Img/Schmitt_Trigger_LIGHT.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/schmitt-trigger-dark.gif">
+  <img alt="Animated illustration of a Schmitt trigger oscillator and its waveforms." src="assets/img/schmitt-trigger-light.gif">
 </picture>
 
 
@@ -293,8 +292,8 @@ In digital electronics, [binary code](https://en.wikipedia.org/wiki/Binary_code 
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Logic_Signal_DARK.svg">
-  <img alt="Common CMOS input voltage levels without and with Schmitt trigger implementation." src="/Img/Logic_Signal_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/logic-signal-dark.svg">
+  <img alt="Common CMOS input voltage levels without and with Schmitt trigger implementation." src="assets/img/logic-signal-light.svg">
 </picture>
 
 
@@ -306,8 +305,8 @@ V<sub>IH</sub> is the minimum input voltage that will be interpreted as a logica
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Square_Wave_DARK.svg">
-  <img alt="Analytical description of a square wave logic signal." src="/Img/Square_Wave_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/square-wave-dark.svg">
+  <img alt="Analytical description of a square wave logic signal." src="assets/img/square-wave-light.svg">
 </picture>
 
 
@@ -315,8 +314,8 @@ V<sub>IH</sub> is the minimum input voltage that will be interpreted as a logica
 A logic gate is a single-input, single-output device, designed to carry out a specific [Boolean operation](https://en.wikipedia.org/wiki/Boolean_algebra "Boolean algebra"), mapped to two voltage levels. Over time, the two alternating voltage levels may form a periodic rectangular waveform and the speed of switching between the two levels is perceived as pitch. Certain logic gates can be repurposed as oscillators in this way. In digital systems, this principle is used to generate clock signals, which are essential for synchronizing processes. Logic gates with two inputs compare the signals at their inputs and generate an output based on the corresponding logic function, enabling signal processing and modification. Other logic gates can count sequential square wave pulses, outputting a single pulse per cycle. Some function as frequency dividers, halving the input signal’s frequency. Additionally, various CMOS chips can act as binary-controlled switches. These and many other functions can be considered as modulation effects, which transform or modify the incoming audio signal. 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Gated_Oscillator_DARK.svg">
-  <img alt="Schematic of a gated square wave oscillator with the CD4093, showing input control and output waveform." src="/Img/Gated_Oscillator_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/gated-oscillator-dark.svg">
+  <img alt="Schematic of a gated square wave oscillator with the CD4093, showing input control and output waveform." src="assets/img/gated-oscillator-light.svg">
 </picture>
 
 
@@ -338,8 +337,8 @@ Breadboards are made of plastic and feature a standardized hole grid with metal 
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Breadboard_DARK.svg">
-  <img alt="How a Breadboard Works: Functional Sections and Internal Wiring" src="/Img/Breadboard_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/breadboard-dark.svg">
+  <img alt="How a Breadboard Works: Functional Sections and Internal Wiring" src="assets/img/breadboard-light.svg">
 </picture>
 
 <br>
@@ -361,8 +360,8 @@ Manufacturers provide documentation for integrated circuits (ICs) and other elec
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/IC_DARK.svg">
-  <img alt="Illustration of an integrated circuit (IC) and a detailed view of one functional block from its internal circuitry" src="/Img/IC_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/ic-dark.svg">
+  <img alt="Illustration of an integrated circuit (IC) and a detailed view of one functional block from its internal circuitry" src="assets/img/ic-light.svg">
 </picture>
 
 Illustration of an integrated circuit (IC) and a detailed view of one functional block from its internal circuitry
@@ -382,8 +381,8 @@ This standard numbering convention helps ensure correct connections when integra
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/GH_IC_Pinout_DARK.svg">
-  <img alt="A diagram illustrating how to identify the pinout of an IC and showing the typical power connections of a CMOS chip" src="/Img/GH_IC_Pinout_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/gh-ic-pinout-dark.svg">
+  <img alt="A diagram illustrating how to identify the pinout of an IC and showing the typical power connections of a CMOS chip" src="assets/img/gh-ic-pinout-light.svg">
 </picture>
 
 Most CMOS chips have 14 or 16 pins.
@@ -405,8 +404,8 @@ A schematic visually represents how components are connected by using lines to i
 Electronic components are represented using standardized symbols in a schematic, allowing anyone familiar with these symbols to identify components and understand their function within a circuit. Below is an overview of the most common symbols related to DIY electronics for music and sound creation.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Components_DARK.svg">
-  <img alt="Common Electronic Schematic Symbols" src="/Img/Components_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/components-dark.svg">
+  <img alt="Common Electronic Schematic Symbols" src="assets/img/components-light.svg">
 </picture>
 
 Voltage supply lines (power nets) are often not drawn explicitly throughout the schematic but are instead represented by a symbol (e.g., Vcc, Vdd, or V+) that appears at multiple locations in the circuit. Similarly, ground (GND) connections are frequently represented by a ground symbol, avoiding the need to draw individual connections for every grounded component. This makes schematics easier to read.
@@ -460,8 +459,8 @@ When using a potentiometer for frequency control, always include a series resist
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD40106_DARK.svg">
-  <img alt="Pinout of the CD40106 IC and a schematic of a CMOS oscillator built with CD40106 hex Schmitt trigger inverter." src="/Img/CD40106_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd40106-dark.svg">
+  <img alt="Pinout of the CD40106 IC and a schematic of a CMOS oscillator built with CD40106 hex Schmitt trigger inverter." src="assets/img/cd40106-light.svg">
 </picture>
 
 
@@ -492,8 +491,8 @@ The CD4093 contains four NAND Schmitt triggers, each with two inputs and one out
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4093_Button_DARK.svg">
-  <img alt="Pinout of the CD4093 IC and a schematic of an oscillator built with a CD4093 CMOS chip and controllable by a push button." src="/Img/CD4093_Button_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4093-button-dark.svg">
+  <img alt="Pinout of the CD4093 IC and a schematic of an oscillator built with a CD4093 CMOS chip and controllable by a push button." src="assets/img/cd4093-button-light.svg">
 </picture>
 
 
@@ -502,8 +501,8 @@ Oscillators built with 2-input NAND Schmitt triggers can be manually switched on
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4093_Gated_DARK.svg">
-  <img alt="Pinout of the CD4093 IC and a schematic of an oscillator built with a CD4093 CMOS chip which in turn is controlled by a second oscillator configuration of the same chip. This is called a gated oscillator." src="/Img/CD4093_Gated_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4093-gated-dark.svg">
+  <img alt="Pinout of the CD4093 IC and a schematic of an oscillator built with a CD4093 CMOS chip which in turn is controlled by a second oscillator configuration of the same chip. This is called a gated oscillator." src="assets/img/cd4093-gated-light.svg">
 </picture>
 
 
@@ -542,14 +541,14 @@ CD4077 is the Exclusive-NOR version.
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4070_DARK.svg">
-  <img alt="Pinout of the CD4070 IC and a schematic that shows digital frequency mixing with the said chip." src="/Img/CD4070_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4070-dark.svg">
+  <img alt="Pinout of the CD4070 IC and a schematic that shows digital frequency mixing with the said chip." src="assets/img/cd4070-light.svg">
 </picture>
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/XOR_DARK.svg">
-  <img alt="Timing diagram of the CD4070 XOR gate with two square waves as inputs, showing the resulting output waveform" src="/Img/XOR_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/xor-dark.svg">
+  <img alt="Timing diagram of the CD4070 XOR gate with two square waves as inputs, showing the resulting output waveform" src="assets/img/xor-light.svg">
 </picture>
 
 Truth table for XOR (CD4070)
@@ -591,8 +590,8 @@ The CD4015 is an integrated circuit containing two independent 4-stage shift reg
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4015_DARK.svg">
-  <img alt="Pinout of the CD4015 IC and a schematic symbol describing the functions of the two 4-stage shift registers included in one chip." src="/Img/CD4015_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4015-dark.svg">
+  <img alt="Pinout of the CD4015 IC and a schematic symbol describing the functions of the two 4-stage shift registers included in one chip." src="assets/img/cd4015-light.svg">
 </picture>
 
 
@@ -633,8 +632,8 @@ The CD4022 and CD4017 are counter/divider ICs, with the CD4022 providing 8 outpu
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4022_DARK.svg">
-  <img alt="Pinout of the CD4022 IC and a schematic symbol describing the functions of the counter/divider." src="/Img/CD4022_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4022-dark.svg">
+  <img alt="Pinout of the CD4022 IC and a schematic symbol describing the functions of the counter/divider." src="assets/img/cd4022-light.svg">
 </picture>
 
 
@@ -642,8 +641,8 @@ The CD4022 and CD4017 are counter/divider ICs, with the CD4022 providing 8 outpu
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4022_Outputs_DARK.svg">
-  <img alt="CD4022 timing diagram." src="/Img/CD4022_Outputs_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4022-outputs-dark.svg">
+  <img alt="CD4022 timing diagram." src="assets/img/cd4022-outputs-light.svg">
 </picture>
 
 
@@ -669,8 +668,8 @@ The "reset" pin sets all outputs low (0) when activated. For continuous frequenc
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4040_DARK.svg">
-  <img alt="Pinout of the CD4040 IC and a schematic symbol describing the functions of the frequency divider." src="/Img/CD4040_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4040-dark.svg">
+  <img alt="Pinout of the CD4040 IC and a schematic symbol describing the functions of the frequency divider." src="assets/img/cd4040-light.svg">
 </picture>
 
 
@@ -683,8 +682,8 @@ The timing diagram below illustrates the voltage relationships between all outpu
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4040_Outputs_DARK.svg">
-  <img alt="CD4040 timing diagram." src="/Img/CD4040_Outputs_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4040-outputs-dark.svg">
+  <img alt="CD4040 timing diagram." src="assets/img/cd4040-outputs-light.svg">
 </picture>
 
 
@@ -700,8 +699,6 @@ a feedback system that locks an internal oscillator to the frequency and phase o
 tones, and FM-style timbres when applied to audio. The VCO frequency range is set by two external resistors and a timing capacitor. Originally designed for frequency 
 synthesis and FM demodulation, the CD4046 has become a popular building block in experimental sound and DIY synthesis.
 
-Phase-locked loop
-
 *Applications:*
 * Tone Distortion
 * Pitch Tracking
@@ -712,8 +709,8 @@ Phase-locked loop
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4046_DARK.svg">
-  <img alt="Pinout of the CD4046 IC and a schematic of the phase locked loop circuit built with the CD4046." src="/Img/CD4046_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4046-dark.svg">
+  <img alt="Pinout of the CD4046 IC and a schematic of the phase locked loop circuit built with the CD4046." src="assets/img/cd4046-light.svg">
 </picture>
 
 
@@ -751,8 +748,8 @@ The CD4051 is an analog switch configured as a single-pole, 8-throw (SP8T) multi
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4051_DARK.svg">
-  <img alt="Pinout of the CD4051 IC and a schematic symbol representing the digitally controlled single pole octal throw function." src="/Img/CD4051_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4051-dark.svg">
+  <img alt="Pinout of the CD4051 IC and a schematic symbol representing the digitally controlled single pole octal throw function." src="assets/img/cd4051-light.svg">
 </picture>
 
 
@@ -784,8 +781,8 @@ The CD4052 is an analog switch configured as a double-pole, 4-throw (DP4T) multi
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4052_DARK.svg">
-  <img alt="Pinout of the CD4052 IC and a schematic symbol representing the digitally controlled double-pole quad-throw function." src="/Img/CD4052_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4052-dark.svg">
+  <img alt="Pinout of the CD4052 IC and a schematic symbol representing the digitally controlled double-pole quad-throw function." src="assets/img/cd4052-light.svg">
 </picture>
 
 
@@ -813,8 +810,8 @@ When the control signal is less than 1/3 V<sub>DD</sub>, z is connected to x0. W
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4053_DARK.svg">
-  <img alt="Pinout of the CD4053 IC and a schematic symbol representing the digitally controlled CMOS chip, containing three single-pole double-throw CMOS switches." src="/Img/CD4053_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4053-dark.svg">
+  <img alt="Pinout of the CD4053 IC and a schematic symbol representing the digitally controlled CMOS chip, containing three single-pole double-throw CMOS switches." src="assets/img/cd4053-light.svg">
 </picture>
 
 Truth table for the CD4053  
@@ -863,8 +860,8 @@ Control Logic:
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4066_DARK.svg">
-  <img alt="Pinout of the CD4066 IC and a schematic symbol representing the digitally controlled CMOS chip, containing four single-pole single-throw switches." src="/Img/CD4066_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4066-dark.svg">
+  <img alt="Pinout of the CD4066 IC and a schematic symbol representing the digitally controlled CMOS chip, containing four single-pole single-throw switches." src="assets/img/cd4066-light.svg">
 </picture>
 
 
@@ -898,8 +895,8 @@ The CD4060 is a 14-stage ripple-carry binary counter/divider with an integrated 
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4060_DARK.svg">
-  <img alt="Pinout of the CD4060 IC (on the left) and a schematic symbol representing the individual gates of the frequency divider (middle section). On the right is a circuit schematic of the RC oscillator circuit built with the CD4060." src="/Img/CD4060_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4060-dark.svg">
+  <img alt="Pinout of the CD4060 IC (on the left) and a schematic symbol representing the individual gates of the frequency divider (middle section). On the right is a circuit schematic of the RC oscillator circuit built with the CD4060." src="assets/img/cd4060-light.svg">
 </picture>
 
 
@@ -924,8 +921,8 @@ The CD4013 IC flip-flop is called a D flip-flop type to characterize its behavio
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4013_DARK.svg">
-  <img alt="Pinout of the CD4013 IC (on the left) and a schematic symbol representing the individual gates of the CD4013 IC flip-flop (right side)." src="/Img/CD4013_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4013-dark.svg">
+  <img alt="Pinout of the CD4013 IC (on the left) and a schematic symbol representing the individual gates of the CD4013 IC flip-flop (right side)." src="assets/img/cd4013-light.svg">
 </picture>
 
 
@@ -988,8 +985,8 @@ Divide by 2: **/Q1** connected to input Data
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4018_DARK.svg">
-  <img alt="On the left: Pinout of the CD4018 IC. In the middle: a schematic symbol representing the individual gates of the divide-by-'N' counter. On the right: Circuit configuration for building a divide-by-3 counter." src="/Img/CD4018_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/cd4018-dark.svg">
+  <img alt="On the left: Pinout of the CD4018 IC. In the middle: a schematic symbol representing the individual gates of the divide-by-'N' counter. On the right: Circuit configuration for building a divide-by-3 counter." src="assets/img/cd4018-light.svg">
 </picture>
 
 
@@ -1010,8 +1007,8 @@ X   = Don't Care
 ⧹   = Falling Edge  
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Divide_by_odd_DARK.svg">
-  <img alt="Timing diagram of the CD4018 CMOS counter/divider demonstrating odd division ratios (÷3, ÷5, ÷7)." src="/Img/Divide_by_odd_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/divide-by-odd-dark.svg">
+  <img alt="Timing diagram of the CD4018 CMOS counter/divider demonstrating odd division ratios (÷3, ÷5, ÷7)." src="assets/img/divide-by-odd-light.svg">
 </picture>
 
 [CD4018 Data Sheet](https://www.ti.com/lit/ds/symlink/cd4018b.pdf?ts=1610571153497&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4018B "CD4018")
@@ -1032,8 +1029,8 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/555_Timer_DARK.svg">
-  <img alt="On the left: Pinout of the 555 timer. On the right: Functional diagram of the internal circuit of the 555 timer." src="/Img/555_Timer_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/555-timer-dark.svg">
+  <img alt="On the left: Pinout of the 555 timer. On the right: Functional diagram of the internal circuit of the 555 timer." src="assets/img/555-timer-light.svg">
 </picture>
 
 
@@ -1054,8 +1051,8 @@ Note: The bipolar version (NE555) and the CMOS version (TLC555, LMC555) have the
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/555_Astable_DARK.svg">
-  <img alt="Schematic of the 555 timer IC connected as an astable multivibrator." src="/Img/555_Astable_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/555-astable-dark.svg">
+  <img alt="Schematic of the 555 timer IC connected as an astable multivibrator." src="assets/img/555-astable-light.svg">
 </picture>
 
 In the astable configuration or multivibrator mode, the circuit generates a string of pulses by retriggering itself. Different values for $R_A$ and $R_B$ allow for changing the ratio of the high time and the low time. A low at reset pin 4 stops the oscillation.
@@ -1064,8 +1061,8 @@ The time to complete one cycle (high and low) can be calculated with $T=  ln(2) 
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/555_Mono_Timing_DARK.svg">
-  <img alt="Schematic of the 555 timer IC for monostable operation including timing diagram." src="/Img/555_Mono_Timing_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/555-mono-timing-dark.svg">
+  <img alt="Schematic of the 555 timer IC for monostable operation including timing diagram." src="assets/img/555-mono-timing-light.svg">
 </picture>
 
 
@@ -1075,8 +1072,8 @@ For monostable operation, a negative going pulse at the trigger input causes the
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Stepped-Tone_Generator_DARK.svg">
-  <img alt="Schematic of the 'Stepped-Tone Generator' (also known as Atari Punk Console) by Forrest M. Mims III." src="/Img/Stepped-Tone_Generator_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/stepped-tone-generator-dark.svg">
+  <img alt="Schematic of the 'Stepped-Tone Generator' (also known as Atari Punk Console) by Forrest M. Mims III." src="assets/img/stepped-tone-generator-light.svg">
 </picture>
 
 The stepped-tone generator is built using two 555 timer chips. By varying the resistor-capacitor (RC) values, this circuit can produce a wide range of interesting sounds.
@@ -1110,8 +1107,8 @@ Although not part of the CMOS logic family this ubiquitous power op amp is a ver
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/LM386_DARK.svg">
-  <img alt="On the left: Pinout of the LM386 - Power Operational Amplifier IC. On the right: Circuit diagram showing the external configuration of the LM386 with an amplification factor of 200" src="/Img/LM386_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/lm386-dark.svg">
+  <img alt="On the left: Pinout of the LM386 - Power Operational Amplifier IC. On the right: Circuit diagram showing the external configuration of the LM386 with an amplification factor of 200" src="assets/img/lm386-light.svg">
 </picture>
 
 
@@ -1157,8 +1154,8 @@ Passive mixing is a very simple method that can be accomplished by using resisto
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/passive_mixing_DARK.svg">
-  <img alt="On the left: Schematic diagram of a passive mixer with resistors. On the right: The formula to calculate the output voltage according to Millman's theorem." src="/Img/passive_mixing_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/passive-mixing-dark.svg">
+  <img alt="On the left: Schematic diagram of a passive mixer with resistors. On the right: The formula to calculate the output voltage according to Millman's theorem." src="assets/img/passive-mixing-light.svg">
 </picture>
 
 
@@ -1170,8 +1167,8 @@ For most audio applications it is desired to control the portion of each input s
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Active_Mixing_DARK.svg">
-  <img alt="On the left: Pinout of the LM 358 operational amplifier. On the right: Schematic for a single supply active mixer." src="/Img/Active_Mixing_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/active-mixing-dark.svg">
+  <img alt="On the left: Pinout of the LM 358 operational amplifier. On the right: Schematic for a single supply active mixer." src="assets/img/active-mixing-light.svg">
 </picture>
 
 
@@ -1202,8 +1199,8 @@ Tone control, modifying the frequency spectrum of a signal or creative equalizat
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Passive_Filter_DARK.svg">
-  <img alt="On the upper left side: schematic of a passive low-pass filter. On the upper right side: Diagram showing the frequency response of an analog, passive low-pass filter. On the bottom left side: schematic of a passive high-pass filter. On the bottom right side: Diagram showing the frequency response of an analog, passive high-pass filter" src="/Img/Passive_Filter_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/passive-filter-dark.svg">
+  <img alt="On the upper left side: schematic of a passive low-pass filter. On the upper right side: Diagram showing the frequency response of an analog, passive low-pass filter. On the bottom left side: schematic of a passive high-pass filter. On the bottom right side: Diagram showing the frequency response of an analog, passive high-pass filter" src="assets/img/passive-filter-light.svg">
 </picture>
 
 
@@ -1218,8 +1215,8 @@ The three terminals of a potentiometer provide access to:
 Potentiometer Structure
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Potentiometer_DARK.svg">
-  <img alt=" Diagram of a potentiometer and a slider, labeling key components: (a) Housing, (b) Terminals, (c) Actuator, (d) Resistive track, and (e) Wiper." src="/Img/Potentiometer_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/potentiometer-dark.svg">
+  <img alt=" Diagram of a potentiometer and a slider, labeling key components: (a) Housing, (b) Terminals, (c) Actuator, (d) Resistive track, and (e) Wiper." src="assets/img/potentiometer-light.svg">
 </picture>
 
 
@@ -1236,8 +1233,8 @@ For example, as the wiper moves from one end to the other, the output voltage sc
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Volume_Control_DARK.svg">
-  <img alt=" Simplified schematic illustrating how to use a potentiometer as both a variable resistor (left) and a voltage divider (right)." src="/Img/Volume_Control_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/volume-control-dark.svg">
+  <img alt=" Simplified schematic illustrating how to use a potentiometer as both a variable resistor (left) and a voltage divider (right)." src="assets/img/volume-control-light.svg">
 </picture>
 
 Simplified schematic illustrating how to use a potentiometer as both a variable resistor (left) and a voltage divider (right).
@@ -1279,8 +1276,8 @@ A photoresistor (also known as a light-dependent resistor, LDR) is a two-termina
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/LDR_Examples_DARK.svg">
-  <img alt=" Two circuits using an LDR: a voltage divider adjusting output voltage based on light levels (left) and a Schmitt-trigger oscillator where light controls the pitch (right)." src="/Img/LDR_Examples_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/ldr-examples-dark.svg">
+  <img alt=" Two circuits using an LDR: a voltage divider adjusting output voltage based on light levels (left) and a Schmitt-trigger oscillator where light controls the pitch (right)." src="assets/img/ldr-examples-light.svg">
 </picture>
 
 Two circuits using an LDR: a voltage divider adjusting output voltage based on light levels (left) and a Schmitt-trigger oscillator where light controls the pitch (right).
@@ -1294,8 +1291,8 @@ When connecting external circuits or devices to a logic gate, it's important to 
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/pull-up_pull-down_DARK.svg">
-  <img alt="Schematic of pull-up and pull-down resistors with logic gate inputs. Left: Pull-up configuration. Right: Pull-down configuration." src="/Img/pull-up_pull-down_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/pull-up-pull-down-dark.svg">
+  <img alt="Schematic of pull-up and pull-down resistors with logic gate inputs. Left: Pull-up configuration. Right: Pull-down configuration." src="assets/img/pull-up-pull-down-light.svg">
 </picture>
 
 
@@ -1319,8 +1316,8 @@ A linear feedback shift register (LFSR) is a system used for generating determin
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/basic_LFSR_DARK.svg">
-  <img alt="Simplified schematic of an LFSR." src="/Img/basic_LFSR_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/basic-lfsr-dark.svg">
+  <img alt="Simplified schematic of an LFSR." src="assets/img/basic-lfsr-light.svg">
 </picture>
 
 
@@ -1365,7 +1362,7 @@ This step-sequencer circuit is shown in N. Collins' book *Handmade Electronic Mu
 
 
 
-![Step_Sequencer Waveform](/Img/Step_Sequencer_Waveform_DSO.jpg)
+![Step_Sequencer Waveform](assets/img/step-sequencer-waveform-dso.jpg)
 *Input voltage (blue graph) and VCO frequency (yellow graph) of the CD4046.*
 <br>
 <br>
@@ -1392,8 +1389,8 @@ The output of the VCO can be gated with the clock source through a CMOS switch, 
 <!-- IMAGE -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Step-Sequencer_DARK.svg">
-  <img alt="Schematic of a CMOS step sequencer after N. Collins." src="/Img/Step-Sequencer_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/step-sequencer-dark.svg">
+  <img alt="Schematic of a CMOS step sequencer after N. Collins." src="assets/img/step-sequencer-light.svg">
 </picture>
 
 
@@ -1416,7 +1413,7 @@ Bill of Material:
 | Clock |  Clock Generator (e.g., CD40106) | |
 
 
-![Step Sequencer](/Img/Step_Sequencer.jpg)
+![Step Sequencer](assets/img/step-sequencer.jpg)
 *CMOS-based Step Sequencer*
 
 
@@ -1424,8 +1421,8 @@ Bill of Material:
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Img/Melody_Generator_DARK.svg">
-  <img alt="Schematic of Slacker's Melody Generator—a CMOS sound generator using a CD4017 counter and a CD4051 multiplexer to produce evolving, semi-random melodic sequences." src="/Img/Melody_Generator_LIGHT.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/melody-generator-dark.svg">
+  <img alt="Schematic of Slacker's Melody Generator—a CMOS sound generator using a CD4017 counter and a CD4051 multiplexer to produce evolving, semi-random melodic sequences." src="assets/img/melody-generator-light.svg">
 </picture>
 
 Schematic of Slacker's Melody Generator — a CMOS sound generator using a CD4017 counter 
@@ -1457,24 +1454,24 @@ The artistic range of applications for electronic projects in the fields of expe
 
 <br>
 
-![Circuitry-Based Sound Langa 2024](/Img/Workshop_Langa_2024.jpg)
+![Circuitry-Based Sound Langa 2024](assets/img/workshop-langa-2024.jpg)
 *Workshop preparations at Langa, Cape Town (ZA) 2024*
 
 
 
 <br>
 
-![Circuitry-Based Sound !Khwa ttu 2024 2024](/Img/!Khwa_ttu_2024.jpg)
+![Circuitry-Based Sound !Khwa ttu 2024 2024](assets/img/!khwa-ttu-2024.jpg)
 *Hybrid electronic group performance, integrating traditional African instruments at !Khwa ttu (ZA) 2024*
 
 <br>
 
-![Live electronics with DIY synthesizer at ZKM 2024](/Img/Yunfei_ZKM_2024.jpg)
+![Live electronics with DIY synthesizer at ZKM 2024](assets/img/yunfei-zkm-2024.jpg)
 *Live electronics with DIY synthesizer at ZKM 2024 (Photo: Jihye Jang)*
 
 <br>
 
-![Self-built CMOS synthesizer](/Img/Yunfei_Setup_Kinemathek_2022.jpg)
+![Self-built CMOS synthesizer](assets/img/yunfei-setup-kinemathek-2022.jpg)
 *Self-built CMOS synthesizer at Kinemathek Karlsruhe 2022 (Photo: Jihye Jang)*
 
 <br>
@@ -1516,7 +1513,7 @@ Helpful tools and useful materials:
 
 ## Bill of Materials (BoM)
 
-This [BOM](/BOM/Readme.md#bill-of-materials "Bill of Materials") helps to source necessary components for electronic art projects and self-built instruments.
+This [BOM](assets/bom/readme.md#bill-of-materials "Bill of Materials") helps to source necessary components for electronic art projects and self-built instruments.
 
 
 
@@ -1632,7 +1629,7 @@ Horowitz, Paul, and Winfield Hill. *The Art of Electronics.* Cambridge Universit
 
 Lancaster, Don. *Das CMOS-Kochbuch.* IWT-Verlag, 1980.
 
-Lancaster, Don. The Cheap Video Cookbook. Longman Higher Education, 1978.
+Lancaster, Don. *The Cheap Video Cookbook.* Longman Higher Education, 1978.
 
 Landy, Leigh, and John Richards. *The Music of Sounds and the Music of Things: Sonic Creativity Within Sampling and DIY Cultures.* Routledge, 2024.
 
@@ -1698,6 +1695,6 @@ https://www.modwiggler.com
 
 ## License
 
-The content of this documentation is licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/ "CC BY 4.0"), software is licensed under the MIT License - see the [LICENSE.md](/MIT%20License.md) file for details. Copyright remains with the author(s).<br>
+The content of this documentation is licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/ "CC BY 4.0"), software is licensed under the MIT License - see the [LICENSE.md](/license-mit.md) file for details. Copyright remains with the author(s).<br>
 <br>
 <br>
