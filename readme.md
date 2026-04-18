@@ -6,6 +6,9 @@
 
 
 
+![Circuitry-Based Sound ZKM 2023](/Img/cbs1.jpg)
+*CMOS-breadboard circuit during live performance. © Mustafa Emin Büyükcoşkun*
+
 
 ![Circuitry-Based Sound ZKM 2023](/Img/CBS2023_ZKM_Jihye-Jang_sm.jpg)
 *Group live performance at the ZKM*
