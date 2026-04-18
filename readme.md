@@ -30,9 +30,11 @@
 
 The workshop covers basic electronics, soldering, and assembling circuits on breadboards and perfboards, as well as their applications in audio composition and installation art. A major focus is on hardware prototyping, including testing, fault finding, and designing electronic instruments, with an emphasis on musical interaction through experimental interfaces and haptic controllers.
 
-Beyond the technical aspects, the project explores the performative and aesthetic potential of self-built audio circuits, enabling collaborative music-making in concert settings.
+Beyond the technical aspects, the project explores the performative and aesthetic potential of self-built audio circuits, enabling collaborative music-making in concert 
+settings. A dedicated hardware instrument developed within this context is documented separately: the [CMOS Sound Experimentation Board](https://github.com/SCLW/CMOS_Synthesizer), a single-PCB instrument built entirely from 4000-series CMOS logic chips, designed 
+for live performance and hands-on experimentation.
 
-Below is a documentation of the workshop’s study materials and findings.
+Below is a documentation of the workshop's study materials and findings.
 
 <br>
 <br>
