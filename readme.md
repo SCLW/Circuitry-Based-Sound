@@ -1632,6 +1632,8 @@ Horowitz, Paul, and Winfield Hill. *The Art of Electronics.* Cambridge Universit
 
 Lancaster, Don. *Das CMOS-Kochbuch.* IWT-Verlag, 1980.
 
+Lancaster, Don. The Cheap Video Cookbook. Longman Higher Education, 1978.
+
 Landy, Leigh, and John Richards. *The Music of Sounds and the Music of Things: Sonic Creativity Within Sampling and DIY Cultures.* Routledge, 2024.
 
 Maxfield, Clive. *Bebop to the Boolean Boogie: An Unconventional Guide to Electronics.* Newnes, 2003.
