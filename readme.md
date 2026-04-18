@@ -188,7 +188,7 @@ Output comparison of 2-input logic gates:
 <br>
 <br>
 
-Due to their simplicity and accessibility, CMOS chips are widely used for artistic and educational purposes, as their technical operations are easy to understand and closely related to basic electronics concepts. This topic has been explored in various publications, most notably in [Nicolas Collins'](https://en.wikipedia.org/wiki/Nicolas_Collins "Collins") *Handmade Electronic Music: The Art of Hardware Hacking* (2009). American composer [David Tudor](https://de.wikipedia.org/wiki/David_Tudor "David Tudor") (1926–1996) is regarded as a pioneer of self-built electronic circuits and instruments, which he integrated into his compositions. Similarly, avant-garde composer and artist Stanley Lunetta (1937–2016) began incorporating digital electronics into his compositions and sound art sculptures in the 1970s, sharing his techniques with fellow artists. As a result, in the experimental music community, CMOS-based synthesizers are often referred to as “Lunettas”, honoring Lunetta’s contributions to DIY electronic music.
+Due to their simplicity and accessibility, CMOS chips are widely used for artistic and educational purposes, as their technical operations are easy to understand and closely related to basic electronics concepts. This topic has been explored in various publications, most notably in [Nicolas Collins'](https://en.wikipedia.org/wiki/Nicolas_Collins "Collins") *Handmade Electronic Music: The Art of Hardware Hacking* (first published 2006). American composer [David Tudor](https://de.wikipedia.org/wiki/David_Tudor "David Tudor") (1926–1996) is regarded as a pioneer of self-built electronic circuits and instruments, which he integrated into his compositions. Similarly, avant-garde composer and artist Stanley Lunetta (1937–2016) began incorporating digital electronics into his compositions and sound art sculptures in the 1970s, sharing his techniques with fellow artists. As a result, in the experimental music community, CMOS-based synthesizers are often referred to as “Lunettas”, honoring Lunetta’s contributions to DIY electronic music.
 
 
 
@@ -1423,7 +1423,10 @@ Bill of Material:
   <img alt="Schematic of Slacker's Melody Generator—a CMOS sound generator using a CD4017 counter and a CD4051 multiplexer to produce evolving, semi-random melodic sequences." src="/Img/Melody_Generator_LIGHT.svg">
 </picture>
 
-Schematic of Slacker's Melody Generator—a CMOS sound generator using a CD4017 counter (left) and a CD4051 multiplexer (right) to produce evolving, semi-random melodic sequences.
+Schematic of Slacker's Melody Generator — a CMOS sound generator using a CD4017 counter 
+(left) and a CD4051 multiplexer (right) to produce evolving, semi-random melodic sequences. 
+Circuit design attributed to "Slacker" (electro-music.com forum, ca. 2007). 
+Schematic redrawn by the author.
 
 <!--
 https://electro-music.com/forum/viewtopic.php?t=27239&postorder=asc&start=50
