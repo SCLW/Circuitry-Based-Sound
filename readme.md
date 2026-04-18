@@ -14,7 +14,7 @@
 <br>
 
 <!--
-![Technical Setup with self built audio electronics, laboratory power supply, mixing desk, and loudspeaker](/Img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg)
+![Technical Setup with self-built audio electronics, laboratory power supply, mixing desk, and loudspeaker](/Img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg)
 *Photo: Yunfei Zhang*
 <br>
 <br>
@@ -36,10 +36,7 @@ Below is a documentation of the workshop’s study materials and findings.
 <br>
 <br>
 
-<div align="center">
- 
-[**TABLE OF CONTENTS**](/readme.md#table-of-contents)
-</div>
+## Table of Contents
 
 ---
 
@@ -49,8 +46,7 @@ Below is a documentation of the workshop’s study materials and findings.
   - [Basic Example](/readme.md#basic-example)
   - [Logic Control](/readme.md#logic-control)
   - [Building Circuits with Breadboards](/readme.md#building-circuits-with-breadboards)
-  - [Identifying IC Pins
-](/readme.md#identifying-ic-pins)
+  - [Identifying IC Pins](/readme.md#identifying-ic-pins)
 <br>
 <br>
 
@@ -82,9 +78,9 @@ Below is a documentation of the workshop’s study materials and findings.
 <br>
 
 
-[**MATERIALS**](/readme.md#Materials)
+[**MATERIALS**](/readme.md#materials)
   - [Requirements](/readme.md#requirements)
-  - [Bill of Materials](/readme.md#bill-of-materials)
+  - [Bill of Materials](/readme.md#bill-of-materials-bom)
   - [Artists](/readme.md#artists)
   - [Acknowledgment](/readme.md#acknowledgment)
   - [Literature](/readme.md#literature)
@@ -106,7 +102,7 @@ The authors accept no responsibility for any damages arising from or in connecti
 
 # Introduction
 
-![Technical Setup with self built audio electronics, laboratory power supply, mixing desk, and loudspeaker](/Img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg)
+![Technical Setup with self-built audio electronics, laboratory power supply, mixing desk, and loudspeaker](/Img/Circuitry_Based_Sound_Foto_Yunfei_Zhang.jpg)
 *Photo: Yunfei Zhang*
 <br>
 <br>
@@ -234,7 +230,7 @@ $$
 f=\dfrac{1}{T}=\dfrac{1}{RC ln \left[\left(\dfrac{V_P}{V_N}\right)\left(\dfrac{V_{DD}-V_N}{V_{DD}-V_P}\right)\right]}
 $$
 
-where V<sub>P</sub> is the positive trigger threshold voltage and V<sub>N</sub> the negative trigger threshold voltage.
+where V<sub>P</sub> is the positive trigger threshold voltage and V<sub>N</sub> is the negative trigger threshold voltage.
 
 
 For a **10V power supply**, the typical threshold voltages, according to the datasheet, are $V_P \approx 5.9V$ and $V_N \approx 3.9V$.
@@ -281,7 +277,7 @@ $$
 <br>
 <br>
 
-The values in the table should be used as a starting point, as actual frequencies may vary due to chip manufacturing tolerances, large capacitor tolerances, temperature effects, and the effects of parasitic capacitance and additional resistance introduced by wiring and jumper cables. Therefore it is difficult to achieve exact results based on the formula. Since the field of application is artistic sound production, circuits should be evaluated by ear. But the formula shows that bigger RC values produce lower frequencies and vice versa. The frequency is determined through the capacitor C and the resistor R. Therefore, a [potentiometer](https://en.wikipedia.org/wiki/Potentiometer "potentiometer") instead of the latter enables pitch control. Other ways of controlling the frequency may be inserting [photoresistors](https://en.wikipedia.org/wiki/Photoresistor "photoresistor"), [force-sensitive resistors](https://en.wikipedia.org/wiki/Force-sensing_resistor "FSR") (FSR) or [flex sensors](https://en.wikipedia.org/wiki/Flex_sensor "flex sensor"). Adding circuit points to alter the sound through interaction allows building customized and versatile instruments.
+The values in the table should be used as a starting point, as actual frequencies may vary due to chip manufacturing tolerances, large capacitor tolerances, temperature effects, and the effects of parasitic capacitance and additional resistance introduced by wiring and jumper cables. Therefore, it is difficult to achieve exact results based on the formula. Since the field of application is artistic sound production, circuits should be evaluated by ear. The formula shows that larger RC values produce lower frequencies, and vice versa. The frequency is determined through the capacitor C and the resistor R. Therefore, a [potentiometer](https://en.wikipedia.org/wiki/Potentiometer "potentiometer") instead of the latter enables pitch control. Other ways of controlling the frequency may be inserting [photoresistors](https://en.wikipedia.org/wiki/Photoresistor "photoresistor"), [force-sensitive resistors](https://en.wikipedia.org/wiki/Force-sensing_resistor "FSR") (FSR) or [flex sensors](https://en.wikipedia.org/wiki/Flex_sensor "flex sensor"). Adding circuit points to alter the sound through interaction allows building customized and versatile instruments.
 
 
 ### Logic Control
@@ -437,8 +433,8 @@ The following is a list of CMOS chips and other integrated circuits used for sou
 - [CD4060](/readme.md#cd4060)
 - [CD4013](/readme.md#cd4013)
 - [CD4018](/readme.md#cd4018)
-- [555 Timer](/readme.md#555)
-- [LM386](/readme.md#lm386---power-operational-amplifier)
+- [555 Timer](/readme.md#555-timer)
+- [LM386](/readme.md#lm386-power-operational-amplifier)
 
 
 
@@ -496,7 +492,7 @@ The CD4093 contains four NAND Schmitt triggers, each with two inputs and one out
 </picture>
 
 
-Oscillators built with 2-input NAND Schmitt triggers can be manually switched on and off using a push button. When the push button is not pressed (normally open), the logical low at the second input forces the output high, regardless of the state of the first input (see NAND truth table). The image above illustrates how to configure a normally open push button as an ON switch to control the sound. A [pull down resistor](/readme.md#pull-up-and-pull-down-resistors) ensures the input remains at a defined logic low when the push button is open. When the push button is closed, the power supply applies a logical high, allowing the NAND gate to oscillate. In this setup, the second input serves as a control input for gating the oscillator. Instead of a manually operated push button, a logic signal can be applied to the second input for automated control.
+Oscillators built with 2-input NAND Schmitt triggers can be manually switched on and off using a push button. When the push button is not pressed (normally open), the logical low at the second input forces the output high, regardless of the state of the first input (see NAND truth table). The image above illustrates how to configure a normally open push button as an ON switch to control the sound. A [pull-down resistor](/readme.md#pull-up-and-pull-down-resistors) ensures the input remains at a defined logic low when the push button is open. When the push button is closed, the power supply applies a logical high, allowing the NAND gate to oscillate. In this setup, the second input serves as a control input for gating the oscillator. Instead of a manually operated push button, a logic signal can be applied to the second input for automated control.
 
 <!-- IMAGE -->
 
@@ -578,7 +574,7 @@ Truth table for XNOR (CD4077)
 
 ### CD4015
 
-CD4015 IC consists of two four stage shift registers.
+The CD4015 IC consists of two four-stage shift registers.
 
 The CD4015 is an integrated circuit containing two independent 4-stage shift registers. A shift register is a series of interconnected [flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics) "flip-flop"), which are bistable multivibrators capable of storing binary states (0 or 1). Each flip-flop stores one bit of data, and its state is controlled by a clock signal. On each clock pulse, the stored data shifts from one flip-flop to the next. In the CD4015, serial input data (D) is shifted through the register stages and appears at the parallel outputs (Qn), synchronized with the rising edge of the clock signal (CL). When a bit is stored in the first flip-flop, it moves sequentially through the register stages with each clock cycle. A logical high at the reset pin clears all stored values, setting the outputs to zero. To enable continuous operation, the reset pin should be kept low.
 
@@ -596,7 +592,7 @@ The CD4015 is an integrated circuit containing two independent 4-stage shift reg
 
 
 
-Truth table for four stage shift register
+Truth table for four-stage shift register
 
 |CL|D|R|Q1|Qn|
 |:----:|:----:|:----:|:----:|:----:|
@@ -699,7 +695,7 @@ a feedback system that locks an internal oscillator to the frequency and phase o
 tones, and FM-style timbres when applied to audio. The VCO frequency range is set by two external resistors and a timing capacitor. Originally designed for frequency 
 synthesis and FM demodulation, the CD4046 has become a popular building block in experimental sound and DIY synthesis.
 
-Phase locked loop
+Phase-locked loop
 
 *Applications:*
 * Tone Distortion
@@ -737,9 +733,9 @@ Key Functional Notes:
 
 *Applications:*
 * Wave Shaper
-* Digitally-controlled Analog Switching
+* Digitally Controlled Analog Switching
 * Signal Routing
-* controlling LEDs
+* Controlling LEDs
 
 #### CD4051
 
@@ -883,7 +879,7 @@ The following example shows a single pole double throw (SPDT) configuration buil
 
 ### CD4060
 
-14 stage ripple-carry binary counter/divider and oscillator. Q1, Q2, Q3 and Q11 are not connected to the outside of the package. A high level on input pin 12 resets the counter and disables the oscillator.
+The CD4060 is a 14-stage ripple-carry binary counter/divider with an integrated oscillator. Q1, Q2, Q3, and Q11 are not connected to package pins. A high level on input pin 12 resets the counter and disables the oscillator.
 
 
 
@@ -1102,7 +1098,7 @@ https://www.electroschematics.com/edge-triggered-555-monostable-multivibrator/
 
 -->
 
-### LM386 - Power Operational Amplifier
+### LM386 Power Operational Amplifier
 
 Although not part of the CMOS logic family this ubiquitous power op amp is a very versatile component when it comes to amplification or driving small speakers.
 
@@ -1110,7 +1106,7 @@ Although not part of the CMOS logic family this ubiquitous power op amp is a ver
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/Img/LM386_DARK.svg">
-  <img alt="On the left: Pinout of the LM386 - Power Operational Amplifier IC. On the right: Circuit diagram showing the external configuration of the LM386 with a amplification factor of 200" src="/Img/LM386_LIGHT.svg">
+  <img alt="On the left: Pinout of the LM386 - Power Operational Amplifier IC. On the right: Circuit diagram showing the external configuration of the LM386 with an amplification factor of 200" src="/Img/LM386_LIGHT.svg">
 </picture>
 
 
@@ -1184,7 +1180,7 @@ $$
 -V_{OUT} = \dfrac{R_F} {R_{IN}} [V_{IN1} + V_{IN2} + V_{IN3} + etc.]
 $$ 
 
-if all $R_{IN}$ are the same.
+If all $R_{IN}$ are the same.
 
 
 It should be underlined that the example shown is a single supply based circuit, which is uncommon for audio mixing where usually symmetrical dual supply voltages are used. It is important therefore to create a reference voltage of 1/2 V<sub>CC</sub> at the non-inverting input. When working with logic circuits, the signals are almost at the supply levels. Even with rail-to-rail op amps caution is required to keep the summed signals below the working range of the op amp.
@@ -1202,7 +1198,7 @@ Tone control, modifying the frequency spectrum of a signal or creative equalizat
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/Img/Passive_Filter_DARK.svg">
-  <img alt="On the upper left side: schematic of a passive low-pass filter. On the upper right side: Diagram showing the frequency response of an analog, passive low-pass filter. On the bottom left side: schematic of a passive high-pass filter. On the bottom right side: Diagram showing the frequency response of an analog, passive hight-pass filter" src="/Img/Passive_Filter_LIGHT.svg">
+  <img alt="On the upper left side: schematic of a passive low-pass filter. On the upper right side: Diagram showing the frequency response of an analog, passive low-pass filter. On the bottom left side: schematic of a passive high-pass filter. On the bottom right side: Diagram showing the frequency response of an analog, passive high-pass filter" src="/Img/Passive_Filter_LIGHT.svg">
 </picture>
 
 
@@ -1308,7 +1304,7 @@ Even unused logic gates can cause issues, as they may pick up interference, lead
 
 # Exploratory Sound Circuits
 
-This section features a selection of DIY sound circuits that explore the creative possibilities of CMOS chips. They serve as a starting point for hands-on experimentation and modification. These circuits can be combined with the basic circuitry examples above or extended using them, allowing for even more complex and dynamic sound generation
+This section features a selection of DIY sound circuits that explore the creative possibilities of CMOS chips. They serve as a starting point for hands-on experimentation and modification. These circuits can be combined with the basic circuitry examples above or extended using them, allowing for even more complex and dynamic sound generation.
 
 ## Linear Feedback Shift Register
 
@@ -1349,7 +1345,7 @@ The Xilinx application note [XAPP210](https://www.xilinx.com/support/documentati
 Depending on the desired operation, other applicable devices may be CD4094, CD4014, CD4021 which are all 8-stage shift registers.
  
 
-This video displays an excerpt of a maximum sequence length of 2147483647 bits, generated with a 31 bit long shift register and the 28th tap. The clock rate is 5 Hz. 
+This video displays an excerpt of a maximum sequence length of 2147483647 bits, generated with a 31-bit-long shift register and the 28th tap. The clock rate is 5 Hz. 
 
 
 
@@ -1360,7 +1356,7 @@ https://github.com/SCLW/Circuitry-Based-Sound/assets/51890764/fa4ba6e8-b892-4d65
 
 ## Step Sequencer
 
-This circuit for a step sequencer is shown in N. Collins' book 'Handmade Electronic Music'. It makes use of the built-in voltage controlled oscillator (VCO) of the [CD4046](/readme.md#cd4046 "CD4046") Phase-Locked Loop. The voltage levels of the output pulses of the [CD4022](/readme.md#cd4022 "CD4022") counter can be scaled down by the potentiometer voltage dividers and are mixed together via the [diodes](https://en.wikipedia.org/wiki/Diode "Diode") D1-D8 (1N4148). The CD4046’s voltage controlled oscillator is then generating a frequency according to the input voltage level. Therefore, each step Q0-Q7 of the CD4022 can be used to produce a single tone.
+This step-sequencer circuit is shown in N. Collins' book *Handmade Electronic Music*. It makes use of the built-in voltage controlled oscillator (VCO) of the [CD4046](/readme.md#cd4046 "CD4046") Phase-Locked Loop. The voltage levels of the output pulses of the [CD4022](/readme.md#cd4022 "CD4022") counter can be scaled down by the potentiometer voltage dividers and are mixed together via the [diodes](https://en.wikipedia.org/wiki/Diode "Diode") D1-D8 (1N4148). The CD4046’s voltage controlled oscillator is then generating a frequency according to the input voltage level. Therefore, each step Q0-Q7 of the CD4022 can be used to produce a single tone.
 
 
 
@@ -1372,7 +1368,7 @@ This circuit for a step sequencer is shown in N. Collins' book 'Handmade Electro
 
 
 
-A logical high on the 'Clock Inhibit' of the CD4022 stops the counter advancement and hence the sequence. A manual push button switch with a pull down resistor to GND or a control logic circuit can be used to pause the sequence for rhythmic effects. A logical high on the 'Reset' input restarts the counter. Connecting one of the outputs of the counter to the 'Reset' pin shortens the length of the sequence by one in regard to the number of the used output. (Step length = Qx-1, if Qx is connected to 'Reset'). More complex patterns can be created when the reset and the inhibit functionality is dynamically controlled by logic circuits.
+A logical high on the 'Clock Inhibit' of the CD4022 stops the counter advancement and hence the sequence. A manual push button switch with a pull-down resistor to GND or a control logic circuit can be used to pause the sequence for rhythmic effects. A logical high on the 'Reset' input restarts the counter. Connecting one of the outputs of the counter to the 'Reset' pin shortens the length of the sequence by one in regard to the number of the used output. (Step length = Qx-1, if Qx is connected to 'Reset'). More complex patterns can be created when the reset and the inhibit functionality is dynamically controlled by logic circuits.
 
 A clock source is needed for triggering the CD4022. When the clock is set to an audio frequency, the step sequencer works as a wave shaper.
 Pin 5 (Inhibit) of the CD4046 must be set to a logical low for operation. The frequency range of the CD4046 VCO can be set via the two resistors connected between pin 12 and ground and pin 11 and ground. According to the schematic below, a rough approximation can be calculated with the following formula:
@@ -1412,7 +1408,7 @@ Bill of Material:
 | SW1, SW2 (optional) |push button or toggle switch| on - off |
 | CD4022 | Counter | |
 | CD4046 | PLL | |
-| Clock |  Clock Generator (eg. CD40106) | |
+| Clock |  Clock Generator (e.g., CD40106) | |
 
 
 ![Step Sequencer](/Img/Step_Sequencer.jpg)
@@ -1447,9 +1443,6 @@ https://electro-music.com/forum/viewtopic.php?t=27239&postorder=asc&start=50
 Changing the supply voltage has different effects depending on the circuit topology and component choices. Bypass capacitors help stabilize the power rail, but for instance, the hysteresis thresholds in Schmitt trigger elements vary with supply voltage. Consequently, lowering the supply voltage alters both the frequency and amplitude of Schmitt trigger oscillators.
 
 When using an adjustable power supply or a custom-built circuit, you can explore how limited current and reduced voltage—especially near or below an IC’s minimum requirements—impact performance. A similar effect can be reproduced simply by placing a series resistor in the power rail. Experimenting with potentiometers ranging from 500 Ω to 10 kΩ can yield a variety of unusual modulation effects.
-
-
-<!-- the content of this sections needs to be edited-->
 
 
 # Photos
@@ -1518,14 +1511,14 @@ Helpful tools and useful materials:
 
 ## Bill of Materials (BoM)
 
-This [BOM](/BOM/Readme.md#bill-of-material "Bill of Material") helps to source necessary components for electronic art projects and self-built instruments.
+This [BOM](/BOM/Readme.md#bill-of-materials "Bill of Materials") helps to source necessary components for electronic art projects and self-built instruments.
 
 
 
 
 ## Artists
 
-Circuitry-Based Sound are:<br>
+Circuitry-Based Sound contributors include:<br>
 Alfea<br>
 Shane Baruth<br>
 Marc Bendt<br>
@@ -1701,4 +1694,3 @@ https://www.modwiggler.com
 The content of this documentation is licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/ "CC BY 4.0"), software is licensed under the MIT License - see the [LICENSE.md](/MIT%20License.md) file for details. Copyright remains with the author(s).<br>
 <br>
 <br>
-
