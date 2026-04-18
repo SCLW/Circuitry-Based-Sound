@@ -1,5 +1,10 @@
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 # Circuitry-Based Sound
+
+*A workshop project at the [Staatliche Hochschule für Gestaltung (HfG) Karlsruhe](https://www.hfg-karlsruhe.de) · [medienkunst-sound.de](https://medienkunst-sound.de/works/circuitry-based-sound)*
+
+
 
 
 ![Circuitry-Based Sound ZKM 2023](/Img/CBS2023_ZKM_Jihye-Jang_sm.jpg)
@@ -93,7 +98,7 @@ Below is a documentation of the workshop’s study materials and findings.
 
 # Disclaimer
 
-The authors accept no responsibility for any damages arising from or in connection with the use of the information provided on this website. While we strive to ensure that all content is accurate and complete, unintended errors may occur. Users are encouraged to cross-check and verify the information before applying it.
+The authors accept no responsibility for any damages arising from or in connection with the use of the information provided in this documentation. While we strive to ensure that all content is accurate and complete, unintended errors may occur. Users are encouraged to cross-check and verify the information before applying it.
 <br>
 <br>
 
@@ -183,7 +188,7 @@ Output comparison of 2-input logic gates:
 <br>
 <br>
 
-Due to their simplicity and accessibility, CMOS chips are widely used for artistic and educational purposes, as their technical operations are easy to understand and closely related to basic electronics concepts. This topic has been explored in various publications, most notably in [Nicolas Collins'](https://en.wikipedia.org/wiki/Nicolas_Collins "Collins") *Handmade Electronic Music: The Art of Hardware Hacking* (2006). American composer [David Tudor](https://de.wikipedia.org/wiki/David_Tudor "David Tudor") (1926–1996) is regarded as a pioneer of self-built electronic circuits and instruments, which he integrated into his compositions. Similarly, avant-garde composer and artist Stanley Lunetta (1937–2016) began incorporating digital electronics into his compositions and sound art sculptures in the 1970s, sharing his techniques with fellow artists. As a result, in the experimental music community, CMOS-based synthesizers are often referred to as “Lunettas”, honoring Lunetta’s contributions to DIY electronic music.
+Due to their simplicity and accessibility, CMOS chips are widely used for artistic and educational purposes, as their technical operations are easy to understand and closely related to basic electronics concepts. This topic has been explored in various publications, most notably in [Nicolas Collins'](https://en.wikipedia.org/wiki/Nicolas_Collins "Collins") *Handmade Electronic Music: The Art of Hardware Hacking* (2009). American composer [David Tudor](https://de.wikipedia.org/wiki/David_Tudor "David Tudor") (1926–1996) is regarded as a pioneer of self-built electronic circuits and instruments, which he integrated into his compositions. Similarly, avant-garde composer and artist Stanley Lunetta (1937–2016) began incorporating digital electronics into his compositions and sound art sculptures in the 1970s, sharing his techniques with fellow artists. As a result, in the experimental music community, CMOS-based synthesizers are often referred to as “Lunettas”, honoring Lunetta’s contributions to DIY electronic music.
 
 
 
@@ -212,7 +217,7 @@ An inverting Schmitt trigger is an active electronic component whose output stat
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/Img/Schmitt_Trigger_DARK.gif">
-  <img alt="Animated iIllustration of a Schmitt trigger oscillator and its waveforms." src="/Img/Schmitt_Trigger_LIGHT.gif">
+  <img alt="Animated illustration of a Schmitt trigger oscillator and its waveforms." src="/Img/Schmitt_Trigger_LIGHT.gif">
 </picture>
 
 
@@ -281,7 +286,7 @@ The values in the table should be used as a starting point, as actual frequencie
 
 ### Logic Control
 
-In digital electronics, [binary code](https://en.wikipedia.org/wiki/Binary_code "binary code") is represented by two defined voltage levels that are specified by the used technology and circuit. Everything below a certain voltage threshold level is recognized as 0 and everything above a certain threshold level is recognized as 1. A voltage level in between the two thresholds is not defined or forbidden and will produce false output triggers. CMOS digital inputs have a high impedance and pick up thermal noise voltages if left floating. Unused inputs should be tied to a defined voltage. Other input configurations (e.g. taster, toggle switches,) require [pull-up or pull-down resistors](/readme.md#pull-up-and-pull-down-resistors "pull-up or pull-down"). The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF". 
+In digital electronics, [binary code](https://en.wikipedia.org/wiki/Binary_code "binary code") is represented by two defined voltage levels that are specified by the used technology and circuit. Everything below a certain voltage threshold level is recognized as 0 and everything above a certain threshold level is recognized as 1. A voltage level in between the two thresholds is not defined or forbidden and will produce false output triggers. CMOS digital inputs have a high impedance and pick up thermal noise voltages if left floating. Unused inputs should be tied to a defined voltage. Other input configurations (e.g. push button, toggle switches) require [pull-up or pull-down resistors](/readme.md#pull-up-and-pull-down-resistors "pull-up or pull-down"). The two states "0" and "1" are also often referred to as "(logical) high" and "(logical) low", "true" and "false" or "ON" and "OFF". 
 
 
 <!-- IMAGE -->
@@ -306,7 +311,7 @@ V<sub>IH</sub> is the minimum input voltage that will be interpreted as a logica
 
 
 
-A logic gate is a single input - output device, designed to carry out a specific [Boolean operation](https://en.wikipedia.org/wiki/Boolean_algebra "Boolean algebra"), mapped to two voltage levels. Over time, the two alternating voltage levels may form a periodic rectangular waveform and the speed of switching between the two levels is perceived as pitch. Certain logic gates can be repurposed as oscillators in this way. In digital systems, this principle is used to generate clock signals, which are essential for synchronizing processes. Logic gates with two inputs compare the signals at their inputs and generate an output based on the corresponding logic function, enabling signal processing and modification. Other logic gates can count sequential square wave pulses, outputting a single pulse per cycle. Some function as frequency dividers, halving the input signal’s frequency. Additionally, various CMOS chips can act as binary-controlled switches. These and many other functions can be considered as modulation effects, which transform or modify the incoming audio signal. 
+A logic gate is a single-input, single-output device, designed to carry out a specific [Boolean operation](https://en.wikipedia.org/wiki/Boolean_algebra "Boolean algebra"), mapped to two voltage levels. Over time, the two alternating voltage levels may form a periodic rectangular waveform and the speed of switching between the two levels is perceived as pitch. Certain logic gates can be repurposed as oscillators in this way. In digital systems, this principle is used to generate clock signals, which are essential for synchronizing processes. Logic gates with two inputs compare the signals at their inputs and generate an output based on the corresponding logic function, enabling signal processing and modification. Other logic gates can count sequential square wave pulses, outputting a single pulse per cycle. Some function as frequency dividers, halving the input signal’s frequency. Additionally, various CMOS chips can act as binary-controlled switches. These and many other functions can be considered as modulation effects, which transform or modify the incoming audio signal. 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/Img/Gated_Oscillator_DARK.svg">
@@ -537,13 +542,13 @@ CD4077 is the Exclusive-NOR version.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/Img/CD4070_DARK.svg">
-  <img alt="Pinout of the CD4070 IC and a schematic that shows sigital frequency mixing with the said chip." src="/Img/CD4070_LIGHT.svg">
+  <img alt="Pinout of the CD4070 IC and a schematic that shows digital frequency mixing with the said chip." src="/Img/CD4070_LIGHT.svg">
 </picture>
 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/Img/XOR_DARK.svg">
-  <img alt="Timing diagram of the CD4070 XOR gate with two suqare waves as inputs, showing the resulting output waveform" src="/Img/XOR_LIGHT.svg">
+  <img alt="Timing diagram of the CD4070 XOR gate with two square waves as inputs, showing the resulting output waveform" src="/Img/XOR_LIGHT.svg">
 </picture>
 
 Truth table for XOR (CD4070)
@@ -1061,7 +1066,7 @@ The time to complete one cycle (high and low) can be calculated with $T=  ln(2) 
 
 
 
-For mono stable operation, a negative going pulse at the trigger input causes the output to go high for a defined amount of time (one shot). A second pulse within that time period has no effect on the output pulse and will be ignored. This circuit can be used for debouncing switches. The time the output stays high is set through the RC circuit and can be calculated with $T_H = ln(3) \cdot R_1C_1  \approx 1.1 \cdot R_1 C_1$.
+For monostable operation, a negative going pulse at the trigger input causes the output to go high for a defined amount of time (one shot). A second pulse within that time period has no effect on the output pulse and will be ignored. This circuit can be used for debouncing switches. The time the output stays high is set through the RC circuit and can be calculated with $T_H = ln(3) \cdot R_1C_1  \approx 1.1 \cdot R_1 C_1$.
 
 
 <picture>
@@ -1077,8 +1082,8 @@ The stepped-tone generator is built using two 555 timer chips. By varying the re
 | VR1, VR2    | Potentiometer | 500k    |
 | U1, U2      | 555 Timer     |         |
 | R1          | Resistor      | 1k      |
-| C1          | Capacitor     | 0,01uF  |
-| C2          | Capacitor     | 0,1uF   |
+| C1          | Capacitor     | 0.01uF  |
+| C2          | Capacitor     | 0.1uF   |
 
 [LMC555 Data Sheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf?ts=1609974121158&ref_url=https%253A%252F%252Fwww.google.com%252F "LMC555")  
 [TLC555 Data Sheet](https://www.ti.com/lit/ds/symlink/tlc555.pdf "TLC555")
@@ -1351,7 +1356,7 @@ https://github.com/SCLW/Circuitry-Based-Sound/assets/51890764/fa4ba6e8-b892-4d65
 
 ## Step Sequencer
 
-This circuit for a step sequencer is shown in N. Collins book 'Handmade Electronic Music'. It makes use of the built-in voltage controlled oscillator (VCO) of the [CD4046](/readme.md#cd4046 "CD4046") Phase-Locked Loop. The voltage levels of the output pulses of the [CD4022](/readme.md#cd4022 "CD4022") counter can be scaled down by the potentiometer voltage dividers and are mixed together via the [diodes](https://en.wikipedia.org/wiki/Diode "Diode") D1-D8 (1N4148). The CD4046’s voltage controlled oscillator is then generating a frequency according to the input voltage level. Therefore, each step Q0-Q7 of the CD4022 can be used to produce a single tone.
+This circuit for a step sequencer is shown in N. Collins' book 'Handmade Electronic Music'. It makes use of the built-in voltage controlled oscillator (VCO) of the [CD4046](/readme.md#cd4046 "CD4046") Phase-Locked Loop. The voltage levels of the output pulses of the [CD4022](/readme.md#cd4022 "CD4022") counter can be scaled down by the potentiometer voltage dividers and are mixed together via the [diodes](https://en.wikipedia.org/wiki/Diode "Diode") D1-D8 (1N4148). The CD4046’s voltage controlled oscillator is then generating a frequency according to the input voltage level. Therefore, each step Q0-Q7 of the CD4022 can be used to produce a single tone.
 
 
 
@@ -1592,7 +1597,7 @@ Pei Zhou<br>
 
 
 
-**Lorenz Schwarz** - *lecturer*
+**Lorenz Schwarz** — *Lecturer, Sound and Media Art, HfG Karlsruhe*
 <br>
 <br>
 <br>
@@ -1618,7 +1623,7 @@ Brindley, Keith. *Starting Electronics.* Newnes, 2011.
 
 Collins, Nicolas. *Handmade Electronic Music: The Art of Hardware Hacking.* Taylor & Francis, 2009.
 
-Horowitz, Paul and Winfield Hill. *The art of electronics.* Cambridge University Press, 2021.
+Horowitz, Paul, and Winfield Hill. *The Art of Electronics.* Cambridge University Press, 2021.
 
 Lancaster, Don. *Das CMOS-Kochbuch.* IWT-Verlag, 1980.
 
@@ -1630,7 +1635,7 @@ Roads, Curtis. *Computer Music Tutorial.* The MIT Press, 1996.
 
 Self, Douglas. *Small Signal Audio Design.* Focal Press, 2020.
 
-Tate, Timothy, et al. „Hand Turned Synthesis: A One Chip Exploration of CMOS Electronics“. Proceedings of the International Conference on New Interfaces for Musical Expression, Zenodo, 2024, S. 612--621, doi:10.5281/zenodo.13904971.
+Tate, Timothy, et al. "Hand Turned Synthesis: A One Chip Exploration of CMOS Electronics." *Proceedings of the International Conference on New Interfaces for Musical Expression*, Zenodo, 2024, pp. 612–621, doi:10.5281/zenodo.13904971.
 
 
 
