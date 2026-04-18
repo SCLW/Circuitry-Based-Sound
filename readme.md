@@ -694,6 +694,10 @@ The timing diagram below illustrates the voltage relationships between all outpu
 
 ### CD4046
 
+The CD4046 is a CMOS phase-locked loop (PLL) consisting of a voltage-controlled oscillator (VCO) and two independent phase comparators on a single chip. A PLL is 
+a feedback system that locks an internal oscillator to the frequency and phase of an incoming signal, producing characteristic pitch-locking artifacts, interference 
+tones, and FM-style timbres when applied to audio. The VCO frequency range is set by two external resistors and a timing capacitor. Originally designed for frequency 
+synthesis and FM demodulation, the CD4046 has become a popular building block in experimental sound and DIY synthesis.
 
 Phase locked loop
 
