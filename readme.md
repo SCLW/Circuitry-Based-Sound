@@ -391,6 +391,11 @@ With only few exceptions (e.g., CD4049UB and CD4050B), the bottom-left pin is ty
 - Keep your workspace tidy – Remove unused parts and sort components to avoid errors.
 - Replace burned chips – Overheated chips are likely damaged and should not be reused.
 
+<br>
+![Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022](assets/img/breadboards-live-performance-kinemathek-2022.jpg)
+*Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022. © Mustafa Emin Büyükcoşkun*
+<br>
+
 ## How to Read a Schematic
 
 A schematic visually represents how components are connected by using lines to indicate electrical connections between their terminals. In more complex circuits, these lines, called nets, can branch, split, or form junctions. Junctions, where multiple wires connect electrically, are indicated with a dot. If wires cross without forming a connection, a small bridge should be used to clarify that they belong to separate nets.
@@ -1470,10 +1475,6 @@ The artistic range of applications for electronic projects in the fields of expe
 ![CMOS Sound Experimentation Board, 2025](assets/img/cmos-board-2025.jpg)
 *[CMOS Sound Experimentation Board](https://github.com/SCLW/CMOS_Synthesizer), 2025. © Tobias Ehrhardt*
 
-<!--
-![Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022](assets/img/breadboards-live-performance-kinemathek-2022.jpg)
-*Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022. © Mustafa Emin Büyükcoşkun*
--->
 
 <!--
 ![Circuitry-Based Sound live performance, ZKM Kubus Karlsruhe, 2023](assets/img/group-performance-zkm-2023.jpg)
