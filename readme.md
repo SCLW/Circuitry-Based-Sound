@@ -1436,6 +1436,13 @@ The artistic range of applications for electronic projects in the fields of expe
 
 
 
+![Circuitry-Based Sound workshop, Langa, Cape Town, 2024](assets/img/workshop-langa-paul-modler-2024.jpg)
+*Circuitry-Based Sound workshop, Langa, Cape Town, 2024. © Paul Modler*
+
+<br>
+
+![Group live performance combining acoustic and electronic instruments, !Khwa ttu, South Africa, 2024](assets/img/performance-khwa-ttu-2024.jpg)
+*Group live performance combining acoustic and electronic instruments, !Khwa ttu, South Africa, 2024. © Clive Pringle/Trilogy*
 <br>
 
 ![Circuitry-Based Sound participants performing live, ZKM Klangdom Karlsruhe, 2023](assets/img/group-performance-zkm-klangdom-2023.jpg)
@@ -1454,14 +1461,6 @@ The artistic range of applications for electronic projects in the fields of expe
 
 
 <br>
-
-![Circuitry-Based Sound workshop, Langa, Cape Town, 2024](assets/img/workshop-langa-paul-modler-2024.jpg)
-*Circuitry-Based Sound workshop, Langa, Cape Town, 2024. © Paul Modler*
-
-<br>
-
-![Group live performance combining acoustic and electronic instruments, !Khwa ttu, South Africa, 2024](assets/img/performance-khwa-ttu-2024.jpg)
-*Group live performance combining acoustic and electronic instruments, !Khwa ttu, South Africa, 2024. © Clive Pringle/Trilogy*
 
 
 ![Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025](assets/img/workshop-hangzhou-2025.jpg)
