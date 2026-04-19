@@ -6,11 +6,10 @@
 
 
 
-![Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022](assets/img/breadboards-live-performance-kinemathek-2022.jpg)
-*Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022. © Mustafa Emin Büyükcoşkun*
+<br>
 
-![Circuitry-Based Sound live performance, ZKM Kubus Karlsruhe, 2023](assets/img/group-performance-zkm-2023.jpg)
-*Circuitry-Based Sound live performance, ZKM Kubus Karlsruhe, 2023*
+![Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025](assets/img/workshop-hangzhou-2025.jpg)
+*Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025*
 
 <br>
 <br>
@@ -1447,7 +1446,6 @@ The artistic range of applications for electronic projects in the fields of expe
 *Group live performance, ZKM Karlsruhe, 2021. © Benjamin Breitkopf*
 
 
-
 <br>
 
 ![Close-up of self-built sound generators, 2023](assets/img/close-up-sound-generators-2023.jpg)
@@ -1469,10 +1467,7 @@ The artistic range of applications for electronic projects in the fields of expe
 ![Group live performance combining acoustic and electronic instruments, !Khwa ttu, South Africa, 2024](assets/img/performance-khwa-ttu-2024.jpg)
 *Group live performance combining acoustic and electronic instruments, !Khwa ttu, South Africa, 2024. © Clive Pringle/Trilogy*
 
-<br>
 
-![Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025](assets/img/workshop-hangzhou-2025.jpg)
-*Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025*
 
 <br>
 
