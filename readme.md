@@ -1426,20 +1426,18 @@ When using an adjustable power supply or a custom-built circuit, you can explore
 
 The artistic range of applications for electronic projects in the fields of experimental sound, interactive music and sound art is quite large. This section gives some impressions of the works made in the context of this seminar.
 
-<br>
 
-![Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022](assets/img/breadboards-live-performance-kinemathek-2022.jpg)
-*Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022. © Mustafa Emin Büyükcoşkun*
 
-<br>
-
-![Circuitry-Based Sound live performance, ZKM Kubus Karlsruhe, 2023](assets/img/group-performance-zkm-2023.jpg)
-*Circuitry-Based Sound live performance, ZKM Kubus Karlsruhe, 2023*
 
 <br>
 
 ![Circuitry-Based Sound participants performing live, ZKM Klangdom Karlsruhe, 2023](assets/img/group-performance-zkm-klangdom-2023.jpg)
 *Circuitry-Based Sound participants performing live, ZKM Klangdom Karlsruhe, 2023. © Jihye Gebhart*
+
+<br>
+
+![Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022](assets/img/breadboards-live-performance-kinemathek-2022.jpg)
+*Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022. © Mustafa Emin Büyükcoşkun*
 
 <br>
 
