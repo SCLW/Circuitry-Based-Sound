@@ -392,8 +392,10 @@ With only few exceptions (e.g., CD4049UB and CD4050B), the bottom-left pin is ty
 - Replace burned chips – Overheated chips are likely damaged and should not be reused.
 
 <br>
+
 ![Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022](assets/img/breadboards-live-performance-kinemathek-2022.jpg)
 *Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022. © Mustafa Emin Büyükcoşkun*
+
 <br>
 
 ## How to Read a Schematic
