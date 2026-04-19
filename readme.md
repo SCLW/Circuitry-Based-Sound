@@ -1473,7 +1473,7 @@ The artistic range of applications for electronic projects in the fields of expe
 <br>
 
 ![CMOS Sound Experimentation Board, 2025](assets/img/cmos-board-2025.jpg)
-*CMOS Sound Experimentation Board, 2025. © Tobias Ehrhardt*
+*[CMOS Sound Experimentation Board](https://github.com/SCLW/CMOS_Synthesizer), 2025. © Tobias Ehrhardt*
 
 <br>
 
