@@ -8,8 +8,9 @@
 
 <br>
 
-![Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025](assets/img/workshop-hangzhou-2025.jpg)
-*Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025*
+![Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025](assets/img/workshop-hangzhou-yunfei-zhang-2025.jpg)
+*Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025. © Yunfei Zhang*
+
 
 <br>
 <br>
@@ -1468,12 +1469,8 @@ The artistic range of applications for electronic projects in the fields of expe
 *Group live performance combining acoustic and electronic instruments, !Khwa ttu, South Africa, 2024. © Clive Pringle/Trilogy*
 
 
-
-<br>
-
-![Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025](assets/img/workshop-hangzhou-yunfei-zhang-2025.jpg)
-*Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025. © Yunfei Zhang*
-<br>
+![Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025](assets/img/workshop-hangzhou-2025.jpg)
+*Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025*
 
 <br>
 
