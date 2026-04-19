@@ -1436,11 +1436,6 @@ The artistic range of applications for electronic projects in the fields of expe
 
 <br>
 
-![Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022](assets/img/breadboards-live-performance-kinemathek-2022.jpg)
-*Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022. © Mustafa Emin Büyükcoşkun*
-
-<br>
-
 ![Group live performance, ZKM Karlsruhe, 2021](assets/img/group-performance-zkm-2021.jpg)
 *Group live performance, ZKM Karlsruhe, 2021. © Benjamin Breitkopf*
 
@@ -1449,11 +1444,6 @@ The artistic range of applications for electronic projects in the fields of expe
 
 ![Close-up of self-built sound generators, 2023](assets/img/close-up-sound-generators-2023.jpg)
 *Close-up of self-built sound generators, 2023. © Huiyeon Yun*
-
-<br>
-
-![Close-up of self-built circuit, 2022](assets/img/close-up-circuit-arno-schlipf-2022.jpg)
-*Close-up of self-built circuit, 2022. © Arno Schlipf*
 
 
 <br>
@@ -1472,20 +1462,36 @@ The artistic range of applications for electronic projects in the fields of expe
 
 <br>
 
-![CMOS Sound Experimentation Board, 2025](assets/img/cmos-board-2025.jpg)
-*[CMOS Sound Experimentation Board](https://github.com/SCLW/CMOS_Synthesizer), 2025. © Tobias Ehrhardt*
-
-<br>
-
 ![Self-built sound circuits by Yunfei Zhang, 2025](assets/img/self-built-sound-generators-yunfei-zhang-2025.jpg)
 *Self-built sound circuits by Yunfei Zhang, 2025. © Tobias Ehrhardt*
 
 <br>
 
+![CMOS Sound Experimentation Board, 2025](assets/img/cmos-board-2025.jpg)
+*[CMOS Sound Experimentation Board](https://github.com/SCLW/CMOS_Synthesizer), 2025. © Tobias Ehrhardt*
+
 <!--
-![Circuitry-Based Sound](/Img/CBS.jpg)
-*Photo: Yunfei Zhang*
+![Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022](assets/img/breadboards-live-performance-kinemathek-2022.jpg)
+*Breadboard circuits during live performance, Kinemathek Karlsruhe, 2022. © Mustafa Emin Büyükcoşkun*
 -->
+
+<!--
+![Circuitry-Based Sound live performance, ZKM Kubus Karlsruhe, 2023](assets/img/group-performance-zkm-2023.jpg)
+*Circuitry-Based Sound live performance, ZKM Kubus Karlsruhe, 2023*
+-->
+
+<!--
+![Close-up of self-built circuit, 2022](assets/img/close-up-circuit-arno-schlipf-2022.jpg)
+*Close-up of self-built circuit, 2022. © Arno Schlipf*
+-->
+
+<!--
+![Yunfei Zhang leading workshop, Open M Art Fair, Hangzhou, 2025](assets/img/workshop-hangzhou-yunfei-zhang-2025.jpg)
+*Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025. © Yunfei Zhang*
+-->
+
+<br>
+
 
 
 # Materials
