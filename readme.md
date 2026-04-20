@@ -1463,7 +1463,7 @@ The artistic range of applications for electronic projects in the fields of expe
 <br>
 
 ![Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025](assets/img/workshop-hangzhou-2025.jpg)
-*Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025*
+*Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025. © abc China*
 
 <br>
 
