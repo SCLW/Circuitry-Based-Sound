@@ -1444,6 +1444,7 @@ The artistic range of applications for electronic projects in the fields of expe
 
 ![Group live performance combining acoustic and electronic instruments, !Khwa ttu, South Africa, 2024](assets/img/performance-khwa-ttu-2024.jpg)
 *Group live performance combining acoustic and electronic instruments, !Khwa ttu, South Africa, 2024. © Clive Pringle/Trilogy*
+
 <br>
 
 ![Circuitry-Based Sound participants performing live, ZKM Klangdom Karlsruhe, 2023](assets/img/group-performance-zkm-klangdom-2023.jpg)
@@ -1454,15 +1455,12 @@ The artistic range of applications for electronic projects in the fields of expe
 ![Group live performance, ZKM Karlsruhe, 2021](assets/img/group-performance-zkm-2021.jpg)
 *Group live performance, ZKM Karlsruhe, 2021. © Benjamin Breitkopf*
 
-
 <br>
 
 ![Close-up of self-built sound generators, 2023](assets/img/close-up-sound-generators-2023.jpg)
 *Close-up of self-built sound generators, 2023. © Huiyeon Yun*
 
-
 <br>
-
 
 ![Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025](assets/img/workshop-hangzhou-2025.jpg)
 *Circuitry-Based Sound workshop, Open M Art Fair, Hangzhou, 2025*
