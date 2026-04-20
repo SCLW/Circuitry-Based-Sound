@@ -1550,7 +1550,6 @@ Thabisa Dinga<br>
 Kurt Diedericks<br>
 Tobias Ehrhardt<br>
 Damiana Facen<br>
-Bi Fangchao<br>
 Qianqian Feng<br>
 Zufilkar Filandra<br>
 Max Fuchs<br>
