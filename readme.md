@@ -1,5 +1,5 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19653676-blue)](https://doi.org/10.5281/zenodo.19653676)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19653676.svg)](https://doi.org/10.5281/zenodo.19653676)
 
 # Circuitry-Based Sound
 
@@ -1707,5 +1707,7 @@ https://www.modwiggler.com
 ## License
 
 The content of this documentation is licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/ "CC BY 4.0"), software is licensed under the MIT License - see the [LICENSE.md](license-mit.md) file for details. Copyright remains with the author(s).<br>
+<br>
+Manufacturer datasheets in `assets/documents/` are copyright their respective manufacturers and are not covered by the CC BY 4.0 license of this repository; they are included for stable educational reference only.<br>
 <br>
 <br>
